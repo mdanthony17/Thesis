@@ -23,7 +23,10 @@
 \usepackage{setspace} %Allows you to set different spacing (double, etc.) throughout your writing.
 % \usepackage{hyperref} % Use if you want hyperlinks in your table of contents
 
-\setmainfont{Linux Libertine O} %This is a really readable serif font. It renders polytonic Greek better than any other OpenType font I've found, including Times New Roman. I now use it for everything, including class handouts. Highly recommended for classicists.
+
+
+\setmainfont{Times New Roman}
+%\setmainfont{Linux Libertine O} %This is a really readable serif font. It renders polytonic Greek better than any other OpenType font I've found, including Times New Roman. I now use it for everything, including class handouts. Highly recommended for classicists.
 
 \usepackage{enumitem} % To fix spacing of bullet point lists
 \setlist{noitemsep} % or \setlist{nosep} for space around whole list
@@ -55,7 +58,7 @@
 \begin{document}
 
 \sloppy %If I don't include sloppy, then Greek and Latin words screw up margins all over. If you don't include weird languages in your dissertation, you can probably leave this one out.
-\chapterstyle{chappell} % Nice formatting for chapter headings. Check out the documentation for the memoir class for other options.
+\chapterstyle{default} % Nice formatting for chapter headings. Check out the documentation for the memoir class for other options.
 \footnotesep\baselineskip % Footnotes need to have a space between each one for Columbia's Dissertation Office. 
 \setstretch{2} %Set line spacing to "true MS Word" double-spacing
 %\DoubleSpace % Use LaTeX double-spacing (more like 1.666 spacing)
