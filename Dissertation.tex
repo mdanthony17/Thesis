@@ -1,0 +1,116 @@
+%Dissertation Template for Columbia University Ph.D. programs
+%By Charles McNamara, 2016
+%I posted this document under a CC0 public domain license -- do whatever you want with it!
+%It's probably a good idea to review the university guidelines just so you know what you want your dissertation to look like. You can read about those guidelines at this site: http://gsas.columbia.edu/content/formatting-guidelines.
+%Good luck writing your dissertation!
+
+
+
+
+% This is the main document file for the dissertation. You should not include any of your actual chapters or other substantive writing in this file.
+%First we have to set up the style and formatting of the pages.
+
+\documentclass[letterpaper,12pt]{memoir} %The memoir class is great for longer works that use separate chapters. The Dissertation Office recommends 10-pt Arial or 12-pt Times New Roman. I use 12-pt for readability.
+
+%Below are some LaTeX packages to include to make sure that your Unicode characters render correctly. This is especially important if your dissertation includes polytonic Greek!
+
+\RequireXeTeX %XeTeX allows you to use Unicode characters like polytonic Greek in your writing.
+\usepackage{fontspec} %Allows you to load fonts in XeTeX.
+\defaultfontfeatures{Mapping=tex-text} %Allows you to get pretty TeX ligatures in your writing.
+\usepackage{xunicode} %You need this for Unicode fonts to work properly.
+\usepackage{xltxtra} %Some extra font capabilities for XeTeX
+\DisemulatePackage{setspace} %You need to use this package for "true MS Word" double-spacing.
+\usepackage{setspace} %Allows you to set different spacing (double, etc.) throughout your writing.
+% \usepackage{hyperref} % Use if you want hyperlinks in your table of contents
+
+\setmainfont{Linux Libertine O} %This is a really readable serif font. It renders polytonic Greek better than any other OpenType font I've found, including Times New Roman. I now use it for everything, including class handouts. Highly recommended for classicists.
+
+\usepackage{enumitem} % To fix spacing of bullet point lists
+\setlist{noitemsep} % or \setlist{nosep} for space around whole list
+
+
+
+%Here is some stuff on the bibliography. You want to keep your bibliography file in the same directory as this file.
+
+\usepackage[american]{babel} %Enables hyphenation and date formats according to American conventions. Change "american" to "british" (or another value) if you work outside the US.
+\usepackage[backend=bibtex8,style=authoryear-icomp,texencoding=utf8,bibencoding=utf8]{biblatex} %The command here uses biblatex to render your bibliography, and it tells biblatex to use Unicode fonts. You can change the style of your citations easily by changing the value for "style" -- I use authoryear-icomp which takes care of the id/ibid citations automatically. There are many styles available if you want to change it.
+%I have tried to use biber instead of biblatex many times, but it's never worked properly for me. I use biblatex, but feel free to try biber instead. 
+
+\addbibresource{./Bibliography.bib} %Your bibliography file. I use JabRef to keep track of my bibliography. Highly recommended, and free! You can use Zotero if you want, but I've had trouble exporting to .bib files from my Zotero database.
+\setlength{\bibitemsep}{\baselineskip} %Skip lines between bibliography entries. Columbia requires that you skip a line between entries.
+
+
+
+%Here you can set margins and other page formatting
+
+\setlrmarginsandblock{3.175cm}{3.175cm}{*} %Left and right margin -- the dissertation office requires at least 1-inch margins
+\setulmarginsandblock{2.54cm}{2.54cm}{*}  %Upper and lower margin -- same thing, at least 1-inch margins
+\checkandfixthelayout %A function of the memoir class that finds the right number of lines per page and apparently tidies up the formatting in other mysterious ways...?
+
+
+
+
+% Below we start to set up the document itself, including how to use spacing throughout the dissertation.
+
+\begin{document}
+
+\sloppy %If I don't include sloppy, then Greek and Latin words screw up margins all over. If you don't include weird languages in your dissertation, you can probably leave this one out.
+\chapterstyle{chappell} % Nice formatting for chapter headings. Check out the documentation for the memoir class for other options.
+\footnotesep\baselineskip % Footnotes need to have a space between each one for Columbia's Dissertation Office. 
+\setstretch{2} %Set line spacing to "true MS Word" double-spacing
+%\DoubleSpace % Use LaTeX double-spacing (more like 1.666 spacing)
+
+\expandafter\def\expandafter\quote\expandafter{\quote\SingleSpace} %Keep all block quotes single-spaced regardless of body text spacing.
+\pagestyle{plain} %Put page numbers at the bottom-center for the whole dissertation. Columbia's dissertation office requires that the numbers appear at this location on the page throughout the document.
+
+
+
+%% Here's the Title Page
+\include{./FrontMatter/TitlePage}
+
+%% Here's the copyright page. I use a Creative Commons license.
+\include{./FrontMatter/Copyright}
+
+%% Here's the Abstract
+\include{./FrontMatter/Abstract}
+
+
+
+\frontmatter
+\tableofcontents % You need to put your ToC after frontmatter so that it will get lowercase Roman numerals.
+
+%A list of graphs and illustrations should go here if you use any.
+
+% Acknowledgements
+\include{./FrontMatter/Acknowledgments}
+
+% Dedication
+\include{./FrontMatter/Dedication}
+
+% Preface if you have one
+
+
+
+
+%What follows is the main text of your dissertation. You can comment out lines if you want to exclude them from your document for drafts. Everything after \mainmatter will get Arabic numbers centered on the bottom of the page.
+
+\mainmatter
+
+%I use subdirectories for each part of my dissertation just to keep the files tidy. LaTeX generates a lot of different files for output, and using subdirectories allows you to find your .tex files more easily.
+
+\include{./Introduction/Introduction}
+\include{./Chapter1/Chapter1}
+\include{./Chapter2/Chapter2}
+\include{./Chapter3/Chapter3}
+\include{./Conclusion/Conclusion}
+
+%This final section includes your bibliography.
+
+\backmatter
+
+\SingleSpacing %Start single-spacing text before you start the bibliography. We used \bibitemsep earlier in this document to keep bibliography items separated by one line of blank space, but we need to keep the entries themselves single-spaced.
+\printbibliography %Print the bibliography. Your bibliography file is defined as Bibliography.bib earlier in this document by the command \addbibresource. It should be kept in the same folder as this file.
+
+
+
+\end{document} %All done! Now you're a doctor.
