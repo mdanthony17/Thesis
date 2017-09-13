@@ -1,0 +1,145 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Zwicky1933}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zwicky}{Z.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZF1}
+  \strng{fullhash}{ZF1}
+  \field{pages}{110}
+  \field{title}{The redshift of extragalactic nebulae}
+  \field{volume}{6}
+  \field{journaltitle}{Helv. Phys. Acta}
+  \field{year}{1933}
+\endentry
+
+\entry{rubin1970rotation}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rubin}{R.}%
+     {Vera~C}{V.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ford~Jr}{F.~J.}%
+     {W~Kent}{W.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RVCFJWK1}
+  \strng{fullhash}{RVCFJWK1}
+  \field{pages}{379}
+  \field{title}{Rotation of the andromeda nebula from a spectroscopic survey of
+  emission regions}
+  \field{volume}{159}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1970}
+\endentry
+
+\entry{Begeman1991}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Begeman}{B.}%
+     {KG}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Broeils}{B.}%
+     {AH}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanders}{S.}%
+     {RH}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Astronomical Society}%
+  }
+  \strng{namehash}{BKBASR1}
+  \strng{fullhash}{BKBASR1}
+  \field{number}{3}
+  \field{pages}{523\bibrangedash 537}
+  \field{title}{Extended rotation curves of spiral galaxies: Dark haloes and
+  modified dynamics}
+  \field{volume}{249}
+  \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+  \field{year}{1991}
+\endentry
+
+\entry{clowe2006direct}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Clowe}{C.}%
+     {Douglas}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brada{\v{c}}}{B.}%
+     {Maru{\v{s}}a}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonzalez}{G.}%
+     {Anthony~H}{A.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Markevitch}{M.}%
+     {Maxim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Randall}{R.}%
+     {Scott~W}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zaritsky}{Z.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{CDBMGAH+1}
+  \strng{fullhash}{CDBMGAHMMRSWJCZD1}
+  \field{number}{2}
+  \field{pages}{L109}
+  \field{title}{A direct empirical proof of the existence of dark matter}
+  \field{volume}{648}
+  \field{journaltitle}{The Astrophysical Journal Letters}
+  \field{year}{2006}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

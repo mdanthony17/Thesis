@@ -1,17 +1,25 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\select@language {american}
+\contentsline {chapter}{Contents}{i}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Contents}{i}
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgements}{iii}
+\contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Introduction}{1}
+\contentsline {section}{\numberline {1.1}$\boldsymbol {\Lambda }$CDM Model}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {1}Table of Contents Title}{3}
+\contentsline {section}{\numberline {1.2}Evidence of Dark Matter}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Table of Contents Title}{5}
+\contentsline {subsection}{Dynamical Constraints from Clusters of Galaxies}{3}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Table of Contents Title}{7}
+\contentsline {subsection}{Dynamical Constraints from Galactic Rotation Curves}{3}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{9}
+\contentsline {subsection}{Evidence from Graviational Lensing}{4}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {2}Table of Contents Title}{9}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}Table of Contents Title}{11}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{13}{chapter*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{15}{section*.11}

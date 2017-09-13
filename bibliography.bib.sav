@@ -1,0 +1,53 @@
+% Encoding: UTF-8
+
+@Article{Zwicky1933,
+  author        = {Zwicky, Fritz},
+  title         = {The redshift of extragalactic nebulae},
+  journal       = {Helv. Phys. Acta},
+  year          = {1933},
+  volume        = {6},
+  pages         = {110},
+  __markedentry = {[Matt:]},
+}
+
+@Article{Begeman1991,
+  author        = {Begeman, KG and Broeils, AH and Sanders, RH},
+  title         = {Extended rotation curves of spiral galaxies: Dark haloes and modified dynamics},
+  journal       = {Monthly Notices of the Royal Astronomical Society},
+  year          = {1991},
+  volume        = {249},
+  number        = {3},
+  pages         = {523--537},
+  __markedentry = {[Matt:6]},
+  publisher     = {The Royal Astronomical Society},
+}
+
+@Article{rubin1970rotation,
+  author  = {Rubin, Vera C and Ford Jr, W Kent},
+  title   = {Rotation of the andromeda nebula from a spectroscopic survey of emission regions},
+  journal = {The Astrophysical Journal},
+  year    = {1970},
+  volume  = {159},
+  pages   = {379},
+}
+
+@Article{clowe2006direct,
+  author    = {Clowe, Douglas and Brada{\v{c}}, Maru{\v{s}}a and Gonzalez, Anthony H and Markevitch, Maxim and Randall, Scott W and Jones, Christine and Zaritsky, Dennis},
+  title     = {A direct empirical proof of the existence of dark matter},
+  journal   = {The Astrophysical Journal Letters},
+  year      = {2006},
+  volume    = {648},
+  number    = {2},
+  pages     = {L109},
+  publisher = {IOP Publishing},
+}
+
+@Article{ade1502planck,
+  author  = {Ade, PAR and Aghanim, N and Arnaud, M and Ashdown, M and Aumont, J and Baccigalupi, C and Banday, AJ and Barreiro, RB and Bartlett, JG and Bartolo, N and others},
+  title   = {Planck 2015 results. XIII. Cosmological parameters. 2015},
+  journal = {arXiv preprint arXiv:1502.01589},
+  volume  = {3},
+  number  = {4},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

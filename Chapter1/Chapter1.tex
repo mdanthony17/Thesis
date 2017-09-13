@@ -1,16 +1,137 @@
 %This is the first chapter of the dissertation
 
 %The following command starts your chapter. If you want different titles used in your ToC and at the top of the page throughout the chapter, you can specify those values here. Since Columbia doesn't want extra information in the headers and footers, the "Top of Page Title" value won't actually appear.
+%\makepagestyle{cu}
+%\copypagestyle{cu}{ruled}
+%	\makeevenfoot{cu}{}{\thepage}{}
+%	\makeoddfoot{cu}{}{\thepage}{}
 
-\chapter[Table of Contents Title][Top of Page Title]{Title of Chapter 1}
+\pagestyle{cu}
+\graphicspath{{./Chapter1/images/}}
 
-Here you can write some introductory remarks about your chapter.
-I like to give each sentence its own line.
+\chapter[Dark Matter][Dark Matter]{Dark Matter}
 
-When you need a new paragraph, just skip an extra line.
+For nearly a century, experimental evidence has suggested that a large portion of the universe is made up of a non-luminous type of matter.  While this dark matter has only been detected indirectly via its interaction with normal matter through the gravitational force, recent experiments conclude that approximately 26\% of the entire energy density of the universe is comprised by dark matter.
 
-\section*{New Section}
+	In this chapter, I will focus on the leading dark matter model, the experimental evidence for its existence, the different candidates for particle dark matter, and the current detection methods employed in the search for particle dark matter.
+	
+	
+\section{$\boldsymbol{\Lambda}$CDM Model}
 
-By using the asterisk to start a new section, I keep the section from appearing in the table of contents.
-If you want your sections to be numbered and to appear in the table of contents, remove the asterisk.
+	One of the guiding principles of cosmology are the assumptions that the universe is both homogeneous and isotropic at large enoug scales (typically on the order 100 Mpc or $10^{5}$ light years).  Continuing with these principles and maintaining generality, we can arrive at the Robertson-Walker space-time metric
+	\begin{equation}
+		ds = -c^{2}dt^{2} + a(t)^{2}\left( \dfrac{dr^{2}}{1 - kr^{2}} + r^{2}d\Omega^{2}\right)
+	\end{equation}
+Here, $a(t)$ is called the \emph{scale factor}, an arbitrary function of time allowing for time dependent changes of the universe, and $k$ is a constant modeling the curvature of the universe.  For $k=-1$, the universe is considered open, for $k=1$, the universe is considered close, and at $k=0$ we are left with our Euclidean (flat) universe.  Note that for $a(t) = 1$ and $k = 0$ the Robertson-Walker metric reduces to the Minkowski metric.
+
+	Using this metric in combination with Einstein's equation we can derive the equations for the Friedmann-Robertson-Walker universe described by the Friedmann equations.
+	
+	\begin{equation}
+		\frac{\ddot{a}}{a} = -\frac{4 \pi G}{3} \left( \rho + 3p \right)
+	\end{equation}
+	\begin{equation}
+		\left( \frac{\dot{a}}{a}\right)^{2} = \frac{8 \pi G}{3} \rho - \frac{k}{a^2}
+	\end{equation}
+
+	We can define several useful (and commonplace) parameters to simplify the second Friedmann equation further.
+\\
+\\
+\textbf{Hubble Parameter}: $ H = \frac{\dot{a}}{a} $\\
+\textbf{Critical Density}: $ \rho_{crit} = \frac{3H^2}{8 \pi G} $\\
+\textbf{Density Parameters}: $ \Omega_{i} = \frac{8 \pi G}{3H^2} \rho_{i} = \frac{\rho_{i}}{\rho_{crit}} $\\
+\begin{equation}
+	\Omega - 1 = \frac{k}{H^2 a^2}, \ \ \ \ \Omega = \sum_{i} \Omega_{i} = \Omega_{\Lambda} + \Omega_{CDM} + \Omega_{Baryon} + \Omega_{Rad} + \Omega_{k} \ldots 
+\end{equation}
+	
+	Here the critical density is defined such that the universe is flat ($k=0$) and the final density parameter is the sum of the individual density parameters.  One can think of $\frac{\Omega_i}{\Omega}$ as what part of the total matter and energy budget a particular component makes up.  The main contributors to the density of the universe are dark energy and cold dark matter hence the $\Lambda$CDM Model.  Measurements of the various density parameters and other $\Lambda$CDM parameters has been a very big area of research over the last two decades and will be discussed later in this chapter.
+	
+\section{Evidence of Dark Matter}
+
+\subsection{Dynamical Constraints from Clusters of Galaxies}
+
+The first evidence of dark matter came from Fritz Zwicky in 1933.  Zwicky used a basic application of the virial theorem on galaxies in the Coma Cluster	to estimate the mass of the cluster.  He then  estimated the total mass based on the brightness of the cluster and found significant disagreement between the results leading him to the conclusion that ``if this would be confirmed we would get the surprising result that dark matter is present in much greater amount than luminous matter.'' \cite{Zwicky1933}
+	
+\begin{figure}[h]
+\includegraphics[width=8cm]{coma_composite}
+\centering
+\caption{A composite image combining an X-ray data, courtesy of Chandra, and optical data, courtesy of the Sloan Digital Sky Survey.  Image credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}
+\end{figure}
+	
+	
+\subsection{Dynamical Constraints from Galactic Rotation Curves}	
+	
+\href{http://www.skyandtelescope.com/astronomy-resources/vera-rubin-dark-matter-detective/}{summary source}	
+
+\href{http://articles.adsabs.harvard.edu/full/1970ApJ...159..379R}{rubin paper source}	
+	
+Nearly fourty years later, stronger evidence was provided for the existence of dark matter by Vera Rubin and Kent Ford in their 1970 paper looking at the rotation curve of the Andomeda Galaxy \cite{rubin1970rotation}.  In this paper, Rubin used the H$\alpha$ lines to determine the orbital velocities of different stars in the galaxy.  Later measurements used the 21 cm hyperfine transition line to measure orbital velocities within other galaxies \cite{Begeman1991}.
+	
+	From simple Newtonian arguments, one gets the following description of the orbital velocity inside a galaxy:
+	
+\begin{equation}
+v(r) = \sqrt{\frac{G M(r)}{r}}
+\end{equation}	
+
+In this equation, M(r) is the sum of the masses of all the gas and stars inside a given radius.  Given that most of the mass from luminous matter is concentrated at the center, one would expect that at large distances from the center of the galaxy, the orbital velocity would fall off as $v \propto r^{-1/2}$.
+
+However, what is seen differs from this simple approximation drastically.  \figref{fig:galactic_rotation_curve} is taken from \citeref{Begeman1991} but the results are similar to what Rubin and Ford saw deecades earlier: the asymptotic behavior of the orbital velocity is constant and does not show any polynomial roll-off.  By isolating the contributions from measurable mass densities (such as visible matter and gas), one can get an idea of the density distribution of dark matter in a galaxy.  From the figure below, one could asymtotically estimate that $M(r) \propto r$ which would imply that $\rho(r) \propto r^{-2}$.  One quickly realizes that this cannot be the true density since the mass of the galaxy diverges but approximates the density within an effective radius.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=8cm]{ngc_6503_rotation_curve}
+	\caption{The rotation curve of the galaxy NGC 6503 broken down into individual components: visible matter (dashed), gas (dotted), and dark matter (dash dotted) \cite{Begeman1991}. }
+	\label{fig:galactic_rotation_curve}
+\end{figure}
+
+
+\subsection{Evidence from Graviational Lensing}	
+
+Gravitational lensing is the distortion of light coming from a source due to the warping of spacetime from the presence of large amounts of matter or energy.  This effect is illustrated in \figref{fig:gravitation_lensing_cartoon} and actually captured in the form of an Einstein Cross in \figref{fig:einstein_cross}.  In a gravitational lensing system, if we know the redshift (distance) of the source and the lense, we can estimate the gravitational field of the lensing system and hence its mass.
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.8\textwidth]{gravitation_lensing_cartoon}
+	\caption{A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster.  Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image credit: NASA/ESA.}
+	\label{fig:gravitation_lensing_cartoon}
+\end{figure}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.8\textwidth]{einstein_cross}
+	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image credit: HST.}
+	\label{fig:einstein_cross}
+\end{figure}
+
+
+%\begin{SCfigure}[\sidecaptionrelwidth][h]
+%	\centering
+%	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image credit: HST.}
+%	\includegraphics[width=0.5\textwidth]{einstein_cross}
+%\end{SCfigure}
+
+Mass estimation via gravitational lensing in itself is very useful for finding large discrepancies in mass from known sources and true mass (the discrepancy being attributed to dark matter).  However, when combined with x-ray measurements, as seen in \figref{fig:bullet_cluster}, one gets even more interesting results.  Shown in \figref{fig:bullet_cluster} is the Bullet Cluster (1E0657−558) which actually consists of two colliding sub-clusters.  In the image on the left, one can see the infrared image from Magellan that is used, along with optical images from Hubble, to estimate the mass distribution of each galaxy cluster through graviational lensing.  In the right image, one can see the X-ray map of the Bullet Cluster from the Chandra X-ray observatory with the same mass contours: one can see that the plasma from the clusters interacts giving the cone shapes in the center.  However, the mass contours largely remained centered on the individual clusters (as seen in the optical image) implying that the majority of the matter interacted minimally during the collision \cite{clowe2006direct}.  This implies that the majority of the matter in these clusters at least does not interact electromagnetically.
+
+% https://astrobites.org/2016/11/04/the-bullet-cluster-a-smoking-gun-for-dark-matter/
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.98\textwidth]{bullet_cluster}
+	\caption{Infrared (left) and X-ray (right) maps of the Bullet Cluster (1E0657−558).  While the plasma in the clusters interacts during the collision of the two individual clusters, as is seen by the shockwave in the center, the majority of the mass passes right through \cite{clowe2006direct}.}
+	\label{fig:bullet_cluster}
+\end{figure}
+
+
+\subsection{Evidence from the Cosmic Microwave Background}
+
+
+
+
+
+
+
+
+
+
+
 
