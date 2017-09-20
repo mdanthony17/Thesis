@@ -44,6 +44,8 @@
 \usepackage{float}
 \usepackage{amsbsy}
 
+\DeclareUnicodeCharacter{00A0}{ }
+\setsecnumdepth{subsection}
 
 \newcommand\figref[1]{Fig.\,\ref{#1}}
 \newcommand\eqnref[1]{Eqn.\,\ref{#1}}
@@ -139,7 +141,7 @@
 
 \backmatter
 
-%\SingleSpacing %Start single-spacing text before you start the bibliography. We used \bibitemsep earlier in this document to keep bibliography items separated by one line of blank space, but we need to keep the entries themselves single-spaced.
+\SingleSpacing %Start single-spacing text before you start the bibliography. We used \bibitemsep earlier in this document to keep bibliography items separated by one line of blank space, but we need to keep the entries themselves single-spaced.
 \printbibliography %Print the bibliography. Your bibliography file is defined as Bibliography.bib earlier in this document by the command \addbibresource. It should be kept in the same folder as this file.
 
 

@@ -10,16 +10,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Evidence of Dark Matter}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Dynamical Constraints from Clusters of Galaxies}{3}{section*.3}
+\contentsline {subsection}{\numberline {1.2.1}Dynamical Constraints from Clusters of Galaxies}{3}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Dynamical Constraints from Galactic Rotation Curves}{3}{section*.4}
+\contentsline {subsection}{\numberline {1.2.2}Dynamical Constraints from Galactic Rotation Curves}{3}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Evidence from Graviational Lensing}{4}{section*.5}
+\contentsline {subsection}{\numberline {1.2.3}Evidence from Graviational Lensing}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Table of Contents Title}{9}{chapter.2}
+\contentsline {subsection}{\numberline {1.2.4}Evidence from the Cosmic Microwave Background}{7}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Table of Contents Title}{11}{chapter.3}
+\contentsline {section}{\numberline {1.3}Dark Matter Candidates}{9}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{13}{chapter*.8}
+\contentsline {subsection}{\numberline {1.3.1}Axions}{10}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{15}{section*.11}
+\contentsline {subsection}{\numberline {1.3.2}WIMPs}{11}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}superWIMPs}{11}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {2}Table of Contents Title}{13}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}Table of Contents Title}{15}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{17}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{19}{section*.8}

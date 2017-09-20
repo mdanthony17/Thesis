@@ -1,13 +1,12 @@
 % Encoding: UTF-8
 
 @Article{Zwicky1933,
-  author        = {Zwicky, Fritz},
-  title         = {The redshift of extragalactic nebulae},
-  journal       = {Helv. Phys. Acta},
-  year          = {1933},
-  volume        = {6},
-  pages         = {110},
-  __markedentry = {[Matt:]},
+  author  = {Zwicky, Fritz},
+  title   = {The redshift of extragalactic nebulae},
+  journal = {Helv. Phys. Acta},
+  year    = {1933},
+  volume  = {6},
+  pages   = {110},
 }
 
 @Article{Begeman1991,
@@ -18,7 +17,7 @@
   volume        = {249},
   number        = {3},
   pages         = {523--537},
-  __markedentry = {[Matt:6]},
+  __markedentry = {[Matt:]},
   publisher     = {The Royal Astronomical Society},
 }
 
@@ -40,6 +39,186 @@
   number    = {2},
   pages     = {L109},
   publisher = {IOP Publishing},
+}
+
+@Article{penzias1965measurement,
+  author  = {Penzias, Arno A and Wilson, Robert Woodrow},
+  title   = {A measurement of excess antenna temperature at 4080 Mc/s.},
+  journal = {The Astrophysical Journal},
+  year    = {1965},
+  volume  = {142},
+  pages   = {419--421},
+}
+
+@Article{fixsen1996cosmic,
+  author    = {Fixsen, DJ and Cheng, ES and Gales, JM and Mather, John C and Shafer, RA and Wright, EL},
+  title     = {The Cosmic Microwave Background Spectrum from the Full COBE* FIRAS Data Set},
+  journal   = {The Astrophysical Journal},
+  year      = {1996},
+  volume    = {473},
+  number    = {2},
+  pages     = {576},
+  publisher = {IOP Publishing},
+}
+
+@Article{axion_1977,
+  author    = {Peccei, Roberto D and Quinn, Helen R},
+  title     = {CP conservation in the presence of pseudoparticles},
+  journal   = {Physical Review Letters},
+  year      = {1977},
+  volume    = {38},
+  number    = {25},
+  pages     = {1440},
+  publisher = {APS},
+}
+
+@Article{alavi1999observation,
+  author    = {Alavi-Harati, A and Albuquerque, IF and Alexopoulos, T and Arenton, M and Arisaka, K and Averitte, S and Barker, AR and Bellantoni, Leo and Bellavance, A and Belz, J and others},
+  title     = {Observation of Direct {CP} Violation in {$K_{S,L} \rightarrow \pi \pi$} Decays},
+  journal   = {Physical Review Letters},
+  year      = {1999},
+  volume    = {83},
+  number    = {1},
+  pages     = {22},
+  publisher = {APS},
+}
+
+@Article{fanti1999new,
+  author    = {Fanti, V and Lai, A and Marras, D and Musa, L and Bevan, AJ and Gershon, TJ and Hay, B and Moore, RW and Moore, KN and Munday, DJ and others},
+  title     = {A new measurement of direct {CP} violation in two pion decays of the neutral kaon},
+  journal   = {Physics Letters B},
+  year      = {1999},
+  volume    = {465},
+  number    = {1},
+  pages     = {335--348},
+  publisher = {Elsevier},
+}
+
+@Article{aubert2001measurement,
+  author    = {Aubert, Bernard and Boutigny, D and De Bonis, I and Gaillard, J-M and Jeremie, A and Karyotakis, Y and Lees, JP and Robbe, P and Tisserand, V and Palano, A and others},
+  title     = {Measurement of {CP}-violating asymmetries in {$B^0$} decays to {CP} eigenstates},
+  journal   = {Physical Review Letters},
+  year      = {2001},
+  volume    = {86},
+  number    = {12},
+  pages     = {2515},
+  publisher = {APS},
+}
+
+@Article{abe2001observation,
+  author    = {Abe, Kazuo and Abe, R and Adachi, I and Ahn, Byoung Sup and Aihara, H and Akatsu, M and Alimonti, G and Asai, K and Asai, M and Asano, Y and others},
+  title     = {Observation of large {CP} violation in the neutral {B} meson system},
+  journal   = {Physical Review Letters},
+  year      = {2001},
+  volume    = {87},
+  number    = {9},
+  pages     = {091802},
+  publisher = {APS},
+}
+
+
+@Article{aaij2013first,
+  author    = {Aaij, R and Beteta, C Abellan and Adeva, B and Adinolfi, M and Adrover, C and Affolder, A and Ajaltouni, Z and Albrecht, J and Alessio, F and Alexander, M and others},
+  title     = {First Observation of {CP} Violation in the Decays of {$B_s^0$} Mesons},
+  journal   = {Physical review letters},
+  year      = {2013},
+  volume    = {110},
+  number    = {22},
+  pages     = {221601},
+  publisher = {APS},
+}
+
+@Article{graham2015experimental,
+  author    = {Graham, Peter W and Irastorza, Igor G and Lamoreaux, Steven K and Lindner, Axel and van Bibber, Karl A},
+  title     = {Experimental searches for the axion and axion-like particles},
+  journal   = {Annual Review of Nuclear and Particle Science},
+  year      = {2015},
+  volume    = {65},
+  pages     = {485--514},
+  publisher = {Annual Reviews},
+}
+
+@Article{stern2016admx,
+  author  = {Stern, Ian},
+  title   = {ADMX status},
+  journal = {arXiv preprint arXiv:1612.08296},
+  year    = {2016},
+}
+
+@Article{garcon2017searching,
+  author  = {Garcon, Antoine and Aybas, Deniz and Blanchard, John W and Centers, Gary and Figueroa, Nataniel L and Graham, PeterW and Kimball, Derek F Jackson and Rajendran, Surjeet and Sendra, Marina G and Sushkov, Alexander O and others},
+  title   = {Searching for dark matter with nuclear magnetic resonance: the Cosmic Axion Spin Precession Experiment},
+  journal = {arXiv preprint arXiv:1707.05312},
+  year    = {2017},
+}
+
+@Article{Ade2015,
+  author        = {Ade, Peter AR and Salvatelli, V and Stolyarov, V and Desert, FX and Knoche, J and Giard, M and Dupac, X and Liguori, M and Matarrese, S and Huang, Z and others},
+  title         = {Planck 2015 results. XIII. Cosmological parameters},
+  journal       = {Astron. Astrophys.},
+  year          = {2015},
+  volume        = {594},
+  number        = {arXiv: 1502.01589},
+  pages         = {A13},
+  __markedentry = {[Matt:6]},
+}
+
+@InProceedings{navarro1996structure,
+  author       = {Navarro, Julio F},
+  title        = {The structure of cold dark matter halos},
+  booktitle    = {Symposium-international astronomical union},
+  year         = {1996},
+  volume       = {171},
+  pages        = {255--258},
+  organization = {Cambridge University Press},
+}
+
+@Article{springel2006large,
+  author  = {Springel, Volker and Frenk, Carlos S and White, Simon DM},
+  title   = {The large-scale structure of the Universe},
+  journal = {arXiv preprint astro-ph/0604561},
+  year    = {2006},
+}
+
+@Article{vogelsberger2014introducing,
+  author  = {Vogelsberger, Mark and Genel, Shy and Springel, Volker and Torrey, Paul and Sijacki, Debora and Xu, Dandan and Snyder, Greg and Nelson, Dylan and Hernquist, Lars},
+  title   = {Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe},
+  journal = {Monthly Notices of the Royal Astronomical Society},
+  year    = {2014},
+  pages   = {1518--1547},
+}
+
+@Article{bennett1996four,
+  author    = {Bennett, Charles L and Banday, Anthony J and G{\'o}rski, Krzysztof M and Hinshaw, G and Jackson, P and Keegstra, P and Kogut, A and Smoot, George F and Wilkinson, David T and Wright, Edward L},
+  title     = {Four-year COBE* DMR cosmic microwave background observations: maps and basic results},
+  journal   = {The Astrophysical Journal Letters},
+  year      = {1996},
+  volume    = {464},
+  number    = {1},
+  pages     = {L1},
+  publisher = {IOP Publishing},
+}
+
+@Article{komatsu2011seven,
+  author    = {Komatsu, Eiichiro and Smith, KM and Dunkley, J and Bennett, CL and Gold, B and Hinshaw, G and Jarosik, N and Larson, D and Nolta, MR and Page, L and others},
+  title     = {Seven-year wilkinson microwave anisotropy probe (WMAP*) observations: cosmological interpretation},
+  journal   = {The Astrophysical Journal Supplement Series},
+  year      = {2011},
+  volume    = {192},
+  number    = {2},
+  pages     = {18},
+  publisher = {IOP Publishing},
+}
+
+@Article{jungman1996supersymmetric,
+  author    = {Jungman, Gerard and Kamionkowski, Marc and Griest, Kim},
+  title     = {Supersymmetric dark matter},
+  journal   = {Physics Reports},
+  year      = {1996},
+  volume    = {267},
+  number    = {5-6},
+  pages     = {195--373},
+  publisher = {Elsevier},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

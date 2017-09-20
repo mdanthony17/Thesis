@@ -33,29 +33,6 @@
   \field{year}{1933}
 \endentry
 
-\entry{rubin1970rotation}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Rubin}{R.}%
-     {Vera~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ford~Jr}{F.~J.}%
-     {W~Kent}{W.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RVCFJWK1}
-  \strng{fullhash}{RVCFJWK1}
-  \field{pages}{379}
-  \field{title}{Rotation of the andromeda nebula from a spectroscopic survey of
-  emission regions}
-  \field{volume}{159}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{year}{1970}
-\endentry
-
 \entry{Begeman1991}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -86,6 +63,29 @@
   \field{volume}{249}
   \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
   \field{year}{1991}
+\endentry
+
+\entry{rubin1970rotation}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rubin}{R.}%
+     {Vera~C}{V.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ford~Jr}{F.~J.}%
+     {W~Kent}{W.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RVCFJWK1}
+  \strng{fullhash}{RVCFJWK1}
+  \field{pages}{379}
+  \field{title}{Rotation of the andromeda nebula from a spectroscopic survey of
+  emission regions}
+  \field{volume}{159}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1970}
 \endentry
 
 \entry{clowe2006direct}{article}{}
@@ -137,6 +137,907 @@
   \field{volume}{648}
   \field{journaltitle}{The Astrophysical Journal Letters}
   \field{year}{2006}
+\endentry
+
+\entry{penzias1965measurement}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Penzias}{P.}%
+     {Arno~A}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilson}{W.}%
+     {Robert~Woodrow}{R.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PAAWRW1}
+  \strng{fullhash}{PAAWRW1}
+  \field{pages}{419\bibrangedash 421}
+  \field{title}{A measurement of excess antenna temperature at 4080 Mc/s.}
+  \field{volume}{142}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1965}
+\endentry
+
+\entry{fixsen1996cosmic}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Fixsen}{F.}%
+     {DJ}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {ES}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gales}{G.}%
+     {JM}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mather}{M.}%
+     {John~C}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shafer}{S.}%
+     {RA}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {EL}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{FDCEGJ+1}
+  \strng{fullhash}{FDCEGJMJCSRWE1}
+  \field{number}{2}
+  \field{pages}{576}
+  \field{title}{The Cosmic Microwave Background Spectrum from the Full COBE*
+  FIRAS Data Set}
+  \field{volume}{473}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1996}
+\endentry
+
+\entry{Ade2015}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Ade}{A.}%
+     {Peter~AR}{P.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salvatelli}{S.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolyarov}{S.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Desert}{D.}%
+     {FX}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knoche}{K.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giard}{G.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dupac}{D.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liguori}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matarrese}{M.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{APASVSV+1}
+  \strng{fullhash}{APASVSVDFKJGMDXLMMSHZ+1}
+  \field{number}{arXiv: 1502.01589}
+  \field{pages}{A13}
+  \field{title}{Planck 2015 results. XIII. Cosmological parameters}
+  \field{volume}{594}
+  \field{journaltitle}{Astron. Astrophys.}
+  \field{year}{2015}
+\endentry
+
+\entry{bennett1996four}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Bennett}{B.}%
+     {Charles~L}{C.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Banday}{B.}%
+     {Anthony~J}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\'o}rski}{G.}%
+     {Krzysztof~M}{K.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hinshaw}{H.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jackson}{J.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keegstra}{K.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kogut}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smoot}{S.}%
+     {George~F}{G.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilkinson}{W.}%
+     {David~T}{D.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {Edward~L}{E.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{BCLBAJGKM+1}
+  \strng{fullhash}{BCLBAJGKMHGJPKPKASGFWDTWEL1}
+  \field{number}{1}
+  \field{pages}{L1}
+  \field{title}{Four-year COBE* DMR cosmic microwave background observations:
+  maps and basic results}
+  \field{volume}{464}
+  \field{journaltitle}{The Astrophysical Journal Letters}
+  \field{year}{1996}
+\endentry
+
+\entry{komatsu2011seven}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Komatsu}{K.}%
+     {Eiichiro}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {KM}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunkley}{D.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bennett}{B.}%
+     {CL}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gold}{G.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hinshaw}{H.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jarosik}{J.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Larson}{L.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nolta}{N.}%
+     {MR}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Page}{P.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{KESKDJ+1}
+  \strng{fullhash}{KESKDJBCGBHGJNLDNMPL+1}
+  \field{number}{2}
+  \field{pages}{18}
+  \field{title}{Seven-year wilkinson microwave anisotropy probe (WMAP*)
+  observations: cosmological interpretation}
+  \field{volume}{192}
+  \field{journaltitle}{The Astrophysical Journal Supplement Series}
+  \field{year}{2011}
+\endentry
+
+\entry{navarro1996structure}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Navarro}{N.}%
+     {Julio~F}{J.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{NJF1}
+  \strng{fullhash}{NJF1}
+  \field{booktitle}{Symposium-international astronomical union}
+  \field{pages}{255\bibrangedash 258}
+  \field{title}{The structure of cold dark matter halos}
+  \field{volume}{171}
+  \field{year}{1996}
+\endentry
+
+\entry{springel2006large}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Springel}{S.}%
+     {Volker}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frenk}{F.}%
+     {Carlos~S}{C.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {Simon~DM}{S.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SVFCSWSD1}
+  \strng{fullhash}{SVFCSWSD1}
+  \field{title}{The large-scale structure of the Universe}
+  \field{journaltitle}{arXiv preprint astro-ph/0604561}
+  \field{year}{2006}
+\endentry
+
+\entry{vogelsberger2014introducing}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Vogelsberger}{V.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Genel}{G.}%
+     {Shy}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Springel}{S.}%
+     {Volker}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torrey}{T.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sijacki}{S.}%
+     {Debora}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xu}{X.}%
+     {Dandan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Snyder}{S.}%
+     {Greg}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nelson}{N.}%
+     {Dylan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hernquist}{H.}%
+     {Lars}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VMGSSV+1}
+  \strng{fullhash}{VMGSSVTPSDXDSGNDHL1}
+  \field{pages}{1518\bibrangedash 1547}
+  \field{title}{Introducing the Illustris Project: simulating the coevolution
+  of dark and visible matter in the Universe}
+  \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+  \field{year}{2014}
+\endentry
+
+\entry{stern2016admx}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stern}{S.}%
+     {Ian}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SI1}
+  \strng{fullhash}{SI1}
+  \field{title}{ADMX status}
+  \field{journaltitle}{arXiv preprint arXiv:1612.08296}
+  \field{year}{2016}
+\endentry
+
+\entry{axion_1977}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Peccei}{P.}%
+     {Roberto~D}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quinn}{Q.}%
+     {Helen~R}{H.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{PRDQHR1}
+  \strng{fullhash}{PRDQHR1}
+  \field{number}{25}
+  \field{pages}{1440}
+  \field{title}{CP conservation in the presence of pseudoparticles}
+  \field{volume}{38}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{1977}
+\endentry
+
+\entry{alavi1999observation}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Alavi-Harati}{A.-H.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albuquerque}{A.}%
+     {IF}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alexopoulos}{A.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arenton}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arisaka}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Averitte}{A.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {AR}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bellantoni}{B.}%
+     {Leo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bellavance}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belz}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AHAAIAT+1}
+  \strng{fullhash}{AHAAIATAMAKASBABLBABJ+1}
+  \field{number}{1}
+  \field{pages}{22}
+  \field{title}{Observation of Direct {CP} Violation in {$K_{S,L} \rightarrow
+  \pi \pi$} Decays}
+  \field{volume}{83}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{1999}
+\endentry
+
+\entry{fanti1999new}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Fanti}{F.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lai}{L.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marras}{M.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Musa}{M.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bevan}{B.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gershon}{G.}%
+     {TJ}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hay}{H.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {RW}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {KN}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Munday}{M.}%
+     {DJ}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{FVLAMD+1}
+  \strng{fullhash}{FVLAMDMLBAGTHBMRMKMD+1}
+  \field{number}{1}
+  \field{pages}{335\bibrangedash 348}
+  \field{title}{A new measurement of direct {CP} violation in two pion decays
+  of the neutral kaon}
+  \field{volume}{465}
+  \field{journaltitle}{Physics Letters B}
+  \field{year}{1999}
+\endentry
+
+\entry{aubert2001measurement}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aubert}{A.}%
+     {Bernard}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boutigny}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Bonis}{D.~B.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaillard}{G.}%
+     {J-M}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jeremie}{J.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karyotakis}{K.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lees}{L.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robbe}{R.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tisserand}{T.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Palano}{P.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ABBDDBI+1}
+  \strng{fullhash}{ABBDDBIGJMJAKYLJRPTVPA+1}
+  \field{number}{12}
+  \field{pages}{2515}
+  \field{title}{Measurement of {CP}-violating asymmetries in {$B^0$} decays to
+  {CP} eigenstates}
+  \field{volume}{86}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2001}
+\endentry
+
+\entry{abe2001observation}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Abe}{A.}%
+     {Kazuo}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abe}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adachi}{A.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahn}{A.}%
+     {Byoung~Sup}{B.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aihara}{A.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akatsu}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alimonti}{A.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asai}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asai}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asano}{A.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AKARAI+1}
+  \strng{fullhash}{AKARAIABSAHAMAGAKAMAY+1}
+  \field{number}{9}
+  \field{pages}{091802}
+  \field{title}{Observation of large {CP} violation in the neutral {B} meson
+  system}
+  \field{volume}{87}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2001}
+\endentry
+
+\entry{aaij2013first}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aaij}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beteta}{B.}%
+     {C~Abellan}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adeva}{A.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adinolfi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adrover}{A.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Affolder}{A.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ajaltouni}{A.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albrecht}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alessio}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alexander}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ARBCAAB+1}
+  \strng{fullhash}{ARBCAABAMACAAAZAJAFAM+1}
+  \field{number}{22}
+  \field{pages}{221601}
+  \field{title}{First Observation of {CP} Violation in the Decays of {$B_s^0$}
+  Mesons}
+  \field{volume}{110}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2013}
+\endentry
+
+\entry{graham2015experimental}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Graham}{G.}%
+     {Peter~W}{P.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Irastorza}{I.}%
+     {Igor~G}{I.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lamoreaux}{L.}%
+     {Steven~K}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindner}{L.}%
+     {Axel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bibber}{B.}%
+     {Karl~A}{K.~A.}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews}%
+  }
+  \strng{namehash}{GPWIIGLSK+1}
+  \strng{fullhash}{GPWIIGLSKLABKAv1}
+  \field{pages}{485\bibrangedash 514}
+  \field{title}{Experimental searches for the axion and axion-like particles}
+  \field{volume}{65}
+  \field{journaltitle}{Annual Review of Nuclear and Particle Science}
+  \field{year}{2015}
+\endentry
+
+\entry{garcon2017searching}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Garcon}{G.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aybas}{A.}%
+     {Deniz}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blanchard}{B.}%
+     {John~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Centers}{C.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Figueroa}{F.}%
+     {Nataniel~L}{N.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Graham}{G.}%
+     {PeterW}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kimball}{K.}%
+     {Derek F~Jackson}{D.~F.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rajendran}{R.}%
+     {Surjeet}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sendra}{S.}%
+     {Marina~G}{M.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sushkov}{S.}%
+     {Alexander~O}{A.~O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GAADBJW+1}
+  \strng{fullhash}{GAADBJWCGFNLGPKDFJRSSMGSAO+1}
+  \field{title}{Searching for dark matter with nuclear magnetic resonance: the
+  Cosmic Axion Spin Precession Experiment}
+  \field{journaltitle}{arXiv preprint arXiv:1707.05312}
+  \field{year}{2017}
+\endentry
+
+\entry{jungman1996supersymmetric}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jungman}{J.}%
+     {Gerard}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kamionkowski}{K.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griest}{G.}%
+     {Kim}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{JGKMGK1}
+  \strng{fullhash}{JGKMGK1}
+  \field{number}{5-6}
+  \field{pages}{195\bibrangedash 373}
+  \field{title}{Supersymmetric dark matter}
+  \field{volume}{267}
+  \field{journaltitle}{Physics Reports}
+  \field{year}{1996}
+\endentry
+
+\entry{bertone2010particle}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bertone}{B.}%
+     {Gianfranco}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{BG1}
+  \strng{fullhash}{BG1}
+  \field{title}{Particle dark matter: Observations, models and searches}
+  \field{year}{2010}
 \endentry
 
 \lossort
