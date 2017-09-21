@@ -326,4 +326,58 @@
   year    = {2016},
 }
 
+@Article{lewin1996review,
+  author    = {Lewin, JD and Smith, PF},
+  title     = {Review of mathematics, numerical factors, and corrections for dark matter experiments based on elastic nuclear recoil},
+  journal   = {Astroparticle Physics},
+  year      = {1996},
+  volume    = {6},
+  number    = {1},
+  pages     = {87--112},
+  publisher = {Elsevier},
+}
+
+@Article{undagoitia2015dark,
+  author    = {Undagoitia, Teresa Marrod{\'a}n and Rauch, Ludwig},
+  title     = {Dark matter direct-detection experiments},
+  journal   = {Journal of Physics G: Nuclear and Particle Physics},
+  year      = {2015},
+  volume    = {43},
+  number    = {1},
+  pages     = {013001},
+  publisher = {IOP Publishing},
+}
+
+@Article{kopp2009dama,
+  author    = {Kopp, Joachim and Niro, Viviana and Schwetz, Thomas and Zupan, Jure},
+  title     = {DAMA/LIBRA data and leptonically interacting dark matter},
+  journal   = {Physical Review D},
+  year      = {2009},
+  volume    = {80},
+  number    = {8},
+  pages     = {083502},
+  publisher = {APS},
+}
+
+@Article{piffl2014rave,
+  author    = {Piffl, Tilmann and Scannapieco, Cecilia and Binney, James and Steinmetz, Matthias and Scholz, R-D and Williams, Mary EK and De Jong, Roelof S and Kordopatis, Georges and Matijevi{\v{c}}, Gal and Bienayme, Olivier and others},
+  title     = {The RAVE survey: the Galactic escape speed and the mass of the Milky Way},
+  journal   = {Astronomy \& Astrophysics},
+  year      = {2014},
+  volume    = {562},
+  pages     = {A91},
+  publisher = {EDP Sciences},
+}
+
+@Article{kuhlen2010dark,
+  author    = {Kuhlen, Michael and Weiner, Neal and Diemand, J{\"u}rg and Madau, Piero and Moore, Ben and Potter, Doug and Stadel, Joachim and Zemp, Marcel},
+  title     = {Dark matter direct detection with non-Maxwellian velocity structure},
+  journal   = {Journal of Cosmology and Astroparticle Physics},
+  year      = {2010},
+  volume    = {2010},
+  number    = {02},
+  pages     = {030},
+  publisher = {IOP Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

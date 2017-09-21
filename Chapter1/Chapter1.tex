@@ -221,10 +221,10 @@ Over the last few decades there has been an enormous concerted effort to detect 
 
 
 \subsection{Indirect Detection}
-
+\label{sec:indirect_detection}
 %https://arxiv.org/pdf/1404.1938.pdf
 
-As we know from previous sections, WIMPs, if they make up all (or some) of the dark matter in the universe, must reside in galaxies to explain the odd behavior of rotation curves and the mass discrepancies.  Given the observational evidence, simulations have been created that can predict both the distribution of dark matter within our own and other galaxies \cite{stadel2009quantifying, maccio2007concentration} and the density of dark matter in our own solar system (roughly $0.2 - 0.4$ GeV \cite{read2014local}).  Indirect detection experiments look at high density regions of dark matter halos, such as in or around the Milky Way center and dwarf galaxies, to search for annihilations of WIMPs into detectable particles.
+As we know from previous sections, WIMPs, if they make up all (or some) of the dark matter in the universe, must reside in galaxies to explain the odd behavior of rotation curves and the mass discrepancies.  Given the observational evidence, simulations have been created that can predict both the distribution of dark matter within our own and other galaxies \cite{stadel2009quantifying, maccio2007concentration} and the density of dark matter in our own solar system (roughly $0.2 - 0.4 \frac{GeV}{cm^3}$ \cite{read2014local}).  Indirect detection experiments look at high density regions of dark matter halos, such as in or around the Milky Way center and dwarf galaxies, to search for annihilations of WIMPs into detectable particles.
 
 The goal of indirect detection is to capture a dark matter annihilation by observing its byproducts.  In the ideal case, two dark matter particles would annihilate and create two protons with energies equal to the mass of the dark matter particle.  Even though this would be the ``smoking gun" evidence of dark matter, most of the standard model extension WIMPs predict that this would be highly suppressed.  Instead, these indirect experiments are more likely to observe the annihilation of WIMPs into other particles which in turn will produce photons \cite{bi2013status}.  
 
@@ -248,8 +248,79 @@ One important note is that while we can potentially ``see" WIMPs in detectors at
 
 \subsection{Direct Detection}
 
-The most basic models describing WIMPs predict that they are most likely to interact with atomic nuclei.  This assumption, along with cosmological evidence that WIMPs are non-relativistic, surprisingly gives way to a fairly straight-forward derivation of the rate of scattering that one could expect for different nuclei assuming a given scattering cross-section and mass for the WIMP.  We will outline the derivation presented in \citeref{lewin1996review}. 
+In purely theoretical terms, any detector that is sensitive to a potential WIMP interaction could be considered a direct detection dark matter search.  At the same time, to try and detect a dark matter signal from your NaI detector in your lab would be preposterous (unless your detector is 250 kg and located deep underground!), the reason being that any of the rare dark matter signals would be drowned out by the countless background events you would also to detect.  This is why direct detection experiments are typically built deep underground with shielding and low radiation materials and take great care to understand their background as well as they possibly can: if WIMPs are scattering in the detector they want to be able to know.
+
+The goal of direct detection experiments is to detect the scatter of WIMPs off of standard model particles.  As mentioned, since these scatters should be extremely rare, it is essential to have the background of the detector used be as low as possible.  As a simple example, consider two otherwise identical experiments who both have measured their backgrounds perfectly: experiment A expects a single background event per year while experiment B expects 1,000 background events per year.  In the case that both detectors see an excess of ten events in a given year over their background, it should be clear that experiment A can make a very strong claim that they have seen WIMP scatterings where as experiment B cannot since this excess could very well be a fluctuation from their expected background.
+
+It cannot be emphasized strongly enough how crucial the understanding of background is for direct detection experiments.  Returning to the above example, imagine experiment A missed a source of background in their estimate and that their true expected background rate is ten events per year, not one.  If they saw the same eleven events as before, they might claim a discovery even though the eleven events are very likely to be a statistical fluctuation of the background.
 
 
+The most basic models describing WIMPs predict that they are most likely to interact with atomic nuclei (although some predict leptonic interactions \cite{kopp2009dama}).  This assumption, along with cosmological evidence that WIMPs are non-relativistic, surprisingly gives way to a fairly straight-forward derivation of the rate of scattering that one could expect for different nuclei, and therefore a complete detector, assuming a given scattering cross-section and mass for the WIMP.  For a complete derivation one should refer to \citeref{jungman1996supersymmetric} and \citeref{lewin1996review}.
 
+It can be shown that the differential scattering rate is given by \cite{undagoitia2015dark}
+%
+\begin{equation}
+        \frac{dR}{dE}(E) = \frac{\rho_0}{m_{\chi} m_{A}} \int_{v_{\textrm{min}}(E)}^{v_{\textrm{esc}}} v f(v) \frac{d\sigma}{dE}(E, v) dv
+\end{equation} 
+%
+where $\rho_0$ is the local dark matter density, $m_{\chi}$ is the mass of the WIMP, $m_{A}$ is the mass of the target nucleus, $f(v)$ is the velocity distribution of dark matter locally, $v_{min}$ is the minimum velocity that can produce a recoil of energy $E$, $v_{esc}$ is the maximum velocity in which WIMPs are still gravitationally bound to the galactic halo, and $\frac{d\sigma}{dE}$ is the differential cross-section of WIMP-nucleon scattering.  
+
+As discussed in \secref{sec:indirect_detection}, N-body simulations give us a prediction of roughly $0.2 - 0.4 \frac{GeV}{cm^3}$ for the local dark matter density \cite{read2014local}.  We will use the standard halo model (SHM), which is standard for dark matter experiments,  such that the velocity of WIMPs in the halo follows a Maxwell-Boltzmann distribution.  The minimum velocity of a WIMP to transfer an energy $E$ to a nucleus, $v_{min}$, is found kinematically to be 
+%
+\begin{equation}
+        v_{min} = \sqrt{\frac{m_A E}{2 \mu^2}},  \quad
+        \mu = \frac{m_A m_{\chi}}{m_A + m_{\chi}}
+\end{equation}
+%
+while astrophysical measurements of the Milky Way estimate the local escape velocity to be $v_{esc} = 533^{+54}_{-41} \, km \, s^{-1}$ \cite{piffl2014rave}.  It is worth noting that while the Maxwell-Boltzmann distribution is the standard, other models of the velocity distribution exist \cite{kuhlen2010dark}.
+
+The particle physics of the WIMPs comes in at the differential cross-section.  The most basic WIMP models predict two potential interactions: a spin-independent or spin-dependent.  Focusing on the former, the differential cross-section is given by
+%
+\begin{equation}
+        \frac{d \sigma}{dE}(E, v) = \frac{m_A}{2 \mu^2 v^2} \sigma_0 F(E)^2
+\end{equation}
+%
+where $F(E)$ is nuclear form factor.  The nuclear form factor is the Fourier transform of the ground state mass density and is used to reduce to correct the zero-momentum transfer cross-section in the case of a momentum transfer.  The nuclear form factor can be approximated by
+%
+\begin{equation}
+        F(q) = \frac{3 j_1(q R_0)}{q R_0} e^{\frac{-(qs)^2}{2}}, \quad q=\sqrt{2 m_A E}, \quad R_0^2 = \left( 1.2A^{\frac{1}{3}} \, \textrm{fm} \right)^{2} - 5s^2
+\end{equation}
+%
+where $q$ is the momentum transfer in the scatter, $R_0$ is the approximate nuclear radius, $s$ is the approximate thickness of the nucleus (roughly 1 fm), and $j_1$ is the spherical Bessel function of the first kind \cite{engel1991nuclear}.  
+
+We can reduce $\sigma_0$, the cross-section of an interaction with zero momentum transfer, by accounting for the coupling to the individual nucleons in the following way
+%
+\begin{equation}
+        \sigma_0 = \frac{\left( Z f_p + (A-Z)f_n \right)^2}{f_p^2} \frac{\mu^2}{\mu^2_{\chi p}} \sigma_p
+\end{equation}
+%
+In this equation, $f_p$ and $f_n$ are the WIMP couplings to the proton and neutron, respectively, $\mu_{\chi p}$ is the reduced mass of the WIMP-proton system, and $\sigma_p$ is the spin-independent cross-section of the WIMP with the proton.  We approximate that $f_p \approx f_n$ which allows us to simplify to
+
+\begin{equation}
+        \sigma_0 \approx A^2 \frac{\mu^2}{\mu^2_{\chi p}} \sigma_p
+\end{equation}
+
+All of this can be combined such that we are only dependent on two variables: the mass of the WIMP and its cross-section with a proton.
+
+\begin{equation}
+        \frac{dR}{dE} = \frac{\rho_0 A^2 \sigma_p}{2 m_{\chi} \mu_{\chi p}} F(E)^2 \int_{v_{\textrm{min}}(E)}^{v_{\textrm{esc}}}  \frac{f(v)}{v} dv
+\end{equation}
+
+With the differential scattering rate, we can predict the number of WIMPs of a given cross-section and mass we would expect to scatter in a detector of a certain size.  
+
+\begin{equation}
+
+Of course, the above equation does not account for detector constraints, which typically make it very difficult to probe the lowest energies.
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.99\textwidth]{}
+	\caption{}
+	\label{fig:wimp_scattering_rate}
+\end{figure}
+
+
+% image of scattering rate for different nuclei and scattering rate for different WIMP masses in Xe
+
+% need to also mention size of detector
 

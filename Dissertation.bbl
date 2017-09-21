@@ -1244,6 +1244,42 @@
   \field{year}{2016}
 \endentry
 
+\entry{kopp2009dama}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Kopp}{K.}%
+     {Joachim}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Niro}{N.}%
+     {Viviana}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schwetz}{S.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zupan}{Z.}%
+     {Jure}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{KJNVST+1}
+  \strng{fullhash}{KJNVSTZJ1}
+  \field{number}{8}
+  \field{pages}{083502}
+  \field{title}{DAMA/LIBRA data and leptonically interacting dark matter}
+  \field{volume}{80}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2009}
+\endentry
+
 \entry{lewin1996review}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1269,6 +1305,178 @@
   \field{volume}{6}
   \field{journaltitle}{Astroparticle Physics}
   \field{year}{1996}
+\endentry
+
+\entry{undagoitia2015dark}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Undagoitia}{U.}%
+     {Teresa~Marrod{\'a}n}{T.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rauch}{R.}%
+     {Ludwig}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{UTMRL1}
+  \strng{fullhash}{UTMRL1}
+  \field{number}{1}
+  \field{pages}{013001}
+  \field{title}{Dark matter direct-detection experiments}
+  \field{volume}{43}
+  \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+  \field{year}{2015}
+\endentry
+
+\entry{piffl2014rave}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Piffl}{P.}%
+     {Tilmann}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scannapieco}{S.}%
+     {Cecilia}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Binney}{B.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steinmetz}{S.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scholz}{S.}%
+     {R-D}{R.-D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Mary~EK}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Jong}{D.~J.}%
+     {Roelof~S}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kordopatis}{K.}%
+     {Georges}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matijevi{\v{c}}}{M.}%
+     {Gal}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bienayme}{B.}%
+     {Olivier}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {EDP Sciences}%
+  }
+  \strng{namehash}{PTSCBJ+1}
+  \strng{fullhash}{PTSCBJSMSRDWMEDJRSKGMGBO+1}
+  \field{pages}{A91}
+  \field{title}{The RAVE survey: the Galactic escape speed and the mass of the
+  Milky Way}
+  \field{volume}{562}
+  \field{journaltitle}{Astronomy \& Astrophysics}
+  \field{year}{2014}
+\endentry
+
+\entry{kuhlen2010dark}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Kuhlen}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiner}{W.}%
+     {Neal}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Diemand}{D.}%
+     {J{\"u}rg}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madau}{M.}%
+     {Piero}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {Ben}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Potter}{P.}%
+     {Doug}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stadel}{S.}%
+     {Joachim}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zemp}{Z.}%
+     {Marcel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{KMWNDJ+1}
+  \strng{fullhash}{KMWNDJMPMBPDSJZM1}
+  \field{number}{02}
+  \field{pages}{030}
+  \field{title}{Dark matter direct detection with non-Maxwellian velocity
+  structure}
+  \field{volume}{2010}
+  \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+  \field{year}{2010}
+\endentry
+
+\entry{engel1991nuclear}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Engel}{E.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{EJ1}
+  \strng{fullhash}{EJ1}
+  \field{number}{1-2}
+  \field{pages}{114\bibrangedash 119}
+  \field{title}{Nuclear form factors for the scattering of weakly interacting
+  massive particles}
+  \field{volume}{264}
+  \field{journaltitle}{Physics Letters B}
+  \field{year}{1991}
 \endentry
 
 \lossort
