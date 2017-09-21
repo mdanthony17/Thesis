@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 SEP 2017 08:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  21 SEP 2017 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,7 +1519,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.54 
-      [2] <./Chapter1/images/coma_composite.jpg, id=118, 3613.5pt x 3613.5pt>
+      [2] <./Chapter1/images/coma_composite.jpg, id=123, 3613.5pt x 3613.5pt>
 File: ./Chapter1/images/coma_composite.jpg Graphic file (type jpg)
 
 <use ./Chapter1/images/coma_composite.jpg>
@@ -1527,7 +1527,7 @@ Package pdftex.def Info: ./Chapter1/images/coma_composite.jpg used on input lin
 e 56.
 (pdftex.def)             Requested size: 227.62204pt x 227.60759pt.
 
-<./Chapter1/images/ngc_6503_rotation_curve.jpg, id=119, 508.90125pt x 431.6125p
+<./Chapter1/images/ngc_6503_rotation_curve.jpg, id=124, 508.90125pt x 431.6125p
 t>
 File: ./Chapter1/images/ngc_6503_rotation_curve.jpg Graphic file (type jpg)
  <use ./Chapter1/images/ngc_6503_rotation_curve.jpg>
@@ -1546,7 +1546,7 @@ nored
                    \relax 
 l.87 
       [4 <./Chapter1/images/ngc_6503_rotation_curve.jpg>]
-<./Chapter1/images/gravitation_lensing_cartoon.jpg, id=144, 1071.00125pt x 803.
+<./Chapter1/images/gravitation_lensing_cartoon.jpg, id=149, 1071.00125pt x 803.
 0pt>
 File: ./Chapter1/images/gravitation_lensing_cartoon.jpg Graphic file (type jpg)
 
@@ -1555,7 +1555,7 @@ Package pdftex.def Info: ./Chapter1/images/gravitation_lensing_cartoon.jpg used
  on input line 97.
 (pdftex.def)             Requested size: 346.40132pt x 259.72212pt.
 
-<./Chapter1/images/einstein_cross.jpg, id=145, 701.62125pt x 702.625pt>
+<./Chapter1/images/einstein_cross.jpg, id=150, 701.62125pt x 702.625pt>
 File: ./Chapter1/images/einstein_cross.jpg Graphic file (type jpg)
 
 <use ./Chapter1/images/einstein_cross.jpg>
@@ -1563,7 +1563,7 @@ Package pdftex.def Info: ./Chapter1/images/einstein_cross.jpg used on input lin
 e 104.
 (pdftex.def)             Requested size: 346.40132pt x 346.90523pt.
  [5 <./Chapter1/images/gravitation_lensing_cartoon.jpg>]
-<./Chapter1/images/bullet_cluster.png, id=156, 784.9325pt x 255.95625pt>
+<./Chapter1/images/bullet_cluster.png, id=161, 784.9325pt x 255.95625pt>
 File: ./Chapter1/images/bullet_cluster.png Graphic file (type png)
 
 <use ./Chapter1/images/bullet_cluster.png>
@@ -1574,7 +1574,7 @@ e 122.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./Chapter1/images/einstein_cross.jpg>]
-<./Chapter1/images/planck_map.png, id=169, 1003.75pt x 627.34375pt>
+<./Chapter1/images/planck_map.png, id=174, 1003.75pt x 627.34375pt>
 File: ./Chapter1/images/planck_map.png Graphic file (type png)
 
 <use ./Chapter1/images/planck_map.png>
@@ -1582,7 +1582,7 @@ Package pdftex.def Info: ./Chapter1/images/planck_map.png used on input line 13
 4.
 (pdftex.def)             Requested size: 411.34868pt x 257.09773pt.
 
-<./Chapter1/images/planck_2015_power_spectrum.jpeg, id=172, 1091.07625pt x 727.
+<./Chapter1/images/planck_2015_power_spectrum.jpeg, id=177, 1091.07625pt x 727.
 71875pt>
 File: ./Chapter1/images/planck_2015_power_spectrum.jpeg Graphic file (type jpg)
 
@@ -1594,74 +1594,98 @@ Package pdftex.def Info: ./Chapter1/images/planck_2015_power_spectrum.jpeg used
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./Chapter1/images/planck_map.png>] [9 <./Chapter1/images/planck_2015_power
-_spectrum.jpeg>] <./Chapter1/images/admx2_limits.jpeg, id=209, 724.7075pt x 477
+_spectrum.jpeg>] <./Chapter1/images/admx2_limits.jpeg, id=220, 724.7075pt x 477
 .785pt>
 File: ./Chapter1/images/admx2_limits.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/admx2_limits.jpeg>
 Package pdftex.def Info: ./Chapter1/images/admx2_limits.jpeg used on input line
- 178.
+ 186.
 (pdftex.def)             Requested size: 411.34868pt x 271.19568pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10])
-[11] [12 <./Chapter1/images/admx2_limits.jpeg>]
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Chapter1/images/admx2_limits.jpeg>]
+<./Chapter1/images/wimp_detection.jpeg, id=244, 1151.30125pt x 762.85pt>
+File: ./Chapter1/images/wimp_detection.jpeg Graphic file (type jpg)
+
+<use ./Chapter1/images/wimp_detection.jpeg>
+Package pdftex.def Info: ./Chapter1/images/wimp_detection.jpeg used on input li
+ne 209.
+(pdftex.def)             Requested size: 324.75pt x 215.1796pt.
+ [12 <./Chapter1/images/wimp_detection.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+<./Chapter1/images/collider_detection_cms.jpg, id=273, 963.6pt x 512.66531pt>
+File: ./Chapter1/images/collider_detection_cms.jpg Graphic file (type jpg)
+
+<use ./Chapter1/images/collider_detection_cms.jpg>
+Package pdftex.def Info: ./Chapter1/images/collider_detection_cms.jpg used on i
+nput line 241.
+(pdftex.def)             Requested size: 411.34868pt x 218.84596pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./Chapter1/images/collider_detection_cms.jpg>]) [15]
 \openout2 = `./Chapter2/Chapter2.aux'.
 
- (./Chapter2/Chapter2.tex)
-[13
+ (./Chapter2/Chapter2.tex
+[16
 
 
 
-]
+]) [17]
 \openout2 = `./Chapter3/Chapter3.aux'.
 
- (./Chapter3/Chapter3.tex [14
+ (./Chapter3/Chapter3.tex [18
 
 
 
-]) [15]
+]) [19]
 \openout2 = `./Conclusion/Conclusion.aux'.
 
- (./Conclusion/Conclusion.tex [16
+ (./Conclusion/Conclusion.tex
+[20
 
 
 
-])
-[17] [18
+]) [21] [22
 
 
-] [19
+] [23
 
-] [20] [21]
+] [24] [25]
 \tf@toc=\write6
 \openout6 = `Dissertation.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
- (./Dissertation.aux (./FrontMatter/TitlePage.aux)
-(./FrontMatter/Copyright.aux) (./FrontMatter/Abstract.aux)
+ (./Dissertation.aux (./FrontMatter/TitlePage.aux) (./FrontMatter/Copyright.aux
+) (./FrontMatter/Abstract.aux)
 (./FrontMatter/Acknowledgments.aux) (./FrontMatter/Dedication.aux)
 (./Chapter1/Chapter1.aux) (./Chapter2/Chapter2.aux) (./Chapter3/Chapter3.aux)
 (./Conclusion/Conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: E47AD4CDA56684181715355FF358627A;560.
+(rerunfilecheck)             Checksum: AB601A8E854682ACEAA21E39A354BA1D;622.
 Package logreq Info: Writing requests to 'Dissertation.run.xml'.
 \openout1 = `Dissertation.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 16021 strings out of 493488
- 247015 string characters out of 3141326
- 468210 words of memory out of 3000000
- 18979 multiletter control sequences out of 15000+200000
+ 16060 strings out of 493488
+ 247988 string characters out of 3141326
+ 472549 words of memory out of 3000000
+ 18999 multiletter control sequences out of 15000+200000
  17008 words of font info for 62 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,60p,1301b,1119s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,60p,1301b,1119s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -1675,10 +1699,10 @@ exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Dissertation.pdf (31 pages, 11293668 bytes).
+Output written on Dissertation.pdf (35 pages, 11517286 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

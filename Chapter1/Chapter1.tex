@@ -162,7 +162,7 @@ The $\Lambda$CDM model has been tested since its inception using N-body simulati
 \section{Dark Matter Candidates}
 \label{sec:dm_candidates}
 
-While there is an abundance of evidence to suggest that dark matter exists, we have little evidence to suggest what this cold dark matter actually is.  In this section, we will discuss three of the most popular candidates for dark matter and their physical motivations.  It should be noted that the candidates discussed do not form an exhaustive list but do satisfy the most basic requirements of a dark matter candidate:
+While there is an abundance of evidence to suggest that dark matter exists, we have little evidence to suggest what this cold dark matter actually is.  In this section, we will discuss two of the most popular candidates for dark matter and their physical motivations.  It should be noted that the candidates discussed do not form an exhaustive list but do satisfy the most basic requirements of a dark matter candidate:
 
 \begin{itemize}
         \item The lifetime of the particle is much greater than the lifetime of the universe (or is stable)
@@ -173,11 +173,7 @@ While there is an abundance of evidence to suggest that dark matter exists, we h
 
 \subsection{Axions}
 
-\begin{figure}[b]
-	\centering
-	\includegraphics[width=0.95\textwidth]{admx2_limits}
-	\caption{The projected sensitivity of the ADMX Generation 2 axion search.  Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass.  The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite{stern2016admx}.}
-\end{figure}
+
 
 Axions are hypothetical standard model particles that are introduced via the Peccei-Quinn mechanism as a solution to the strong-CP problem, one of the largest remaining deficiencies in the standard model \cite{axion_1977}.  CP (charge and parity) symmetry violation is required to explain the imbalance of matter and antimatter in the universe (why more matter exists) and has been observed in electroweak theory in a wide variety of measurements \cite{alavi1999observation, fanti1999new, aubert2001measurement, abe2001observation, aaij2013first}.  CP violation has never been observed in quantum chromodynamics even though there are natural terms in the QCD Lagrangian that would allow it.  Therefore, this term in the Lagrangian, must be fine-tuned to exactly zero, hence the strong-CP problem.  The axion introduced by Peccei-Quinn theory replaces this term with a field and gives the Lagrangian natural CP symmetry.
 
@@ -185,24 +181,74 @@ While the discovery of the axion would solve one of the largest problems of stan
 
     There are a number of experiments that can provide information about axions, both directly and indirectly.  The mass range of axions, is essentially restricted from cosmological evidence from the CMB and stellar evolution.  Simultaneously, cavity microwave experiments such as ADMX \cite{stern2016admx} and NMR based searches such as CASPeR \cite{garcon2017searching} try to directly detect these low mass CDM candidates.
 
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.95\textwidth]{admx2_limits}
+	\caption{The projected sensitivity of the ADMX Generation 2 axion search.  Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass.  The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite{stern2016admx}.}
+\end{figure}
 
 \subsection{WIMPs}
 
 
-Weakly interacting massive particles (WIMPs), which will be the focus of the remainder of this work after this section, have proven to be the most popular dark matter candidate historically.   WIMPs not only satisfy the basic criteria listed at the beginning of this section but additionally they have what is referred to as the ``WIMP Miracle" in their favor.  In the early stages of the universe, the temperature and density were so large that all particles were in a state of chemical equilibrium.  A dark matter particle could annihilate by colliding with its anti-partner to form any type of particle vice versa.  As time passed, however, the universe expanded and cooled making it more unlikely for these dark matter particles to be created or destroyed.  Using this thermal equilibrium model alongside the $\Lambda$CDM model, one can infer that the CDM density in the universe today is approximately given by \cite{jungman1996supersymmetric, bertone2010particle}
+Weakly interacting massive particles (WIMPs), which will be the focus of the remainder of this work, have proven to be the most popular dark matter candidate historically.   WIMPs not only satisfy the basic criteria listed at the beginning of this section but additionally they have what is referred to as the ``WIMP Miracle" in their favor.  In the early stages of the universe, the temperature and density were so large that all particles were in a state of chemical equilibrium.  A dark matter particle could annihilate by colliding with its anti-partner to form any type of particle vice versa.  As time passed, however, the universe expanded and cooled making it more unlikely for these dark matter particles to be created or destroyed.  Using this thermal equilibrium model alongside the $\Lambda$CDM model, one can infer that the CDM density in the universe today is approximately given by \cite{jungman1996supersymmetric, bertone2010particle}
 
 \begin{equation}
         \Omega_{CDM}h^2 \approx \frac{3 \times 10^{-27} \mathrm{cm}^3  \mathrm{s}^{-1}}{\left< \sigma_{ann} v \right> }
 \end{equation}
 
+where $\left< \sigma_{ann} v \right>$ is thermally averaged annihilation cross-section of cold dark matter.  Incredibly enough, if we assume that cold dark matter has properties such as cross-section and mass on the weak scale, we find that $\Omega_{CDM}h^2 \approx 0.1$, which is in agreement with cosmological constraints. 
+
+In addition to WIMPs agreeing with cosmological evidence, several WIMP-like particles having masses on the order of 100 GeV with very long lifetimes naturally fall out of extensions of the standard model, such as supersymmetry.  
 
 
-Several WIMP-like particles naturally fall out from the extensions of the standard model, such as supersymmetry, that 
+
+\section{Detecting WIMPs}
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.75\textwidth]{wimp_detection}
+	\caption{The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection.  Image credit: \cite{bi2013status}.}
+	\label{fig:wimp_detection}
+\end{figure}
+
+Over the last few decades there has been an enormous concerted effort to detect WIMPs.  This effort has been focused in three general approaches: indirect detection, collider detection, and direct detection.  \figref{fig:wimp_detection} shows the idea behind these approaches:
+
+\begin{itemize}
+        \item Direct detection looks for the scattering of WIMPs with ordinary matter
+        \item Indirect detection looks for the annihilation of WIMPs in our galaxy into ordinary matter
+        \item Collider detection is an attempt at creating WIMPs by colliding ordinary matter
+\end{itemize}
+
+
+\subsection{Indirect Detection}
+
+%https://arxiv.org/pdf/1404.1938.pdf
+
+As we know from previous sections, WIMPs, if they make up all (or some) of the dark matter in the universe, must reside in galaxies to explain the odd behavior of rotation curves and the mass discrepancies.  Given the observational evidence, simulations have been created that can predict both the distribution of dark matter within our own and other galaxies \cite{stadel2009quantifying, maccio2007concentration} and the density of dark matter in our own solar system (roughly $0.2 - 0.4$ GeV \cite{read2014local}).  Indirect detection experiments look at high density regions of dark matter halos, such as in or around the Milky Way center and dwarf galaxies, to search for annihilations of WIMPs into detectable particles.
+
+The goal of indirect detection is to capture a dark matter annihilation by observing its byproducts.  In the ideal case, two dark matter particles would annihilate and create two protons with energies equal to the mass of the dark matter particle.  Even though this would be the ``smoking gun" evidence of dark matter, most of the standard model extension WIMPs predict that this would be highly suppressed.  Instead, these indirect experiments are more likely to observe the annihilation of WIMPs into other particles which in turn will produce photons \cite{bi2013status}.  
+
+A major difficulty in indirect detection experiments is distinguishing potential signals from normal astrophysical processes.  Since areas of high dark matter density are also typically areas of high astrophysical activity it becomes difficult to separate potential dark matter signals from potentially new astrophysics \cite{zitzer2015search}.  However, in recent years, astrophysicists have started turning their telescopes towards dwarf galaxies, which are dark matter dominated but have negligible astrophysical backgrounds \cite{conrad2014indirect}.  %For example, in 2012 the Fermi Large Area Telescope (Fermi-LAT) observed a line at 130 GeV near the galatic center in excess of the expected background with a significance of 4.5 sigma \cite{tempel2012fermi}.  However, over the last few years, this line has largely been ruled out by other experiments \cite{abdalla2016hess}
 
 
 
-\subsection{superWIMPs}
+\subsection{Collider Detection}
 
+The main idea behind collider detection is that since the WIMP is expected to have a mass on the order of $1-10^3$ GeV is that we can create it in particle accelerators.  Of course, detectors at particle accelerators are not designed to detect dark matter directly so when searching for WIMPs physicists must actually search for missing transverse energy (MET) in a collision. detect it via the missing transverse energy (MET).  The MET can be reconstructed by observing the outgoing particles and jets in a collision based on momentum conservation.  This reconstruction is shown in \figref{fig:collider_detection}.  Ultimately, this MET can be used to determine the mass and the new physics processes of the WIMP \cite{bi2013status}.
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.95\textwidth]{collider_detection_cms}
+	\caption{An image of a potential WIMP event in the CMS detector at CERN.  If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision.  Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP.  Image courtesy: Matevz Tadel, UC San Diego/CMS.}
+	\label{fig:collider_detection}
+\end{figure}
+
+One important note is that while we can potentially ``see" WIMPs in detectors at colliders,  it is impossible to be certain that this WIMP is what makes up the majority of the matter in the universe.  The same signal would need to be seen in indirect and direct searches as well to make such a confirmation \cite{queiroz2016dark}.
+
+
+\subsection{Direct Detection}
+
+The most basic models describing WIMPs predict that they are most likely to interact with atomic nuclei.  This assumption, along with cosmological evidence that WIMPs are non-relativistic, surprisingly gives way to a fairly straight-forward derivation of the rate of scattering that one could expect for different nuclei assuming a given scattering cross-section and mass for the WIMP.  We will outline the derivation presented in \citeref{lewin1996review}. 
 
 
 

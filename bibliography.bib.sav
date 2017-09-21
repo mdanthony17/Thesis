@@ -228,4 +228,113 @@
   author    = {Bertone, Gianfranco},
 }
 
+@Article{feng2003superweakly,
+  author    = {Feng, Jonathan L and Rajaraman, Arvind and Takayama, Fumihiro},
+  title     = {Superweakly interacting massive particle dark matter signals from the early Universe},
+  journal   = {Physical Review D},
+  year      = {2003},
+  volume    = {68},
+  number    = {6},
+  pages     = {063504},
+  publisher = {APS},
+}
+
+@Article{bi2013status,
+  author    = {Bi, Xiao-Jun and Yin, Peng-Fei and Yuan, Qiang},
+  title     = {Status of dark matter detection},
+  journal   = {Frontiers of Physics},
+  year      = {2013},
+  volume    = {8},
+  number    = {6},
+  pages     = {794--827},
+  publisher = {Springer},
+}
+
+@Article{stadel2009quantifying,
+  author    = {Stadel, Joachim and Potter, Doug and Moore, Ben and Diemand, J{\"u}rg and Madau, Piero and Zemp, Marcel and Kuhlen, Michael and Quilis, Vicent},
+  title     = {Quantifying the heart of darkness with GHALO--a multibillion particle simulation of a galactic halo},
+  journal   = {Monthly Notices of the Royal Astronomical Society: Letters},
+  year      = {2009},
+  volume    = {398},
+  number    = {1},
+  pages     = {L21--L25},
+  publisher = {Blackwell Science Ltd Oxford, UK},
+}
+
+@Article{maccio2007concentration,
+  author    = {Macci{\`o}, Andrea V and Dutton, Aaron A and Van Den Bosch, Frank C and Moore, Ben and Potter, Doug and Stadel, Joachim},
+  title     = {Concentration, spin and shape of dark matter haloes: scatter and the dependence on mass and environment},
+  journal   = {Monthly Notices of the Royal Astronomical Society},
+  year      = {2007},
+  volume    = {378},
+  number    = {1},
+  pages     = {55--71},
+  publisher = {Blackwell Publishing Ltd Oxford, UK},
+}
+
+@Article{read2014local,
+  author    = {Read, JI},
+  title     = {The local dark matter density},
+  journal   = {Journal of Physics G: Nuclear and Particle Physics},
+  year      = {2014},
+  volume    = {41},
+  number    = {6},
+  pages     = {063101},
+  publisher = {IOP Publishing},
+}
+
+@Article{tempel2012fermi,
+  author    = {Tempel, Elmo and Hektor, Andi and Raidal, Martti},
+  title     = {Fermi 130 GeV gamma-ray excess and dark matter annihilation in sub-haloes and in the Galactic centre},
+  journal   = {Journal of Cosmology and Astroparticle Physics},
+  year      = {2012},
+  volume    = {2012},
+  number    = {09},
+  pages     = {032},
+  publisher = {IOP Publishing},
+}
+
+@Article{abdalla2016hess,
+  author    = {Abdalla, H and Abramowski, A and Aharonian, F and Benkhali, F Ait and Akhperjanian, AG and Andersson, T and Ang{\"u}ner, EO and Arrieta, M and Aubert, P and Backes, M and others},
+  title     = {HESS limits on linelike dark matter signatures in the 100 GeV to 2 TeV energy range close to the galactic center},
+  journal   = {Physical review letters},
+  year      = {2016},
+  volume    = {117},
+  number    = {15},
+  pages     = {151302},
+  publisher = {APS},
+}
+
+@Article{zitzer2015search,
+  author  = {Zitzer, Benjamin and others},
+  title   = {Search for dark matter from dwarf galaxies using VERITAS},
+  journal = {arXiv preprint arXiv:1509.01105},
+  year    = {2015},
+}
+
+@Article{conrad2014indirect,
+  author  = {Conrad, Jan},
+  title   = {Indirect Detection of WIMP Dark Matter: a compact review},
+  journal = {arXiv preprint arXiv:1411.1925},
+  year    = {2014},
+}
+
+@Article{queiroz2016dark,
+  author  = {Queiroz, Farinaldo S},
+  title   = {Dark matter overview: collider, direct and indirect detection searches},
+  journal = {arXiv preprint arXiv:1605.08788},
+  year    = {2016},
+}
+
+@Article{lewin1996review,
+  author    = {Lewin, JD and Smith, PF},
+  title     = {Review of mathematics, numerical factors, and corrections for dark matter experiments based on elastic nuclear recoil},
+  journal   = {Astroparticle Physics},
+  year      = {1996},
+  volume    = {6},
+  number    = {1},
+  pages     = {87--112},
+  publisher = {Elsevier},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
