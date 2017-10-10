@@ -16,7 +16,7 @@ For nearly a century, experimental evidence has suggested that a large portion o
 	In this chapter, I will focus on the leading dark matter model, the experimental evidence for its existence, the different candidates for particle dark matter, and the current detection methods employed in the search for particle dark matter.
 	
 	
-\section{$\boldsymbol{\Lambda}$CDM Model}
+\section[$\Lambda$CDM Model][$\Lambda$CDM Model]{$\boldsymbol{\Lambda}$CDM Model}
 \label{sec:cdm}
 
 	One of the guiding principles of cosmology are the assumptions that the universe is both homogeneous and isotropic at large enoug scales (typically on the order 100 Mpc or $10^{5}$ light years).  Continuing with these principles and maintaining generality, we can arrive at the Robertson-Walker space-time metric
@@ -214,11 +214,12 @@ In addition to WIMPs agreeing with cosmological evidence, several WIMP-like part
 Over the last few decades there has been an enormous concerted effort to detect WIMPs.  This effort has been focused in three general approaches: indirect detection, collider detection, and direct detection.  \figref{fig:wimp_detection} shows the idea behind these approaches:
 
 \begin{itemize}
-        \item Direct detection looks for the scattering of WIMPs with ordinary matter
         \item Indirect detection looks for the annihilation of WIMPs in our galaxy into ordinary matter
         \item Collider detection is an attempt at creating WIMPs by colliding ordinary matter
+        \item Direct detection looks for the scattering of WIMPs with ordinary matter
 \end{itemize}
 
+In this section we will discuss these three detection approaches with an emphasis on direct detection.  We will conclude with a brief discussion of the current direct detection experiments and notable results from this sector.
 
 \subsection{Indirect Detection}
 \label{sec:indirect_detection}
@@ -234,7 +235,7 @@ A major difficulty in indirect detection experiments is distinguishing potential
 
 \subsection{Collider Detection}
 
-The main idea behind collider detection is that since the WIMP is expected to have a mass on the order of $1-10^3$ GeV is that we can create it in particle accelerators.  Of course, detectors at particle accelerators are not designed to detect dark matter directly so when searching for WIMPs physicists must actually search for missing transverse energy (MET) in a collision. detect it via the missing transverse energy (MET).  The MET can be reconstructed by observing the outgoing particles and jets in a collision based on momentum conservation.  This reconstruction is shown in \figref{fig:collider_detection}.  Ultimately, this MET can be used to determine the mass and the new physics processes of the WIMP \cite{bi2013status}.
+The main idea behind collider detection is that since the WIMP is expected to have a mass on the order of $1-10^3$ GeV is that we can create it in particle accelerators.  Of course, detectors at particle accelerators are not designed to detect dark matter directly so when searching for WIMPs physicists must actually search for missing transverse energy (MET) in a collision.  The MET can be reconstructed by observing the outgoing particles and jets in a collision based on momentum conservation.  This reconstruction is shown in \figref{fig:collider_detection}.  Ultimately, this MET can be used to determine the mass and the new physics processes of the WIMP \cite{bi2013status}.
 
 \begin{figure}[b]
 	\centering
@@ -303,24 +304,85 @@ In this equation, $f_p$ and $f_n$ are the WIMP couplings to the proton and neutr
 All of this can be combined such that we are only dependent on two variables: the mass of the WIMP and its cross-section with a proton.
 
 \begin{equation}
-        \frac{dR}{dE} = \frac{\rho_0 A^2 \sigma_p}{2 m_{\chi} \mu_{\chi p}} F(E)^2 \int_{v_{\textrm{min}}(E)}^{v_{\textrm{esc}}}  \frac{f(v)}{v} dv
+        \frac{dR}{dE} = \frac{\rho_0 A^2 \sigma_p}{2 m_{\chi} \mu_{\chi p}^2} F(E)^2 \int_{v_{\textrm{min}}(E)}^{v_{\textrm{esc}}}  \frac{f(v)}{v} dv
 \end{equation}
 
-With the differential scattering rate, we can predict the number of WIMPs of a given cross-section and mass we would expect to scatter in a detector of a certain size.  
+With the differential scattering rate, we can predict the number of WIMPs of a given cross-section and mass we would expect to scatter in a detector wth a certain target mass, M, in a given time period, T.  Notice that, as expected, the larger your detector is and the longer you run, the more likely you are to see a WIMP.
 
 \begin{equation}
+        N(\sigma_p, m_{\chi}) = M \, T \int \frac{dR}{dE} dE
+\end{equation}
 
-Of course, the above equation does not account for detector constraints, which typically make it very difficult to probe the lowest energies.
 
-\begin{figure}[b]
+
+The differential scattering rates for a few targets and for different WIMP masses can be seen in \figref{fig:wimp_scattering_rate}.  Notice that xenon, with its very large nucleus, gives a significantly higher scattering rate versus most other targets for a wide range of energies.  Also notice that as the mass of the WIMP decreases, the differential scattering rate curve becomes steeper and steeper meaning that low mass WIMPs become increasingly difficult to observe.
+
+% image of scattering rate for different nuclei and scattering rate for different WIMP masses in Xe
+\begin{figure}[t]
 	\centering
-	\includegraphics[width=0.99\textwidth]{}
-	\caption{}
+	\includegraphics[width=0.99\textwidth]{wimp_recoil_rates}
+	\caption{On the left are the differential scattering rates for a 100 $\sfrac{\textrm{GeV}}{\textrm{c}^2}$ WIMP with a spin independent cross section of $10^{-47} \, \textrm{cm}^2$.  On the right are the differential recoil spectra for WIMPs scattering with a xenon nuclei with a spin independent cross section of $10^{-47} \, \textrm{cm}^2$ assuming different WIMP masses.}
 	\label{fig:wimp_scattering_rate}
 \end{figure}
 
 
-% image of scattering rate for different nuclei and scattering rate for different WIMP masses in Xe
+\subsection{Direct Detection Experiments}
 
-% need to also mention size of detector
+The field of direct detection experiments is likely best described as diverse.  A WIMP interacting in a detector can deposit energy resulting in heat, ionization, or scintillation.  Current direct detection experiments leverage all three of these possibilities and many use two of these channels simultaneously to better discriminate types of interactions (electronic vs. nuclear recoils).  
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.99\textwidth]{dm_expts_2}
+	\caption{A diagram showing the possible observables and observable combinations along with the most common detector types for each.  Image courtesy: \cite{undagoitia2015dark}.}
+	\label{fig:dm_expts}
+\end{figure}
+
+\subsubsection{Heat}
+
+There are two basic strategies of measuring the heat deposit of potential WIMP interactions that are on opposite sides of the temperature spectrum: cryogenic thermometers and super-heated liquids (bubble chambers).  Cryogenic thermometers are detectors cooled down to mK levels that measure the energy deposited by an interaction via the increase in temperature.  In recent years, these cryogenic thermometers have been coupled with light and charge detectors in order to discriminate between electronic and nuclear recoils to some extent \cite{strauss2016exploring}.  
+
+Bubble chambers operate by filling a detector with a super-heated liquid that is just below its boiling point.  When ionizing radiation enters, it will form bubbles that can be detected by acoustic sensors.  One major advantage of bubble chambers is that they are almost completely insensitive to background radiation which is the main source of background for almost all other experiments.  The PICO collaboration uses bubble chamber technology to search for dark matter and currently have the most stringent spin-dependent dark matter limits \cite{amole2017dark}.  
+
+\subsubsection{Scintillation}
+
+Scintillators have proven to be some of the most useful detectors in all of physics.  The operating principle is that as radiation pass through a detector, it excites the atoms and molecules in the medium which in turn produce light.  In single-channel scintillation experiments, scintillating inorganic crystals, such as NaI, are typically used.  Inorganic crystals are typically doped with an additional element, most commonly thallium, to increase their light yield and give alter the wavelength to one that is more sensitive to photomultiplier tubes (the devices that are used to convert the light into an electrical signal).  The major downside of using an inorganic crystal, however, is that one cannot discriminate between different types of recoils in the detector \cite{undagoitia2015dark}.  The most famous experiment to use an inorganic crystal is the DAMA collaboration, which utilized a 250 kg NaI(Tl) crystal.  Since their operation began they have seen a statistically significant annual modulation in their event rate that agrees with predictions of how a dark matter signal would vary over the course of the year according to the standard halo model \cite{bernabei2010particle}.   \figref{fig:dama_modulation} shows this annual modulation.  However, the claim that the signal is dark matter has been extremely controversial since other experiments have been unable to replicate the results under the assumptions of many models and even an annual modulation test in an alternate detector \cite{aalseth2014maximum, xmass2016direct, aprile2017search}.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.99\textwidth]{dama_modulation}
+	\caption{The annual modulation seen by the DAMA collaboration.  The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal \cite{undagoitia2015dark}.}
+	\label{fig:dama_modulation}
+\end{figure}
+
+While many experiments use organic scintillators (typically liquid argon or xenon), they typically measure both scintillation and ionization.  However, there are some experiments that are hoping to witness a WIMP interaction while only measuring scintillation.  XMASS-I, for example, is a detector with an 832 kg liquid xenon target that, like DAMA, employed an annual modulation approach in their search for WIMPs.  Unlike DAMA, however, they see no annual modulation in their data \cite{xmass2016direct}.  
+
+A unique property of many organic scintillators is that there are usually two states in which the atoms can be excited into, a singlet and triplet state each with different decay times, and different types of interaction (electronic versus nuclear) will produce each in different fractions.  For argon, this difference in lifetime between the states is from less than 6 ns to 1,300 ns \cite{heindl2011table} meaning that pulse shape discrimination (PSD) is possible, while for xenon the difference is only 4.3 ns to 22 ns meaning that PSD is very difficult.  DEAP-3600, a 3600 kg liquid argon detector, uses this pulse shape discrimination technique to identify nuclear recoils in their detector even though they only measure the scintillation light \cite{amaudruz2017first}.     
+
+
+\subsubsection{Ionization}
+
+The majority of experiments that used charge as their only channel utilized high-purity germanium detectors.  These type of detectors operate by having incoming particles free electrons in a consistent and linear fashion as function of energy.  These types of detectors are able to go to observe interactions at much lower energies than most other detectors, allowing them to probe lower WIMP masses.  The most recent of these single-channel HPGe experiments was CoGeNT.  In early 2014, CoGeNT announced that they also had seen an annual modulation that matched the standard halo model \cite{aalseth2014search} however this was found to be an error in the estimation of the background \cite{aalseth2014maximum}.
+
+
+\subsubsection{Heat-Scintillation}
+
+As mentioned earliers, many of the experiments that use heat as a channel also couple it with another channel.  CRESST-II is an example of such an experiment - CREST-II uses a roughly 5 kg target of $\textrm{CaWO}_4$ that is cooled to mK temperatures.  The detector also utilizes a small silicon-on-sapphire absorber to measure the scintillation light produced.  The addition of this scintillation detector enables the detector to discriminate between electronic background and potential signals \cite{strauss2016exploring}.  
+
+\subsubsection{Heat-Ionization}
+
+The HPGe crystals used to detect ionization signals can also be cooled such that measuring heat signals is possible.  One example of this procedure is in the EDELWEISS-III experiment.  In EDELWEISS-III, 24 800 g HPGe detectors cooled to 18 mK were employed in their search for WIMPs. Again, this combination of channels allows EDELWEISS-III to discriminate electronic from nuclear recoils in their detector \cite{armengaud2016constraints}.
+
+\subsubsection{Scintillation-Ionization}
+
+While many of the experiments mentioned excel at low mass, none have been as successful as dual-channel scintillation-ionization experiments at very large mass ranges.  Specifically, dual-phase liquid xenon time projection chambers (TPCs) have led the field in the WIMP search from roughly 10 GeV to 1 TeV for almost a decade.  As of this writing, XENON1T, the first ton-scale dual-phase TPC, holds the strongest limit of spin-independent WIMP scattering at any mass \cite{aprile2017first, collaboration2017dark}.  Not only are these detectors capable of a high level discrimination between electronic and nuclear recoils but they are also capable of measuring the position of an interaction in the detector allowing further elimination of background sources.  However, one of the major difficulties of these types of experiments is that the response of liquid xenon to low energy electronic and nuclear recoils is not well understood.  A great deal of effort has gone into measuring the response of xenon to these low energy interactions and later we will focus on an experiment designed for exactly this purpose.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.99\textwidth]{dm_si_limits}
+	\caption{Selected spin-independent WIMP limits from selected experiments and the discovery contour from DAMA's annual modulation.  The dashed line shown in brown marks the point where neutrinos will become a background source in WIMP searches.  Notice that the three liquid xenon dual-phase TPC based experiments (PandaX-II, LUX, and XENON1T) set the strongest limit over a wide range of WIMP masses \cite{agnese2015improved, armengaud2016constraints, savage2009compatibility, amole2017dark, tan2016dark, akerib2017results, aprile2017first, angloher2016results, ruppin2014complementarity}.}
+	\label{fig:dm_si_limits}
+\end{figure}
+
+
+
 

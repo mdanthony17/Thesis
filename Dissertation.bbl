@@ -1479,6 +1479,2261 @@
   \field{year}{1991}
 \endentry
 
+\entry{strauss2016exploring}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Strauss}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Angloher}{A.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bento}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bucci}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canonica}{C.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Defay}{D.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erb}{E.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Feilitzsch}{F.}%
+     {F~v}{F.~v.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iachellini}{I.}%
+     {N~Ferreiro}{N.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gorla}{G.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SRAGBA+1}
+  \strng{fullhash}{SRAGBABCCLDXEAFFvINFGP+1}
+  \field{number}{3-4}
+  \field{pages}{866\bibrangedash 872}
+  \field{title}{Exploring low-mass dark matter with CRESST}
+  \field{volume}{184}
+  \field{journaltitle}{Journal of Low Temperature Physics}
+  \field{year}{2016}
+\endentry
+
+\entry{amole2017dark}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Amole}{A.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ardid}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arnquist}{A.}%
+     {Isaac~J}{I.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asner}{A.}%
+     {David~M}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baxter}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behnke}{B.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bhattacharjee}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borsodi}{B.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bou-Cabo}{B.-C.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campion}{C.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ACAMAIJ+1}
+  \strng{fullhash}{ACAMAIJADMBDBEBPBHBCMCP+1}
+  \field{number}{25}
+  \field{pages}{251301}
+  \field{title}{Dark Matter Search Results from the PICO- 60 C 3 F 8 Bubble
+  Chamber}
+  \field{volume}{118}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2017}
+\endentry
+
+\entry{bernabei2010particle}{inproceedings}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Bernabei}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belli}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cappella}{C.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cerulli}{C.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dai}{D.}%
+     {CJ}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {d’Angelo}{d.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {HL}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Incicchitti}{I.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ma}{M.}%
+     {XH}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montecchia}{M.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {AIP}%
+  }
+  \strng{namehash}{BRBPCF+1}
+  \strng{fullhash}{BRBPCFCRDCdAHHIAMXMF+1}
+  \field{booktitle}{AIP Conference Proceedings}
+  \field{number}{1}
+  \field{pages}{50\bibrangedash 59}
+  \field{title}{Particle dark matter and DAMA/LIBRA}
+  \field{volume}{1223}
+  \field{year}{2010}
+\endentry
+
+\entry{aalseth2014maximum}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aalseth}{A.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbeau}{B.}%
+     {PS}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leon}{L.}%
+     {J~Diaz}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fast}{F.}%
+     {JE}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hossbach}{H.}%
+     {TW}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knecht}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kos}{K.}%
+     {MS}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marino}{M.}%
+     {MG}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miley}{M.}%
+     {HS}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miller}{M.}%
+     {ML}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ACBPLJD+1}
+  \strng{fullhash}{ACBPLJDFJHTKAKMMMMHMM+1}
+  \field{title}{Maximum likelihood signal extraction method applied to 3.4
+  years of CoGeNT data}
+  \field{journaltitle}{arXiv preprint arXiv:1401.6234}
+  \field{year}{2014}
+\endentry
+
+\entry{xmass2016direct}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {collaboration}{c.}%
+     {XMASS}{X.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{cX+1}
+  \strng{fullhash}{cX+1}
+  \field{pages}{272\bibrangedash 276}
+  \field{title}{Direct dark matter search by annual modulation in XMASS-I}
+  \field{volume}{759}
+  \field{journaltitle}{Physics Letters B}
+  \field{year}{2016}
+\endentry
+
+\entry{aprile2017search}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {Boris}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+1}
+  \field{number}{10}
+  \field{pages}{101101}
+  \field{title}{Search for Electronic Recoil Event Rate Modulation with 4 Years
+  of XENON100 Data}
+  \field{volume}{118}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2017}
+\endentry
+
+\entry{heindl2011table}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Heindl}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dandl}{D.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fedenev}{F.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hofmann}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kr{\"u}cken}{K.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oberauer}{O.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Potzel}{P.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wieser}{W.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulrich}{U.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{HTDTFA+1}
+  \strng{fullhash}{HTDTFAHMKROLPWWJUA1}
+  \field{number}{02}
+  \field{pages}{P02011}
+  \field{title}{Table-top setup for investigating the scintillation properties
+  of liquid argon}
+  \field{volume}{6}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2011}
+\endentry
+
+\entry{amaudruz2017first}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Amaudruz}{A.}%
+     {P-A}{P.-A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baldwin}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Batygov}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltran}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bina}{B.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bishop}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonatt}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boorman}{B.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boulay}{B.}%
+     {MG}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Broerman}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{APABMBM+1}
+  \strng{fullhash}{APABMBMBBBCBDBJBGBMBB+1}
+  \field{title}{First results from the DEAP-3600 dark matter search with argon
+  at SNOLAB}
+  \field{journaltitle}{arXiv preprint arXiv:1707.08042}
+  \field{year}{2017}
+\endentry
+
+\entry{aalseth2014search}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aalseth}{A.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbeau}{B.}%
+     {PS}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colaresi}{C.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collar}{C.}%
+     {JI}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leon}{L.}%
+     {J~Diaz}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fast}{F.}%
+     {JE}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fields}{F.}%
+     {NE}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hossbach}{H.}%
+     {TW}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knecht}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kos}{K.}%
+     {MS}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ACBPCJ+1}
+  \strng{fullhash}{ACBPCJCJLJDFJFNHTKAKM+1}
+  \field{title}{Search for an annual modulation in three years of CoGeNT dark
+  matter detector data}
+  \field{journaltitle}{arXiv preprint arXiv:1401.3295}
+  \field{year}{2014}
+\endentry
+
+\entry{armengaud2016constraints}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Armengaud}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arnaud}{A.}%
+     {Q}{Q}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Augier}{A.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benoit}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berg{\'e}}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bergmann}{B.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Billard}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bl{\"u}mer}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Boissi{\`e}re}{D.~B.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bres}{B.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{AEAQAC+1}
+  \strng{fullhash}{AEAQACBABLBTBJBJDBTBG+1}
+  \field{number}{05}
+  \field{pages}{019}
+  \field{title}{Constraints on low-mass WIMPs from the EDELWEISS-III dark
+  matter search}
+  \field{volume}{2016}
+  \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+  \field{year}{2016}
+\endentry
+
+\entry{aprile2017first}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+2}
+  \field{title}{First Dark Matter Search Results from the XENON1T Experiment}
+  \field{journaltitle}{arXiv preprint arXiv:1705.06655}
+  \field{year}{2017}
+\endentry
+
+\entry{collaboration2017dark}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {PandaX-II}{P.-I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cui}{C.}%
+     {Xiangyi}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abdukerim}{A.}%
+     {Abdusalam}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Xun}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yunhua}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dong}{D.}%
+     {Binbin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fang}{F.}%
+     {Deqing}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fu}{F.}%
+     {Changbo}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CPICXAA+1}
+  \strng{fullhash}{CPICXAACWCXCYDBFDFCGK+1}
+  \field{title}{Dark Matter Results From 54-Ton-Day Exposure of PandaX-II
+  Experiment}
+  \field{journaltitle}{arXiv preprint arXiv:1708.06917}
+  \field{year}{2017}
+\endentry
+
+\entry{agnese2015improved}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Agnese}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anderson}{A.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asai}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balakishiyeva}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barker}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thakur}{T.}%
+     {R~Basu}{R.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauer}{B.}%
+     {DA}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Billard}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borgland}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bowles}{B.}%
+     {MA}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ARAAAM+1}
+  \strng{fullhash}{ARAAAMBDBDTRBBDBJBABM+1}
+  \field{number}{7}
+  \field{pages}{072003}
+  \field{title}{Improved WIMP-search reach of the CDMS II germanium data}
+  \field{volume}{92}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2015}
+\endentry
+
+\entry{savage2009compatibility}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Savage}{S.}%
+     {Christopher}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gelmini}{G.}%
+     {Graciela}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gondolo}{G.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freese}{F.}%
+     {Katherine}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{SCGGGP+1}
+  \strng{fullhash}{SCGGGPFK1}
+  \field{number}{04}
+  \field{pages}{010}
+  \field{title}{Compatibility of DAMA/LIBRA dark matter detection with other
+  searches}
+  \field{volume}{2009}
+  \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+  \field{year}{2009}
+\endentry
+
+\entry{tan2016dark}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Tan}{T.}%
+     {Andi}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xiao}{X.}%
+     {Mengjiao}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cui}{C.}%
+     {Xiangyi}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Xun}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yunhua}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fang}{F.}%
+     {Deqing}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fu}{F.}%
+     {Changbo}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giuliani}{G.}%
+     {Franco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gong}{G.}%
+     {Haowei}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{TAXMCX+1}
+  \strng{fullhash}{TAXMCXCXCYFDFCGKGFGH+1}
+  \field{number}{12}
+  \field{pages}{121303}
+  \field{title}{Dark matter results from first 98.7 days of data from the
+  PandaX-II experiment}
+  \field{volume}{117}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2016}
+\endentry
+
+\entry{akerib2017results}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Akerib}{A.}%
+     {DS}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alsum}{A.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ara{\'u}jo}{A.}%
+     {HM}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bai}{B.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bailey}{B.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balajthy}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernard}{B.}%
+     {EP}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biesiadzinski}{B.}%
+     {TP}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ADASAH+1}
+  \strng{fullhash}{ADASAHBXBABJBPBEBABT+1}
+  \field{number}{2}
+  \field{pages}{021303}
+  \field{title}{Results from a search for dark matter in the complete LUX
+  exposure}
+  \field{volume}{118}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2017}
+\endentry
+
+\entry{angloher2016results}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Angloher}{A.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bento}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bucci}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canonica}{C.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Defay}{D.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erb}{E.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Feilitzsch}{F.}%
+     {F}{F}%
+     {von}{v.}%
+     {}{}}%
+    {{}%
+     {Iachellini}{I.}%
+     {N~Ferreiro}{N.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gorla}{G.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\"u}tlein}{G.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{AGBABC+1}
+  \strng{fullhash}{AGBABCCLDXEAFFvINFGPGA+1}
+  \field{number}{1}
+  \field{pages}{25}
+  \field{title}{Results on light dark matter particles with a low-threshold
+  CRESST-II detector}
+  \field{volume}{76}
+  \field{journaltitle}{The European Physical Journal C}
+  \field{year}{2016}
+\endentry
+
+\entry{ruppin2014complementarity}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ruppin}{R.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Billard}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Figueroa-Feliciano}{F.-F.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strigari}{S.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{RFBJFFE+1}
+  \strng{fullhash}{RFBJFFESL1}
+  \field{number}{8}
+  \field{pages}{083510}
+  \field{title}{Complementarity of dark matter detectors in light of the
+  neutrino background}
+  \field{volume}{90}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2014}
+\endentry
+
+\entry{albert2014improved}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Albert}{A.}%
+     {JB}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Auger}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Auty}{A.}%
+     {DJ}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbeau}{B.}%
+     {PS}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beauchamp}{B.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beck}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belov}{B.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benitez-Medina}{B.-M.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonatt}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Breidenbach}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AJAMAD+1}
+  \strng{fullhash}{AJAMADBPBEBDBVBMCBJBM+1}
+  \field{number}{1}
+  \field{pages}{015502}
+  \field{title}{Improved measurement of the 2 {$\nu \beta \beta$} half-life of
+  136 Xe with the EXO-200 detector}
+  \field{volume}{89}
+  \field{journaltitle}{Physical Review C}
+  \field{year}{2014}
+\endentry
+
+\entry{ni2007preparation}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hasty}{H.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wongjirad}{W.}%
+     {TM}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kastens}{K.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manzur}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKinsey}{M.}%
+     {DN}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{NKHRWT+1}
+  \strng{fullhash}{NKHRWTKLMAMD1}
+  \field{number}{2}
+  \field{pages}{569\bibrangedash 574}
+  \field{title}{Preparation of neutron-activated xenon for liquid xenon
+  detector calibration}
+  \field{volume}{582}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2007}
+\endentry
+
+\entry{abe2009distillation}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Abe}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hosaka}{H.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iida}{I.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ikeda}{I.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kobayashi}{K.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koshio}{K.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Minamino}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miura}{M.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moriyama}{M.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakahata}{N.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{AKHJIT+1}
+  \strng{fullhash}{AKHJITIMKKKYMAMMMSNM+1}
+  \field{number}{4}
+  \field{pages}{290\bibrangedash 296}
+  \field{title}{Distillation of liquid xenon to remove krypton}
+  \field{volume}{31}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{year}{2009}
+\endentry
+
+\entry{aprile2017removing}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {Boris}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+3}
+  \field{number}{5}
+  \field{pages}{275}
+  \field{title}{Removing krypton from xenon by cryogenic distillation to the
+  ppq level}
+  \field{volume}{77}
+  \field{journaltitle}{The European Physical Journal C}
+  \field{year}{2017}
+\endentry
+
+\entry{barros2014double}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Barros}{B.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thurn}{T.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuber}{Z.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{BNTJZK1}
+  \strng{fullhash}{BNTJZK1}
+  \field{number}{11}
+  \field{pages}{115105}
+  \field{title}{Double beta decay searches of 134Xe, 126Xe and 124Xe with large
+  scale Xe detectors}
+  \field{volume}{41}
+  \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+  \field{year}{2014}
+\endentry
+
+\entry{rankin2009crc}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rankin}{R.}%
+     {David~WH}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis}%
+  }
+  \strng{namehash}{RDW1}
+  \strng{fullhash}{RDW1}
+  \field{title}{CRC handbook of chemistry and physics, edited by David R. Lide}
+  \field{year}{2009}
+\endentry
+
+\entry{aprile2006simultaneous}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {Elena}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dahl}{D.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Viveiros}{V.}%
+     {L}{L}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Gaitskell}{G.}%
+     {RJ}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {Karl-Ludwig}{K.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kwong}{K.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Majewski}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shutt}{S.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamashita}{Y.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEDCVLd+1}
+  \strng{fullhash}{AEDCVLdGRGKLKJMPNKSTYM1}
+  \field{number}{8}
+  \field{pages}{081302}
+  \field{title}{Simultaneous measurement of ionization and scintillation from
+  nuclear recoils in liquid xenon for a dark matter experiment}
+  \field{volume}{97}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2006}
+\endentry
+
+\entry{hitachi1983effect}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Hitachi}{H.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takahashi}{T.}%
+     {Tan}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Funayama}{F.}%
+     {Nobutaka}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masuda}{M.}%
+     {Kimiaki}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kikuchi}{K.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doke}{D.}%
+     {Tadayoshi}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{HATTFN+1}
+  \strng{fullhash}{HATTFNMKKJDT1}
+  \field{number}{9}
+  \field{pages}{5279}
+  \field{title}{Effect of ionization density on the time dependence of
+  luminescence from liquid argon and xenon}
+  \field{volume}{27}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{1983}
+\endentry
+
+\entry{doke2002absolute}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Doke}{D.}%
+     {Tadayoshi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hitachi}{H.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kikuchi}{K.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masuda}{M.}%
+     {Kimiaki}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Okada}{O.}%
+     {Hiroyuki}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shibamura}{S.}%
+     {Eido}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{DTHAKJ+1}
+  \strng{fullhash}{DTHAKJMKOHSE1}
+  \field{number}{3R}
+  \field{pages}{1538}
+  \field{title}{Absolute scintillation yields in liquid argon and xenon for
+  various particles}
+  \field{volume}{41}
+  \field{journaltitle}{Japanese journal of applied physics}
+  \field{year}{2002}
+\endentry
+
+\entry{lindhard1963integral}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lindhard}{L.}%
+     {Jens}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nielsen}{N.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scharff}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thomsen}{T.}%
+     {PV}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LJNVSM+1}
+  \strng{fullhash}{LJNVSMTP1}
+  \field{number}{10}
+  \field{pages}{1\bibrangedash 42}
+  \field{title}{Integral equations governing radiation effects}
+  \field{volume}{33}
+  \field{journaltitle}{Mat. Fys. Medd. Dan. Vid. Selsk}
+  \field{year}{1963}
+\endentry
+
+\entry{hitachi2005properties}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hitachi}{H.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{number}{3}
+  \field{pages}{247\bibrangedash 256}
+  \field{title}{Properties of liquid xenon scintillation for dark matter
+  searches}
+  \field{volume}{24}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{year}{2005}
+\endentry
+
+\entry{cottingham1987introduction}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Cottingham}{C.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenwood}{G.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{CWGD1}
+  \strng{fullhash}{CWGD1}
+  \field{title}{An Introduction to Nuclear Physics}
+  \field{year}{1987}
+\endentry
+
+\entry{mantel1972beta}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mantel}{M.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{number}{9}
+  \field{pages}{407\bibrangedash 413}
+  \field{title}{The beta ray spectrum and the average beta energy of several
+  isotopes of interest in medicine and biology}
+  \field{volume}{23}
+  \field{journaltitle}{The International journal of applied radiation and
+  isotopes}
+  \field{year}{1972}
+\endentry
+
+\entry{aprile2017radon}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {Boris}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+3}
+  \field{number}{7}
+  \field{pages}{072008}
+  \field{title}{Results from a calibration of XENON100 using a source of
+  dissolved radon-220}
+  \field{volume}{95}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2017}
+\endentry
+
+\entry{akerib2016tritium}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Akerib}{A.}%
+     {DS}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ara{\'u}jo}{A.}%
+     {HM}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bai}{B.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bailey}{B.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balajthy}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernard}{B.}%
+     {EP}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biesiadzinski}{B.}%
+     {TP}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boulton}{B.}%
+     {EM}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ADAHBX+1}
+  \strng{fullhash}{ADAHBXBABJBPBEBABTBE+1}
+  \field{number}{7}
+  \field{pages}{072009}
+  \field{title}{Tritium calibration of the LUX dark matter experiment}
+  \field{volume}{93}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2016}
+\endentry
+
+\entry{aprile2017tritium}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+4}
+  \field{title}{Signal Yields of keV Electronic Recoils and Their
+  Discrimination from Nuclear Recoils in Liquid Xenon}
+  \field{journaltitle}{arXiv preprint arXiv:1709.10149}
+  \field{year}{2017}
+\endentry
+
+\entry{knoll2010radiation}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knoll}{K.}%
+     {Glenn~F}{G.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {John Wiley \& Sons}%
+  }
+  \strng{namehash}{KGF1}
+  \strng{fullhash}{KGF1}
+  \field{title}{Radiation detection and measurement}
+  \field{year}{2010}
+\endentry
+
+\entry{berger8coll}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Berger}{B.}%
+     {MJ}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BM1}
+  \strng{fullhash}{BM1}
+  \field{title}{XCOM: Photon Cross Sections Database}
+  \field{journaltitle}{NIST Standard Reference Database 8 (XGAM)}
+\endentry
+
+\entry{chadwick2011endf}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Chadwick}{C.}%
+     {MB}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herman}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oblo{\v{z}}insk{\`y}}{O.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunn}{D.}%
+     {Michael~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Danon}{D.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kahler}{K.}%
+     {AC}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Donald~L}{D.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pritychenko}{P.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arbanas}{A.}%
+     {Goran}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arcilla}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{CMHMOP+1}
+  \strng{fullhash}{CMHMOPDMEDYKASDLPBAGAR+1}
+  \field{number}{12}
+  \field{pages}{2887\bibrangedash 2996}
+  \field{title}{ENDF/B-VII. 1 nuclear data for science and technology: cross
+  sections, covariances, fission product yields and decay data}
+  \field{volume}{112}
+  \field{journaltitle}{Nuclear Data Sheets}
+  \field{year}{2011}
+\endentry
+
+\entry{timar2014nuclear}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Timar}{T.}%
+     {Janos}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elekes}{E.}%
+     {Zoltan}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Singh}{S.}%
+     {Balraj}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{TJEZSB1}
+  \strng{fullhash}{TJEZSB1}
+  \field{pages}{143\bibrangedash 394}
+  \field{title}{Nuclear Data Sheets for A= 129}
+  \field{volume}{121}
+  \field{journaltitle}{Nuclear Data Sheets}
+  \field{year}{2014}
+\endentry
+
+\entry{khazov2006nuclear}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Khazov}{K.}%
+     {Yu}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mitropolsky}{M.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodionov}{R.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{KYMIRA1}
+  \strng{fullhash}{KYMIRA1}
+  \field{number}{11}
+  \field{pages}{2715\bibrangedash 2930}
+  \field{title}{Nuclear data sheets for A= 131}
+  \field{volume}{107}
+  \field{journaltitle}{Nuclear Data Sheets}
+  \field{year}{2006}
+\endentry
+
+\entry{aprile2016physics}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arazi}{A.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balan}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMALAFBCBP+1}
+  \field{number}{04}
+  \field{pages}{027}
+  \field{title}{Physics reach of the XENON1T dark matter experiment.}
+  \field{volume}{2016}
+  \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+  \field{year}{2016}
+\endentry
+
+\entry{franarin2016reducing}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Franarin}{F.}%
+     {Tarso}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fairbairn}{F.}%
+     {Malcolm}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{FTFM1}
+  \strng{fullhash}{FTFM1}
+  \field{number}{5}
+  \field{pages}{053004}
+  \field{title}{Reducing the solar neutrino background in dark matter searches
+  using polarized Helium-3}
+  \field{volume}{94}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2016}
+\endentry
+
+\entry{dahl_thesis}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dahl}{D.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DE1}
+  \strng{fullhash}{DE1}
+  \field{title}{The physics of background discrimination in liquid xenon, and
+  first results from Xenon10 in the hunt for WIMP dark matter.}
+  \list{institution}{1}{%
+    {Princeton University}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2009}
+\endentry
+
+\entry{takahashi1975average}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Takahashi}{T.}%
+     {Tan}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Konno}{K.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hamada}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miyajima}{M.}%
+     {Mitsuhiro}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kubota}{K.}%
+     {Shinzou}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakamoto}{N.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hitachi}{H.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shibamura}{S.}%
+     {Eido}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doke}{D.}%
+     {Tadayoshi}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{TTKSHT+1}
+  \strng{fullhash}{TTKSHTMMKSNAHASEDT1}
+  \field{number}{5}
+  \field{pages}{1771}
+  \field{title}{Average energy expended per ion pair in liquid xenon}
+  \field{volume}{12}
+  \field{journaltitle}{Physical Review A}
+  \field{year}{1975}
+\endentry
+
+\entry{aprile2007observation}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {KL}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Majewski}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamashita}{Y.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEGKMP+1}
+  \strng{fullhash}{AEGKMPNKYM1}
+  \field{number}{1}
+  \field{pages}{014115}
+  \field{title}{Observation of anticorrelation between scintillation and
+  ionization for MeV gamma rays in liquid xenon}
+  \field{volume}{76}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{2007}
+\endentry
+
+\entry{birks2013theory}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Birks}{B.}%
+     {John~Betteley}{J.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{BJB1}
+  \strng{fullhash}{BJB1}
+  \field{title}{The Theory and Practice of Scintillation Counting:
+  International Series of Monographs in Electronics and Instrumentation}
+  \field{volume}{27}
+  \field{year}{2013}
+\endentry
+
+\entry{thomas1987recombination}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Thomas}{T.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Imel}{I.}%
+     {DA}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{TJID1}
+  \strng{fullhash}{TJID1}
+  \field{number}{2}
+  \field{pages}{614}
+  \field{title}{Recombination of electron-ion pairs in liquid argon and liquid
+  xenon}
+  \field{volume}{36}
+  \field{journaltitle}{Physical Review A}
+  \field{year}{1987}
+\endentry
+
 \lossort
 \endlossort
 
