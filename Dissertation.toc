@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Contents}{i}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{ii}{section*.2}
+\contentsline {chapter}{List of Figures}{iii}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgements}{v}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{ix}{chapter*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -50,11 +50,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}Liquid Xenon and Dual-Phase TPCs}{25}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Chemical Properties}{25}{section.2.1}
+\contentsline {section}{\numberline {2.1}General Properties}{25}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Energy Deposition of Charged Particles in Liquid Xenon}{27}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Electronic Recoils in Liquid Xenon}{30}{section.2.3}
+\contentsline {section}{\numberline {2.3}Electronic Recoils in Liquid Xenon}{31}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Sources of Electronic Recoils}{31}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
@@ -66,24 +66,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Neutrinos}{36}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Observables Production for Electronic Recoils}{36}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Observables Production for Electronic Recoils}{37}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Nuclear Recoils in Liquid Xenon}{38}{section.2.4}
+\contentsline {section}{\numberline {2.4}Nuclear Recoils in Liquid Xenon}{39}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Sources of Nuclear Recoils}{39}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Neutrons}{39}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Neutrinos}{39}{section*.15}
+\contentsline {subsubsection}{Neutrinos}{40}{section*.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Observables Production for Nuclear Recoils}{40}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Dual-Phase Time Projection Chambers}{41}{section.2.5}
+\contentsline {section}{\numberline {2.5}Dual-Phase Time Projection Chambers}{43}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Observables Production}{41}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Operating Principle}{43}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Table of Contents Title}{43}{chapter.3}
+\contentsline {subsubsection}{Reconstructing Interaction Type}{44}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{45}{chapter*.17}
+\contentsline {subsubsection}{Reconstructing Energy}{46}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{47}{section*.20}
+\contentsline {subsubsection}{Reconstructing Position}{48}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Detecting Observables}{50}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Detection of Scintillation Photons: S1}{50}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Detection of Ionization Electrons: S2}{52}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{55}{section*.22}

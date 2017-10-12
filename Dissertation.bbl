@@ -3734,6 +3734,706 @@
   \field{year}{1987}
 \endentry
 
+\entry{angle2011search}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Angle}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bolozdynya}{B.}%
+     {AI}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coelho}{C.}%
+     {LCC}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dahl}{D.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DeViveiros}{D.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferella}{F.}%
+     {AD}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AJAEAF+1}
+  \strng{fullhash}{AJAEAFBLBABACLDCDLFA+1}
+  \field{number}{5}
+  \field{pages}{051301}
+  \field{title}{Search for light dark matter in XENON10 data}
+  \field{volume}{107}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2011}
+\endentry
+
+\entry{sorensen2011nuclear}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sorensen}{S.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dahl}{D.}%
+     {Carl~Eric}{C.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{SPDCE1}
+  \strng{fullhash}{SPDCE1}
+  \field{number}{6}
+  \field{pages}{063501}
+  \field{title}{Nuclear recoil energy scale in liquid xenon with application to
+  the direct detection of dark matter}
+  \field{volume}{83}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2011}
+\endentry
+
+\entry{lenardo2015global}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Lenardo}{L.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kazkaz}{K.}%
+     {Kareem}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manalaysay}{M.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mock}{M.}%
+     {Jeremy}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szydagis}{S.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tripathi}{T.}%
+     {Mani}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LBKKMA+1}
+  \strng{fullhash}{LBKKMAMJSMTM1}
+  \field{number}{6}
+  \field{pages}{3387\bibrangedash 3396}
+  \field{title}{A global analysis of light and charge yields in liquid xenon}
+  \field{volume}{62}
+  \field{journaltitle}{IEEE Transactions on Nuclear Science}
+  \field{year}{2015}
+\endentry
+
+\entry{jaffe1913theory}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jaff{\'e}}{J.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JG1}
+  \strng{fullhash}{JG1}
+  \field{pages}{303\bibrangedash 344}
+  \field{title}{On the theory of ionization in columns}
+  \field{volume}{42}
+  \field{journaltitle}{Ann. Phys.(Leipzig)}
+  \field{year}{1913}
+\endentry
+
+\entry{mei2008model}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mei}{M.}%
+     {D-M}{D.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yin}{Y.}%
+     {Z-B}{Z.-B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stonehill}{S.}%
+     {LC}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hime}{H.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MDMYZBSL+1}
+  \strng{fullhash}{MDMYZBSLHA1}
+  \field{number}{1}
+  \field{pages}{12\bibrangedash 17}
+  \field{title}{A model of nuclear recoil scintillation efficiency in noble
+  liquids}
+  \field{volume}{30}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{year}{2008}
+\endentry
+
+\entry{tretyak2010semi}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tretyak}{T.}%
+     {VI}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{TV1}
+  \strng{fullhash}{TV1}
+  \field{number}{1}
+  \field{pages}{40\bibrangedash 53}
+  \field{title}{Semi-empirical calculation of quenching factors for ions in
+  scintillators}
+  \field{volume}{33}
+  \field{journaltitle}{Astroparticle physics}
+  \field{year}{2010}
+\endentry
+
+\entry{bezrukov2011interplay}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bezrukov}{B.}%
+     {Fedor}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kahlhoefer}{K.}%
+     {Felix}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindner}{L.}%
+     {Manfred}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{BFKFLM1}
+  \strng{fullhash}{BFKFLM1}
+  \field{number}{3}
+  \field{pages}{119\bibrangedash 127}
+  \field{title}{Interplay between scintillation and ionization in liquid xenon
+  Dark Matter searches}
+  \field{volume}{35}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{year}{2011}
+\endentry
+
+\entry{goetzke2016measurement}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Goetzke}{G.}%
+     {LW}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plante}{P.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weber}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GLAEAM+1}
+  \strng{fullhash}{GLAEAMPGWM1}
+  \field{title}{Measurement of light and charge yield of low-energy electronic
+  recoils in liquid xenon}
+  \field{journaltitle}{arXiv preprint arXiv:1611.10322}
+  \field{year}{2016}
+\endentry
+
+\entry{silva2009reflectance}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Silva}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cunha}{C.}%
+     {J}{J}%
+     {Pinto~da}{P.~d.}%
+     {}{}}%
+    {{}%
+     {Chepel}{C.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Solovov}{S.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neves}{N.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pereira}{P.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lopes}{L.}%
+     {MI}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SCCJPdCV+1}
+  \strng{fullhash}{SCCJPdCVSVNFPALM1}
+  \field{number}{arXiv: 0910.1056}
+  \field{pages}{064902}
+  \field{title}{Reflectance of polytetrafluoroethylene (PTFE) for xenon
+  scintillation light}
+  \field{volume}{107}
+  \field{journaltitle}{J. Appl. Phys.}
+  \field{year}{2009}
+\endentry
+
+\entry{haefner2017reflectance}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Haefner}{H.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neff}{N.}%
+     {Alissa}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arthurs}{A.}%
+     {Maris}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Batista}{B.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morton}{M.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Okunawo}{O.}%
+     {Matt}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pushkin}{P.}%
+     {Kirill}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sander}{S.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stephenson}{S.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Yuhan}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HJNAAM+1}
+  \strng{fullhash}{HJNAAMBEMDOMPKSASSWY+1}
+  \field{pages}{86\bibrangedash 91}
+  \field{title}{Reflectance dependence of polytetrafluoroethylene on thickness
+  for xenon scintillation light}
+  \field{volume}{856}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2017}
+\endentry
+
+\entry{neves2017measurement}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Neves}{N.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindote}{L.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morozov}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Solovov}{S.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Silva}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bras}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrigues}{R.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lopes}{L.}%
+     {MI}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{NFLAMA+1}
+  \strng{fullhash}{NFLAMASVSCBPRJLM1}
+  \field{number}{01}
+  \field{pages}{P01017}
+  \field{title}{Measurement of the absolute reflectance of
+  polytetrafluoroethylene (PTFE) immersed in liquid xenon}
+  \field{volume}{12}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2017}
+\endentry
+
+\entry{aprile2015lowering}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arazi}{A.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arisaka}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Auger}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balan}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{AEAFAM+1}
+  \strng{fullhash}{AEAFAMALAKAFAMBCBPBL+1}
+  \field{number}{11}
+  \field{pages}{546}
+  \field{title}{Lowering the radioactivity of the photomultiplier tubes for the
+  XENON1T dark matter experiment}
+  \field{volume}{75}
+  \field{journaltitle}{The European Physical Journal C}
+  \field{year}{2015}
+\endentry
+
+\entry{atrazhev2005electron}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Atrazhev}{A.}%
+     {VM}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berezhnov}{B.}%
+     {AV}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunikov}{D.}%
+     {DO}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chernysheva}{C.}%
+     {IV}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dmitrenko}{D.}%
+     {VV}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kapralova}{K.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{AVBADD+1}
+  \strng{fullhash}{AVBADDCIDVKG1}
+  \field{booktitle}{Dielectric Liquids, 2005. ICDL 2005. 2005 IEEE
+  International Conference on}
+  \field{pages}{329\bibrangedash 332}
+  \field{title}{Electron transport coefficients in liquid xenon}
+  \field{year}{2005}
+\endentry
+
+\entry{aprile2017xenon1t}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {Elena}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Antunes}{A.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balata}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AEAJAF+2}
+  \strng{fullhash}{AEAJAFAMAFAMABAFBMBP+1}
+  \field{title}{The XENON1T Dark Matter Experiment}
+  \field{journaltitle}{arXiv preprint arXiv:1708.07051}
+  \field{year}{2017}
+\endentry
+
+\entry{aprile2014observation}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arisaka}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balan}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bokeloh}{B.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{AEAMAK+1}
+  \strng{fullhash}{AEAMAKAFBCBLBBBABPBK+1}
+  \field{number}{3}
+  \field{pages}{035201}
+  \field{title}{Observation and applications of single-electron charge signals
+  in the XENON100 experiment}
+  \field{volume}{41}
+  \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+  \field{year}{2014}
+\endentry
+
 \lossort
 \endlossort
 

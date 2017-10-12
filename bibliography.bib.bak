@@ -868,4 +868,155 @@
   publisher = {IEEE},
 }
 
+@Article{angle2011search,
+  author    = {Angle, J and Aprile, E and Arneodo, F and Baudis, L and Bernstein, A and Bolozdynya, AI and Coelho, LCC and Dahl, CE and DeViveiros, L and Ferella, AD and others},
+  title     = {Search for light dark matter in XENON10 data},
+  journal   = {Physical Review Letters},
+  year      = {2011},
+  volume    = {107},
+  number    = {5},
+  pages     = {051301},
+  publisher = {APS},
+}
+
+@Article{jaffe1913theory,
+  author  = {Jaff{\'e}, G},
+  title   = {On the theory of ionization in columns},
+  journal = {Ann. Phys.(Leipzig)},
+  year    = {1913},
+  volume  = {42},
+  pages   = {303--344},
+}
+
+@Article{kramers1952modification,
+  author    = {Kramers, HA},
+  title     = {On a modification of Jaffe's theory of column-ionization},
+  journal   = {Physica},
+  year      = {1952},
+  volume    = {18},
+  number    = {10},
+  pages     = {665--675},
+  publisher = {Elsevier},
+}
+
+@Article{sorensen2011nuclear,
+  author    = {Sorensen, Peter and Dahl, Carl Eric},
+  title     = {Nuclear recoil energy scale in liquid xenon with application to the direct detection of dark matter},
+  journal   = {Physical Review D},
+  year      = {2011},
+  volume    = {83},
+  number    = {6},
+  pages     = {063501},
+  publisher = {APS},
+}
+
+@Article{mei2008model,
+  author    = {Mei, D-M and Yin, Z-B and Stonehill, LC and Hime, Andrew},
+  title     = {A model of nuclear recoil scintillation efficiency in noble liquids},
+  journal   = {Astroparticle Physics},
+  year      = {2008},
+  volume    = {30},
+  number    = {1},
+  pages     = {12--17},
+  publisher = {Elsevier},
+}
+
+@Article{tretyak2010semi,
+  author    = {Tretyak, VI},
+  title     = {Semi-empirical calculation of quenching factors for ions in scintillators},
+  journal   = {Astroparticle physics},
+  year      = {2010},
+  volume    = {33},
+  number    = {1},
+  pages     = {40--53},
+  publisher = {Elsevier},
+}
+
+@Article{bezrukov2011interplay,
+  author    = {Bezrukov, Fedor and Kahlhoefer, Felix and Lindner, Manfred},
+  title     = {Interplay between scintillation and ionization in liquid xenon Dark Matter searches},
+  journal   = {Astroparticle Physics},
+  year      = {2011},
+  volume    = {35},
+  number    = {3},
+  pages     = {119--127},
+  publisher = {Elsevier},
+}
+
+@Article{goetzke2016measurement,
+  author  = {Goetzke, LW and Aprile, E and Anthony, M and Plante, G and Weber, M},
+  title   = {Measurement of light and charge yield of low-energy electronic recoils in liquid xenon},
+  journal = {arXiv preprint arXiv:1611.10322},
+  year    = {2016},
+}
+
+@Article{silva2009reflectance,
+  author  = {Silva, C and Pinto da Cunha, J and Chepel, V and Solovov, V and Neves, F and Pereira, A and Lopes, MI},
+  title   = {Reflectance of polytetrafluoroethylene (PTFE) for xenon scintillation light},
+  journal = {J. Appl. Phys.},
+  year    = {2009},
+  volume  = {107},
+  number  = {arXiv: 0910.1056},
+  pages   = {064902},
+}
+
+@Article{neves2017measurement,
+  author    = {Neves, F and Lindote, A and Morozov, A and Solovov, V and Silva, C and Bras, P and Rodrigues, JP and Lopes, MI},
+  title     = {Measurement of the absolute reflectance of polytetrafluoroethylene (PTFE) immersed in liquid xenon},
+  journal   = {Journal of Instrumentation},
+  year      = {2017},
+  volume    = {12},
+  number    = {01},
+  pages     = {P01017},
+  publisher = {IOP Publishing},
+}
+
+@Article{haefner2017reflectance,
+  author    = {Haefner, Jonathan and Neff, Alissa and Arthurs, Maris and Batista, Elizabeth and Morton, Daniel and Okunawo, Matt and Pushkin, Kirill and Sander, Aaron and Stephenson, Scott and Wang, Yuhan and others},
+  title     = {Reflectance dependence of polytetrafluoroethylene on thickness for xenon scintillation light},
+  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  year      = {2017},
+  volume    = {856},
+  pages     = {86--91},
+  publisher = {Elsevier},
+}
+
+@Article{aprile2015lowering,
+  author    = {Aprile, E and Agostini, F and Alfonsi, M and Arazi, L and Arisaka, K and Arneodo, F and Auger, M and Balan, C and Barrow, P and Baudis, L and others},
+  title     = {Lowering the radioactivity of the photomultiplier tubes for the XENON1T dark matter experiment},
+  journal   = {The European Physical Journal C},
+  year      = {2015},
+  volume    = {75},
+  number    = {11},
+  pages     = {546},
+  publisher = {Springer},
+}
+
+@InProceedings{atrazhev2005electron,
+  author       = {Atrazhev, VM and Berezhnov, AV and Dunikov, DO and Chernysheva, IV and Dmitrenko, VV and Kapralova, G},
+  title        = {Electron transport coefficients in liquid xenon},
+  booktitle    = {Dielectric Liquids, 2005. ICDL 2005. 2005 IEEE International Conference on},
+  year         = {2005},
+  pages        = {329--332},
+  organization = {IEEE},
+}
+
+@Article{aprile2017xenon1t,
+  author  = {Aprile, Elena and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Antunes, B and Arneodo, F and Balata, M and Barrow, P and others},
+  title   = {The XENON1T Dark Matter Experiment},
+  journal = {arXiv preprint arXiv:1708.07051},
+  year    = {2017},
+}
+
+@Article{aprile2014observation,
+  author    = {Aprile, E and Alfonsi, M and Arisaka, K and Arneodo, F and Balan, C and Baudis, L and Bauermeister, B and Behrens, A and Beltrame, Philippe and Bokeloh, K and others},
+  title     = {Observation and applications of single-electron charge signals in the XENON100 experiment},
+  journal   = {Journal of Physics G: Nuclear and Particle Physics},
+  year      = {2014},
+  volume    = {41},
+  number    = {3},
+  pages     = {035201},
+  publisher = {IOP Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

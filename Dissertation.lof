@@ -4,31 +4,31 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A composite image combining an X-ray data, courtesy of Chandra, and optical data, courtesy of the Sloan Digital Sky Survey. Image credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A composite image of the Coma Cluster combining X-ray data and optical data. The gas in the cluster is shown in purple. Image Credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}}{3}{figure.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The rotation curve of the galaxy NGC 6503 broken down into individual components: visible matter (dashed), gas (dotted), and dark matter (dash dotted) \cite {Begeman1991}. }}{4}{figure.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster. Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image credit: NASA/ESA.}}{5}{figure.1.3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster. Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image Credit: NASA/ESA.}}{5}{figure.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces In this optical image you see the massive MACS J1149.6+2223 cluster. In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image credit: HST.}}{6}{figure.1.4}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces In this optical image you see the massive MACS J1149.6+2223 cluster. In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image Credit: HST.}}{6}{figure.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Infrared (left) and X-ray (right) maps of the Bullet Cluster (1E0657-558). While the plasma in the clusters interacts during the collision of the two individual clusters, as is seen by the shockwave in the center, the majority of the mass passes right through \cite {clowe2006direct}.}}{7}{figure.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces The Planck 2015 measurement of the temperature anisotropy of the CMB. Note that the largest deviations from the mean are on the order of $200 \mu K$ from the 2.725 K mean (roughly 1 in $10^4$). Image credit: IRSA, \cite {Ade2015}.}}{8}{figure.1.6}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces The Planck 2015 measurement of the temperature anisotropy of the CMB. Note that the largest deviations from the mean are on the order of $200 \mu K$ from the 2.725 K mean (roughly 1 in $10^4$). Image Credit: IRSA, Ref.\tmspace +\thinmuskip {.1667em}\cite {Ade2015}.}}{8}{figure.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces The power spectrum of the temperature anisotropies measured by Planck along with the best fit prediction from the $\Lambda $CDM model. $\mathcal {D}_l^{TT}$ is a proxy for $C_i$ and is defined $\mathcal {D}_l^{TT} \equiv l(l+1)C_l / 2 \pi $ \cite {Ade2015}.}}{9}{figure.1.7}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces The power spectrum of the temperature anisotropies measured by Planck along with the best fit prediction from the $\Lambda $CDM model. $\mathcal {D}_l^{TT}$ is a proxy for $C_i$ and is defined $\mathcal {D}_l^{TT} \equiv l(l+1)C_l / 2 \pi $. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {Ade2015}.}}{9}{figure.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces The projected sensitivity of the ADMX Generation 2 axion search. Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass. The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite {stern2016admx}.}}{11}{figure.1.8}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces The projected sensitivity of the ADMX Generation 2 axion search (shaded regions). Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass. The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite {stern2016admx}.}}{11}{figure.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection. Image credit: \cite {bi2013status}.}}{12}{figure.1.9}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection. Image Credit: \cite {bi2013status}.}}{12}{figure.1.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces An image of a potential WIMP event in the CMS detector at CERN. If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision. Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP. Image courtesy: Matevz Tadel, UC San Diego/CMS.}}{14}{figure.1.10}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces An image of a potential WIMP event in the CMS detector at CERN. If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision. Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP. Image Credit: Matevz Tadel, UC San Diego/CMS.}}{14}{figure.1.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.11}{\ignorespaces On the left are the differential scattering rates for a 100 $\sfrac {\textrm {GeV}}{\textrm {c}^2}$ WIMP with a spin independent cross section of $10^{-47} \tmspace +\thinmuskip {.1667em} \textrm {cm}^2$. On the right are the differential recoil spectra for WIMPs scattering with a xenon nuclei with a spin independent cross section of $10^{-47} \tmspace +\thinmuskip {.1667em} \textrm {cm}^2$ assuming different WIMP masses.}}{18}{figure.1.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.12}{\ignorespaces A diagram showing the possible observables and observable combinations along with the most common detector types for each. Image courtesy: \cite {undagoitia2015dark}.}}{19}{figure.1.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.13}{\ignorespaces The annual modulation seen by the DAMA collaboration. The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal \cite {undagoitia2015dark}.}}{21}{figure.1.13}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces The annual modulation seen by the DAMA collaboration. The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal. Image Credit: \cite {undagoitia2015dark}.}}{21}{figure.1.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.14}{\ignorespaces Selected spin-independent WIMP limits from selected experiments and the discovery contour from DAMA's annual modulation. The dashed line shown in brown marks the point where neutrinos will become a background source in WIMP searches. Notice that the three liquid xenon dual-phase TPC based experiments (PandaX-II, LUX, and XENON1T) set the strongest limit over a wide range of WIMP masses \cite {agnese2015improved, armengaud2016constraints, savage2009compatibility, amole2017dark, tan2016dark, akerib2017results, aprile2017first, angloher2016results, ruppin2014complementarity}.}}{23}{figure.1.14}
 \defcounter {refsection}{0}\relax 
@@ -36,14 +36,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The phase diagram for xenon. Dual-phase xenon TPCs typically operate in the range of 2--3 atm.}}{28}{figure.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces }}{30}{figure.2.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A diagram showing the modes in which charged particles may lose energy in liquid xenon. Note that when an electric field is applied, the electron freed during ionization can be extracted such that it can be measured.}}{30}{figure.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The kinetic energy spectrum of electrons resulting from the $\beta ^-$ decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r} \cite {mantel1972beta}. Note that roughly 6.5\% of decays are below 30 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}}{32}{figure.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The mass attenuation coefficient and the attenuation for photons of different energies in liquid xenon \cite {berger8coll}.}}{34}{figure.2.4}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The mass attenuation coefficient and the attenuation lengths for photons of different energies in liquid xenon \cite {berger8coll}.}}{34}{figure.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \cite {chadwick2011endf}.}}{35}{figure.2.5}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The cross-sections of the three main interaction modes of neutrons in liquid xenon. Note that elastic scattering is the dominant process for almost all energies in the range shown. The data for each isotope of xenon is from Ref.\tmspace +\thinmuskip {.1667em}\cite {chadwick2011endf} and the figure shows the cross-sections weighted by abundance of each isotope in natural xenon.}}{35}{figure.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Solar neutrino fluxes from different processes assuming the BS05(OP) standard solar model. Image Courtesy: \cite {franarin2016reducing}.}}{37}{figure.2.6}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Solar neutrino fluxes from different processes assuming the BS05(OP) standard solar model. Image Credit: \cite {franarin2016reducing}.}}{37}{figure.2.6}
 \defcounter {refsection}{0}\relax 
-\addvspace {10pt}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces An example of an interaction in a dual-phase liquid xenon time projection chamber. The interaction produces both scintillation light and free electrons. The light is promptly detected by the PMT arrays at the top and bottom of the detector while the free electrons are drifted to the liquid-gas interface where they are extracted and accelerated through the gaseous xenon. This acceleration through the gaseous xenon causes secondary excitations that result in more scintillation light that is detected by the PMT arrays. The time difference between these interactions can be used to extract the depth of the interaction while the PMT hit patterns for the secondary signal can be used to find the interactions position in the transverse plane.}}{45}{figure.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Low energy electronic and nuclear recoils in liquid xenon. Note that for a given S1 that the S2 for electronic recoils are usually significantly higher than the corresponding S2 for nuclear recoils. The nuclear recoils are from an americium-beryllium (AmBe) source while the electronic recoils are from the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n} decay chain that results in a $\beta ^-$ emission with a maximum energy of 1.02 MeV.}}{46}{figure.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The field dependence of scintillation and ionization yield in liquid xenon for 122 keV electronic recoils and 56.5 keV nuclear recoils. In blue are the light yields of interactions at a given field relative to the light yield with no applied electric field. In red are the charge yields of interactions relative to the charge yield assuming no recombination. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2006simultaneous}}}{47}{figure.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The positions of all events during the first science run of XENON1T. Notice that the overwhelming majority of events occur at the very edge of the detector and can be removed using a fiducial volume.}}{48}{figure.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The waveform of the first event seen by XENON1T.}}{50}{figure.2.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces The Hamamatsu R11410 PMT and a schematic illustration of its various components. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2015lowering}.}}{51}{figure.2.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 40 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{53}{figure.2.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces An example of a gas gain analysis from XENON100. This fit was performed using electrons from photoionization of metal inside of the detector. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2014observation}.}}{54}{figure.2.14}

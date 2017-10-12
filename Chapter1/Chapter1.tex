@@ -19,11 +19,11 @@ For nearly a century, experimental evidence has suggested that a large portion o
 \section[$\Lambda$CDM Model][$\Lambda$CDM Model]{$\boldsymbol{\Lambda}$CDM Model}
 \label{sec:cdm}
 
-	One of the guiding principles of cosmology are the assumptions that the universe is both homogeneous and isotropic at large enoug scales (typically on the order 100 Mpc or $10^{5}$ light years).  Continuing with these principles and maintaining generality, we can arrive at the Robertson-Walker space-time metric
+	One of the guiding principles of cosmology are the assumptions that the universe is both homogeneous and isotropic at large enough scales (typically on the order 100 Mpc or $10^{5}$ light years).  Continuing with these principles and maintaining generality, we can arrive at the Robertson-Walker space-time metric
 	\begin{equation}
 		ds = -c^{2}dt^{2} + a(t)^{2}\left( \dfrac{dr^{2}}{1 - kr^{2}} + r^{2}d\Omega^{2}\right)
 	\end{equation}
-Here, $a(t)$ is called the \emph{scale factor}, an arbitrary function of time allowing for time dependent changes of the universe, and $k$ is a constant modeling the curvature of the universe.  For $k=-1$, the universe is considered open, for $k=1$, the universe is considered close, and at $k=0$ we are left with our Euclidean (flat) universe.  Note that for $a(t) = 1$ and $k = 0$ the Robertson-Walker metric reduces to the Minkowski metric.
+Here, $a(t)$ is called the \emph{scale factor}, an arbitrary function of time allowing for time dependent changes of the universe, and $k$ is a constant modeling the curvature of the universe.  For $k=-1$, the universe is considered open, for $k=1$, the universe is considered closed, and at $k=0$ we are left with our Euclidean (flat) universe.  Note that for $a(t) = 1$ and $k = 0$ the Robertson-Walker metric reduces to the Minkowski metric.
 
 	Using this metric in combination with Einstein's equation we can derive the equations for the Friedmann-Robertson-Walker universe described by the Friedmann equations.
 	
@@ -39,23 +39,23 @@ Here, $a(t)$ is called the \emph{scale factor}, an arbitrary function of time al
 \\
 \textbf{Hubble Parameter}: $ H = \frac{\dot{a}}{a} $\\
 \textbf{Critical Density}: $ \rho_{crit} = \frac{3H^2}{8 \pi G} $\\
-\textbf{Density Parameters}: $ \Omega_{i} = \frac{8 \pi G}{3H^2}$,  $\Omega_{i} = \frac{\rho_{i}}{\rho_{crit}} $\\
+\textbf{Density Parameters}: $ \Omega_{i} = \frac{8 \pi G \rho_i}{3H^2} = \frac{\rho_{i}}{\rho_{crit}} $\\
 \begin{equation}
 	\Omega - 1 = \frac{k}{H^2 a^2}, \ \ \ \ \Omega = \sum_{i} \Omega_{i} = \Omega_{\Lambda} + \Omega_{CDM} + \Omega_{Baryon} + \Omega_{Rad}  \ldots 
 \end{equation}
 	
-	Here the critical density is defined such that the universe is flat ($k=0$).  One can think of $\frac{\Omega_i}{\Omega}$ as what part of the total matter and energy budget a particular component makes up.  The main contributors to the density of the universe are dark energy and cold dark matter hence the $\Lambda$CDM Model.  Measurements of the various density parameters and other $\Lambda$CDM parameters has been a very big area of research over the last two decades and will be discussed later in this chapter.
+Here the critical density is defined such that the universe is flat ($k=0$).  One can think of $\frac{\Omega_i}{\Omega}$ as what part of the total matter and energy budget a particular component makes up.  The main contributors to the density of the universe are dark energy and cold dark matter hence the $\Lambda$CDM Model.  The density parameters give insight into the large scale structure of the universe and measurements of the various density parameters and other $\Lambda$CDM parameters has been a major focus of research over the last two decades and will be discussed later in this chapter \cite{carroll1997lecture}.
 	
 \section{Evidence of Dark Matter}
 
 \subsection{Dynamical Constraints from Clusters of Galaxies}
 
-The first evidence of dark matter came from Fritz Zwicky in 1933.  Zwicky used a basic application of the virial theorem on galaxies in the Coma Cluster	to estimate the mass of the cluster.  He then  estimated the total mass based on the brightness of the cluster and found significant disagreement between the results leading him to the conclusion that ``if this would be confirmed we would get the surprising result that dark matter is present in much greater amount than luminous matter.'' \cite{Zwicky1933}
+The first evidence of dark matter came from Fritz Zwicky in 1933.  Zwicky used a basic application of the virial theorem on galaxies in the Coma Cluster	to estimate the mass of the cluster.  He then  estimated the total mass based on the brightness of the cluster and found significant disagreement between the results leading him to the conclusion that ``if this would be confirmed we would get the surprising result that dark matter is present in much greater amount than luminous matter'' \cite{Zwicky1933}.
 	
 \begin{figure}[h]
 \includegraphics[width=8cm]{coma_composite}
 \centering
-\caption{A composite image combining an X-ray data, courtesy of Chandra, and optical data, courtesy of the Sloan Digital Sky Survey.  Image credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}
+\caption{A composite image of the Coma Cluster combining X-ray data and optical data.  The gas in the cluster is shown in purple.  Image Credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}
 \end{figure}
 	
 	
@@ -81,7 +81,7 @@ Nearly fourty years later, stronger evidence was provided for the existence of d
 v(r) = \sqrt{\frac{G M(r)}{r}}
 \end{equation}	
 
-In this equation, M(r) is the sum of the masses of all the gas and stars inside a given radius.  Given that most of the mass from luminous matter is concentrated at the center, one would expect that at large distances from the center of the galaxy, the orbital velocity would fall off as $v \propto r^{-1/2}$.
+In this equation, M(r) is the sum of all the mass within a radius $r$.  Under the assumption that most of the mass is concentrated at the center of the galaxy (in the form of a supermassive blackhole), one would expect that at large distances from the center of the galaxy, the orbital velocity would fall off as $v \propto r^{-1/2}$.
 
 However, what is seen differs from this simple approximation drastically.  \figref{fig:galactic_rotation_curve} is taken from \citeref{Begeman1991} but the results are similar to what Rubin and Ford saw deecades earlier: the asymptotic behavior of the orbital velocity is constant and does not show any polynomial roll-off.  By isolating the contributions from measurable mass densities (such as visible matter and gas), one can get an idea of the density distribution of dark matter in a galaxy.  From the figure below, one could asymtotically estimate that $M(r) \propto r$ which would imply that $\rho(r) \propto r^{-2}$.  One quickly realizes that this cannot be the true density since the mass of the galaxy diverges but approximates the density within an effective radius.
 
@@ -95,25 +95,25 @@ Gravitational lensing is the distortion of light coming from a source due to the
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.8\textwidth]{gravitation_lensing_cartoon}
-	\caption{A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster.  Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image credit: NASA/ESA.}
+	\caption{A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster.  Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image Credit: NASA/ESA.}
 	\label{fig:gravitation_lensing_cartoon}
 \end{figure}
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.8\textwidth]{einstein_cross}
-	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image credit: HST.}
+	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image Credit: HST.}
 	\label{fig:einstein_cross}
 \end{figure}
 
 
 %\begin{SCfigure}[\sidecaptionrelwidth][h]
 %	\centering
-%	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image credit: HST.}
+%	\caption{In this optical image you see the massive MACS J1149.6+2223 cluster.  In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image Credit: HST.}
 %	\includegraphics[width=0.5\textwidth]{einstein_cross}
 %\end{SCfigure}
 
-Mass estimation via gravitational lensing in itself is very useful for finding large discrepancies in mass from known sources and true mass (the discrepancy being attributed to dark matter).  However, when combined with x-ray measurements, as seen in \figref{fig:bullet_cluster}, one gets even more interesting results.  Shown in \figref{fig:bullet_cluster} is the Bullet Cluster (1E0657-558) which actually consists of two colliding sub-clusters.  In the image on the left, one can see the infrared image from Magellan that is used, along with optical images from Hubble, to estimate the mass distribution of each galaxy cluster through graviational lensing.  In the right image, one can see the X-ray map of the Bullet Cluster from the Chandra X-ray observatory with the same mass contours: one can see that the plasma from the clusters interacts giving the cone shapes in the center.  However, the mass contours largely remained centered on the individual clusters (as seen in the optical image) implying that the majority of the matter interacted minimally during the collision \cite{clowe2006direct}.  This implies that the majority of the matter in these clusters at least does not interact electromagnetically.
+Mass estimation via gravitational lensing in itself is very useful for finding large discrepancies in mass from known sources and true mass (the discrepancy being attributed to dark matter).  However, when combined with x-ray measurements, as seen in \figref{fig:bullet_cluster}, one gets even more interesting results.  Shown in \figref{fig:bullet_cluster} is the Bullet Cluster (1E0657-558) which actually consists of two colliding sub-clusters.  In the image on the left, one can see the infrared image from Magellan that is used, along with optical images from Hubble, to estimate the mass distribution of each galaxy cluster through graviational lensing.  In the right image, one can see the X-ray map of the Bullet Cluster from the Chandra X-ray observatory with the same mass contours: one can see that the plasma from the clusters interacts giving the cone shapes in the center.  However, the mass contours largely remained centered on the individual clusters (as seen in the optical image) implying that the majority of the matter interacted minimally during the collision \cite{clowe2006direct}.  Since we know that the galaxies make up only a small fraction of the mass in a cluster from the virial theorem, this implies that the dark matter hardly interacts with itself or ordinary matter.
 
 % https://astrobites.org/2016/11/04/the-bullet-cluster-a-smoking-gun-for-dark-matter/
 
@@ -127,26 +127,26 @@ Mass estimation via gravitational lensing in itself is very useful for finding l
 
 \subsection{Evidence from the Cosmic Microwave Background}
 
-The Cosmic Microwave Background (CMB) has proved to be one of the richest discoveries in all of cosmology.  Accidentally discovered in 1964 by Penzias and Wilson \cite{penzias1965measurement}, the radiation from the CMB is almost perfectly isotropic and described by a blackbody spectrum at 2.725 K \cite{fixsen1996cosmic}.  The isotropy in the CMB provides the strongest evidence to date of the Big Bang Hypothesis and helped to formulate our current picture of the early universe down to the recombination epoch, where the universe was sufficiently cool such that hydrogen could form from the free electrons and protons in turn allowing photons to travel freely through the universe.  
+The Cosmic Microwave Background (CMB) has proven to be one of the richest discoveries in all of cosmology.  Accidentally discovered in 1964 by Penzias and Wilson \cite{penzias1965measurement}, the radiation from the CMB is almost perfectly isotropic and described by a blackbody spectrum at 2.725 K \cite{fixsen1996cosmic}.  The isotropy in the CMB provides the strongest evidence to date of the Big Bang Hypothesis and helped to formulate our current picture of the early universe down to the recombination epoch, where the universe was sufficiently cool such that hydrogen could form from the free electrons and protons in turn allowing photons to travel freely through the universe.  
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\textwidth]{planck_map}
-	\caption{The Planck 2015 measurement of the temperature anisotropy of the CMB.  Note that the largest deviations from the mean are on the order of $200 \mu K$ from the 2.725 K mean (roughly 1 in $10^4$).  Image credit: IRSA, \cite{Ade2015}.}
+	\caption{The Planck 2015 measurement of the temperature anisotropy of the CMB.  Note that the largest deviations from the mean are on the order of $200 \mu K$ from the 2.725 K mean (roughly 1 in $10^4$).  Image Credit: IRSA, \citeref{Ade2015}.}
 	\label{fig:planck_map}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\textwidth]{planck_2015_power_spectrum}
-	\caption{The power spectrum of the temperature anisotropies measured by Planck along with the best fit prediction from the $\Lambda$CDM model.  $\mathcal{D}_l^{TT}$ is a proxy for $C_i$ and is defined $\mathcal{D}_l^{TT} \equiv l(l+1)C_l / 2 \pi$ \cite{Ade2015}.}
+	\caption{The power spectrum of the temperature anisotropies measured by Planck along with the best fit prediction from the $\Lambda$CDM model.  $\mathcal{D}_l^{TT}$ is a proxy for $C_i$ and is defined $\mathcal{D}_l^{TT} \equiv l(l+1)C_l / 2 \pi$.  Image Credit: \citeref{Ade2015}.}
 	\label{fig:planck_fit}
 \end{figure}
 
 % https://www.astro.umd.edu/~miller/teaching/astr422/lecture21.pdf
 % http://w.astro.berkeley.edu/~mwhite/rosetta/node2.html
 
-As the CMB has been studied in more detail, cosmologists began to see that there are in fact very small temperature fluctuations on the order of ${\lesssim}100 \mu K$ \cite{bennett1996four, komatsu2011seven, Ade2015}.  These temperature fluctuations, as seen in the 2015 measurement of the CMB by Planck satellite, are shown in \figref{fig:planck_map}.  To characterize the temperature fluctuations of the entire sky, we use the spherical harmonics, $Y_{lm}(\theta, \phi)$.  
+As the CMB has been studied in more detail, cosmologists began to see that there are in fact very small temperature fluctuations on the order of ${\lesssim}100 \mu K$ \cite{bennett1996four, komatsu2011seven, Ade2015}.  These temperature fluctuations, as seen in the 2015 measurement of the CMB by the Planck satellite, are shown in \figref{fig:planck_map}.  To characterize the temperature fluctuations of the entire sky, we use the spherical harmonics, $Y_{lm}(\theta, \phi)$.  
 
 
 \begin{equation}
@@ -177,20 +177,20 @@ While there is an abundance of evidence to suggest that dark matter exists, we h
 
 Axions are hypothetical standard model particles that are introduced via the Peccei-Quinn mechanism as a solution to the strong-CP problem, one of the largest remaining deficiencies in the standard model \cite{axion_1977}.  CP (charge and parity) symmetry violation is required to explain the imbalance of matter and antimatter in the universe (why more matter exists) and has been observed in electroweak theory in a wide variety of measurements \cite{alavi1999observation, fanti1999new, aubert2001measurement, abe2001observation, aaij2013first}.  CP violation has never been observed in quantum chromodynamics even though there are natural terms in the QCD Lagrangian that would allow it.  Therefore, this term in the Lagrangian, must be fine-tuned to exactly zero, hence the strong-CP problem.  The axion introduced by Peccei-Quinn theory replaces this term with a field and gives the Lagrangian natural CP symmetry.
 
-While the discovery of the axion would solve one of the largest problems of standard model, it also has the potential to solve one of the largest open mysteries of cosmology by making up at least a part of the cold dark matter density of the universe.  Even though the axion is expected to have a very small mass ($10^{-6}-10^{-2} eV$) it could still be produced cosmologically such that the large scale structure that we observe in the universe today is explained and we arrive at the CDM density estimated by Planck \cite{graham2015experimental}.
+While the discovery of the axion would solve one of the largest problems of standard model, it also has the potential to solve one of the largest open mysteries of cosmology by making up at least a part of the cold dark matter density of the universe.  Even though the axion is expected to have a very small mass ($10^{-6}-10^{-2}$ eV) it could still be produced cosmologically such that the large scale structure that we observe in the universe today is explained and we arrive at the CDM density estimated by Planck \cite{graham2015experimental}.
 
     There are a number of experiments that can provide information about axions, both directly and indirectly.  The mass range of axions, is essentially restricted from cosmological evidence from the CMB and stellar evolution.  Simultaneously, cavity microwave experiments such as ADMX \cite{stern2016admx} and NMR based searches such as CASPeR \cite{garcon2017searching} try to directly detect these low mass CDM candidates.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.95\textwidth]{admx2_limits}
-	\caption{The projected sensitivity of the ADMX Generation 2 axion search.  Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass.  The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite{stern2016admx}.}
+	\caption{The projected sensitivity of the ADMX Generation 2 axion search (shaded regions).  Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass.  The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite{stern2016admx}.}
 \end{figure}
 
 \subsection{WIMPs}
 
 
-Weakly interacting massive particles (WIMPs), which will be the focus of the remainder of this work, have proven to be the most popular dark matter candidate historically.   WIMPs not only satisfy the basic criteria listed at the beginning of this section but additionally they have what is referred to as the ``WIMP Miracle" in their favor.  In the early stages of the universe, the temperature and density were so large that all particles were in a state of chemical equilibrium.  A dark matter particle could annihilate by colliding with its anti-partner to form any type of particle vice versa.  As time passed, however, the universe expanded and cooled making it more unlikely for these dark matter particles to be created or destroyed.  Using this thermal equilibrium model alongside the $\Lambda$CDM model, one can infer that the CDM density in the universe today is approximately given by \cite{jungman1996supersymmetric, bertone2010particle}
+Weakly interacting massive particles (WIMPs), which will be the focus of the remainder of this work, have proven to be the most popular dark matter candidate historically.   WIMPs not only satisfy the basic criteria listed at the beginning of this section but additionally they have what is referred to as the ``WIMP Miracle" in their favor.  In the early stages of the universe, the temperature and density were so large that all particles were in a state of chemical equilibrium.  A dark matter particle could annihilate by colliding with its anti-partner to form any type of particle and vice versa.  As time passed, however, the universe expanded and cooled making it more unlikely for these dark matter particles to be created or destroyed.  Using this thermal equilibrium model alongside the $\Lambda$CDM model, one can infer that the CDM density in the universe today is approximately given by \cite{jungman1996supersymmetric, bertone2010particle}
 
 \begin{equation}
         \Omega_{CDM}h^2 \approx \frac{3 \times 10^{-27} \mathrm{cm}^3  \mathrm{s}^{-1}}{\left< \sigma_{ann} v \right> }
@@ -207,7 +207,7 @@ In addition to WIMPs agreeing with cosmological evidence, several WIMP-like part
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.75\textwidth]{wimp_detection}
-	\caption{The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection.  Image credit: \cite{bi2013status}.}
+	\caption{The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection.  Image Credit: \cite{bi2013status}.}
 	\label{fig:wimp_detection}
 \end{figure}
 
@@ -225,9 +225,9 @@ In this section we will discuss these three detection approaches with an emphasi
 \label{sec:indirect_detection}
 %https://arxiv.org/pdf/1404.1938.pdf
 
-As we know from previous sections, WIMPs, if they make up all (or some) of the dark matter in the universe, must reside in galaxies to explain the odd behavior of rotation curves and the mass discrepancies.  Given the observational evidence, simulations have been created that can predict both the distribution of dark matter within our own and other galaxies \cite{stadel2009quantifying, maccio2007concentration} and the density of dark matter in our own solar system (roughly $0.2 - 0.4 \frac{GeV}{cm^3}$ \cite{read2014local}).  Indirect detection experiments look at high density regions of dark matter halos, such as in or around the Milky Way center and dwarf galaxies, to search for annihilations of WIMPs into detectable particles.
+As we know from previous sections, WIMPs, if they make up all (or some) of the dark matter in the universe, must reside in galaxies to explain the odd behavior of rotation curves and the mass discrepancies.  Given the observational evidence, simulations have been created that can predict both the distribution of dark matter within our own and other galaxies \cite{stadel2009quantifying, maccio2007concentration} and the density of dark matter in our own solar system (roughly $0.2 - 0.4 \, \frac{\textrm{GeV}}{\textrm{cm}^3}$ \cite{read2014local}).  Indirect detection experiments look at high density regions of dark matter halos, such as in or around the Milky Way center and dwarf galaxies, to search for annihilations of WIMPs into detectable particles.
 
-The goal of indirect detection is to capture a dark matter annihilation by observing its byproducts.  In the ideal case, two dark matter particles would annihilate and create two protons with energies equal to the mass of the dark matter particle.  Even though this would be the ``smoking gun" evidence of dark matter, most of the standard model extension WIMPs predict that this would be highly suppressed.  Instead, these indirect experiments are more likely to observe the annihilation of WIMPs into other particles which in turn will produce photons \cite{bi2013status}.  
+The goal of indirect detection is to capture a dark matter annihilation by observing its byproducts.  In the ideal case, two dark matter particles would annihilate and create two photons with energies equal to the mass of the dark matter particle.  Even though this would be the ``smoking gun" evidence of dark matter, most of the standard model extension WIMPs predict that this would be highly suppressed.  Instead, these indirect experiments are more likely to observe the annihilation of WIMPs into other particles which in turn will produce photons \cite{bi2013status}.  
 
 A major difficulty in indirect detection experiments is distinguishing potential signals from normal astrophysical processes.  Since areas of high dark matter density are also typically areas of high astrophysical activity it becomes difficult to separate potential dark matter signals from potentially new astrophysics \cite{zitzer2015search}.  However, in recent years, astrophysicists have started turning their telescopes towards dwarf galaxies, which are dark matter dominated but have negligible astrophysical backgrounds \cite{conrad2014indirect}.  %For example, in 2012 the Fermi Large Area Telescope (Fermi-LAT) observed a line at 130 GeV near the galatic center in excess of the expected background with a significance of 4.5 sigma \cite{tempel2012fermi}.  However, over the last few years, this line has largely been ruled out by other experiments \cite{abdalla2016hess}
 
@@ -235,12 +235,12 @@ A major difficulty in indirect detection experiments is distinguishing potential
 
 \subsection{Collider Detection}
 
-The main idea behind collider detection is that since the WIMP is expected to have a mass on the order of $1-10^3$ GeV is that we can create it in particle accelerators.  Of course, detectors at particle accelerators are not designed to detect dark matter directly so when searching for WIMPs physicists must actually search for missing transverse energy (MET) in a collision.  The MET can be reconstructed by observing the outgoing particles and jets in a collision based on momentum conservation.  This reconstruction is shown in \figref{fig:collider_detection}.  Ultimately, this MET can be used to determine the mass and the new physics processes of the WIMP \cite{bi2013status}.
+The main idea behind collider detection is that since the WIMP is expected to have a mass on the order of $1-10^3$ GeV we can create it in particle accelerators.  Of course, detectors at particle accelerators are not designed to detect dark matter directly so when searching for WIMPs physicists must actually search for missing transverse energy (MET) in a collision.  The MET can be reconstructed by observing the outgoing particles and jets in a collision based on momentum conservation.  This reconstruction is shown in \figref{fig:collider_detection}.  Ultimately, this MET can be used to determine the mass and the new physics processes of the WIMP \cite{bi2013status}.
 
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.95\textwidth]{collider_detection_cms}
-	\caption{An image of a potential WIMP event in the CMS detector at CERN.  If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision.  Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP.  Image courtesy: Matevz Tadel, UC San Diego/CMS.}
+	\caption{An image of a potential WIMP event in the CMS detector at CERN.  If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision.  Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP.  Image Credit: Matevz Tadel, UC San Diego/CMS.}
 	\label{fig:collider_detection}
 \end{figure}
 
@@ -249,9 +249,9 @@ One important note is that while we can potentially ``see" WIMPs in detectors at
 
 \subsection{Direct Detection}
 
-In purely theoretical terms, any detector that is sensitive to a potential WIMP interaction could be considered a direct detection dark matter search.  At the same time, to try and detect a dark matter signal from your NaI detector in your lab would be preposterous (unless your detector is 250 kg and located deep underground!), the reason being that any of the rare dark matter signals would be drowned out by the countless background events you would also to detect.  This is why direct detection experiments are typically built deep underground with shielding and low radiation materials and take great care to understand their background as well as they possibly can: if WIMPs are scattering in the detector they want to be able to know.
+In purely theoretical terms, any detector that is sensitive to a potential WIMP interaction could be considered a direct detection dark matter search.  At the same time, to try and detect a dark matter signal from a NaI detector in your lab would be preposterous (unless your detector is 250 kg and located deep underground!), the reason being that any of the rare dark matter signals would be drowned out by the countless background events you would also detect.  This is why direct detection experiments are typically built deep underground with shielding and low radiation materials and take great care to understand their background as well as they possibly can: if WIMPs are scattering in the detector they want to be able to know.
 
-The goal of direct detection experiments is to detect the scatter of WIMPs off of standard model particles.  As mentioned, since these scatters should be extremely rare, it is essential to have the background of the detector used be as low as possible.  As a simple example, consider two otherwise identical experiments who both have measured their backgrounds perfectly: experiment A expects a single background event per year while experiment B expects 1,000 background events per year.  In the case that both detectors see an excess of ten events in a given year over their background, it should be clear that experiment A can make a very strong claim that they have seen WIMP scatterings where as experiment B cannot since this excess could very well be a fluctuation from their expected background.
+The goal of direct detection experiments is to detect the scattering of WIMPs off of standard model particles.  As mentioned, since these scatters should be extremely rare, it is essential to have the background of the detector used be as low as possible.  As a simple example, consider two otherwise identical experiments who both have measured their backgrounds perfectly: experiment A expects a single background event per year while experiment B expects 1,000 background events per year.  In the case that both detectors see an excess of ten events in a given year over their background, it should be clear that experiment A can make a very strong claim that they have seen WIMP scatterings whereas experiment B cannot since this excess could very well be a fluctuation from their expected background.
 
 It cannot be emphasized strongly enough how crucial the understanding of background is for direct detection experiments.  Returning to the above example, imagine experiment A missed a source of background in their estimate and that their true expected background rate is ten events per year, not one.  If they saw the same eleven events as before, they might claim a discovery even though the eleven events are very likely to be a statistical fluctuation of the background.
 
@@ -266,14 +266,14 @@ It can be shown that the differential scattering rate is given by \cite{undagoit
 %
 where $\rho_0$ is the local dark matter density, $m_{\chi}$ is the mass of the WIMP, $m_{A}$ is the mass of the target nucleus, $f(v)$ is the velocity distribution of dark matter locally, $v_{min}$ is the minimum velocity that can produce a recoil of energy $E$, $v_{esc}$ is the maximum velocity in which WIMPs are still gravitationally bound to the galactic halo, and $\frac{d\sigma}{dE}$ is the differential cross-section of WIMP-nucleon scattering.  
 
-As discussed in \secref{sec:indirect_detection}, N-body simulations give us a prediction of roughly $0.2 - 0.4 \frac{GeV}{cm^3}$ for the local dark matter density \cite{read2014local}.  We will use the standard halo model (SHM), which is standard for dark matter experiments,  such that the velocity of WIMPs in the halo follows a Maxwell-Boltzmann distribution.  The minimum velocity of a WIMP to transfer an energy $E$ to a nucleus, $v_{min}$, is found kinematically to be 
+As discussed in \secref{sec:indirect_detection}, N-body simulations give us a prediction of roughly $0.2 - 0.4 \, \frac{\textrm{GeV}}{\textrm{cm}^3}$ for the local dark matter density \cite{read2014local}.  We will use the standard halo model (SHM), which is standard for dark matter experiments,  such that the velocity of WIMPs in the halo follows a Maxwell-Boltzmann distribution.  The minimum velocity of a WIMP to transfer an energy $E$ to a nucleus, $v_{min}$, is found kinematically to be 
 %
 \begin{equation}
         v_{min} = \sqrt{\frac{m_A E}{2 \mu^2}},  \quad
         \mu = \frac{m_A m_{\chi}}{m_A + m_{\chi}}
 \end{equation}
 %
-while astrophysical measurements of the Milky Way estimate the local escape velocity to be $v_{esc} = 533^{+54}_{-41} \, km \, s^{-1}$ \cite{piffl2014rave}.  It is worth noting that while the Maxwell-Boltzmann distribution is the standard, other models of the velocity distribution exist \cite{kuhlen2010dark}.
+while astrophysical measurements of the Milky Way estimate the local escape velocity to be $v_{esc} = 533^{+54}_{-41} \, \textrm{km} \, \textrm{s}^{-1}$ \cite{piffl2014rave}.  It is worth noting that while the Maxwell-Boltzmann distribution is the standard, other models of the velocity distribution exist \cite{kuhlen2010dark}.
 
 The particle physics of the WIMPs comes in at the differential cross-section.  The most basic WIMP models predict two potential interactions: a spin-independent or spin-dependent.  Focusing on the former, the differential cross-section is given by
 %
@@ -281,7 +281,7 @@ The particle physics of the WIMPs comes in at the differential cross-section.  T
         \frac{d \sigma}{dE}(E, v) = \frac{m_A}{2 \mu^2 v^2} \sigma_0 F(E)^2
 \end{equation}
 %
-where $F(E)$ is nuclear form factor.  The nuclear form factor is the Fourier transform of the ground state mass density and is used to reduce to correct the zero-momentum transfer cross-section in the case of a momentum transfer.  The nuclear form factor can be approximated by
+where $F(E)$ is nuclear form factor.  The nuclear form factor is the Fourier transform of the ground state mass density and is used to correct the zero-momentum transfer cross-section in the case of a momentum transfer.  The nuclear form factor can be approximated by
 %
 \begin{equation}
         F(q) = \frac{3 j_1(q R_0)}{q R_0} e^{\frac{-(qs)^2}{2}}, \quad q=\sqrt{2 m_A E}, \quad R_0^2 = \left( 1.2A^{\frac{1}{3}} \, \textrm{fm} \right)^{2} - 5s^2
@@ -341,32 +341,32 @@ The field of direct detection experiments is likely best described as diverse.  
 
 There are two basic strategies of measuring the heat deposit of potential WIMP interactions that are on opposite sides of the temperature spectrum: cryogenic thermometers and super-heated liquids (bubble chambers).  Cryogenic thermometers are detectors cooled down to mK levels that measure the energy deposited by an interaction via the increase in temperature.  In recent years, these cryogenic thermometers have been coupled with light and charge detectors in order to discriminate between electronic and nuclear recoils to some extent \cite{strauss2016exploring}.  
 
-Bubble chambers operate by filling a detector with a super-heated liquid that is just below its boiling point.  When ionizing radiation enters, it will form bubbles that can be detected by acoustic sensors.  One major advantage of bubble chambers is that they are almost completely insensitive to background radiation which is the main source of background for almost all other experiments.  The PICO collaboration uses bubble chamber technology to search for dark matter and currently have the most stringent spin-dependent dark matter limits \cite{amole2017dark}.  
+Bubble chambers operate by filling a detector with a super-heated liquid that is just below its boiling point.  When ionizing radiation enters, it will form bubbles that can be detected by acoustic sensors.  One major advantage of bubble chambers is that they are almost completely insensitive to radiation that interacts electronically which is the main source of background for almost all other experiments.  The PICO collaboration uses bubble chamber technology to search for dark matter and they currently have the most stringent spin-dependent dark matter limits \cite{amole2017dark}.  
 
 \subsubsection{Scintillation}
 
-Scintillators have proven to be some of the most useful detectors in all of physics.  The operating principle is that as radiation pass through a detector, it excites the atoms and molecules in the medium which in turn produce light.  In single-channel scintillation experiments, scintillating inorganic crystals, such as NaI, are typically used.  Inorganic crystals are typically doped with an additional element, most commonly thallium, to increase their light yield and give alter the wavelength to one that is more sensitive to photomultiplier tubes (the devices that are used to convert the light into an electrical signal).  The major downside of using an inorganic crystal, however, is that one cannot discriminate between different types of recoils in the detector \cite{undagoitia2015dark}.  The most famous experiment to use an inorganic crystal is the DAMA collaboration, which utilized a 250 kg NaI(Tl) crystal.  Since their operation began they have seen a statistically significant annual modulation in their event rate that agrees with predictions of how a dark matter signal would vary over the course of the year according to the standard halo model \cite{bernabei2010particle}.   \figref{fig:dama_modulation} shows this annual modulation.  However, the claim that the signal is dark matter has been extremely controversial since other experiments have been unable to replicate the results under the assumptions of many models and even an annual modulation test in an alternate detector \cite{aalseth2014maximum, xmass2016direct, aprile2017search}.
+Scintillators have proven to be some of the most useful detectors in all of physics.  The operating principle is that as radiation pass through a detector, it excites the atoms and molecules in the medium which in turn produce light.  In single-channel scintillation experiments, scintillating inorganic crystals, such as NaI, are typically used.  Inorganic crystals are typically doped with an additional element, most commonly thallium, to increase their light yield and alter the wavelength to one that is more sensitive to photomultiplier tubes (the devices that are used to convert the light into an electrical signal).  The major downside of using an inorganic crystal, however, is that one cannot discriminate between different types of recoils in the detector \cite{undagoitia2015dark}.  The most famous experiment to use an inorganic crystal is the DAMA collaboration, which utilized a 250 kg NaI(Tl) crystal.  Since their operation began they have seen a statistically significant annual modulation in their event rate that agrees with predictions of how a dark matter signal would vary over the course of the year according to the standard halo model \cite{bernabei2010particle}.   \figref{fig:dama_modulation} shows this annual modulation.  However, the claim that the signal is dark matter has been extremely controversial since other experiments have been unable to replicate the results under the assumptions of many models and even an annual modulation test in an alternate detector \cite{aalseth2014maximum, xmass2016direct, aprile2017search}.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{dama_modulation}
-	\caption{The annual modulation seen by the DAMA collaboration.  The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal \cite{undagoitia2015dark}.}
+	\caption{The annual modulation seen by the DAMA collaboration.  The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal. Image Credit: \cite{undagoitia2015dark}.}
 	\label{fig:dama_modulation}
 \end{figure}
 
-While many experiments use organic scintillators (typically liquid argon or xenon), they typically measure both scintillation and ionization.  However, there are some experiments that are hoping to witness a WIMP interaction while only measuring scintillation.  XMASS-I, for example, is a detector with an 832 kg liquid xenon target that, like DAMA, employed an annual modulation approach in their search for WIMPs.  Unlike DAMA, however, they see no annual modulation in their data \cite{xmass2016direct}.  
+While many experiments use condensed noble gasses that scintillate, they typically measure both scintillation and ionization in the medium.  However, there are some experiments that are hoping to witness a WIMP interaction while only measuring scintillation.  XMASS-I, for example, is a detector with an 832 kg liquid xenon target that, like DAMA, employed an annual modulation approach in their search for WIMPs.  Unlike DAMA, however, they see no annual modulation in their data \cite{xmass2016direct}.  
 
-A unique property of many organic scintillators is that there are usually two states in which the atoms can be excited into, a singlet and triplet state each with different decay times, and different types of interaction (electronic versus nuclear) will produce each in different fractions.  For argon, this difference in lifetime between the states is from less than 6 ns to 1,300 ns \cite{heindl2011table} meaning that pulse shape discrimination (PSD) is possible, while for xenon the difference is only 4.3 ns to 22 ns meaning that PSD is very difficult.  DEAP-3600, a 3600 kg liquid argon detector, uses this pulse shape discrimination technique to identify nuclear recoils in their detector even though they only measure the scintillation light \cite{amaudruz2017first}.     
+A useful property of condensed noble gasses is that there are usually two states in which the atoms or molecules can be excited into, a singlet and triplet state each with different decay times, and different types of interaction (electronic versus nuclear) will produce each in different fractions.  For argon, this difference in lifetime between the states is from less than 6 ns to 1,300 ns \cite{heindl2011table} meaning that pulse shape discrimination (PSD) is possible, while for xenon the difference is only 4.3 ns to 22 ns meaning that PSD is very difficult.  DEAP-3600, a 3600 kg liquid argon detector, uses this pulse shape discrimination technique to identify nuclear recoils in their detector \cite{amaudruz2017first}.     
 
 
 \subsubsection{Ionization}
 
-The majority of experiments that used charge as their only channel utilized high-purity germanium detectors.  These type of detectors operate by having incoming particles free electrons in a consistent and linear fashion as function of energy.  These types of detectors are able to go to observe interactions at much lower energies than most other detectors, allowing them to probe lower WIMP masses.  The most recent of these single-channel HPGe experiments was CoGeNT.  In early 2014, CoGeNT announced that they also had seen an annual modulation that matched the standard halo model \cite{aalseth2014search} however this was found to be an error in the estimation of the background \cite{aalseth2014maximum}.
+The majority of experiments that used charge as their only channel utilized high-purity germanium detectors.  These type of detectors operate by having incoming particles free electrons in a consistent and linear fashion as function of energy.  These types of detectors are able to observe interactions at much lower energies than most other detectors, allowing them to probe lower WIMP masses.  The most recent of these single-channel HPGe experiments was CoGeNT.  In early 2014, CoGeNT announced that they also had seen an annual modulation that matched the standard halo model \cite{aalseth2014search} however this was found to be an error in the estimation of the background \cite{aalseth2014maximum}.
 
 
 \subsubsection{Heat-Scintillation}
 
-As mentioned earliers, many of the experiments that use heat as a channel also couple it with another channel.  CRESST-II is an example of such an experiment - CREST-II uses a roughly 5 kg target of $\textrm{CaWO}_4$ that is cooled to mK temperatures.  The detector also utilizes a small silicon-on-sapphire absorber to measure the scintillation light produced.  The addition of this scintillation detector enables the detector to discriminate between electronic background and potential signals \cite{strauss2016exploring}.  
+As mentioned earliers, many of the experiments that use heat as a channel also couple it with another channel.  CRESST-II is an example of such an experiment --- CREST-II uses a roughly 5 kg target of $\textrm{CaWO}_4$ that is cooled to mK temperatures.  The detector also utilizes a small silicon-on-sapphire absorber to measure the scintillation light produced.  The addition of this scintillation detector enables the detector to discriminate between electronic recoil background and potential nuclear recoil signals \cite{strauss2016exploring}.  
 
 \subsubsection{Heat-Ionization}
 
@@ -374,7 +374,7 @@ The HPGe crystals used to detect ionization signals can also be cooled such that
 
 \subsubsection{Scintillation-Ionization}
 
-While many of the experiments mentioned excel at low mass, none have been as successful as dual-channel scintillation-ionization experiments at very large mass ranges.  Specifically, dual-phase liquid xenon time projection chambers (TPCs) have led the field in the WIMP search from roughly 10 GeV to 1 TeV for almost a decade.  As of this writing, XENON1T, the first ton-scale dual-phase TPC, holds the strongest limit of spin-independent WIMP scattering at any mass \cite{aprile2017first, collaboration2017dark}.  Not only are these detectors capable of a high level discrimination between electronic and nuclear recoils but they are also capable of measuring the position of an interaction in the detector allowing further elimination of background sources.  However, one of the major difficulties of these types of experiments is that the response of liquid xenon to low energy electronic and nuclear recoils is not well understood.  A great deal of effort has gone into measuring the response of xenon to these low energy interactions and later we will focus on an experiment designed for exactly this purpose.
+While many of the experiments mentioned excel at low mass, none have been as successful as dual-channel scintillation-ionization experiments above masses of approximately 5 GeV.  Specifically, dual-phase liquid xenon time projection chambers (TPCs) have led the field in the WIMP search from roughly 5 GeV to 1 TeV for almost a decade.  As of this writing, XENON1T, the first ton-scale dual-phase TPC, holds the strongest limit of spin-independent WIMP scattering, as can be seen in \figref{fig:dm_si_limits} \cite{aprile2017first, collaboration2017dark}.  Not only are these detectors capable of a high level discrimination between electronic and nuclear recoils but they are also capable of measuring the position of an interaction in the detector allowing further elimination of background sources.  However, one of the major difficulties of these types of experiments is that the response of liquid xenon to low energy electronic and nuclear recoils is not well understood.  A great deal of effort has gone into measuring the response of xenon to these low energy interactions and later we will focus on an experiment designed for exactly this purpose.
 
 \begin{figure}[t]
 	\centering

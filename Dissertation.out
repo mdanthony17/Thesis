@@ -4,14 +4,45 @@
 \BOOKMARK [0][-]{chapter.1}{Dark Matter}{}% 4
 \BOOKMARK [1][-]{section.1.1}{CDM Model}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.2}{Evidence of Dark Matter}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{Dark Matter Candidates}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.4}{Detecting WIMPs}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Liquid Xenon and Dual-Phase TPCs}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Chemical Properties}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{Energy Deposition of Charged Particles in Liquid Xenon}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.3}{Electronic Recoils in Liquid Xenon}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.4}{Nuclear Recoils in Liquid Xenon}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{Dual-Phase Time Projection Chambers}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Table of Contents Title}{}% 15
-\BOOKMARK [0][-]{chapter*.17}{Conclusion}{}% 16
-\BOOKMARK [0][-]{section*.20}{Bibliography}{}% 17
+\BOOKMARK [2][-]{subsection.1.2.1}{Dynamical Constraints from Clusters of Galaxies}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Dynamical Constraints from Galactic Rotation Curves}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{Evidence from Graviational Lensing}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.4}{Evidence from the Cosmic Microwave Background}{section.1.2}% 10
+\BOOKMARK [1][-]{section.1.3}{Dark Matter Candidates}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.3.1}{Axions}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.2}{WIMPs}{section.1.3}% 13
+\BOOKMARK [1][-]{section.1.4}{Detecting WIMPs}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.4.1}{Indirect Detection}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.2}{Collider Detection}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.3}{Direct Detection}{section.1.4}% 17
+\BOOKMARK [2][-]{subsection.1.4.4}{Direct Detection Experiments}{section.1.4}% 18
+\BOOKMARK [3][-]{section*.4}{Heat}{subsection.1.4.4}% 19
+\BOOKMARK [3][-]{section*.5}{Scintillation}{subsection.1.4.4}% 20
+\BOOKMARK [3][-]{section*.6}{Ionization}{subsection.1.4.4}% 21
+\BOOKMARK [3][-]{section*.7}{Heat-Scintillation}{subsection.1.4.4}% 22
+\BOOKMARK [3][-]{section*.8}{Heat-Ionization}{subsection.1.4.4}% 23
+\BOOKMARK [3][-]{section*.9}{Scintillation-Ionization}{subsection.1.4.4}% 24
+\BOOKMARK [0][-]{chapter.2}{Liquid Xenon and Dual-Phase TPCs}{}% 25
+\BOOKMARK [1][-]{section.2.1}{General Properties}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.2}{Energy Deposition of Charged Particles in Liquid Xenon}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.3}{Electronic Recoils in Liquid Xenon}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.3.1}{Sources of Electronic Recoils}{section.2.3}% 29
+\BOOKMARK [3][-]{section*.10}{Beta Decays}{subsection.2.3.1}% 30
+\BOOKMARK [3][-]{section*.11}{Photons}{subsection.2.3.1}% 31
+\BOOKMARK [3][-]{section*.12}{Neutrons}{subsection.2.3.1}% 32
+\BOOKMARK [3][-]{section*.13}{Neutrinos}{subsection.2.3.1}% 33
+\BOOKMARK [2][-]{subsection.2.3.2}{Observables Production for Electronic Recoils}{section.2.3}% 34
+\BOOKMARK [1][-]{section.2.4}{Nuclear Recoils in Liquid Xenon}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.4.1}{Sources of Nuclear Recoils}{section.2.4}% 36
+\BOOKMARK [3][-]{section*.14}{Neutrons}{subsection.2.4.1}% 37
+\BOOKMARK [3][-]{section*.15}{Neutrinos}{subsection.2.4.1}% 38
+\BOOKMARK [2][-]{subsection.2.4.2}{Observables Production for Nuclear Recoils}{section.2.4}% 39
+\BOOKMARK [1][-]{section.2.5}{Dual-Phase Time Projection Chambers}{chapter.2}% 40
+\BOOKMARK [2][-]{subsection.2.5.1}{Operating Principle}{section.2.5}% 41
+\BOOKMARK [3][-]{section*.16}{Reconstructing Interaction Type}{subsection.2.5.1}% 42
+\BOOKMARK [3][-]{section*.17}{Reconstructing Energy}{subsection.2.5.1}% 43
+\BOOKMARK [3][-]{section*.18}{Reconstructing Position}{subsection.2.5.1}% 44
+\BOOKMARK [2][-]{subsection.2.5.2}{Detecting Observables}{section.2.5}% 45
+\BOOKMARK [3][-]{section*.19}{Detection of Scintillation Photons: S1}{subsection.2.5.2}% 46
+\BOOKMARK [3][-]{section*.20}{Detection of Ionization Electrons: S2}{subsection.2.5.2}% 47
+\BOOKMARK [0][-]{section*.22}{Bibliography}{}% 48
