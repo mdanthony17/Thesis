@@ -61,3 +61,25 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 40 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{53}{figure.2.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces An example of a gas gain analysis from XENON100. This fit was performed using electrons from photoionization of metal inside of the detector. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2014observation}.}}{54}{figure.2.14}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The neutron flux due to cosmogenic muons versus kilometers water equivalent depth for various underground laboratories. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {mei2006muon}.}}{56}{figure.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A cartoon of the muon veto with the TPC centered inside the water tank.}}{57}{figure.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A photo of the inside of the muon veto water tank. The 8'' PMTs can be seen along the edges of the tank and the TPC can be seen in the center of the tank (left side of the photo).}}{58}{figure.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A photo from inside the watertank with the inner cryostat installed. Note the mylar foil around the vessel for insulation against radiative heat transfer.}}{59}{figure.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A diagram of the cryostat, the TPC, and the subsystems of each. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017material}.}}{60}{figure.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A diagram of the cryostat, the cryogenics system, and the purification systems. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017material}.}}{61}{figure.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A photograph of RESToX prior to instillation at LNGS.}}{65}{figure.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces A diagram showing the external calibration systems. The ``U-Belt'', which allows for placement of external sources below the TPC, is shown in red while the ``I-Belt'', which allows for the placement of external sources at different heights along the side of the TPC, is shown in blue. Shown in green is the neutron generator which can be raised an lowered along the side of the detector.}}{66}{figure.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The quantum efficiencies of the PMTs installed in the XENON1T PMT arrays. Note that, with a few exceptions due to higher radioactivity levels, the highest quantum efficiency PMTs are placed towards the center to maximize light collection. Also note that in general the PMTs used in the bottom array have a higher quantum efficiency than those in the top array since the much smaller S1 signal is mainly seen by the bottom array. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{67}{figure.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The field simulations for the TPC during the first science run of XENON1T. During this run, a cathode voltage of $-12$ kV was used and an anode voltage of $+4$ kV was used. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{69}{figure.3.10}

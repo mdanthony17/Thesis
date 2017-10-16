@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Contents}{i}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{iii}{section*.2}
+\contentsline {chapter}{List of Figures}{v}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgements}{ix}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{xi}{chapter*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -94,4 +94,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Detection of Ionization Electrons: S2}{52}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{55}{section*.22}
+\contentsline {chapter}{\chapternumberline {3}The First Dark Matter Search with XENON1T}{55}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The XENON1T Detector}{55}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1} Laboratori Nazionali del Gran Sasso}{56}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Muon Veto}{56}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Cryostat}{58}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Cryogenics System}{61}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}Purification Systems}{62}{subsection.3.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Electronegative Impurities}{62}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r}}{63}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.6}Recovery and Storage}{64}{subsection.3.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.7}Calibration Systems}{64}{subsection.3.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.8}Photomultiplier Tubes}{65}{subsection.3.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.9}XENON1T TPC}{67}{subsection.3.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{71}{section*.24}

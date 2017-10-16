@@ -590,17 +590,6 @@
   publisher = {Elsevier},
 }
 
-@Article{aprile2017removing,
-  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {Removing krypton from xenon by cryogenic distillation to the ppq level},
-  journal   = {The European Physical Journal C},
-  year      = {2017},
-  volume    = {77},
-  number    = {5},
-  pages     = {275},
-  publisher = {Springer},
-}
-
 @Article{abe2009distillation,
   author    = {Abe, K and Hosaka, J and Iida, T and Ikeda, M and Kobayashi, K and Koshio, Y and Minamino, A and Miura, M and Moriyama, S and Nakahata, M and others},
   title     = {Distillation of liquid xenon to remove krypton},
@@ -1017,6 +1006,116 @@
   number    = {3},
   pages     = {035201},
   publisher = {IOP Publishing},
+}
+
+@Article{carroll1997lecture,
+  author  = {Carroll, Sean M},
+  title   = {Lecture notes on general relativity},
+  journal = {arXiv preprint gr-qc/9712019},
+  year    = {1997},
+}
+
+@Article{mei2006muon,
+  author    = {Mei, D-M and Hime, A},
+  title     = {Muon-induced background study for underground laboratories},
+  journal   = {Physical Review D},
+  year      = {2006},
+  volume    = {73},
+  number    = {5},
+  pages     = {053004},
+  publisher = {APS},
+}
+
+@Article{,
+}
+
+@Article{aprile2014conceptual,
+  author    = {Aprile, E and Agostini, F and Alfonsi, M and Arisaka, K and Arneodo, F and Auger, M and Balan, C and Barrow, P and Baudis, L and Bauermeister, B and others},
+  title     = {Conceptual design and simulation of a water Cherenkov muon veto for the XENON1T experiment},
+  journal   = {Journal of instrumentation},
+  year      = {2014},
+  volume    = {9},
+  number    = {11},
+  pages     = {P11006},
+  publisher = {IOP Publishing},
+}
+
+@Article{agostinelli2003geant4,
+  author    = {Agostinelli, Sea and Allison, John and Amako, K al and Apostolakis, J and Araujo, H and Arce, P and Asai, M and Axen, D and Banerjee, S and Barrand, G and others},
+  title     = {GEANT4—a simulation toolkit},
+  journal   = {Nuclear instruments and methods in physics research section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  year      = {2003},
+  volume    = {506},
+  number    = {3},
+  pages     = {250--303},
+  publisher = {Elsevier},
+}
+
+@Article{aprile2017material,
+  author  = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, B and others},
+  title   = {Material radioassay and selection for the XENON1T dark matter experiment},
+  journal = {arXiv preprint arXiv:1705.01828},
+  year    = {2017},
+}
+
+@Article{aprile2017removing,
+  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
+  title     = {Removing krypton from xenon by cryogenic distillation to the ppq level},
+  journal   = {The European Physical Journal C},
+  year      = {2017},
+  volume    = {77},
+  number    = {5},
+  pages     = {275},
+  publisher = {Springer},
+}
+
+@InProceedings{fieguth2016distillation,
+  author    = {Fieguth, Alexander},
+  title     = {Distillation column for the XENON1T experiment},
+  booktitle = {J. Phys. Conf. Ser.},
+  year      = {2016},
+  volume    = {718},
+  pages     = {042020},
+}
+
+@Article{aprile2017online,
+  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
+  title     = {Online Rn222 removal by cryogenic distillation in the XENON100 experiment},
+  journal   = {The European Physical Journal C},
+  year      = {2017},
+  volume    = {77},
+  number    = {6},
+  pages     = {358},
+  publisher = {Springer},
+}
+
+@Article{barrow2017qualification,
+  author    = {Barrow, P and Baudis, L and Cichon, Dominick and Danisch, Meike and Franco, Davide and Kaether, Florian and Kish, A and Lindner, Manfred and Undagoitia, T Marrod{\'a}n and Mayani, D and others},
+  title     = {Qualification tests of the R11410-21 photomultiplier tubes for the XENON1T detector},
+  journal   = {Journal of Instrumentation},
+  year      = {2017},
+  volume    = {12},
+  number    = {01},
+  pages     = {P01024},
+  publisher = {IOP Publishing},
+}
+
+@Article{kirby1956thermal,
+  author    = {Kirby, Richard K},
+  title     = {Thermal expansion of polytetrafluoroethylene (Teflon) from- 190° to+ 300° C},
+  journal   = {Journal of Research of the National Bureau of Standards},
+  year      = {1956},
+  volume    = {57},
+  number    = {2},
+  pages     = {91--94},
+  publisher = {US Government Printing Office},
+}
+
+@Article{akerib201783,
+  author  = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
+  title   = {$^{83m}$Kr calibration of the 2013 LUX dark matter search},
+  journal = {arXiv preprint arXiv:1708.02566},
+  year    = {2017},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

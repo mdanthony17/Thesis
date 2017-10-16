@@ -96,6 +96,7 @@
 \chapterstyle{default} % Nice formatting for chapter headings. Check out the documentation for the memoir class for other options.
 \footnotesep\baselineskip % Footnotes need to have a space between each one for Columbia's Dissertation Office. 
 \setstretch{1.5} %Set line spacing to "true MS Word" double-spacing
+%\setstretch{1.}
 %\DoubleSpace % Use LaTeX double-spacing (more like 1.666 spacing)
 
 \expandafter\def\expandafter\quote\expandafter{\quote\SingleSpace} %Keep all block quotes single-spaced regardless of body text spacing.
@@ -123,9 +124,11 @@
 
 \frontmatter
 \tableofcontents % You need to put your ToC after frontmatter so that it will get lowercase Roman numerals.
+\cleardoublepage
 
 %A list of graphs and illustrations should go here if you use any.
 \listoffigures
+\cleardoublepage
 
 % Acknowledgements
 \include{./FrontMatter/Acknowledgments}
@@ -146,7 +149,7 @@
 
 \include{./Chapter1/Chapter1}
 \include{./Chapter2/Chapter2}
-%\include{./Chapter3/Chapter3}
+\include{./Chapter3/Chapter3}
 %\include{./Conclusion/Conclusion}
 
 %This final section includes your bibliography.
