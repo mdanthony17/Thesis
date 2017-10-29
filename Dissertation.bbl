@@ -3356,6 +3356,7 @@
   \strng{fullhash}{BM1}
   \field{title}{XCOM: Photon Cross Sections Database}
   \field{journaltitle}{NIST Standard Reference Database 8 (XGAM)}
+  \field{year}{2013}
 \endentry
 
 \entry{chadwick2011endf}{article}{}
@@ -4907,6 +4908,484 @@
   \field{volume}{57}
   \field{journaltitle}{Journal of Research of the National Bureau of Standards}
   \field{year}{1956}
+\endentry
+
+\entry{caen2017v1724}{manual}{}
+  \list{organization}{1}{%
+    {CAEN}%
+  }
+  \field{edition}{Rev. 32}
+  \field{title}{User Manual UM3248: V1724/VX1724}
+  \list{location}{1}{%
+    {Via Vetraia, 11 55049 Viareggio (LU), Italy}%
+  }
+  \field{month}{04}
+  \field{year}{2017}
+\endentry
+
+\entry{aprile2017results}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {Boris}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+5}
+  \field{number}{7}
+  \field{pages}{072008}
+  \field{title}{Results from a calibration of XENON100 using a source of
+  dissolved radon-220}
+  \field{volume}{95}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2017}
+\endentry
+
+\entry{du2004atom}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Du}{D.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bailey}{B.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lu}{L.}%
+     {Z-T}{Z.-T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mueller}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {O’Connor}{O.}%
+     {TP}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {AIP}%
+  }
+  \strng{namehash}{DXBKLZT+1}
+  \strng{fullhash}{DXBKLZTMPOTYL1}
+  \field{number}{10}
+  \field{pages}{3224\bibrangedash 3232}
+  \field{title}{An atom trap system for practical 81 Kr dating}
+  \field{volume}{75}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2004}
+\endentry
+
+\entry{ponkratenko2000event}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ponkratenko}{P.}%
+     {OA}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tretyak}{T.}%
+     {VI}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zdesenko}{Z.}%
+     {Yu~G}{Y.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{POTVZYG1}
+  \strng{fullhash}{POTVZYG1}
+  \field{number}{7}
+  \field{pages}{1282\bibrangedash 1287}
+  \field{title}{Event generator DECAY4 for simulating double-beta processes and
+  decays of radioactive nuclei}
+  \field{volume}{63}
+  \field{journaltitle}{Physics of Atomic Nuclei}
+  \field{year}{2000}
+\endentry
+
+\entry{saldanha2017model}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Saldanha}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grandi}{G.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guardincerri}{G.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wester}{W.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SRGLGY+1}
+  \strng{fullhash}{SRGLGYWT1}
+  \field{title}{Model independent approach to the single photoelectron
+  calibration of photomultiplier tubes}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2017}
+\endentry
+
+\entry{doke1976estimation}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Doke}{D.}%
+     {Tadayoshi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hitachi}{H.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kubota}{K.}%
+     {Shinzou}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakamoto}{N.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takahashi}{T.}%
+     {Tan}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{DTHAKS+1}
+  \strng{fullhash}{DTHAKSNATT1}
+  \field{number}{2}
+  \field{pages}{353\bibrangedash 357}
+  \field{title}{Estimation of Fano factors in liquid argon, krypton, xenon and
+  xenon-doped liquid argon}
+  \field{volume}{134}
+  \field{journaltitle}{Nuclear Instruments and Methods}
+  \field{year}{1976}
+\endentry
+
+\entry{aprile2013response}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arisaka}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balan}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bokeloh}{B.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEAMAK+1}
+  \strng{fullhash}{AEAMAKAFBCBLBBBABPBK+1}
+  \field{number}{1}
+  \field{pages}{012006}
+  \field{title}{Response of the XENON100 dark matter detector to nuclear
+  recoils}
+  \field{volume}{88}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2013}
+\endentry
+
+\entry{faham2015measurements}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Faham}{F.}%
+     {CH}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gehman}{G.}%
+     {VM}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Currie}{C.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dobi}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sorensen}{S.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaitskell}{G.}%
+     {RJ}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{FCGVCA+1}
+  \strng{fullhash}{FCGVCADASPGR1}
+  \field{number}{09}
+  \field{pages}{P09010}
+  \field{title}{Measurements of wavelength-dependent double photoelectron
+  emission from single photons in VUV-sensitive photomultiplier tubes}
+  \field{volume}{10}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2015}
+\endentry
+
+\entry{bayes1763essay}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bayes}{B.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BT1}
+  \strng{fullhash}{BT1}
+  \field{title}{An essay towards solving a problem in the doctrine of chances}
+  \field{year}{1763}
+\endentry
+
+\entry{foreman2013emcee}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Foreman-Mackey}{F.-M.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hogg}{H.}%
+     {David~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lang}{L.}%
+     {Dustin}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goodman}{G.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{FMDHDWLD+1}
+  \strng{fullhash}{FMDHDWLDGJ1}
+  \field{number}{925}
+  \field{pages}{306}
+  \field{title}{emcee: the MCMC hammer}
+  \field{volume}{125}
+  \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+  \field{year}{2013}
+\endentry
+
+\entry{chib1995understanding}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Chib}{C.}%
+     {Siddhartha}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenberg}{G.}%
+     {Edward}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis Group}%
+  }
+  \strng{namehash}{CSGE1}
+  \strng{fullhash}{CSGE1}
+  \field{number}{4}
+  \field{pages}{327\bibrangedash 335}
+  \field{title}{Understanding the metropolis-hastings algorithm}
+  \field{volume}{49}
+  \field{journaltitle}{The american statistician}
+  \field{year}{1995}
+\endentry
+
+\entry{brooks1998general}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brooks}{B.}%
+     {Stephen~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gelman}{G.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis}%
+  }
+  \strng{namehash}{BSPGA1}
+  \strng{fullhash}{BSPGA1}
+  \field{number}{4}
+  \field{pages}{434\bibrangedash 455}
+  \field{title}{General methods for monitoring convergence of iterative
+  simulations}
+  \field{volume}{7}
+  \field{journaltitle}{Journal of computational and graphical statistics}
+  \field{year}{1998}
+\endentry
+
+\entry{gelman1992inference}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gelman}{G.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rubin}{R.}%
+     {Donald~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{GARDB1}
+  \strng{fullhash}{GARDB1}
+  \field{pages}{457\bibrangedash 472}
+  \field{title}{Inference from iterative simulation using multiple sequences}
+  \field{journaltitle}{Statistical science}
+  \field{year}{1992}
 \endentry
 
 \lossort

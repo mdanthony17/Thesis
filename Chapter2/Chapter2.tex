@@ -6,6 +6,7 @@
 \graphicspath{{./Chapter2/images/}}
 
 \chapter[Liquid Xenon and Dual-Phase TPCs][Liquid Xenon and Dual-Phase TPCs]{Liquid Xenon and Dual-Phase TPCs}
+\label{chap:lxe}
 
 This chapter will focus on liquid xenon as a detector medium.  In \secref{sec:lxe_chem_properties} we will discuss the general properties of liquid xenon along with some of the benefits and considerations of these properties.  In \secref{sec:energy_deposition} we will discuss how charged particles in xenon deposit their energy.  In \secref{sec:lxe_er} we will discuss the production of observable light and charge from electron recoils while in \secref{sec:lxe_nr} we will discuss observable production from elastic nuclear recoils.  Finally, in \secref{sec:lxe_tpc}, we will discuss how these observables are detected in dual-phase xenon time projection chambers.
 
@@ -130,19 +131,19 @@ There are two main sources of energetic electrons in liquid xenon: (1) beta deca
 
 While there are both $\beta^-$ and $\beta^+$ decays, we will focus on $\beta^-$ decays since they are relevant to WIMP searches.  $\beta^-$ decay is a radioactive decay in which a neutron is converted to a proton inside of the nucleus and a subsequent electron and anti-electron neutrino are emitted.  This type of decay is made possible by the weak force which allows a quark to change its type via a W boson and an electron and anti-neutrino (positron and neutrino) pair \cite{cottingham1987introduction}.
 
-While the maximum energy of the energetic electron in the decay is fixed, because an anti-neutrino is also emitted in $\beta^-$ decay, the energy spectra of the electron is continuous.  This continuous energy spectrum is what makes long-lived $\beta^-$ emitters very dangerous potential sources of background - they can, with non-negligible probabilities, produce electrons with energies of interest for WIMP detection ($\lesssim 30$ keV).  The energy spectrum for \ce{^{83}Kr} is shown in \figref{fig:kr85_beta_decay}.
+While the maximum energy of the energetic electron in the decay is fixed, because an anti-neutrino is also emitted in $\beta^-$ decay, the energy spectra of the electron is continuous.  This continuous energy spectrum is what makes long-lived $\beta^-$ emitters very dangerous potential sources of background - they can, with non-negligible probabilities, produce electrons with energies of interest for WIMP detection ($\lesssim 15$ keV).  The energy spectrum for \krypton{} is shown in \figref{fig:kr85_beta_decay}.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\textwidth]{kr85_beta_rates}
-	\caption{The kinetic energy spectrum of electrons resulting from the $\beta^-$ decay of \ce{^{85}Kr} \cite{mantel1972beta}.  Note that roughly 6.5\% of decays are below 30 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}
+	\caption{The kinetic energy spectrum of electrons resulting from the $\beta^-$ decay of \ce{^{85}Kr} \cite{mantel1972beta}.  Note that roughly 3.1\% of decays are below 15 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}
 	\label{fig:kr85_beta_decay}
 \end{figure}
 
 % show multiple energy spectra of the beta decays from 
 %https://ac.els-cdn.com/0020708X7290107X/1-s2.0-0020708X7290107X-main.pdf?_tid=259893f2-a843-11e7-9dfb-00000aacb35f&acdnat=1507039388_aef3096471a4defbd8b1c8a8198864c6
 
-In liquid xenon based detectors, the two biggest sources of background beta decays are from \ce{^{85}Kr} and \ce{^{214}Pb}, which comes from the \ce{^{222}Rn} decay chain \cite{aprile2017first}.  Even though certain atoms that $\beta^-$ decay prove to be a background that must be carefully reduced, others have proven to be extremely useful for detector calibrations.  \ce{^{212}Pb}, from the decay chain of \ce{^{220}Rn},  has proven useful for calibrations since approximately 10\% of electrons have an energy less than 30 keV (the maximum energy is 570 keV) \cite{aprile2017radon}.  Perhaps even more exciting for the low energy calibrations of electronic recoils is the use of tritium, which has a maximum energy of only 18.6 keV \cite{akerib2016tritium, aprile2017tritium}! \footnote{Molecular tritium ($\textrm{T}_2$) cannot be used because it adsorbs to surfaces very easily and the half-life of $\textrm{T}_2$ is 12.3 years.  Instead, tritiated methane ($\textrm{CH}_3\textrm{T}$) is used since this will not adsorb and can be easily removed.}  
+In liquid xenon based detectors, the two biggest sources of background beta decays are from \ce{^{85}Kr} and \ce{^{214}Pb}, which comes from the \ce{^{222}Rn} decay chain \cite{aprile2017first}.  Even though certain atoms that $\beta^-$ decay prove to be a background that must be carefully reduced, others have proven to be extremely useful for detector calibrations.  \ce{^{212}Pb}, from the decay chain of \ce{^{220}Rn},  has proven useful for calibrations since approximately 10\% of electrons have an energy less than 15 keV (the maximum energy is 570 keV) \cite{aprile2017radon}.  Perhaps even more exciting for the low energy calibrations of electronic recoils is the use of tritium, which has a maximum energy of only 18.6 keV \cite{akerib2016tritium, aprile2017tritium}! \footnote{Molecular tritium ($\textrm{T}_2$) cannot be used because it adsorbs to surfaces very easily and the half-life of $\textrm{T}_2$ is 12.3 years.  Instead, tritiated methane ($\textrm{CH}_3\textrm{T}$) is used since this will not adsorb and can be easily removed.}  
 
 \subsubsection{Photons}
 
@@ -187,7 +188,7 @@ There are three major sources of neutrons in dark matter experiments.  The first
 % https://arxiv.org/pdf/1512.07501.pdf
 % largest source of neutrinos is the sun
 
-Neutrinos can elastically scatter with electrons either via charged-current (exchange of W boson) or neutral-current (exchange of Z boson) interactions.  For electronic recoils, the main sources of neutrinos are from initial deuterium production and \ce{^7Be} reactions inside the sun (roughly 92\% and 7\% of the neutrino background, respectively) \cite{aprile2016physics}.  Like electronic recoils from beta decays, the kinetic energy of the recoiling electron will follow a spectrum where only very low energies ($\lesssim 30$ keV) are relevant.  Unlike other sources of electronic recoils, the solar neutrino background cannot be reduced.
+Neutrinos can elastically scatter with electrons either via charged-current (exchange of W boson) or neutral-current (exchange of Z boson) interactions.  For electronic recoils, the main sources of neutrinos are from initial deuterium production and \ce{^7Be} reactions inside the sun (roughly 92\% and 7\% of the neutrino background, respectively) \cite{aprile2016physics}.  Like electronic recoils from beta decays, the kinetic energy of the recoiling electron will follow a spectrum where only very low energies ($\lesssim 15$ keV) are relevant.  Unlike other sources of electronic recoils, the solar neutrino background cannot be reduced.
 
 % example recoil spectrum shown in: https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.59.505
 
@@ -200,6 +201,7 @@ Neutrinos can elastically scatter with electrons either via charged-current (exc
 \end{figure}
 
 \subsection{Observables Production for Electronic Recoils}
+\label{sec:lxe_er_observables}
 
 In \secref{sec:energy_deposition}, we discussed the modes by which charged particles deposit energy in LXe.  We will now quantify these observables production methods for electronic recoils under the assumption of an applied electric field.
 
@@ -258,6 +260,7 @@ Neutrinos can interact with both electrons, as discussed in \secref{sec:lxe_er},
 
 
 \subsection{Observables Production for Nuclear Recoils}
+\label{sec:xe_nr_observables}
 
 We will now discuss the details of the observables production process for nuclear recoils that was generally outlined in \secref{sec:energy_deposition}.  Like electronic recoils, nuclear recoils can lead to the excitation or ionization of other xenon atoms.  However, unlike energetic electrons in liquid xenon, recoiling xenon atoms will also interact with other xenon nuclei.  This distinction is extremely important since energy can effectively be ``lost'' if the energy transferred during a collision is too low to cause excitation or ionization.  
 
@@ -322,7 +325,7 @@ We redefine the number of excitons and electron-ion pairs following recombinatio
         N_{\textrm{ex}} \leftarrow N_{\textrm{ex}} + r N_{\textrm{ion}}, \, \, \, N_{\textrm{ion}} \leftarrow (1 - r) N_{\textrm{ion}}
 \end{equation}
 
-Since nuclear recoils result in smaller and more dense tracks, we must also account for biexcitonic quenching.  Biexcitonic quenching occurs by the process outlined in \eqnref{eqn:biexcitonic_quenching}: two excitons collide ultimately leading to the formation of a single electron-ion pair.  This process effectively reduces the two potential photons to a single observable photon.  This electronic queching is typically parameterized using the quenching term from Birks' saturation law, as shown in \eqnref{eqn:birks_quenching}, since one would expect that the density of excitons in a track to be proportional to the electronic stopping power \cite{mei2008model, tretyak2010semi, bezrukov2011interplay}. 
+Since nuclear recoils result in smaller and more dense tracks, we must also account for biexcitonic quenching.  Biexcitonic quenching occurs by the process outlined in \eqnref{eqn:biexcitonic_quenching}: two excitons collide ultimately leading to the formation of a single electron-ion pair.  This process effectively reduces the two potential photons to a single observable photon.  This electronic quenching is typically parameterized using the quenching term from Birks' saturation law, as shown in \eqnref{eqn:birks_quenching}, since one would expect that the density of excitons in a track to be proportional to the electronic stopping power \cite{mei2008model, tretyak2010semi, bezrukov2011interplay}. 
 
 \begin{equation}
         \label{eqn:birks_quenching}
@@ -401,6 +404,7 @@ However, even being able to approximate the energy of an event is extremely impo
 
 
 \subsubsection{Reconstructing Position}
+\label{sec:xe_pos_rec}
 
 An additional piece of information that proves to be very useful that can be extracted from TPCs is the the position of an event.  As mentioned earlier, an approximately uniform electric field is applied in the TPC to extract the electrons created in an interaction from the vertex to the liquid-gas interface where they will produce the secondary signal, the S2.  Of course, the scintillation light from the interaction is measured extremely quickly (on the order of nanoseconds such that we approximate the delay as zero) so the S1 can be used as the start of a timer that ends with the S2.  This drift time can then be used to reconstruct the depth of the interaction since the electron will travel with a constant velocity through the liquid xenon as given by $v_d = \mu E$, where $v_d$ is the drift velocity, $\mu$ is the mobility of electrons in liquid xenon, and $E$ is the electric field applied.   This analysis to determine the depth is shown on the right side of \figref{fig:tpc_principle}.
 
@@ -462,7 +466,7 @@ In \eqnref{eqn:tpc_electron_lifetime}, z is the vertical distance between the el
  \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{tpc_electron_lifetime}
-	\caption{An example of an electron lifetime analysis from XENON1T.  In this analysis, the 40 keV \ce{^{83m}Kr} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth).  Image Credit: \citeref{aprile2017xenon1t}.}
+	\caption{An example of an electron lifetime analysis from XENON1T.  In this analysis, the 41 keV \ce{^{83m}Kr} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth).  Image Credit: \citeref{aprile2017xenon1t}.}
 	\label{fig:tpc_electron_lifetime}
 \end{figure}
 

@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A diagram showing the modes in which charged particles may lose energy in liquid xenon. Note that when an electric field is applied, the electron freed during ionization can be extracted such that it can be measured.}}{30}{figure.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The kinetic energy spectrum of electrons resulting from the $\beta ^-$ decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r} \cite {mantel1972beta}. Note that roughly 6.5\% of decays are below 30 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}}{32}{figure.2.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The kinetic energy spectrum of electrons resulting from the $\beta ^-$ decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r} \cite {mantel1972beta}. Note that roughly 3.1\% of decays are below 15 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}}{32}{figure.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The mass attenuation coefficient and the attenuation lengths for photons of different energies in liquid xenon \cite {berger8coll}.}}{34}{figure.2.4}
 \defcounter {refsection}{0}\relax 
@@ -58,7 +58,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.12}{\ignorespaces The Hamamatsu R11410 PMT and a schematic illustration of its various components. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2015lowering}.}}{51}{figure.2.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 40 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{53}{figure.2.13}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 41 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{53}{figure.2.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces An example of a gas gain analysis from XENON100. This fit was performed using electrons from photoionization of metal inside of the detector. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2014observation}.}}{54}{figure.2.14}
 \defcounter {refsection}{0}\relax 
@@ -83,3 +83,47 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The quantum efficiencies of the PMTs installed in the XENON1T PMT arrays. Note that, with a few exceptions due to higher radioactivity levels, the highest quantum efficiency PMTs are placed towards the center to maximize light collection. Also note that in general the PMTs used in the bottom array have a higher quantum efficiency than those in the top array since the much smaller S1 signal is mainly seen by the bottom array. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{67}{figure.3.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The field simulations for the TPC during the first science run of XENON1T. During this run, a cathode voltage of $-12$ kV was used and an anode voltage of $+4$ kV was used. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{69}{figure.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The PAX output for the first waveform in XENON1T. Shown in blue is the S1 and shown in green is the S2. The grey highlighted areas represent unidentified peaks that are likely due to the high noise rate at this point in the detector operation. Also shown are the timestamps of each signal, used to extract the depth of the interaction, and the PMT hit patterns of the top and bottom PMT arrays, which are used for position reconstruction.}}{70}{figure.3.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The electronic recoil energy spectrum expected from major background sources. While radiation from materials and the double beta decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 6}\noexpand X\noexpand e} dominate at high energies, \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n} dominates at the lowest energies as can be seen here and in Fig.\tmspace +\thinmuskip {.1667em}\ref {fig:xe1t_er_bkg_low}. This low energy region is of the most concern for dark matter searches. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{73}{figure.3.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The electronic recoil energy spectrum from background at low energies. Note that under 15 keV, the upper threshold for electronic recoils relevant to the dark matter search, \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n}{} is the dominant source of electronic recoils. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{73}{figure.3.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 8}\noexpand U}{} (left) and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 2}\noexpand T\noexpand h}{} (right) decay chains. The \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 8}\noexpand U}{} chain ultimately produces an intrinsic and the largest background source of electronic recoils in XENON1T while the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 2}\noexpand T\noexpand h}{} chain results in a very useful electronic recoil calibration source. Image Credit: Berkely Nuclear Forensics Group.}}{74}{figure.3.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The energy spectra of the different sources of nuclear recoil background. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{77}{figure.3.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces A fit of the low light response of one of the XENON1T PMTs in order to characterize the single photoelectron response. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {barrow2017qualification}.}}{79}{figure.3.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces A plot of the width of an S2 versus the drift time for 32 keV events from \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r}. Note that at a certain drift time, no more events are seen. This cut-off in events represents the location of the cathode since interactions below it will not produce an S2.}}{81}{figure.3.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces The distribution of positions of 32 keV events from \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} during the first science run of XENON1T.}}{82}{figure.3.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces The S1 correction map of XENON1T. This correction map shows the relative light yield of events at specific positions relative to the average light yield of the detector for monoenergetic events. One can see the clear trend that events closer to the bottom PMT array have higher light yields than those closer to the liquid-gas interface.}}{83}{figure.3.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces The S2 transverse position correction map of XENON1T. This correction map shows the relative charge yield of events at specific positions relative to the average charge yield of the detector for monoenergetic events. One can see the trend for the bottom PMT array that events closer to the center of the detector have higher charge yields than events closer to the edges.}}{84}{figure.3.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 41 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{86}{figure.3.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces The electron lifetime over the course of the first science run of XENON1T. Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating. Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{86}{figure.3.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces The fit single electron gain from the first science run of XENON1T. Hits are defined as excursions above threshold for individual PMTs in a time window defined by the waveform summed across all PMTs.}}{87}{figure.3.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces The Doke plot for XENON1T along with the best fit. Note that only the bottom PMT array is used for the S2 signal and that we use the position corrected values of S1 and S2. While the de-excitation from neutron captures in water is shown (\mhchem@ce@xiii {\noexpand ^\noexpand 2\noexpand H} with an de-excitation energy of 2.225 MeV), it is not used for the fit.}}{89}{figure.3.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces The cut acceptances in S1 and S2.}}{90}{figure.3.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces The probability distribution function for the first science run of XENON1T plotted with the cumulative density contours of a 50 $\sfrac {\textrm {GeV}}{\textrm {c}^2}$ WIMP. The combined signal and background PDF is used to either set a limit on the WIMP mass and cross section or claim a discovery.}}{92}{figure.3.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces A flowchart summarizing how a fast Monte Carlo is used to estimate the parameters in the signal production model. Orange steps are done in each iteration of the parameter estimation where as black arrows represent steps that are only done a single time.}}{93}{figure.3.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces The energy spectrum of single scatter and unresolvable multiple scatter nuclear recoils from the americium-beryllium (AmBe) source located in the water tank as predicted by Geant4.}}{98}{figure.3.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces The location of single scatter and unresolvable multiple scatter nuclear recoils from the americium-beryllium (AmBe) source located in the water tank as predicted by Geant4.}}{99}{figure.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces The estimated processor efficiency for identifying S1 signals in XENON1T. These efficiencies were found via simulation and the shaded region represents the equally probable values for the efficiency at a given photon level.}}{103}{figure.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces The estimated bias and smearing of S1 signals due to the processing of the waveform for scintillation signals.}}{104}{figure.3.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces The estimated bias and smearing of S2 signals due to the processing of the waveform for scintillation signals.}}{107}{figure.3.32}

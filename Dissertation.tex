@@ -43,6 +43,7 @@
 \usepackage{sidecap}
 \usepackage{bm}
 
+
 \usepackage{cleveref}
 \crefformat{footnote}{#2\footnotemark[#1]#3}
 
@@ -52,7 +53,7 @@
 \usepackage{xfrac}
 
 \DeclareUnicodeCharacter{00A0}{ }
-\setsecnumdepth{subsection}
+\setsecnumdepth{subsubsection}
 
 \newcommand\figref[1]{Fig.\,\ref{#1}}
 \newcommand\eqnref[1]{Eqn.\,\ref{#1}}
@@ -60,7 +61,13 @@
 \newcommand\secref[1]{Sec.\,\ref{#1}}
 \newcommand\appref[1]{App.\,\ref{#1}}
 \newcommand\citeref[1]{Ref.\,\cite{#1}}
-
+\newcommand\chapref[1]{Chap.\,\cite{#1}}
+\newcommand{\radon}{\ce{^{222}Rn}}
+\newcommand{\uranium}{\ce{^{238}U}}
+\newcommand{\thorium}{\ce{^{232}Th}}
+\newcommand{\krypton}{\ce{^{85}Kr}}
+\newcommand{\radioxenon}{\ce{^{136}Xe}}
+\newcommand{\doublebeta}{2$\nu \beta \beta$}
 
 %Here is some stuff on the bibliography. You want to keep your bibliography file in the same directory as this file.
 

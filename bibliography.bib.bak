@@ -677,6 +677,7 @@
   author  = {Berger, MJ},
   title   = {XCOM: Photon Cross Sections Database},
   journal = {NIST Standard Reference Database 8 (XGAM)},
+  year    = {2013},
 }
 
 @Article{aprile2006simultaneous,
@@ -1026,9 +1027,6 @@
   publisher = {APS},
 }
 
-@Article{,
-}
-
 @Article{aprile2014conceptual,
   author    = {Aprile, E and Agostini, F and Alfonsi, M and Arisaka, K and Arneodo, F and Auger, M and Balan, C and Barrow, P and Baudis, L and Bauermeister, B and others},
   title     = {Conceptual design and simulation of a water Cherenkov muon veto for the XENON1T experiment},
@@ -1113,9 +1111,129 @@
 
 @Article{akerib201783,
   author  = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
-  title   = {$^{83m}$Kr calibration of the 2013 LUX dark matter search},
+  title   = {Kr83m calibration of the 2013 LUX dark matter search},
   journal = {arXiv preprint arXiv:1708.02566},
   year    = {2017},
+}
+
+@Manual{caen2017v1724,
+  title        = {User Manual UM3248: V1724/VX1724},
+  organization = {CAEN},
+  address      = {Via Vetraia, 11 55049 Viareggio (LU), Italy},
+  edition      = {Rev. 32},
+  month        = apr,
+  year         = {2017},
+}
+
+@Article{aprile2017results,
+  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
+  title     = {Results from a calibration of XENON100 using a source of dissolved radon-220},
+  journal   = {Physical Review D},
+  year      = {2017},
+  volume    = {95},
+  number    = {7},
+  pages     = {072008},
+  publisher = {APS},
+}
+
+@Article{du2004atom,
+  author    = {Du, X and Bailey, K and Lu, Z-T and Mueller, P and O’Connor, TP and Young, L},
+  title     = {An atom trap system for practical 81 Kr dating},
+  journal   = {Review of Scientific Instruments},
+  year      = {2004},
+  volume    = {75},
+  number    = {10},
+  pages     = {3224--3232},
+  publisher = {AIP},
+}
+
+@Article{ponkratenko2000event,
+  author    = {Ponkratenko, OA and Tretyak, VI and Zdesenko, Yu G},
+  title     = {Event generator DECAY4 for simulating double-beta processes and decays of radioactive nuclei},
+  journal   = {Physics of Atomic Nuclei},
+  year      = {2000},
+  volume    = {63},
+  number    = {7},
+  pages     = {1282--1287},
+  publisher = {Springer},
+}
+
+@Article{saldanha2017model,
+  author    = {Saldanha, R and Grandi, L and Guardincerri, Y and Wester, T},
+  title     = {Model independent approach to the single photoelectron calibration of photomultiplier tubes},
+  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  year      = {2017},
+  publisher = {Elsevier},
+}
+
+@Article{doke1976estimation,
+  author    = {Doke, Tadayoshi and Hitachi, Akira and Kubota, Shinzou and Nakamoto, A and Takahashi, Tan},
+  title     = {Estimation of Fano factors in liquid argon, krypton, xenon and xenon-doped liquid argon},
+  journal   = {Nuclear Instruments and Methods},
+  year      = {1976},
+  volume    = {134},
+  number    = {2},
+  pages     = {353--357},
+  publisher = {Elsevier},
+}
+
+@Article{aprile2013response,
+  author    = {Aprile, E and Alfonsi, M and Arisaka, K and Arneodo, F and Balan, C and Baudis, L and Bauermeister, B and Behrens, A and Beltrame, Philippe and Bokeloh, K and others},
+  title     = {Response of the XENON100 dark matter detector to nuclear recoils},
+  journal   = {Physical Review D},
+  year      = {2013},
+  volume    = {88},
+  number    = {1},
+  pages     = {012006},
+  publisher = {APS},
+}
+
+@Article{faham2015measurements,
+  author    = {Faham, CH and Gehman, VM and Currie, A and Dobi, A and Sorensen, P and Gaitskell, RJ},
+  title     = {Measurements of wavelength-dependent double photoelectron emission from single photons in VUV-sensitive photomultiplier tubes},
+  journal   = {Journal of Instrumentation},
+  year      = {2015},
+  volume    = {10},
+  number    = {09},
+  pages     = {P09010},
+  publisher = {IOP Publishing},
+}
+
+@Article{bayes1763essay,
+  author = {Bayes, Thomas},
+  title  = {An essay towards solving a problem in the doctrine of chances},
+  year   = {1763},
+}
+
+@Article{brooks1998general,
+  author    = {Brooks, Stephen P and Gelman, Andrew},
+  title     = {General methods for monitoring convergence of iterative simulations},
+  journal   = {Journal of computational and graphical statistics},
+  year      = {1998},
+  volume    = {7},
+  number    = {4},
+  pages     = {434--455},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{gelman1992inference,
+  author    = {Gelman, Andrew and Rubin, Donald B},
+  title     = {Inference from iterative simulation using multiple sequences},
+  journal   = {Statistical science},
+  year      = {1992},
+  pages     = {457--472},
+  publisher = {JSTOR},
+}
+
+@Article{foreman2013emcee,
+  author    = {Foreman-Mackey, Daniel and Hogg, David W and Lang, Dustin and Goodman, Jonathan},
+  title     = {emcee: the MCMC hammer},
+  journal   = {Publications of the Astronomical Society of the Pacific},
+  year      = {2013},
+  volume    = {125},
+  number    = {925},
+  pages     = {306},
+  publisher = {IOP Publishing},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -16,35 +16,35 @@
 \BOOKMARK [2][-]{subsection.1.4.2}{Collider Detection}{section.1.4}% 16
 \BOOKMARK [2][-]{subsection.1.4.3}{Direct Detection}{section.1.4}% 17
 \BOOKMARK [2][-]{subsection.1.4.4}{Direct Detection Experiments}{section.1.4}% 18
-\BOOKMARK [3][-]{section*.4}{Heat}{subsection.1.4.4}% 19
-\BOOKMARK [3][-]{section*.5}{Scintillation}{subsection.1.4.4}% 20
-\BOOKMARK [3][-]{section*.6}{Ionization}{subsection.1.4.4}% 21
-\BOOKMARK [3][-]{section*.7}{Heat-Scintillation}{subsection.1.4.4}% 22
-\BOOKMARK [3][-]{section*.8}{Heat-Ionization}{subsection.1.4.4}% 23
-\BOOKMARK [3][-]{section*.9}{Scintillation-Ionization}{subsection.1.4.4}% 24
+\BOOKMARK [3][-]{subsubsection.1.4.4.1}{Heat}{subsection.1.4.4}% 19
+\BOOKMARK [3][-]{subsubsection.1.4.4.2}{Scintillation}{subsection.1.4.4}% 20
+\BOOKMARK [3][-]{subsubsection.1.4.4.3}{Ionization}{subsection.1.4.4}% 21
+\BOOKMARK [3][-]{subsubsection.1.4.4.4}{Heat-Scintillation}{subsection.1.4.4}% 22
+\BOOKMARK [3][-]{subsubsection.1.4.4.5}{Heat-Ionization}{subsection.1.4.4}% 23
+\BOOKMARK [3][-]{subsubsection.1.4.4.6}{Scintillation-Ionization}{subsection.1.4.4}% 24
 \BOOKMARK [0][-]{chapter.2}{Liquid Xenon and Dual-Phase TPCs}{}% 25
 \BOOKMARK [1][-]{section.2.1}{General Properties}{chapter.2}% 26
 \BOOKMARK [1][-]{section.2.2}{Energy Deposition of Charged Particles in Liquid Xenon}{chapter.2}% 27
 \BOOKMARK [1][-]{section.2.3}{Electronic Recoils in Liquid Xenon}{chapter.2}% 28
 \BOOKMARK [2][-]{subsection.2.3.1}{Sources of Electronic Recoils}{section.2.3}% 29
-\BOOKMARK [3][-]{section*.10}{Beta Decays}{subsection.2.3.1}% 30
-\BOOKMARK [3][-]{section*.11}{Photons}{subsection.2.3.1}% 31
-\BOOKMARK [3][-]{section*.12}{Neutrons}{subsection.2.3.1}% 32
-\BOOKMARK [3][-]{section*.13}{Neutrinos}{subsection.2.3.1}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Beta Decays}{subsection.2.3.1}% 30
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Photons}{subsection.2.3.1}% 31
+\BOOKMARK [3][-]{subsubsection.2.3.1.3}{Neutrons}{subsection.2.3.1}% 32
+\BOOKMARK [3][-]{subsubsection.2.3.1.4}{Neutrinos}{subsection.2.3.1}% 33
 \BOOKMARK [2][-]{subsection.2.3.2}{Observables Production for Electronic Recoils}{section.2.3}% 34
 \BOOKMARK [1][-]{section.2.4}{Nuclear Recoils in Liquid Xenon}{chapter.2}% 35
 \BOOKMARK [2][-]{subsection.2.4.1}{Sources of Nuclear Recoils}{section.2.4}% 36
-\BOOKMARK [3][-]{section*.14}{Neutrons}{subsection.2.4.1}% 37
-\BOOKMARK [3][-]{section*.15}{Neutrinos}{subsection.2.4.1}% 38
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Neutrons}{subsection.2.4.1}% 37
+\BOOKMARK [3][-]{subsubsection.2.4.1.2}{Neutrinos}{subsection.2.4.1}% 38
 \BOOKMARK [2][-]{subsection.2.4.2}{Observables Production for Nuclear Recoils}{section.2.4}% 39
 \BOOKMARK [1][-]{section.2.5}{Dual-Phase Time Projection Chambers}{chapter.2}% 40
 \BOOKMARK [2][-]{subsection.2.5.1}{Operating Principle}{section.2.5}% 41
-\BOOKMARK [3][-]{section*.16}{Reconstructing Interaction Type}{subsection.2.5.1}% 42
-\BOOKMARK [3][-]{section*.17}{Reconstructing Energy}{subsection.2.5.1}% 43
-\BOOKMARK [3][-]{section*.18}{Reconstructing Position}{subsection.2.5.1}% 44
+\BOOKMARK [3][-]{subsubsection.2.5.1.1}{Reconstructing Interaction Type}{subsection.2.5.1}% 42
+\BOOKMARK [3][-]{subsubsection.2.5.1.2}{Reconstructing Energy}{subsection.2.5.1}% 43
+\BOOKMARK [3][-]{subsubsection.2.5.1.3}{Reconstructing Position}{subsection.2.5.1}% 44
 \BOOKMARK [2][-]{subsection.2.5.2}{Detecting Observables}{section.2.5}% 45
-\BOOKMARK [3][-]{section*.19}{Detection of Scintillation Photons: S1}{subsection.2.5.2}% 46
-\BOOKMARK [3][-]{section*.20}{Detection of Ionization Electrons: S2}{subsection.2.5.2}% 47
+\BOOKMARK [3][-]{subsubsection.2.5.2.1}{Detection of Scintillation Photons: S1}{subsection.2.5.2}% 46
+\BOOKMARK [3][-]{subsubsection.2.5.2.2}{Detection of Ionization Electrons: S2}{subsection.2.5.2}% 47
 \BOOKMARK [0][-]{chapter.3}{The First Dark Matter Search with XENON1T}{}% 48
 \BOOKMARK [1][-]{section.3.1}{The XENON1T Detector}{chapter.3}% 49
 \BOOKMARK [2][-]{subsection.3.1.1}{ Laboratori Nazionali del Gran Sasso}{section.3.1}% 50
@@ -52,10 +52,43 @@
 \BOOKMARK [2][-]{subsection.3.1.3}{Cryostat}{section.3.1}% 52
 \BOOKMARK [2][-]{subsection.3.1.4}{Cryogenics System}{section.3.1}% 53
 \BOOKMARK [2][-]{subsection.3.1.5}{Purification Systems}{section.3.1}% 54
-\BOOKMARK [3][-]{section*.21}{Electronegative Impurities}{subsection.3.1.5}% 55
-\BOOKMARK [3][-]{section*.22}{"3222378 }{subsection.3.1.5}% 56
+\BOOKMARK [3][-]{subsubsection.3.1.5.1}{Electronegative Impurities}{subsection.3.1.5}% 55
+\BOOKMARK [3][-]{subsubsection.3.1.5.2}{"3222378 }{subsection.3.1.5}% 56
 \BOOKMARK [2][-]{subsection.3.1.6}{Recovery and Storage}{section.3.1}% 57
 \BOOKMARK [2][-]{subsection.3.1.7}{Calibration Systems}{section.3.1}% 58
 \BOOKMARK [2][-]{subsection.3.1.8}{Photomultiplier Tubes}{section.3.1}% 59
 \BOOKMARK [2][-]{subsection.3.1.9}{XENON1T TPC}{section.3.1}% 60
-\BOOKMARK [0][-]{section*.24}{Bibliography}{}% 61
+\BOOKMARK [2][-]{subsection.3.1.10}{Data Acquisition and Processing}{section.3.1}% 61
+\BOOKMARK [1][-]{section.3.2}{The Background for the XENON1T Detector}{chapter.3}% 62
+\BOOKMARK [2][-]{subsection.3.2.1}{Background in XENON1T from Detector Materials}{section.3.2}% 63
+\BOOKMARK [2][-]{subsection.3.2.2}{Electronic Recoil Background in XENON1T}{section.3.2}% 64
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{"3222378 }{subsection.3.2.2}% 65
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{"3222378 }{subsection.3.2.2}% 66
+\BOOKMARK [3][-]{subsubsection.3.2.2.3}{Solar Neutrinos}{subsection.3.2.2}% 67
+\BOOKMARK [3][-]{subsubsection.3.2.2.4}{"3222378 }{subsection.3.2.2}% 68
+\BOOKMARK [2][-]{subsection.3.2.3}{Nuclear Recoil Background in XENON1T}{section.3.2}% 69
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Coherent Neutrino-Nucleon Scattering}{subsection.3.2.3}% 70
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Nuclear Recoils from muon-induced neutrons}{subsection.3.2.3}% 71
+\BOOKMARK [1][-]{section.3.3}{The Calibration and Characterization of XENON1T for the First Science Run}{chapter.3}% 72
+\BOOKMARK [2][-]{subsection.3.3.1}{PMT Characterization}{section.3.3}% 73
+\BOOKMARK [2][-]{subsection.3.3.2}{Position Reconstruction}{section.3.3}% 74
+\BOOKMARK [2][-]{subsection.3.3.3}{Position Dependent Corrections}{section.3.3}% 75
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{S1 Position Correction}{subsection.3.3.3}% 76
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{S2 Transverse Position Correction}{subsection.3.3.3}% 77
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{S2 Depth Correction Correction: Electron Lifetime}{subsection.3.3.3}% 78
+\BOOKMARK [2][-]{subsection.3.3.4}{Single Electron Gain}{section.3.3}% 79
+\BOOKMARK [2][-]{subsection.3.3.5}{Average Light Collection Efficiency and Extraction Efficiency}{section.3.3}% 80
+\BOOKMARK [2][-]{subsection.3.3.6}{Cut Acceptance}{section.3.3}% 81
+\BOOKMARK [1][-]{section.3.4}{Electronic and Nuclear Recoil Characterization of XENON1T}{chapter.3}% 82
+\BOOKMARK [2][-]{subsection.3.4.1}{Significance of the Calibrations}{section.3.4}% 83
+\BOOKMARK [2][-]{subsection.3.4.2}{Parameter Estimation via Monte Carlo}{section.3.4}% 84
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Light and Charge Production for Electronic Recoils}{subsection.3.4.2}% 85
+\BOOKMARK [3][-]{subsubsection.3.4.2.2}{Light and Charge Production for Nuclear Recoils}{subsection.3.4.2}% 86
+\BOOKMARK [3][-]{subsubsection.3.4.2.3}{Detector Model for Signal Production}{subsection.3.4.2}% 87
+\BOOKMARK [3][-]{subsubsection.3.4.2.4}{Comparing Data and Monte Carlo}{subsection.3.4.2}% 88
+\BOOKMARK [3][-]{subsubsection.3.4.2.5}{Estimating the Posterior Probability Distribution Using a Markov Chain Monte Carlo}{subsection.3.4.2}% 89
+\BOOKMARK [2][-]{subsection.3.4.3}{ER and NR Calibration Results}{section.3.4}% 90
+\BOOKMARK [3][-]{subsubsection.3.4.3.1}{Results of ER Calibration}{subsection.3.4.3}% 91
+\BOOKMARK [3][-]{subsubsection.3.4.3.2}{Results of NR Calibration}{subsection.3.4.3}% 92
+\BOOKMARK [2][-]{subsection.3.4.4}{Propagating Results to the WIMP Search}{section.3.4}% 93
+\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 94

@@ -58,10 +58,12 @@ fig, ax_beta = plt.subplots(1)
 integral = func_beta.integral(0, 687)
 a_y = func_beta(a_energies)/integral
 
-roi_integral = func_beta.integral(0, 30)
+roi_max = 15
+
+roi_integral = func_beta.integral(0, roi_max)
 print roi_integral/integral
 
-mask_lt30 = (a_energies < 30)
+mask_lt30 = (a_energies < roi_max)
 
 s_plot = r'$^{85} \mathrm{Kr} \, \, \beta^-$ Spectrum'
 s_plot += '\n'
