@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{v}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgements}{xiii}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{xv}{chapter*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -184,10 +184,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.3}ER and NR Calibration Results}{111}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.3.1}Results of ER Calibration}{111}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Results of the Electronic Recoil Calibration}{111}{subsubsection.3.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.3.2}Results of NR Calibration}{111}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Results of the Nuclear Recoil Calibration}{113}{subsubsection.3.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Propagating Results to the WIMP Search}{111}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.4}Propagating Results to the WIMP Search}{116}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{113}{section*.7}
+\contentsline {chapter}{Bibliography}{117}{section*.7}

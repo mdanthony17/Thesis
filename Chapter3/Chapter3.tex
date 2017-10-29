@@ -530,7 +530,7 @@ We can now look at multiple monoenergetic peaks or the same monoenergetic peak a
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{xe1t_cut_acceptances}
-	\caption{The cut acceptances in S1 and S2.}
+	\caption{The estimated cut acceptances in S1 and S2 for the first science run of XENON1T.}
 	\label{fig:xe1t_cut_acceptances}
 \end{figure}
 
@@ -1016,11 +1016,145 @@ In theory, an MCMC is not guaranteed to converge until infinite steps are taken.
 
 With the procedure, models, and Monte Carlo details outline, we can move to the results of the two calibrations.  Ideally, these calibrations would be performed simultaneously due to the overlap between the two from the detector model.  However, in the first science run they were performed separately as a proof of principle.
 
-\subsubsection{Results of ER Calibration}
+
+\subsubsection{Results of the Electronic Recoil Calibration}
+
+The electronic recoil calibration was performed with the microphysics model described in \secref{sec:xe1t_mc_observables_production_er} and the detector physics model described in \secref{sec:xe1t_mc_detector}.  The list of model parameters included in the fit for the light and charge production model for electronic recoils is shown in \tabref{tab:xe1t_er_model_pars} while the parameters of the detector model are shown in \tabref{tab:xe1t_detector_pars}.  Note that the detector physics parameters will be shared with the nuclear recoil calibration.
+
+In total, eight free parameters were included in the observables production model for electronic recoils: five from the fourth-order polynomial used to describe the light yield relative to a reference curve, one from the energy threshold for recombination (below which recombination no longer is considered), and two for the parameterization of the recombination fluctuation ($\Delta r = A \cdot (1 - e^{\sfrac{E}{\tau_r}})$).  The reference curve use for the light yield is given by \citeref{szydagis2013enhancement} with a mean field of 120 V/cm.  With both the light yield, mean energy per quanta, and exciton-to-ion ratio, the mean value for recombination can be reconstructed.  
 
 
 
-\subsubsection{Results of NR Calibration}
+\begin{table}[b]
+\centering
+\def\arraystretch{1.3}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+Parameter & Value & Prior Distribution & Note  \\
+\hline
+$w$ & $13.7 \pm 0.2$ eV & Normal & - \\ \hline
+$F$ & 0.059 & Fixed & - \\ \hline
+$\sfrac{N_{\textrm{ex}}}{N_{\textrm{ion}}}$ & 0.06--0.20 & Uniform & Taken from \citeref{szydagis2011nest}. \\ \hline
+Accidental Coincidence Background & $1.22 \cdot 10^{-6} \pm 7.32 \cdot 10^{-8}$ Hz & Normal & - \\ \hline
+Photon Yield (5) & - & \textbf{Free} & - \\ \hline
+Recombination Fluctuation (2) & - & \textbf{Free} & - \\ \hline
+Energy Threshold (1) & - & \textbf{Free} & - \\ \hline
+\end{tabular}}
+\caption{The parameters of the light and charge model for electronic recoils in liquid xenon. Note that the parameters described as free in the fit are unrestricted (barring physical limitations).}
+\label{tab:xe1t_er_model_pars}
+\end{table}
+
+
+\begin{table}[b]
+\centering
+\def\arraystretch{1.3}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+Parameter & Value & Prior Distribution & Note  \\
+\hline
+$g_1$ & $0.1442 \pm 0.0068$ & Normal & - \\ \hline
+$p_{\textrm{DPE}}$ & 0.18--0.24 & Uniform & Taken from \citeref{faham2015measurements}. \\ \hline
+$p_{\textrm{extracted}}$ & $0.961 \pm 0.046$ & Normal & - \\ \hline
+$G_{\textrm{bottom}}$ & $11.69 \pm 0.26$ & Normal & - \\ \hline
+$\sigma_{G_{\textrm{bottom}}}$ & $2.80$ & Fixed & - \\ \hline
+Processor Efficiency & - & Uniform & Uniform inside bounds of \figref{fig:xe1t_pax_acceptance}. \\ \hline
+Processor S1 Bias & - & Uniform & Uniform inside bounds of \figref{fig:xe1t_pax_sb}. \\ \hline
+Processor S1 Smearing & - & Uniform & Uniform inside bounds of \figref{fig:xe1t_pax_sb}. \\ \hline
+Processor S2 Bias & - & Uniform & Uniform inside bounds of \figref{fig:xe1t_s2_sb}. \\ \hline
+Processor S2 Smearing & - & Uniform & Uniform inside bounds of \figref{fig:xe1t_s2_sb}. \\ \hline
+S1 Correction Map & - & Fixed & Shown in \figref{fig:xe1t_s1_correction_map}. \\ \hline
+S2 Correction Map & - & Fixed & Shown in \figref{fig:xe1t_s2_correction_map_xy}. \\ \hline
+Electron Lifetime & - & Fixed & Randomly drawn from measured electron lifetimes. \\ \hline
+S2 Fraction - Bottom & 0.38 & Fixed & - \\ \hline
+Total S2 Threshold & 200 & Fixed & - \\ \hline
+S1 Cut Acceptance & - & Normal & Mean and width shown in \figref{fig:xe1t_cut_acceptances}. \\ \hline
+S2 Cut Acceptance & - & Normal & Mean and width shown in \figref{fig:xe1t_cut_acceptances}. \\ \hline
+\end{tabular}}
+\caption{The detector model parameters and their associated priors.  Note that all of these parameters is tightly constrained by independent calibrations.}
+\label{tab:xe1t_detector_pars}
+\end{table}
+
+
+One parameter that has not been mentioned prior to now is the accidental coincidence background rate.  In XENON1T, it has been found that there is a relatively high rate of lone-S1 signals and lone-S2 signals.  While the causes of each vary from interactions in the liquid xenon below the cathode to interactions in the gaseous xenon, if an S1 and S2 are coincident within a given time window they can together be mistaken for a real event.  This background is source dependent and will therefore be different for dark matter data and the electronic recoil calibrations (the accidental coincidence background was found to be negligible for the nuclear recoil calibration).  The probability distribution for the accidental coincidence background is shown in \figref{fig:xe1t_ac_bkg}.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.8\textwidth]{xe1t_ac_bkg}
+	\caption{The PDF of accidental coincidence background events in $\textrm{log} \left( \frac{\textrm{cS2}_{\textrm{b}}}{\textrm{cS1}} \right)$ space for the first dark matter run.}
+	\label{fig:xe1t_ac_bkg}
+\end{figure}
+
+
+
+With the models and parameter estimation framework in place, the electronic recoil calibration can be performed.  The best-fit PDF, which can be predicted with the posterior distribution of the parameters, is shown in \figref{fig:xe1t_er_pdf_overlaid_data}.  Additionally, a comparison of the band shape, specifically the band median and width, is shown in \figref{fig:xe1t_er_band_width_median}.  One can see from both of these comparisons that the \ce{^{220}Rn} agrees extremely well with the model used.
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.9\textwidth]{xe1t_er_pdf_overlaid_data}
+	\caption{The best-fit PDF for electronic recoils during the \ce{^{220}Rn} electronic recoil calibration.  Outside of the few two outliers, the agreement between the model and data is extremely good.}
+	\label{fig:xe1t_er_pdf_overlaid_data}
+	
+	\centering
+	\includegraphics[width=0.9\textwidth]{xe1t_er_band_width_median}
+	\caption{Comparison of the band median and width during the electronic recoil calibration.  One can see that the fit provides excellent agreement in the region of interest.}
+	\label{fig:xe1t_er_band_width_median}
+\end{figure}
+	
+	
+One can also see the comparison of the model to data in S1 and S2 signal space only.  Again, there are no significant deviations or flaws in the model that are evident.
+	
+	
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.99\textwidth]{xe1t_er_band_s1}
+	\includegraphics[width=0.99\textwidth]{xe1t_er_band_s2}
+	\caption{Comparison of the band median and width during the electronic recoil calibration.  One can see that the fit provides excellent agreement in the region of interest.}
+	\label{fig:xe1t_er_band_width_median}
+\end{figure}
+
+
+
+
+
+\subsubsection{Results of the Nuclear Recoil Calibration}
+
+The nuclear recoil calibration was performed with the microphysics model described in \secref{sec:xe1t_mc_observables_production_nr} and the detector physics model described in \secref{sec:xe1t_mc_detector}.  Since the detector model parameters are the same as for the electronic recoil calibration, the list shown in \tabref{tab:xe1t_detector_pars} also applies for the nuclear recoil calibration.  The observables production parameters will be different for the nuclear recoil calibration and the parameters are listed in \tabref{}.
+
+
+\begin{table}[b]
+\centering
+\def\arraystretch{1.3}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+Parameter & Value & Prior Distribution & Note  \\
+\hline
+$w$ & $13.7 \pm 0.2$ eV & Normal & - \\ \hline
+$\alpha$ & $1.240^{+0.079}_{-0.073}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\zeta$ & $0.0472^{+0.0088}_{-0.0073}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\beta$ & $239^{+28}_{-8.8}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\gamma$ & $0.01385^{+0.00058}_{-0.00073}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\delta$ & $0.0620^{+0.0056}_{-0.0064}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$k$ & $0.1394^{+0.0032}_{-0.0026}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\eta$ & $3.3^{+5.3}_{-0.7}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+$\lambda$ & $1.14^{+0.45}_{-0.09}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
+Probability of ER Event & - & \textbf{Free} & - \\ \hline
+\end{tabular}}
+\caption{The parameters of the light and charge model for electronic recoils in liquid xenon. Note that the parameters described as free in the fit are unrestricted (barring physical limitations).}
+\label{tab:xe1t_er_model_pars}
+\end{table}
+
+Note that the probability of the electronic recoil event is left free.  This parameter is a proxy for the electronic recoil background rate during the AmBe calibration.  The reason this must be included is simply because the \ce{^{222}Rn} background rate is not negligible during the nuclear recoil calibration and could potentially skew the fit to predict higher light and charge yields.  Therefore, we include this background by assuming that each event has a finite probability of being from the \ce{^{222}Rn}.  If the event is from our electronic recoil background, we use the best-fit model from the electronic recoil background and a uniform distribution in energy and position to simulate the event.
+
+Note that the electronic recoil rate is left free.  Because the electronic recoil background during the nuclear recoil calibration is non-negligible, the nuclear recoil calibration must follow the electronic recoil calibration.  The best-fit electronic recoil model is used to model the background which is assumed to be flat (since it is from the decay of \ce{^{222}Rn}).  
+
+
 
 
 \subsection{Propagating Results to the WIMP Search}

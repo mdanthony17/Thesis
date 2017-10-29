@@ -5388,6 +5388,110 @@
   \field{year}{1992}
 \endentry
 
+\entry{szydagis2013enhancement}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Szydagis}{S.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fyhrie}{F.}%
+     {Adalyn}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thorngren}{T.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tripathi}{T.}%
+     {Mani}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{SMFATD+1}
+  \strng{fullhash}{SMFATDTM1}
+  \field{number}{10}
+  \field{pages}{C10003}
+  \field{title}{Enhancement of NEST capabilities for simulating low-energy
+  recoils in liquid xenon}
+  \field{volume}{8}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2013}
+\endentry
+
+\entry{szydagis2011nest}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Szydagis}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barry}{B.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kazkaz}{K.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mock}{M.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolp}{S.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sweany}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tripathi}{T.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uvarov}{U.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walsh}{W.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Woods}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{SMBNKK+1}
+  \strng{fullhash}{SMBNKKMJSDSMTMUSWNWM1}
+  \field{number}{10}
+  \field{pages}{P10002}
+  \field{title}{NEST: a comprehensive model for scintillation yield in liquid
+  xenon}
+  \field{volume}{6}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2011}
+\endentry
+
 \lossort
 \endlossort
 

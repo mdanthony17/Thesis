@@ -112,7 +112,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.24}{\ignorespaces The Doke plot for XENON1T along with the best fit. Note that only the bottom PMT array is used for the S2 signal and that we use the position corrected values of S1 and S2. While the de-excitation from neutron captures in water is shown (\mhchem@ce@xiii {\noexpand ^\noexpand 2\noexpand H} with an de-excitation energy of 2.225 MeV), it is not used for the fit.}}{89}{figure.3.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces The cut acceptances in S1 and S2.}}{90}{figure.3.25}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces The estimated cut acceptances in S1 and S2 for the first science run of XENON1T.}}{90}{figure.3.25}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.26}{\ignorespaces The probability distribution function for the first science run of XENON1T plotted with the cumulative density contours of a 50 $\sfrac {\textrm {GeV}}{\textrm {c}^2}$ WIMP. The combined signal and background PDF is used to either set a limit on the WIMP mass and cross section or claim a discovery.}}{92}{figure.3.26}
 \defcounter {refsection}{0}\relax 
@@ -127,3 +127,11 @@
 \contentsline {figure}{\numberline {3.31}{\ignorespaces The estimated bias and smearing of S1 signals due to the processing of the waveform for scintillation signals.}}{104}{figure.3.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.32}{\ignorespaces The estimated bias and smearing of S2 signals due to the processing of the waveform for scintillation signals.}}{107}{figure.3.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.33}{\ignorespaces The PDF of accidental coincidence background events in $\textrm {log} \left ( \frac {\textrm {cS2}_{\textrm {b}}}{\textrm {cS1}} \right )$ space for the first dark matter run.}}{112}{figure.3.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.34}{\ignorespaces The best-fit PDF for electronic recoils during the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 0}\noexpand R\noexpand n} electronic recoil calibration. Outside of the few two outliers, the agreement between the model and data is extremely good.}}{114}{figure.3.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Comparison of the band median and width during the electronic recoil calibration. One can see that the fit provides excellent agreement in the region of interest.}}{114}{figure.3.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Comparison of the band median and width during the electronic recoil calibration. One can see that the fit provides excellent agreement in the region of interest.}}{115}{figure.3.36}
