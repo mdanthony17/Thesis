@@ -357,7 +357,7 @@ Two methods were used to characterize the response of the PMTs for XENON1T durin
 
 The second method used to calibrate the charge response of single photoelectrons in a completely statistical and model-independent way.  While this method requires a background measurement that is completely compatible with the measurement at low light levels (for example, the electronics of the light source causing additional background would be an example of incompatability), one can extract the mean and variance of the single photoelectron response very easily and without assumptions \cite{saldanha2017model}.
 
-PMT characterization will be discussed in much further detail in the next chapter where we will describe a method that the author developed for the non-analytical characterization of PMTs using the cascade model.
+PMT characterization will be discussed in further detail in \appref{app:pmts} where we will describe a method that the author developed for the non-analytical characterization of PMTs using the cascade model.
 
 
 
@@ -547,7 +547,7 @@ It is important to note that, with a sufficiently trust-worthy physics and detec
 \section{Electronic and Nuclear Recoil Characterization of XENON1T}
 \label{sec:xe1t_er_nr_calibration}
 
-The electronic and nuclear recoil calibrations are two of the most important studies required for a liquid xenon TPC.  For the first time in xenon detectors, these calibrations were performed such that a realistic approximation of the microphysics process was accounted for alongside the detector effects discussed.  This was only made possible with the use of a fast Monte Carlo (MC) framework that was developed by the author and discussed in the next chapter that leveraged graphical processing units (GPUs) for dramatic increases in speed (two to three orders of magnitudes).
+The electronic and nuclear recoil calibrations are two of the most important studies required for a liquid xenon TPC.  For the first time in xenon detectors, these calibrations were performed such that a realistic approximation of the microphysics process was accounted for alongside the detector effects discussed.  This was only made possible with the use of a fast Monte Carlo (MC) framework that was developed by the author and discussed in \appref{app:gpus} that leveraged graphical processing units (GPUs) for dramatic increases in speed (two to three orders of magnitudes).
 
 While these calibrations can (and in future science runs will be) performed together due to the large number of shared parameters, in the first science run of XENON1T they were performed separately.  
 
@@ -584,7 +584,7 @@ Since the background in XENON1T is thoroughly understood, as outlined in \secref
 
 In more technical terms, the Monte Carlo is used to create a PDF which is then compared with data which results in a likelihood.  This likelihood can be combined with prior distributions of the model parameters (from previous measurements or calibrations).  As you vary the parameters in the signal production model, you would expect this likelihood to increase and decrease.  One can then use different algorithms to find either the set of parameters best in agreement with the data (via a minimizer) or the posterior distribution of the parameters (via a Markov Chain Monte Carlo or MCMC).
 
-The benefit to using a Monte Carlo to define a likelihood for parameter estimation is that your signal production model can be arbitrarily complex.  The downside of using a MC to estimate your likelihood is that it is extremely inefficient, typically rendering this approach impractical.  However, using graphical processing units, the author was able to develop an analysis framework that made this type of analysis feasible.  The details of the framework will be discussed in detail in the next chapter.
+The benefit to using a Monte Carlo to define a likelihood for parameter estimation is that your signal production model can be arbitrarily complex.  The downside of using a MC to estimate your likelihood is that it is extremely inefficient, typically rendering this approach impractical.  However, using graphical processing units, the author was able to develop an analysis framework that made this type of analysis feasible.  The details of the framework will be discussed in detail in the \appref{app:gpus}.
 
 The details of Monte Carlo event production will be discussed in \secref{sec:xe1t_mc_observables_production_er}, \secref{sec:xe1t_mc_observables_production_nr}, and \secref{sec:xe1t_mc_detector}.  These Monte Carlo events are used to fill a histogram that is compared with a histogram filled with data via a binned likelihood, which will be discussed in \secref{sec:xe1t_mc_likelihood}.  In this way we can quantify how well a given set of parameters agrees with what we have measured.  The set of parameters to be tested is chosen in this analysis by a Markov Chain Monte Carlo (MCMC) but realistically could be done with most parameter estimation algorithms --- we will briefly discuss how the posterior probability space of the parameters was calculated in \secref{sec:xe1t_mcmc}.
  
@@ -941,7 +941,7 @@ Finally, for comparison to data, we must finally correct our S2 signal according
 
 With the full Monte Carlo simulation in place, examining the expected distribution electronic or nuclear recoil distribution given input energy and position spectra is straightforward.  At the end of the day, though, what we would like to do is find the probability distribution for the observables model given the data that was measured in XENON1T.  This means that the ability to simulate the electronic or nuclear recoil spectra is not enough: we must be able to quantitatively compare the Monte Carlo results for a given set of parameters and the data.
 
-Fortunately, this comparison is quite straightforward.  In these analyses, the simple binned likelihood function was used to compare data and the fast Monte Carlo.  We will cover the details, assumptions, and subtleties of this choice in the next chapter.  The likelihood function is shown in \eqnref{eqn:xe1t_binned_likelihood}, where $\mathcal{L}_i$ is the likelihood of a given bin, $\hat{b}_i$ is the expected number of events in a given bin, and $b_i$ is the measured number of events in a given bin.
+Fortunately, this comparison is quite straightforward.  In these analyses, the simple binned likelihood function was used to compare data and the fast Monte Carlo.  We will cover the details, assumptions, and subtleties of this choice in \appref{app:gpus}.  The likelihood function is shown in \eqnref{eqn:xe1t_binned_likelihood}, where $\mathcal{L}_i$ is the likelihood of a given bin, $\hat{b}_i$ is the expected number of events in a given bin, and $b_i$ is the measured number of events in a given bin.
 
 \begin{equation}
         \label{eqn:xe1t_binned_likelihood}
@@ -1183,7 +1183,7 @@ With all of the inputs in place, the nuclear recoil calibration could be perform
 \end{figure}
 
 
-\textit{In situ} nuclear recoil calibrations for large liquid xenon TPCs are inherently difficult due to the expected shape of the energy spectrum.  Attempts to measure the energy of elastic neutron scatters have been made in large detectors, most notably by LUX in \citeref{akerib2016low}.  However, most studies performed to understand the light and charge yield of nuclear recoils and their field dependence in liquid xenon were done with smaller detectors optimized for the task.  One of these measurements was performed by the author and will be the focus of a later chapter.
+\textit{In situ} nuclear recoil calibrations for large liquid xenon TPCs are inherently difficult due to the expected shape of the energy spectrum.  Attempts to measure the energy of elastic neutron scatters have been made in large detectors, most notably by LUX in \citeref{akerib2016low}.  However, most studies performed to understand the light and charge yield of nuclear recoils and their field dependence in liquid xenon were done with smaller detectors optimized for the task.  One of these measurements was performed by the author and will be the focus of chapter four.
 
 \clearpage
 

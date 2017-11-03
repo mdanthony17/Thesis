@@ -71,6 +71,9 @@
 \newcommand{\dru}{$\textrm{events} / (\textrm{kg} \cdot \textrm{day} \cdot \textrm{keV})$}
 \newcommand{\csbottom}{$\textrm{cS2}_{\textrm{b}}$}
 \newcommand{\csquared}{$\textrm{c}^2$}
+\renewcommand*{\cftappendixname}{Appendix\space}
+
+
 
 %Here is some stuff on the bibliography. You want to keep your bibliography file in the same directory as this file.
 
@@ -160,15 +163,22 @@
 \include{./Chapter1/Chapter1}
 \include{./Chapter2/Chapter2}
 \include{./Chapter3/Chapter3}
+\include{./Chapter4/Chapter4}
 %\include{./Conclusion/Conclusion}
 
 %This final section includes your bibliography.
 
-\backmatter
+
+
+%\backmatter
 
 \SingleSpacing %Start single-spacing text before you start the bibliography. We used \bibitemsep earlier in this document to keep bibliography items separated by one line of blank space, but we need to keep the entries themselves single-spaced.
 \printbibliography %Print the bibliography. Your bibliography file is defined as Bibliography.bib earlier in this document by the command \addbibresource. It should be kept in the same folder as this file.
 
+\appendix
 
+\setstretch{1.5}
+\include{./AppendixA/AppendixA}
+\include{./AppendixB/AppendixB}
 
 \end{document} %All done! Now you're a doctor.

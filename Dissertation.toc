@@ -198,4 +198,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.3}Searching for WIMPs}{125}{subsection.3.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{129}{section*.7}
+\contentsline {chapter}{\chapternumberline {4}Measuring the Low Energy Light and Charge Yield of Nuclear Recoils in Liquid Xenon}{129}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}New Section}{129}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}2}{129}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}3}{129}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{131}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}GPUs and Fast Monte Carlo for Parameter Estimation}{143}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}New Section}{143}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {B}Table of Contents Title}{145}{appendix.B}
