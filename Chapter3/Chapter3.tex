@@ -1018,6 +1018,7 @@ With the procedure, models, and Monte Carlo details outline, we can move to the 
 
 
 \subsubsection{Results of the Electronic Recoil Calibration}
+\label{sec:xe1t_er_cal_results}
 
 The electronic recoil calibration was performed with the microphysics model described in \secref{sec:xe1t_mc_observables_production_er} and the detector physics model described in \secref{sec:xe1t_mc_detector}.  The list of model parameters included in the fit for the light and charge production model for electronic recoils is shown in \tabref{tab:xe1t_er_model_pars} while the parameters of the detector model are shown in \tabref{tab:xe1t_detector_pars}.  Note that the detector physics parameters will be shared with the nuclear recoil calibration.
 
@@ -1037,7 +1038,7 @@ Parameter & Value & Prior Distribution & Note  \\
 $w$ & $13.7 \pm 0.2$ eV & Normal & - \\ \hline
 $F$ & 0.059 & Fixed & - \\ \hline
 $\sfrac{N_{\textrm{ex}}}{N_{\textrm{ion}}}$ & 0.06--0.20 & Uniform & Taken from \citeref{szydagis2011nest}. \\ \hline
-Accidental Coincidence Background & $1.22 \cdot 10^{-6} \pm 7.32 \cdot 10^{-8}$ Hz & Normal & - \\ \hline
+Accidental Coincidence Background & $1.09 \cdot 10^{-5} \pm 5.45 \cdot 10^{-7}$ Hz & Normal & - \\ \hline
 Photon Yield (5) & - & \textbf{Free} & - \\ \hline
 Recombination Fluctuation (2) & - & \textbf{Free} & - \\ \hline
 Energy Threshold (1) & - & \textbf{Free} & - \\ \hline
@@ -1083,8 +1084,8 @@ One parameter that has not been mentioned prior to now is the accidental coincid
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.8\textwidth]{xe1t_ac_bkg}
-	\caption{The PDF of accidental coincidence background events in $\textrm{log} \left( \frac{\textrm{cS2}_{\textrm{b}}}{\textrm{cS1}} \right)$ space for the first dark matter run.}
+	\includegraphics[width=0.85\textwidth]{xe1t_ac_bkg}
+	\caption{The PDF of accidental coincidence background events in $\textrm{log} \left( \frac{\textrm{cS2}_{\textrm{b}}}{\textrm{cS1}} \right)$ versus cS1 space for the first dark matter run.}
 	\label{fig:xe1t_ac_bkg}
 \end{figure}
 
@@ -1106,24 +1107,24 @@ With the models and parameter estimation framework in place, the electronic reco
 \end{figure}
 	
 	
-One can also see the comparison of the model to data in S1 and S2 signal space only.  Again, there are no significant deviations or flaws in the model that are evident.
+One can also see the comparison of the model to data in S1 and S2 signal space only in \figref{fig:xe1t_er_band_width_median}.  Again, there are no significant deviations or flaws in the model that are evident.
 	
 	
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{xe1t_er_band_s1}
 	\includegraphics[width=0.99\textwidth]{xe1t_er_band_s2}
-	\caption{Comparison of the band median and width during the electronic recoil calibration.  One can see that the fit provides excellent agreement in the region of interest.}
+	\caption{Comparison of the electronic recoil band in S1 signal space only and S2 signal space in different S1 regions.  Again, the band parameterization used describes the shape of the data very well.}
 	\label{fig:xe1t_er_band_width_median}
 \end{figure}
 
+While \ce{^{220}Rn} has proven to be a very useful calibration source, in future runs the hope is that tritiated methane ($\textrm{CH}_3\textrm{T}$) can be used.  Tritium has a beta decay spectrum with a maximum energy of 18.6 keV implying that all decays will be useful.  This is very different from the beta decay spectrum of \ce{^{212}Pb} (the actual beta decay used in the \ce{^{220}Rn} chain) which has a maximum energy of 570 keV, implying that only a small fraction of decays are used for the calibration.
 
-
-
+\clearpage
 
 \subsubsection{Results of the Nuclear Recoil Calibration}
 
-The nuclear recoil calibration was performed with the microphysics model described in \secref{sec:xe1t_mc_observables_production_nr} and the detector physics model described in \secref{sec:xe1t_mc_detector}.  Since the detector model parameters are the same as for the electronic recoil calibration, the list shown in \tabref{tab:xe1t_detector_pars} also applies for the nuclear recoil calibration.  The observables production parameters will be different for the nuclear recoil calibration and the parameters are listed in \tabref{}.
+The nuclear recoil calibration was performed with the microphysics model described in \secref{sec:xe1t_mc_observables_production_nr} and the detector physics model described in \secref{sec:xe1t_mc_detector}.  Since the detector model parameters are the same as for the electronic recoil calibration, the list shown in \tabref{tab:xe1t_detector_pars} also applies for the nuclear recoil calibration.  The observables production parameters will be different for the nuclear recoil calibration and the parameters are listed in \tabref{tab:xe1t_nr_model_pars}.
 
 
 \begin{table}[b]
@@ -1146,19 +1147,138 @@ $\eta$ & $3.3^{+5.3}_{-0.7}$ & Normal & Taken from \citeref{lenardo2015global} \
 $\lambda$ & $1.14^{+0.45}_{-0.09}$ & Normal & Taken from \citeref{lenardo2015global} \\ \hline
 Probability of ER Event & - & \textbf{Free} & - \\ \hline
 \end{tabular}}
-\caption{The parameters of the light and charge model for electronic recoils in liquid xenon. Note that the parameters described as free in the fit are unrestricted (barring physical limitations).}
-\label{tab:xe1t_er_model_pars}
+\caption{The parameters of the light and charge model for nuclear recoils in liquid xenon. Note that the parameters described as free in the fit are unrestricted (barring physical limitations).}
+\label{tab:xe1t_nr_model_pars}
 \end{table}
 
 Note that the probability of the electronic recoil event is left free.  This parameter is a proxy for the electronic recoil background rate during the AmBe calibration.  The reason this must be included is simply because the \ce{^{222}Rn} background rate is not negligible during the nuclear recoil calibration and could potentially skew the fit to predict higher light and charge yields.  Therefore, we include this background by assuming that each event has a finite probability of being from the \ce{^{222}Rn}.  If the event is from our electronic recoil background, we use the best-fit model from the electronic recoil background and a uniform distribution in energy and position to simulate the event.
 
-Note that the electronic recoil rate is left free.  Because the electronic recoil background during the nuclear recoil calibration is non-negligible, the nuclear recoil calibration must follow the electronic recoil calibration.  The best-fit electronic recoil model is used to model the background which is assumed to be flat (since it is from the decay of \ce{^{222}Rn}).  
+Note that the electronic recoil rate is left free.  Because the electronic recoil background during the nuclear recoil calibration is non-negligible, the nuclear recoil calibration must follow the electronic recoil calibration.  The best-fit electronic recoil model is used to model the background which is assumed to be flat (since it is from the decay of \ce{^{222}Rn}).  As mentioned in \secref{sec:xe1t_er_cal_results}, the accidental coincidence background during the nuclear recoil calibration was negligible.
+
+Unlike the electronic recoil calibration with \ce{^{220}Rn}, the energy spectrum and distribution of positions in the detector cannot be assumed to be uniform in our region of interest for the nuclear recoil calibration.  Instead, the energies for the fast Monte Carlo must be drawn from the distribution shown in \figref{fig:xe1t_nr_energy_spec} and the positions from the distribution shown \figref{fig:xe1t_nr_positions}.
+
+With all of the inputs in place, the nuclear recoil calibration could be performed.  The PDF overlaid with all of the data points taken with the AmBe source are shown in \figref{fig:xe1t_nr_cal_pdf}.  Comparison of the nuclear recoil data and the best-fit Monte Carlo are shown in two dimensions and S1 signal space and S2 signal space in \figref{fig:xe1t_nr_cal_s1_2d} and \figref{fig:xe1t_nr_cal_s2_slices}.  While the nuclear recoil dataset includes more outliers than the electronic recoil calibration, likely due to the fact that AmBe is an external source, the shape of the band predicted by the model agrees well with data.
 
 
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.99\textwidth]{xe1t_nr_cal_pdf}
+	\caption{The best-fit PDF for nuclear recoils during the AmBe nuclear recoil calibration.  Both the electronic and nuclear recoil band can clearly be seen.}
+	\label{fig:xe1t_nr_cal_pdf}
+\end{figure}
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.99\textwidth]{xe1t_nr_results_s1_2d}
+	\caption{Shown on top is the nuclear recoil data in S1 space overlaid with the 68\% credible region.  In the middle panel is the nuclear recoil data in S1 and S2 signal space and in the bottom panel is the best-fit nuclear recoil Monte Carlo output in S1 and S2 signal space.  Overlaid in both of these are the medians of each distribution.}
+	\label{fig:xe1t_nr_cal_s1_2d}
+\end{figure}
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.99\textwidth]{xe1t_nr_results_s2_slices}
+	\caption{The nuclear recoil data in S2 signal space for various cuts in S1 signal space overlaid with the 68\% credible region.}
+	\label{fig:xe1t_nr_cal_s2_slices}
+\end{figure}
+
+
+\textit{In situ} nuclear recoil calibrations for large liquid xenon TPCs are inherently difficult due to the expected shape of the energy spectrum.  Attempts to measure the energy of elastic neutron scatters have been made in large detectors, most notably by LUX in \citeref{akerib2016low}.  However, most studies performed to understand the light and charge yield of nuclear recoils and their field dependence in liquid xenon were done with smaller detectors optimized for the task.  One of these measurements was performed by the author and will be the focus of a later chapter.
+
+\clearpage
 
 \subsection{Propagating Results to the WIMP Search}
 \label{sec:xe1t_propagating_results}
+
+
+Now, having a handle on both the electronic recoil and nuclear recoil models, it is possible to move onto the WIMP search.  Of course, as described in \secref{sec:dm_direct_detection}, at the end of the day a direct dark matter search in its most basic form is counting experiment.  We could have proceeded with the rate estimates of our backgrounds from \secref{sec:xe1t_bkg} but of course we would only be able to make a very weak statement on the limit since we are not using the discrimination power of liquid xenon or the different background shapes in energy.  However, since we know the energy spectra, the position distributions, and the type of interaction (electronic or nuclear recoil) as well as the rates, we can simulate the expected rate of these backgrounds in S1 and S2 signal space.  Additionally, if we assume a model for WIMP scattering, such as the basic elastic scattering with nuclei (in the same way as neutrons), we can simulate the expected rate of WIMPs in S1 and S2 signal space by assuming a mass and cross-section for the scattering.  
+
+%8talk about propogating uncertainties
+A subtle point is that changes in the model parameters from the fits will change how the different WIMP and background spectra will look in S1 and S2 signal space.  Ideally, one would produce the spectra using parameters that are randomly sampled from the posterior distributions from the electronic and nuclear recoil calibrations (or the single posterior from the combined calibration).  While accurate, the high dimensionality of the posteriors makes this approach technically impractical without using GPU-based servers since the Monte Carlo must be rerun for every new set of parameters.  Instead, for the first science run it was decided that fixed spectra would be produced for a subset of the parameters that change the scale and shape of the spectra the most.  For nuclear recoils, these parameters were $\gamma$, $\eta$, $\alpha$, and the processor efficiency.  For electronic recoils, the photon yield and the recombination had the greatest effects.  Spectra were produced for each expected type of event varying the parameters at a few fixed point (the mean, $\pm 1 \sigma$, and $\pm 2 \sigma$ from the marginalized posterior) and bin-by-bin linear interpolations were used to estimate spectra not produced.  By following this procedure, the analysis still accounted for the largest sources of uncertainty while avoiding the computationally expensive Monte Carlo\footnote{The hope is that in future runs that the Monte Carlo approach can be used to further improve on the accuracy of a limit or discovery.}.
+
+\section{Results of the First WIMP Search with XENON1T}
+
+With all of the calibrations performed and armed with an understanding of the signal production model and its uncertainty in our detector, we can finally examine the data taken during the first science run.  The first science run lasted 34.2 days, beginning on November 22, 2016 and unexpectedly ending on January 18, 2017 due to interrupted detector function as a result of a local earthquake.  The drift field inside the TPC was maintained at $116.7 \pm 7.5$ V/cm and the average electron lifetime over the course of the science run was 452 $\mu$s.  A cylindrical fiducial volume with a total mass of $1,042 \pm 12$ kg was used for the first science run.
+
+
+\subsection{First Science Run Data}
+
+Data from the 34.2 day dark matter search of the first science run is shown in \figref{fig:xe1t_data_fsr}, along with the data from the \ce{^{220}Rn} and AmBe used to define the electronic and nuclear recoil models and corresponding bands.  The large majority of events appear to be electronic recoils, as one would expect given that the background is dominated by electronic recoils.  Additionally, there are a few events that appear to be potential nuclear recoils and there is a single event that has an S1 and S2 seemingly incompatible with both electronic and nuclear recoils.  
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.7\textwidth]{xe1t_data_fsr}
+	\caption{ Observed data in cS2$_\textrm{b}$ vs. cS1 for (a) \ce{^{220}Rn} electronic recoil calibration, (b) AmBe nuclear recoil calibration, and (c) the 34.2 day dark matter search.  The lines shown represent the median (solid) and the $\pm 2 \sigma$ (dashed) quantiles of the electronic and nuclear recoils band as measured in the relevant calibration.  In panel (c), the purple distribution shows the estimated probability distribution function of a 50 GeV/$\textrm{c}^2$ WIMP.  Only data above 3 PE is  used in all analyses (unused data shown in gray box).  Image Credit: \citeref{aprile2017first}.}
+	\label{fig:xe1t_data_fsr}
+\end{figure}
+
+\subsection{Background Expectations}
+
+There are six sources of background that are considered for in the first science run of XENON1T: the electronic recoil background (due to \radon{} and \krypton{} mostly), radiogenic neutrons from detector materials, neutrinos, accidental coincidences, wall leakage, and anomalous background.  Neutrons produced by cosmogenic muons are not considered for this science run as the expected rate is several orders of magnitude below all other background sources.  The expected number of events during the dark matter portion of the first science run are shown in \tabref{tab:xe1t_bkg_events_fsr} for the full cS1 and $\textrm{cS2}_{\textrm{b}}$ ([3, 70] PE in cS1 and [50, 8000] PE in $\textrm{cS2}_{\textrm{b}}$) space and for all cS1 space and between the nuclear recoil band median and $-2\sigma$ quantile in $\textrm{cS2}_{\textrm{b}}$ (referred to as the reference region).
+
+We have discussed the first three sources of background in detail in \secref{sec:xe1t_bkg}.  However now that we have working signal production models for our detector we can examine the expected spectra of these background sources in S1 and S2 space --- these spectra are shown in \figref{fig:xe1t_bkg_spectra}.  While the rates for the radiogenic neutron background and the neutrino background were constrained during the WIMP search, the electronic recoil background was left free even though precise measurements of the \krypton{} and \radon{} contamination had been made\footnote{While searching for dark matter candidates that interact via electronic recoils, the electronic recoil background rate would need to be constrained.}.  The WIMP search ultimately found an electronic recoil background rate of $(1.93 \pm 0.25) \cdot 10^{-4}$ \dru{} in agreement with the expectation of $(2.3 \pm 0.2) \cdot 10^{-4}$ \dru{} \cite{aprile2017first}.
+
+The accidental coincidence background was discussed briefly with regards to the electronic recoil calibration.  It is the result of uncorrelated S1 and S2 signals occurring within a time window that would put the depth of the event inside of the fiducial volume.    Using the rates from lone S1 signals and lone S2 signals, it is estimated that during the span of the first science run 0.22 $\pm$ 0.01 events accidental coincidence background events are expected.  The spectra, made using a Kernel Density Estimator (KDE) based on lone S1 and S2 signal sizes, is shown in \figref{fig:xe1t_bkg_spectra}.
+
+The fifth source of background is also determined empirically and is the result of events occurring near the wall (outside of the fiducial volume) being reconstructed inside of the fiducial volume.  These events are referred to as wall leakage events.  This type of background is expected to have an abnormally small S2 signal due to charge loss on the teflon.  The rate of wall leakage events is extrapolated from analyzing the number of these events in areas outside of the fiducial volume below the nuclear recoil band and a KDE is used to approximate the probability distribution function of these types of events in S1 and S2 space.  The expected distribution and rate of wall leakage events is shown in \figref{fig:xe1t_bkg_spectra}.
+
+The six and final source of background considered in the WIMP search of the first science run is a flat background in (cS1, $\textrm{log}_{10}(\textrm{cS2}_\textrm{b})$) space referred to as the anomalous leakage background.  While this background source is not well understood, it has been observed both in XENON100 \cite{aprile2016xenon100} and during the \ce{^{220}Rn} calibration and dark matter data taking of first science run of XENON1T.  Since the rate of this anomalous leakage does not scale with exposure, it is assumed that the rate of this background is linked to the electronic recoil rate.  The rate of this flat background is shown in \figref{fig:xe1t_bkg_spectra}.
+
+\begin{table}[b]
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{lcc}
+\hline
+Background Source & Full Space & Reference Region  \\
+\hline
+Electronic recoils & $62 \pm 8$ & $0.26^{+0.11}_{-0.07}$ \\ 
+Radiogenic neutrons & $0.05 \pm 0.01$ & 0.02 \\ 
+CNNS & 0.02 & 0.01 \\ 
+Accidental coincidences & $0.22 \pm 0.01$ & 0.06 \\ 
+Wall leakage & $0.5 \pm 0.3$ & 0.01 \\ 
+Anomalous leakage & $0.10^{+0.10}_{-0.07}$ & 0.02 \\ \hline
+Total Background & $63 \pm 8$ & $0.36^{+0.11}_{-0.07}$ \\
+50 GeV/$\textrm{c}^2$, $\sigma^2 = 10^{-46} \, \, \textrm{cm}^2$ WIMP & $1.66 \pm 0.01$ & $0.82 \pm 0.06$ \\ \hline 
+\end{tabular}
+\caption{The expected (measured in the case of electronic recoils) number of events for the six different background sources and a 50 GeV/$\textrm{c}^2$, $\sigma^2 = 10^{-46} \, \, \textrm{cm}^2$ WIMP for the full analysis space ([3, 70] PE in cS1 and [50, 8000] PE in $\textrm{cS2}_{\textrm{b}}$) and for the reference region (all cS1 space and between the nuclear recoil band median and $-2\sigma$ quantile in $\textrm{cS2}_{\textrm{b}}$).}
+\label{tab:xe1t_bkg_events_fsr}
+\end{table}
+
+
+\begin{figure}[p]
+        \centering
+        
+        \subfloat{\includegraphics[width=0.5\textwidth]{xe1t_er_bkg_s1s2}} \hfill
+	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_radn_bkg_s1s2}}
+	
+	\vspace{0.1cm}
+	
+	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_cnns_bkg_s1s2}} \hfill
+	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_ac_bkg_s1s2}}
+	
+	\vspace{0.1cm}
+	
+	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_wall_bkg_s1s2}} \hfill
+	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_flat_bkg_s1s2}}
+
+        \caption{The expected backgrounds and their rates during the first science run of XENON1T.  The electronic recoil and nuclear recoil backgrounds were found by inputting their respective energy spectra into the signal models found via the calibrations discussed earlier.  The remaining background spectra were determined empirically.}
+        \label{fig:xe1t_bkg_spectra}
+
+\end{figure}
+
+
+\subsection{Searching for WIMPs}
+
+The WIMP search data was blinded below the $99^{\textrm{th}}$ percentile of the electronic recoil band.  In this way, cuts and backgrounds could be defined in an unbiased manner.  In total, 63 events were seen during the 34.2 day run that passed all data selection criteria and were inside the predefined full analysis region.  Two events in the WIMP search data are of particular note.  The first was the event at cS1 = 26.7 PE which is much more likely to be from a nuclear recoil rather than an electronic recoil, as can be seen in \figref{fig:xe1t_data_fsr}(c).  The second is the event at cS1 = 68.0 PE.  This event is very unlikely to be from a nuclear recoil or electronic recoil and appears to either be the result of the wall leakage or some unknown source of background.  The remainder of the events agree with predictions of the electronic recoil background.
+
+
+%xe1t_er_bkg_s1s2
+
+% plot with individual backgrounds with data overlaid
+% all background sources are described very well in paper
+
+
+
 
 
 

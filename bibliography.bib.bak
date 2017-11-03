@@ -1258,4 +1258,22 @@
   publisher = {IOP Publishing},
 }
 
+@Article{szydagis2013enhancement,
+  author    = {Szydagis, Matthew and Fyhrie, Adalyn and Thorngren, Daniel and Tripathi, Mani},
+  title     = {Enhancement of NEST capabilities for simulating low-energy recoils in liquid xenon},
+  journal   = {Journal of Instrumentation},
+  year      = {2013},
+  volume    = {8},
+  number    = {10},
+  pages     = {C10003},
+  publisher = {IOP Publishing},
+}
+
+@Article{akerib2016low,
+  author  = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
+  title   = {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark matter experiment using DD neutron scattering kinematics},
+  journal = {arXiv preprint arXiv:1608.05381},
+  year    = {2016},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

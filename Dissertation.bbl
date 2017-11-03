@@ -5492,6 +5492,136 @@
   \field{year}{2011}
 \endentry
 
+\entry{akerib2016low}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Akerib}{A.}%
+     {DS}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alsum}{A.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ara{\'u}jo}{A.}%
+     {HM}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bai}{B.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bailey}{B.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balajthy}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernard}{B.}%
+     {EP}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biesiadzinski}{B.}%
+     {TP}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ADASAH+1}
+  \strng{fullhash}{ADASAHBXBABJBPBEBABT+1}
+  \field{title}{Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX
+  dark matter experiment using DD neutron scattering kinematics}
+  \field{journaltitle}{arXiv preprint arXiv:1608.05381}
+  \field{year}{2016}
+\endentry
+
+\entry{aprile2016xenon100}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aalbers}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alfonsi}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amaro}{A.}%
+     {FD}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrow}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauermeister}{B.}%
+     {Boris}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEAJAF+1}
+  \strng{fullhash}{AEAJAFAMAFAMAFBPBLBB+5}
+  \field{number}{12}
+  \field{pages}{122001}
+  \field{title}{XENON100 dark matter results from a combination of 477 live
+  days}
+  \field{volume}{94}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2016}
+\endentry
+
 \lossort
 \endlossort
 

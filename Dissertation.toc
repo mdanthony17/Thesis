@@ -186,8 +186,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3.1}Results of the Electronic Recoil Calibration}{111}{subsubsection.3.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.3.2}Results of the Nuclear Recoil Calibration}{113}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Results of the Nuclear Recoil Calibration}{116}{subsubsection.3.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Propagating Results to the WIMP Search}{116}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.4}Propagating Results to the WIMP Search}{121}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{117}{section*.7}
+\contentsline {section}{\numberline {3.5}Results of the First WIMP Search with XENON1T}{122}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}First Science Run Data}{122}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Background Expectations}{122}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.3}Searching for WIMPs}{125}{subsection.3.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{129}{section*.7}

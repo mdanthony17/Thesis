@@ -128,10 +128,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.32}{\ignorespaces The estimated bias and smearing of S2 signals due to the processing of the waveform for scintillation signals.}}{107}{figure.3.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces The PDF of accidental coincidence background events in $\textrm {log} \left ( \frac {\textrm {cS2}_{\textrm {b}}}{\textrm {cS1}} \right )$ space for the first dark matter run.}}{112}{figure.3.33}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces The PDF of accidental coincidence background events in $\textrm {log} \left ( \frac {\textrm {cS2}_{\textrm {b}}}{\textrm {cS1}} \right )$ versus cS1 space for the first dark matter run.}}{112}{figure.3.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.34}{\ignorespaces The best-fit PDF for electronic recoils during the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 0}\noexpand R\noexpand n} electronic recoil calibration. Outside of the few two outliers, the agreement between the model and data is extremely good.}}{114}{figure.3.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Comparison of the band median and width during the electronic recoil calibration. One can see that the fit provides excellent agreement in the region of interest.}}{114}{figure.3.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Comparison of the band median and width during the electronic recoil calibration. One can see that the fit provides excellent agreement in the region of interest.}}{115}{figure.3.36}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Comparison of the electronic recoil band in S1 signal space only and S2 signal space in different S1 regions. Again, the band parameterization used describes the shape of the data very well.}}{115}{figure.3.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.37}{\ignorespaces The best-fit PDF for nuclear recoils during the AmBe nuclear recoil calibration. Both the electronic and nuclear recoil band can clearly be seen.}}{118}{figure.3.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Shown on top is the nuclear recoil data in S1 space overlaid with the 68\% credible region. In the middle panel is the nuclear recoil data in S1 and S2 signal space and in the bottom panel is the best-fit nuclear recoil Monte Carlo output in S1 and S2 signal space. Overlaid in both of these are the medians of each distribution.}}{119}{figure.3.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.39}{\ignorespaces The nuclear recoil data in S2 signal space for various cuts in S1 signal space overlaid with the 68\% credible region.}}{120}{figure.3.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Observed data in cS2$_\textrm {b}$ vs. cS1 for (a) \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 0}\noexpand R\noexpand n} electronic recoil calibration, (b) AmBe nuclear recoil calibration, and (c) the 34.2 day dark matter search. The lines shown represent the median (solid) and the $\pm 2 \sigma $ (dashed) quantiles of the electronic and nuclear recoils band as measured in the relevant calibration. In panel (c), the purple distribution shows the estimated probability distribution function of a 50 GeV/$\textrm {c}^2$ WIMP. Only data above 3 PE is used in all analyses (unused data shown in gray box). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017first}.}}{123}{figure.3.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.41}{\ignorespaces The expected backgrounds and their rates during the first science run of XENON1T. The electronic recoil and nuclear recoil backgrounds were found by inputting their respective energy spectra into the signal models found via the calibrations discussed earlier. The remaining background spectra were determined empirically.}}{126}{figure.3.41}

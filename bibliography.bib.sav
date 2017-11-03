@@ -1269,4 +1269,22 @@
   publisher = {IOP Publishing},
 }
 
+@Article{akerib2016low,
+  author  = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
+  title   = {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark matter experiment using DD neutron scattering kinematics},
+  journal = {arXiv preprint arXiv:1608.05381},
+  year    = {2016},
+}
+
+@Article{aprile2016xenon100,
+  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
+  title     = {XENON100 dark matter results from a combination of 477 live days},
+  journal   = {Physical Review D},
+  year      = {2016},
+  volume    = {94},
+  number    = {12},
+  pages     = {122001},
+  publisher = {APS},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
