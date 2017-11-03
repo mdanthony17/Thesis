@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 NOV 2017 09:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 NOV 2017 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,29 +1566,29 @@ LaTeX Warning: Label `fig:xe1t_er_band_width_median@cref' multiply defined.
 ))
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 103.
 
  (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    ... okay on input line 103.
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 101.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1600,10 +1600,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 101.
-LaTeX Info: Redefining \ref on input line 101.
-LaTeX Info: Redefining \pageref on input line 101.
-LaTeX Info: Redefining \nameref on input line 101.
+LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 (./Dissertation.out) (./Dissertation.out)
 \@outlinefile=\write5
 \openout5 = `Dissertation.out'.
@@ -1689,8 +1689,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Dissertation.bbl' found.
 (./Dissertation.bbl)
-Package biblatex Info: Reference section=0 on input line 101.
-Package biblatex Info: Reference segment=0 on input line 101.
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
 \openout2 = `./FrontMatter/TitlePage.aux'.
 
  (./FrontMatter/TitlePage.tex) [1
@@ -1737,8 +1737,8 @@ LaTeX Info: Redefining \dbond on input line 137.
 LaTeX Info: Redefining \tbond on input line 137.
 
 [3]
-Overfull \hbox (2.03766pt too wide) detected at line 199
- \OT1/cmr/bx/n/12 127
+Overfull \hbox (2.03766pt too wide) detected at line 201
+ \OT1/cmr/bx/n/12 129
  []
 
 ) [4] (./Dissertation.lof [5
@@ -1825,7 +1825,7 @@ LaTeX Info: Redefining \tbond on input line 133.
 LaTeX Info: Redefining \bond on input line 145.
 LaTeX Info: Redefining \dbond on input line 145.
 LaTeX Info: Redefining \tbond on input line 145.
-) [13] [14]
+ [13]) [14]
 \openout2 = `./FrontMatter/Acknowledgments.aux'.
 
  (./FrontMatter/Acknowledgments.tex)
@@ -1883,7 +1883,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.54 
-      [2] <./Chapter1/images/coma_composite.jpg, id=987, 3613.5pt x 3613.5pt>
+      [2] <./Chapter1/images/coma_composite.jpg, id=1004, 3613.5pt x 3613.5pt>
 File: ./Chapter1/images/coma_composite.jpg Graphic file (type jpg)
 
 <use ./Chapter1/images/coma_composite.jpg>
@@ -1891,8 +1891,8 @@ Package pdftex.def Info: ./Chapter1/images/coma_composite.jpg used on input lin
 e 56.
 (pdftex.def)             Requested size: 227.62204pt x 227.60759pt.
 
-<./Chapter1/images/ngc_6503_rotation_curve.jpg, id=988, 508.90125pt x 431.6125p
-t>
+<./Chapter1/images/ngc_6503_rotation_curve.jpg, id=1005, 508.90125pt x 431.6125
+pt>
 File: ./Chapter1/images/ngc_6503_rotation_curve.jpg Graphic file (type jpg)
  <use ./Chapter1/images/ngc_6503_rotation_curve.jpg>
 Package pdftex.def Info: ./Chapter1/images/ngc_6503_rotation_curve.jpg used on 
@@ -1910,7 +1910,7 @@ nored
                    \relax 
 l.87 
       [4 <./Chapter1/images/ngc_6503_rotation_curve.jpg>]
-<./Chapter1/images/gravitation_lensing_cartoon.jpg, id=1007, 1071.00125pt x 803
+<./Chapter1/images/gravitation_lensing_cartoon.jpg, id=1024, 1071.00125pt x 803
 .0pt>
 File: ./Chapter1/images/gravitation_lensing_cartoon.jpg Graphic file (type jpg)
 
@@ -1919,7 +1919,7 @@ Package pdftex.def Info: ./Chapter1/images/gravitation_lensing_cartoon.jpg used
  on input line 97.
 (pdftex.def)             Requested size: 346.40132pt x 259.72212pt.
 
-<./Chapter1/images/einstein_cross.jpg, id=1008, 701.62125pt x 702.625pt>
+<./Chapter1/images/einstein_cross.jpg, id=1025, 701.62125pt x 702.625pt>
 File: ./Chapter1/images/einstein_cross.jpg Graphic file (type jpg)
 
 <use ./Chapter1/images/einstein_cross.jpg>
@@ -1928,7 +1928,7 @@ e 104.
 (pdftex.def)             Requested size: 346.40132pt x 346.90523pt.
  [5 <./Chapter1/images/gravitation_lensing_cartoon.jpg>] [6 <./Chapter1/images/
 einstein_cross.jpg>]
-<./Chapter1/images/bullet_cluster.png, id=1020, 784.9325pt x 255.95625pt>
+<./Chapter1/images/bullet_cluster.png, id=1037, 784.9325pt x 255.95625pt>
 File: ./Chapter1/images/bullet_cluster.png Graphic file (type png)
 
 <use ./Chapter1/images/bullet_cluster.png>
@@ -1936,7 +1936,7 @@ Package pdftex.def Info: ./Chapter1/images/bullet_cluster.png used on input lin
 e 122.
 (pdftex.def)             Requested size: 432.56393pt x 141.05756pt.
 
-<./Chapter1/images/planck_map.png, id=1026, 1003.75pt x 627.34375pt>
+<./Chapter1/images/planck_map.png, id=1043, 1003.75pt x 627.34375pt>
 File: ./Chapter1/images/planck_map.png Graphic file (type png)
 
 <use ./Chapter1/images/planck_map.png>
@@ -1944,7 +1944,7 @@ Package pdftex.def Info: ./Chapter1/images/planck_map.png used on input line 13
 4.
 (pdftex.def)             Requested size: 411.34868pt x 257.09773pt.
 
-<./Chapter1/images/planck_2015_power_spectrum.jpeg, id=1029, 1091.07625pt x 727
+<./Chapter1/images/planck_2015_power_spectrum.jpeg, id=1046, 1091.07625pt x 727
 .71875pt>
 File: ./Chapter1/images/planck_2015_power_spectrum.jpeg Graphic file (type jpg)
 
@@ -1954,7 +1954,7 @@ Package pdftex.def Info: ./Chapter1/images/planck_2015_power_spectrum.jpeg used
 (pdftex.def)             Requested size: 411.34868pt x 274.35959pt.
  [7 <./Chapter1/images/bullet_cluster.png>] [8 <./Chapter1/images/planck_map.pn
 g>] [9 <./Chapter1/images/planck_2015_power_spectrum.jpeg>]
-<./Chapter1/images/admx2_limits.jpeg, id=1069, 724.7075pt x 477.785pt>
+<./Chapter1/images/admx2_limits.jpeg, id=1086, 724.7075pt x 477.785pt>
 File: ./Chapter1/images/admx2_limits.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/admx2_limits.jpeg>
@@ -1962,7 +1962,7 @@ Package pdftex.def Info: ./Chapter1/images/admx2_limits.jpeg used on input line
  186.
 (pdftex.def)             Requested size: 411.34868pt x 271.19568pt.
  [10] [11 <./Chapter1/images/admx2_limits.jpeg>]
-<./Chapter1/images/wimp_detection.jpeg, id=1089, 1151.30125pt x 762.85pt>
+<./Chapter1/images/wimp_detection.jpeg, id=1106, 1151.30125pt x 762.85pt>
 File: ./Chapter1/images/wimp_detection.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/wimp_detection.jpeg>
@@ -1970,7 +1970,7 @@ Package pdftex.def Info: ./Chapter1/images/wimp_detection.jpeg used on input li
 ne 209.
 (pdftex.def)             Requested size: 324.75pt x 215.1796pt.
  [12 <./Chapter1/images/wimp_detection.jpeg>] [13]
-<./Chapter1/images/collider_detection_cms.jpg, id=1114, 963.6pt x 512.66531pt>
+<./Chapter1/images/collider_detection_cms.jpg, id=1131, 963.6pt x 512.66531pt>
 File: ./Chapter1/images/collider_detection_cms.jpg Graphic file (type jpg)
 
 <use ./Chapter1/images/collider_detection_cms.jpg>
@@ -1978,7 +1978,7 @@ Package pdftex.def Info: ./Chapter1/images/collider_detection_cms.jpg used on i
 nput line 242.
 (pdftex.def)             Requested size: 411.34868pt x 218.84596pt.
  [14 <./Chapter1/images/collider_detection_cms.jpg>] [15] [16] [17]
-<./Chapter1/images/wimp_recoil_rates.png, id=1158, 650.43pt x 361.35pt>
+<./Chapter1/images/wimp_recoil_rates.png, id=1175, 650.43pt x 361.35pt>
 File: ./Chapter1/images/wimp_recoil_rates.png Graphic file (type png)
 
 <use ./Chapter1/images/wimp_recoil_rates.png>
@@ -1986,7 +1986,7 @@ Package pdftex.def Info: ./Chapter1/images/wimp_recoil_rates.png used on input
 line 324.
 (pdftex.def)             Requested size: 428.67238pt x 238.1554pt.
 
-<./Chapter1/images/dm_expts_2.jpeg, id=1159, 870.25125pt x 568.1225pt>
+<./Chapter1/images/dm_expts_2.jpeg, id=1176, 870.25125pt x 568.1225pt>
 File: ./Chapter1/images/dm_expts_2.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/dm_expts_2.jpeg>
@@ -1995,7 +1995,7 @@ Package pdftex.def Info: ./Chapter1/images/dm_expts_2.jpeg used on input line 3
 (pdftex.def)             Requested size: 428.67238pt x 279.85616pt.
  [18 <./Chapter1/images/wimp_recoil_rates.png>] [19 <./Chapter1/images/dm_expts
 _2.jpeg>]
-<./Chapter1/images/dama_modulation.jpeg, id=1180, 1085.05376pt x 380.42125pt>
+<./Chapter1/images/dama_modulation.jpeg, id=1198, 1085.05376pt x 380.42125pt>
 File: ./Chapter1/images/dama_modulation.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/dama_modulation.jpeg>
@@ -2003,7 +2003,7 @@ Package pdftex.def Info: ./Chapter1/images/dama_modulation.jpeg used on input l
 ine 353.
 (pdftex.def)             Requested size: 428.67238pt x 150.29086pt.
  [20] [21 <./Chapter1/images/dama_modulation.jpeg>] [22]
-<./Chapter1/images/dm_si_limits.jpeg, id=1215, 965.6075pt x 700.6175pt>
+<./Chapter1/images/dm_si_limits.jpeg, id=1231, 965.6075pt x 700.6175pt>
 File: ./Chapter1/images/dm_si_limits.jpeg Graphic file (type jpg)
 
 <use ./Chapter1/images/dm_si_limits.jpeg>
@@ -2077,7 +2077,7 @@ LaTeX Info: Redefining \tbond on input line 41.
 LaTeX Info: Redefining \bond on input line 41.
 LaTeX Info: Redefining \dbond on input line 41.
 LaTeX Info: Redefining \tbond on input line 41.
-<./Chapter2/images/xe_pt_diagram.jpeg, id=1254, 555.07375pt x 540.0175pt>
+<./Chapter2/images/xe_pt_diagram.jpeg, id=1270, 555.07375pt x 540.0175pt>
 File: ./Chapter2/images/xe_pt_diagram.jpeg Graphic file (type jpg)
 
 <use ./Chapter2/images/xe_pt_diagram.jpeg>
@@ -2089,7 +2089,7 @@ e 51.
 Package hyperref Warning: Ignoring empty anchor on input line 67.
 
 [27] [28 <./Chapter2/images/xe_pt_diagram.jpeg>]
-<./Chapter2/images/observables_diagram.pdf, id=1287, 406.2717pt x 482.77336pt>
+<./Chapter2/images/observables_diagram.pdf, id=1303, 406.2717pt x 482.77336pt>
 File: ./Chapter2/images/observables_diagram.pdf Graphic file (type pdf)
 
 <use ./Chapter2/images/observables_diagram.pdf>
@@ -2101,7 +2101,7 @@ LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
  [31]
-<./Chapter2/images/kr85_beta_rates.png, id=1367, 578.16pt x 433.62pt>
+<./Chapter2/images/kr85_beta_rates.png, id=1383, 578.16pt x 433.62pt>
 File: ./Chapter2/images/kr85_beta_rates.png Graphic file (type png)
 
 <use ./Chapter2/images/kr85_beta_rates.png>
@@ -2130,7 +2130,7 @@ LaTeX Info: Redefining \bond on input line 146.
 LaTeX Info: Redefining \dbond on input line 146.
 LaTeX Info: Redefining \tbond on input line 146.
  [32 <./Chapter2/images/kr85_beta_rates.png>]
-<./Chapter2/images/photon_attenuation.png, id=1383, 650.43pt x 433.62pt>
+<./Chapter2/images/photon_attenuation.png, id=1399, 650.43pt x 433.62pt>
 File: ./Chapter2/images/photon_attenuation.png Graphic file (type png)
 
 <use ./Chapter2/images/photon_attenuation.png>
@@ -2138,7 +2138,7 @@ Package pdftex.def Info: ./Chapter2/images/photon_attenuation.png used on input
  line 156.
 (pdftex.def)             Requested size: 411.34868pt x 274.24068pt.
  [33] [34 <./Chapter2/images/photon_attenuation.png>]
-<./Chapter2/images/neutron_cross_sections.png, id=1406, 650.43pt x 433.62pt>
+<./Chapter2/images/neutron_cross_sections.png, id=1422, 650.43pt x 433.62pt>
 File: ./Chapter2/images/neutron_cross_sections.png Graphic file (type png)
 
 <use ./Chapter2/images/neutron_cross_sections.png>
@@ -2174,7 +2174,7 @@ LaTeX Info: Redefining \bond on input line 191.
 LaTeX Info: Redefining \dbond on input line 191.
 LaTeX Info: Redefining \tbond on input line 191.
 
-<./Chapter2/images/solar_neutrino_flux.jpeg, id=1417, 716.6775pt x 648.4225pt>
+<./Chapter2/images/solar_neutrino_flux.jpeg, id=1433, 716.6775pt x 648.4225pt>
 File: ./Chapter2/images/solar_neutrino_flux.jpeg Graphic file (type jpg)
 
 <use ./Chapter2/images/solar_neutrino_flux.jpeg>
@@ -2186,7 +2186,7 @@ LaTeX Info: Redefining \bond on input line 259.
 LaTeX Info: Redefining \dbond on input line 259.
 LaTeX Info: Redefining \tbond on input line 259.
  [40] [41] [42] [43]
-<./Chapter2/images/tpc_principle.png, id=1521, 903.375pt x 614.295pt>
+<./Chapter2/images/tpc_principle.png, id=1537, 903.375pt x 614.295pt>
 File: ./Chapter2/images/tpc_principle.png Graphic file (type png)
 
 <use ./Chapter2/images/tpc_principle.png>
@@ -2194,7 +2194,7 @@ Package pdftex.def Info: ./Chapter2/images/tpc_principle.png used on input line
  365.
 (pdftex.def)             Requested size: 428.67238pt x 291.50258pt.
  [44]
-<./Chapter2/images/xe1t_disc.png, id=1530, 722.7pt x 505.89pt>
+<./Chapter2/images/xe1t_disc.png, id=1546, 722.7pt x 505.89pt>
 File: ./Chapter2/images/xe1t_disc.png Graphic file (type png)
 
 <use ./Chapter2/images/xe1t_disc.png>
@@ -2208,7 +2208,7 @@ LaTeX Info: Redefining \bond on input line 385.
 LaTeX Info: Redefining \dbond on input line 385.
 LaTeX Info: Redefining \tbond on input line 385.
 
-<./Chapter2/images/field_dependence_nr_er.png, id=1534, 561.09625pt x 422.57875
+<./Chapter2/images/field_dependence_nr_er.png, id=1550, 561.09625pt x 422.57875
 pt>
 File: ./Chapter2/images/field_dependence_nr_er.png Graphic file (type png)
  <use ./Chapter2/images/field_dependence_nr_er.png>
@@ -2217,7 +2217,7 @@ nput line 393.
 (pdftex.def)             Requested size: 368.05264pt x 277.18765pt.
  [45 <./Chapter2/images/tpc_principle.png>] [46 <./Chapter2/images/xe1t_disc.pn
 g>] [47 <./Chapter2/images/field_dependence_nr_er.png (PNG copy)>]
-<./Chapter2/images/tpc_pos_rec.png, id=1554, 825.0825pt x 542.025pt>
+<./Chapter2/images/tpc_pos_rec.png, id=1570, 825.0825pt x 542.025pt>
 File: ./Chapter2/images/tpc_pos_rec.png Graphic file (type png)
 
 <use ./Chapter2/images/tpc_pos_rec.png>
@@ -2231,7 +2231,7 @@ LaTeX Info: Redefining \tbond on input line 420.
 LaTeX Info: Redefining \bond on input line 420.
 LaTeX Info: Redefining \dbond on input line 420.
 LaTeX Info: Redefining \tbond on input line 420.
- [49] <./Chapter2/images/tpc_waveform.png, id=1568, 903.375pt x 462.72874pt>
+ [49] <./Chapter2/images/tpc_waveform.png, id=1585, 903.375pt x 462.72874pt>
 File: ./Chapter2/images/tpc_waveform.png Graphic file (type png)
 
 <use ./Chapter2/images/tpc_waveform.png>
@@ -2239,7 +2239,7 @@ Package pdftex.def Info: ./Chapter2/images/tpc_waveform.png used on input line
 430.
 (pdftex.def)             Requested size: 428.67238pt x 219.57956pt.
  [50 <./Chapter2/images/tpc_waveform.png>] <./Chapter2/images/tpc_pmt.jpeg, id=
-1580, 1760.5775pt x 600.2425pt>
+1596, 1760.5775pt x 600.2425pt>
 File: ./Chapter2/images/tpc_pmt.jpeg Graphic file (type jpg)
 
 <use ./Chapter2/images/tpc_pmt.jpeg>
@@ -2252,7 +2252,7 @@ LaTeX Info: Redefining \dbond on input line 464.
 LaTeX Info: Redefining \tbond on input line 464.
 
 [52]
-<./Chapter2/images/tpc_electron_lifetime.jpeg, id=1603, 1015.795pt x 600.2425pt
+<./Chapter2/images/tpc_electron_lifetime.jpeg, id=1619, 1015.795pt x 600.2425pt
 >
 File: ./Chapter2/images/tpc_electron_lifetime.jpeg Graphic file (type jpg)
  <use ./Chapter2/images/tpc_electron_lifetime.jpeg>
@@ -2266,7 +2266,7 @@ LaTeX Info: Redefining \bond on input line 469.
 LaTeX Info: Redefining \dbond on input line 469.
 LaTeX Info: Redefining \tbond on input line 469.
  [53 <./Chapter2/images/tpc_electron_lifetime.jpeg>]
-<./Chapter2/images/tpc_gas_gain.jpeg, id=1612, 904.37875pt x 711.65875pt>
+<./Chapter2/images/tpc_gas_gain.jpeg, id=1628, 904.37875pt x 711.65875pt>
 File: ./Chapter2/images/tpc_gas_gain.jpeg Graphic file (type jpg)
 
 <use ./Chapter2/images/tpc_gas_gain.jpeg>
@@ -2281,7 +2281,7 @@ Package pdftex.def Info: ./Chapter2/images/tpc_gas_gain.jpeg used on input line
 
 
 ]
-<./Chapter3/images/neutron_flux.jpeg, id=1628, 922.44624pt x 610.28pt>
+<./Chapter3/images/neutron_flux.jpeg, id=1644, 922.44624pt x 610.28pt>
 File: ./Chapter3/images/neutron_flux.jpeg Graphic file (type jpg)
 
 <use ./Chapter3/images/neutron_flux.jpeg>
@@ -2289,7 +2289,7 @@ Package pdftex.def Info: ./Chapter3/images/neutron_flux.jpeg used on input line
  26.
 (pdftex.def)             Requested size: 346.40132pt x 229.17104pt.
  [56 <./Chapter3/images/neutron_flux.jpeg>]
-<./Chapter3/images/cartoon_full_water_tank_muon_veto.png, id=1640, 648.4225pt x
+<./Chapter3/images/cartoon_full_water_tank_muon_veto.png, id=1656, 648.4225pt x
  753.81625pt>
 File: ./Chapter3/images/cartoon_full_water_tank_muon_veto.png Graphic file (typ
 e png)
@@ -2305,7 +2305,7 @@ LaTeX Info: Redefining \dbond on input line 45.
 LaTeX Info: Redefining \tbond on input line 45.
 
 [57 <./Chapter3/images/cartoon_full_water_tank_muon_veto.png>]
-<./Chapter3/images/water_tank_filling.jpg, id=1652, 2960.05875pt x 3179.88pt>
+<./Chapter3/images/water_tank_filling.jpg, id=1668, 2960.05875pt x 3179.88pt>
 File: ./Chapter3/images/water_tank_filling.jpg Graphic file (type jpg)
 
 <use ./Chapter3/images/water_tank_filling.jpg>
@@ -2313,7 +2313,7 @@ Package pdftex.def Info: ./Chapter3/images/water_tank_filling.jpg used on input
  line 52.
 (pdftex.def)             Requested size: 259.80264pt x 279.09279pt.
  [58 <./Chapter3/images/water_tank_filling.jpg>]
-<./Chapter3/images/xe1t_inner_cryostat.jpg, id=1659, 652.4375pt x 351.3125pt>
+<./Chapter3/images/xe1t_inner_cryostat.jpg, id=1675, 652.4375pt x 351.3125pt>
 File: ./Chapter3/images/xe1t_inner_cryostat.jpg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_inner_cryostat.jpg>
@@ -2321,7 +2321,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_inner_cryostat.jpg used on inpu
 t line 67.
 (pdftex.def)             Requested size: 428.67238pt x 230.83237pt.
 
-<./Chapter3/images/xe1t_cryostat_tpc.png, id=1660, 387.3672pt x 481.3182pt>
+<./Chapter3/images/xe1t_cryostat_tpc.png, id=1676, 387.3672pt x 481.3182pt>
 File: ./Chapter3/images/xe1t_cryostat_tpc.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_cryostat_tpc.png>
@@ -2329,7 +2329,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_cryostat_tpc.png used on input
 line 74.
 (pdftex.def)             Requested size: 428.67238pt x 532.66847pt.
 
-<./Chapter3/images/diagram_cryo_pur_sys.jpeg, id=1664, 1004.75375pt x 658.46pt>
+<./Chapter3/images/diagram_cryo_pur_sys.jpeg, id=1680, 1004.75375pt x 658.46pt>
 File: ./Chapter3/images/diagram_cryo_pur_sys.jpeg Graphic file (type jpg)
 <use ./Chapter3/images/diagram_cryo_pur_sys.jpeg>
 Package pdftex.def Info: ./Chapter3/images/diagram_cryo_pur_sys.jpeg used on in
@@ -2474,7 +2474,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 119.
 
-[63] <./Chapter3/images/xe1t_restox.jpg, id=1709, 652.4375pt x 351.3125pt>
+[63] <./Chapter3/images/xe1t_restox.jpg, id=1725, 652.4375pt x 351.3125pt>
 File: ./Chapter3/images/xe1t_restox.jpg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_restox.jpg>
@@ -2491,7 +2491,7 @@ LaTeX Info: Redefining \bond on input line 148.
 LaTeX Info: Redefining \dbond on input line 148.
 LaTeX Info: Redefining \tbond on input line 148.
  [64]
-<./Chapter3/images/xe1t_external_sources.png, id=1717, 903.375pt x 722.7pt>
+<./Chapter3/images/xe1t_external_sources.png, id=1733, 903.375pt x 722.7pt>
 File: ./Chapter3/images/xe1t_external_sources.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_external_sources.png>
@@ -2499,7 +2499,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_external_sources.png used on in
 put line 155.
 (pdftex.def)             Requested size: 303.09868pt x 242.48369pt.
  [65 <./Chapter3/images/xe1t_restox.jpg>]
-<./Chapter3/images/xe1t_pmt_qe.jpeg, id=1724, 1295.84125pt x 583.17876pt>
+<./Chapter3/images/xe1t_pmt_qe.jpeg, id=1740, 1295.84125pt x 583.17876pt>
 File: ./Chapter3/images/xe1t_pmt_qe.jpeg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_pmt_qe.jpeg>
@@ -2508,7 +2508,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_pmt_qe.jpeg used on input line
 (pdftex.def)             Requested size: 428.67238pt x 192.9212pt.
  [66 <./Chapter3/images/xe1t_external_sources.png>] [67 <./Chapter3/images/xe1t
 _pmt_qe.jpeg>]
-<./Chapter3/images/xe1t_sr0_field_sim.jpeg, id=1741, 827.09pt x 653.44125pt>
+<./Chapter3/images/xe1t_sr0_field_sim.jpeg, id=1757, 827.09pt x 653.44125pt>
 File: ./Chapter3/images/xe1t_sr0_field_sim.jpeg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_sr0_field_sim.jpeg>
@@ -2516,7 +2516,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_sr0_field_sim.jpeg used on inpu
 t line 193.
 (pdftex.def)             Requested size: 428.67238pt x 338.67468pt.
  [68] [69 <./Chapter3/images/xe1t_sr0_field_sim.jpeg>]
-<./Chapter3/images/xe1t_pax_output_first_waveform.png, id=1755, 1606.0pt x 848.
+<./Chapter3/images/xe1t_pax_output_first_waveform.png, id=1771, 1606.0pt x 848.
 16875pt>
 File: ./Chapter3/images/xe1t_pax_output_first_waveform.png Graphic file (type p
 ng)
@@ -2525,7 +2525,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_pax_output_first_waveform.png u
 sed on input line 210.
 (pdftex.def)             Requested size: 428.67238pt x 226.39433pt.
  [70 <./Chapter3/images/xe1t_pax_output_first_waveform.png>] [71]
-<./Chapter3/images/xe1t_all_energy_er_bkg.png, id=1774, 1369.115pt x 717.68124p
+<./Chapter3/images/xe1t_all_energy_er_bkg.png, id=1790, 1369.115pt x 717.68124p
 t>
 File: ./Chapter3/images/xe1t_all_energy_er_bkg.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_all_energy_er_bkg.png>
@@ -2545,7 +2545,7 @@ LaTeX Info: Redefining \bond on input line 249.
 LaTeX Info: Redefining \dbond on input line 249.
 LaTeX Info: Redefining \tbond on input line 249.
 
-<./Chapter3/images/xe1t_low_energy_er_bkg.png, id=1779, 1369.115pt x 717.68124p
+<./Chapter3/images/xe1t_low_energy_er_bkg.png, id=1795, 1369.115pt x 717.68124p
 t>
 File: ./Chapter3/images/xe1t_low_energy_er_bkg.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_low_energy_er_bkg.png>
@@ -2745,7 +2745,7 @@ LaTeX Info: Redefining \bond on input line 268.
 LaTeX Info: Redefining \dbond on input line 268.
 LaTeX Info: Redefining \tbond on input line 268.
 
-<./Chapter3/images/u238_chain.png, id=1796, 1579.9025pt x 2260.445pt>
+<./Chapter3/images/u238_chain.png, id=1812, 1579.9025pt x 2260.445pt>
 File: ./Chapter3/images/u238_chain.png Graphic file (type png)
 
 <use ./Chapter3/images/u238_chain.png>
@@ -2753,7 +2753,7 @@ Package pdftex.def Info: ./Chapter3/images/u238_chain.png used on input line 27
 3.
 (pdftex.def)             Requested size: 228.40591pt x 326.77312pt.
 
-<./Chapter3/images/th232_chain.png, id=1797, 1108.14pt x 1768.6075pt>
+<./Chapter3/images/th232_chain.png, id=1813, 1108.14pt x 1768.6075pt>
 File: ./Chapter3/images/th232_chain.png Graphic file (type png)
 
 <use ./Chapter3/images/th232_chain.png>
@@ -3040,7 +3040,7 @@ LaTeX Info: Redefining \bond on input line 298.
 LaTeX Info: Redefining \dbond on input line 298.
 LaTeX Info: Redefining \tbond on input line 298.
 [75]
-<./Chapter3/images/xe1t_low_energy_nr_bkg.png, id=1824, 698.61pt x 475.7775pt>
+<./Chapter3/images/xe1t_low_energy_nr_bkg.png, id=1840, 698.61pt x 475.7775pt>
 File: ./Chapter3/images/xe1t_low_energy_nr_bkg.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_low_energy_nr_bkg.png>
@@ -3051,7 +3051,7 @@ LaTeX Info: Redefining \bond on input line 322.
 LaTeX Info: Redefining \dbond on input line 322.
 LaTeX Info: Redefining \tbond on input line 322.
  [76] [77 <./Chapter3/images/xe1t_low_energy_nr_bkg.png>] [78]
-<./Chapter3/images/xe1t_spe_gaussian.jpeg, id=1846, 719.68875pt x 617.30624pt>
+<./Chapter3/images/xe1t_spe_gaussian.jpeg, id=1862, 719.68875pt x 617.30624pt>
 File: ./Chapter3/images/xe1t_spe_gaussian.jpeg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_spe_gaussian.jpeg>
@@ -3097,7 +3097,7 @@ LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <3.34995> not available
 (Font)              size <5> substituted on input line 370.
 
 
-<./Chapter3/images/xe1t_drift_time_vs_width.png, id=1857, 3705.845pt x 2086.796
+<./Chapter3/images/xe1t_drift_time_vs_width.png, id=1873, 3705.845pt x 2086.796
 25pt>
 File: ./Chapter3/images/xe1t_drift_time_vs_width.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_drift_time_vs_width.png>
@@ -3114,7 +3114,7 @@ LaTeX Info: Redefining \bond on input line 383.
 LaTeX Info: Redefining \dbond on input line 383.
 LaTeX Info: Redefining \tbond on input line 383.
  [80]
-<./Chapter3/images/xe1t_pos_rec_xy_kr.png, id=1865, 722.7pt x 578.16pt>
+<./Chapter3/images/xe1t_pos_rec_xy_kr.png, id=1881, 722.7pt x 578.16pt>
 File: ./Chapter3/images/xe1t_pos_rec_xy_kr.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_pos_rec_xy_kr.png>
@@ -3122,7 +3122,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_pos_rec_xy_kr.png used on input
  line 388.
 (pdftex.def)             Requested size: 240.31183pt x 192.24901pt.
 
-<./Chapter3/images/xe1t_pos_rec_zr2_kr.png, id=1866, 578.16pt x 578.16pt>
+<./Chapter3/images/xe1t_pos_rec_zr2_kr.png, id=1882, 578.16pt x 578.16pt>
 File: ./Chapter3/images/xe1t_pos_rec_zr2_kr.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_pos_rec_zr2_kr.png>
@@ -3143,7 +3143,7 @@ LaTeX Info: Redefining \bond on input line 403.
 LaTeX Info: Redefining \dbond on input line 403.
 LaTeX Info: Redefining \tbond on input line 403.
 
-<./Chapter3/images/xe1t_s1_correction_map.png, id=1874, 941.6781pt x 638.8668pt
+<./Chapter3/images/xe1t_s1_correction_map.png, id=1890, 941.6781pt x 638.8668pt
 >
 File: ./Chapter3/images/xe1t_s1_correction_map.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_s1_correction_map.png>
@@ -3152,7 +3152,7 @@ nput line 408.
 (pdftex.def)             Requested size: 428.67238pt x 290.83107pt.
  [82 <./Chapter3/images/xe1t_pos_rec_xy_kr.png> <./Chapter3/images/xe1t_pos_rec
 _zr2_kr.png>] [83 <./Chapter3/images/xe1t_s1_correction_map.png>]
-<./Chapter3/images/xe1t_s2_correction_map_xy_top.png, id=1890, 330.2739pt x 282
+<./Chapter3/images/xe1t_s2_correction_map_xy_top.png, id=1906, 330.2739pt x 282
 .5757pt>
 File: ./Chapter3/images/xe1t_s2_correction_map_xy_top.png Graphic file (type pn
 g)
@@ -3161,7 +3161,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_s2_correction_map_xy_top.png us
 ed on input line 426.
 (pdftex.def)             Requested size: 216.5pt x 185.23718pt.
 
-<./Chapter3/images/xe1t_s2_correction_map_xy_bottom.png, id=1891, 330.2739pt x 
+<./Chapter3/images/xe1t_s2_correction_map_xy_bottom.png, id=1907, 330.2739pt x 
 282.5757pt>
 File: ./Chapter3/images/xe1t_s2_correction_map_xy_bottom.png Graphic file (type
  png)
@@ -3172,7 +3172,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_s2_correction_map_xy_bottom.png
 
 [84 <./Chapter3/images/xe1t_s2_correction_map_xy_top.png> <./Chapter3/images/xe
 1t_s2_correction_map_xy_bottom.png>]
-<./Chapter3/images/../../Chapter2/images/tpc_electron_lifetime.jpeg, id=1904, 1
+<./Chapter3/images/../../Chapter2/images/tpc_electron_lifetime.jpeg, id=1920, 1
 015.795pt x 600.2425pt>
 File: ./Chapter3/images/../../Chapter2/images/tpc_electron_lifetime.jpeg Graphi
 c file (type jpg)
@@ -3188,7 +3188,7 @@ LaTeX Info: Redefining \bond on input line 452.
 LaTeX Info: Redefining \dbond on input line 452.
 LaTeX Info: Redefining \tbond on input line 452.
 
-<./Chapter3/images/xe1t_electron_lifetime_sr0.jpeg, id=1907, 1314.9125pt x 541.
+<./Chapter3/images/xe1t_electron_lifetime_sr0.jpeg, id=1923, 1314.9125pt x 541.
 02126pt>
 File: ./Chapter3/images/xe1t_electron_lifetime_sr0.jpeg Graphic file (type jpg)
 
@@ -3198,7 +3198,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_electron_lifetime_sr0.jpeg used
 (pdftex.def)             Requested size: 428.67238pt x 176.37466pt.
  [85] [86 <./Chapter3/images/../../Chapter2/images/tpc_electron_lifetime.jpeg> 
 <./Chapter3/images/xe1t_electron_lifetime_sr0.jpeg>]
-<./Chapter3/images/xe1t_single_electron_gain.png, id=1922, 366.77025pt x 244.63
+<./Chapter3/images/xe1t_single_electron_gain.png, id=1938, 366.77025pt x 244.63
 396pt>
 File: ./Chapter3/images/xe1t_single_electron_gain.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_single_electron_gain.png>
@@ -3206,7 +3206,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_single_electron_gain.png used o
 n input line 477.
 (pdftex.def)             Requested size: 428.67238pt x 285.93686pt.
  [87 <./Chapter3/images/xe1t_single_electron_gain.png>] [88]
-<./Chapter3/images/xe1t_doke_plot.jpeg, id=1941, 1006.76125pt x 646.415pt>
+<./Chapter3/images/xe1t_doke_plot.jpeg, id=1957, 1006.76125pt x 646.415pt>
 File: ./Chapter3/images/xe1t_doke_plot.jpeg Graphic file (type jpg)
 
 <use ./Chapter3/images/xe1t_doke_plot.jpeg>
@@ -3220,7 +3220,7 @@ LaTeX Info: Redefining \bond on input line 511.
 LaTeX Info: Redefining \dbond on input line 511.
 LaTeX Info: Redefining \tbond on input line 511.
  [89 <./Chapter3/images/xe1t_doke_plot.jpeg>]
-<./Chapter3/images/xe1t_cut_acceptances.png, id=1951, 505.89pt x 289.08pt>
+<./Chapter3/images/xe1t_cut_acceptances.png, id=1967, 505.89pt x 289.08pt>
 File: ./Chapter3/images/xe1t_cut_acceptances.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_cut_acceptances.png>
@@ -3228,7 +3228,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_cut_acceptances.png used on inp
 ut line 532.
 (pdftex.def)             Requested size: 428.67238pt x 244.96045pt.
  [90 <./Chapter3/images/xe1t_cut_acceptances.png>] [91]
-<./Chapter3/images/xe1t_background_pdf.png, id=1966, 338.9463pt x 227.36142pt>
+<./Chapter3/images/xe1t_background_pdf.png, id=1982, 338.9463pt x 227.36142pt>
 File: ./Chapter3/images/xe1t_background_pdf.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_background_pdf.png>
@@ -3236,7 +3236,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_background_pdf.png used on inpu
 t line 563.
 (pdftex.def)             Requested size: 428.67238pt x 287.55235pt.
  [92 <./Chapter3/images/xe1t_background_pdf.png>]
-<./Chapter3/images/xe1t_fast_mc_flowchart.png, id=1973, 722.7pt x 542.025pt>
+<./Chapter3/images/xe1t_fast_mc_flowchart.png, id=1989, 722.7pt x 542.025pt>
 File: ./Chapter3/images/xe1t_fast_mc_flowchart.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_fast_mc_flowchart.png>
@@ -3253,7 +3253,7 @@ LaTeX Info: Redefining \bond on input line 638.
 LaTeX Info: Redefining \dbond on input line 638.
 LaTeX Info: Redefining \tbond on input line 638.
  [95] [96]
-<./Chapter3/images/xe1t_nr_energy_spec.png, id=2025, 578.16pt x 433.62pt>
+<./Chapter3/images/xe1t_nr_energy_spec.png, id=2041, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_nr_energy_spec.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_nr_energy_spec.png>
@@ -3261,7 +3261,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_nr_energy_spec.png used on inpu
 t line 714.
 (pdftex.def)             Requested size: 428.67238pt x 321.50235pt.
  [97]
-<./Chapter3/images/xe1t_nr_positions.png, id=2037, 549.252pt x 549.252pt>
+<./Chapter3/images/xe1t_nr_positions.png, id=2054, 549.252pt x 549.252pt>
 File: ./Chapter3/images/xe1t_nr_positions.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_nr_positions.png>
@@ -3270,7 +3270,7 @@ line 726.
 (pdftex.def)             Requested size: 428.67238pt x 428.66626pt.
  [98 <./Chapter3/images/xe1t_nr_energy_spec.png>] [99 <./Chapter3/images/xe1t_n
 r_positions.png>] [100] [101]
-<./Chapter3/images/xe1t_pax_acceptance.png, id=2088, 578.16pt x 433.62pt>
+<./Chapter3/images/xe1t_pax_acceptance.png, id=2104, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_pax_acceptance.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_pax_acceptance.png>
@@ -3278,7 +3278,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_pax_acceptance.png used on inpu
 t line 805.
 (pdftex.def)             Requested size: 368.05264pt x 276.04037pt.
 
-<./Chapter3/images/xe1t_pax_s1_bias.png, id=2090, 578.16pt x 433.62pt>
+<./Chapter3/images/xe1t_pax_s1_bias.png, id=2106, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_pax_s1_bias.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_pax_s1_bias.png>
@@ -3292,7 +3292,7 @@ dentifier (name{equation.3.4.23}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.888 
-      ] <./Chapter3/images/xe1t_pax_s2_bias.png, id=2132, 578.16pt x 433.62pt>
+      ] <./Chapter3/images/xe1t_pax_s2_bias.png, id=2148, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_pax_s2_bias.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_pax_s2_bias.png>
@@ -3300,7 +3300,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_pax_s2_bias.png used on input l
 ine 904.
 (pdftex.def)             Requested size: 368.05264pt x 276.04037pt.
  [106] [107 <./Chapter3/images/xe1t_pax_s2_bias.png>] [108] [109] [110] [111]
-<./Chapter3/images/xe1t_ac_bkg.png, id=2211, 578.16pt x 433.62pt>
+<./Chapter3/images/xe1t_ac_bkg.png, id=2227, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_ac_bkg.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_ac_bkg.png>
@@ -3311,7 +3311,7 @@ LaTeX Info: Redefining \bond on input line 1094.
 LaTeX Info: Redefining \dbond on input line 1094.
 LaTeX Info: Redefining \tbond on input line 1094.
  [112 <./Chapter3/images/xe1t_ac_bkg.png>]
-<./Chapter3/images/xe1t_er_pdf_overlaid_data.png, id=2220, 800.9925pt x 577.156
+<./Chapter3/images/xe1t_er_pdf_overlaid_data.png, id=2236, 800.9925pt x 577.156
 25pt>
 File: ./Chapter3/images/xe1t_er_pdf_overlaid_data.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_er_pdf_overlaid_data.png>
@@ -3325,7 +3325,7 @@ LaTeX Info: Redefining \bond on input line 1100.
 LaTeX Info: Redefining \dbond on input line 1100.
 LaTeX Info: Redefining \tbond on input line 1100.
 
-<./Chapter3/images/xe1t_er_band_width_median.png, id=2221, 1084.05pt x 614.295p
+<./Chapter3/images/xe1t_er_band_width_median.png, id=2237, 1084.05pt x 614.295p
 t>
 File: ./Chapter3/images/xe1t_er_band_width_median.png Graphic file (type png)
  <use ./Chapter3/images/xe1t_er_band_width_median.png>
@@ -3333,7 +3333,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_er_band_width_median.png used o
 n input line 1104.
 (pdftex.def)             Requested size: 389.69736pt x 220.82733pt.
 
-<./Chapter3/images/xe1t_er_band_s1.png, id=2223, 1084.05pt x 650.43pt>
+<./Chapter3/images/xe1t_er_band_s1.png, id=2239, 1084.05pt x 650.43pt>
 File: ./Chapter3/images/xe1t_er_band_s1.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_er_band_s1.png>
@@ -3341,7 +3341,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_er_band_s1.png used on input li
 ne 1115.
 (pdftex.def)             Requested size: 428.67238pt x 257.19989pt.
 
-<./Chapter3/images/xe1t_er_band_s2.png, id=2224, 1806.75pt x 578.16pt>
+<./Chapter3/images/xe1t_er_band_s2.png, id=2240, 1806.75pt x 578.16pt>
 File: ./Chapter3/images/xe1t_er_band_s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_er_band_s2.png>
@@ -3377,7 +3377,7 @@ LaTeX Info: Redefining \bond on input line 1158.
 LaTeX Info: Redefining \dbond on input line 1158.
 LaTeX Info: Redefining \tbond on input line 1158.
 
-<./Chapter3/images/xe1t_nr_cal_pdf.png, id=2264, 578.16pt x 433.62pt>
+<./Chapter3/images/xe1t_nr_cal_pdf.png, id=2280, 578.16pt x 433.62pt>
 File: ./Chapter3/images/xe1t_nr_cal_pdf.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_nr_cal_pdf.png>
@@ -3385,7 +3385,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_nr_cal_pdf.png used on input li
 ne 1165.
 (pdftex.def)             Requested size: 428.67238pt x 321.50235pt.
 
-<./Chapter3/images/xe1t_nr_results_s1_2d.png, id=2265, 794.97pt x 939.51pt>
+<./Chapter3/images/xe1t_nr_results_s1_2d.png, id=2281, 794.97pt x 939.51pt>
 File: ./Chapter3/images/xe1t_nr_results_s1_2d.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_nr_results_s1_2d.png>
@@ -3393,7 +3393,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_nr_results_s1_2d.png used on in
 put line 1172.
 (pdftex.def)             Requested size: 428.67238pt x 506.6254pt.
 
-<./Chapter3/images/xe1t_nr_results_s2_slices.png, id=2266, 794.97pt x 867.24pt>
+<./Chapter3/images/xe1t_nr_results_s2_slices.png, id=2282, 794.97pt x 867.24pt>
 File: ./Chapter3/images/xe1t_nr_results_s2_slices.png Graphic file (type png)
 <use ./Chapter3/images/xe1t_nr_results_s2_slices.png>
 Package pdftex.def Info: ./Chapter3/images/xe1t_nr_results_s2_slices.png used o
@@ -3408,7 +3408,7 @@ LaTeX Info: Redefining \bond on input line 1206.
 LaTeX Info: Redefining \dbond on input line 1206.
 LaTeX Info: Redefining \tbond on input line 1206.
 
-<./Chapter3/images/xe1t_data_fsr.pdf, id=2298, 238.15862pt x 380.02573pt>
+<./Chapter3/images/xe1t_data_fsr.pdf, id=2314, 238.15862pt x 380.02573pt>
 File: ./Chapter3/images/xe1t_data_fsr.pdf Graphic file (type pdf)
 
 <use ./Chapter3/images/xe1t_data_fsr.pdf>
@@ -3439,7 +3439,7 @@ LaTeX Info: Redefining \bond on input line 1225.
 LaTeX Info: Redefining \dbond on input line 1225.
 LaTeX Info: Redefining \tbond on input line 1225.
 
-<./Chapter3/images/xe1t_er_bkg_s1s2.png, id=2368, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_er_bkg_s1s2.png, id=2384, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_er_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_er_bkg_s1s2.png>
@@ -3447,7 +3447,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_er_bkg_s1s2.png used on input l
 ine 1251.
 (pdftex.def)             Requested size: 216.5pt x 144.33232pt.
 
-<./Chapter3/images/xe1t_radn_bkg_s1s2.png, id=2369, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_radn_bkg_s1s2.png, id=2385, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_radn_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_radn_bkg_s1s2.png>
@@ -3455,7 +3455,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_radn_bkg_s1s2.png used on input
  line 1252.
 (pdftex.def)             Requested size: 216.5pt x 144.33232pt.
 
-<./Chapter3/images/xe1t_cnns_bkg_s1s2.png, id=2370, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_cnns_bkg_s1s2.png, id=2386, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_cnns_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_cnns_bkg_s1s2.png>
@@ -3463,7 +3463,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_cnns_bkg_s1s2.png used on input
  line 1256.
 (pdftex.def)             Requested size: 216.5pt x 144.33232pt.
 
-<./Chapter3/images/xe1t_ac_bkg_s1s2.png, id=2371, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_ac_bkg_s1s2.png, id=2387, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_ac_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_ac_bkg_s1s2.png>
@@ -3471,7 +3471,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_ac_bkg_s1s2.png used on input l
 ine 1257.
 (pdftex.def)             Requested size: 216.5pt x 144.33232pt.
 
-<./Chapter3/images/xe1t_wall_bkg_s1s2.png, id=2372, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_wall_bkg_s1s2.png, id=2388, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_wall_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_wall_bkg_s1s2.png>
@@ -3479,7 +3479,7 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_wall_bkg_s1s2.png used on input
  line 1261.
 (pdftex.def)             Requested size: 216.5pt x 144.33232pt.
 
-<./Chapter3/images/xe1t_flat_bkg_s1s2.png, id=2373, 433.62pt x 289.08pt>
+<./Chapter3/images/xe1t_flat_bkg_s1s2.png, id=2389, 433.62pt x 289.08pt>
 File: ./Chapter3/images/xe1t_flat_bkg_s1s2.png Graphic file (type png)
 
 <use ./Chapter3/images/xe1t_flat_bkg_s1s2.png>
@@ -3489,14 +3489,20 @@ Package pdftex.def Info: ./Chapter3/images/xe1t_flat_bkg_s1s2.png used on input
  [125] [126 <./Chapter3/images/xe1t_er_bkg_s1s2.png> <./Chapter3/images/xe1t_ra
 dn_bkg_s1s2.png> <./Chapter3/images/xe1t_cnns_bkg_s1s2.png> <./Chapter3/images/
 xe1t_ac_bkg_s1s2.png> <./Chapter3/images/xe1t_wall_bkg_s1s2.png> <./Chapter3/im
-ages/xe1t_flat_bkg_s1s2.png>])
-[127] [128
+ages/xe1t_flat_bkg_s1s2.png>]
+<./Chapter3/images/xe1t_sr0_limit.png, id=2414, 245.13985pt x 164.48653pt>
+File: ./Chapter3/images/xe1t_sr0_limit.png Graphic file (type png)
+
+<use ./Chapter3/images/xe1t_sr0_limit.png>
+Package pdftex.def Info: ./Chapter3/images/xe1t_sr0_limit.png used on input lin
+e 1280.
+(pdftex.def)             Requested size: 428.67238pt x 287.6499pt.
+) [127] [128 <./Chapter3/images/xe1t_sr0_limit.png>] [129
 
 
-] [129
 
 ] [130] [131] [132]
-Underfull \hbox (badness 1024) in paragraph at lines 169--169
+Underfull \hbox (badness 1024) in paragraph at lines 171--171
 []\OT1/cmr/m/n/12 C. Sav-age, G. Gelmini, P. Gon-dolo, and K. Freese, ``Com-pat
 -i-bil-ity of
  []
@@ -3508,24 +3514,18 @@ Underfull \hbox (badness 1024) in paragraph at lines 169--169
 \tf@lof=\write7
 \openout7 = `Dissertation.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./Dissertation.aux
 (./FrontMatter/TitlePage.aux) (./FrontMatter/Copyright.aux)
 (./FrontMatter/Abstract.aux) (./FrontMatter/Acknowledgments.aux)
 (./FrontMatter/Dedication.aux) (./Chapter1/Chapter1.aux)
 (./Chapter2/Chapter2.aux) (./Chapter3/Chapter3.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package rerunfilecheck Info: File `Dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 1016A018CB5502AE23BAE0271C2FF1E0;8028.
 
-
-Package rerunfilecheck Warning: File `Dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Dissertation.out':
-(rerunfilecheck)             Before: DD22EDF18B2F7BA67C953D4CD1DE913F;7955
-(rerunfilecheck)             After:  1016A018CB5502AE23BAE0271C2FF1E0;8028.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
@@ -3539,13 +3539,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Dissertation.run.xml'.
 \openout1 = `Dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
  ) 
 Here is how much of TeX's memory you used:
- 25045 strings out of 493488
- 429455 string characters out of 3141326
- 751683 words of memory out of 3000000
- 27339 multiletter control sequences out of 15000+200000
+ 25056 strings out of 493488
+ 429726 string characters out of 3141326
+ 752871 words of memory out of 3000000
+ 27348 multiletter control sequences out of 15000+200000
  29453 words of font info for 111 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,24n,61p,2046b,1192s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3581,10 +3581,10 @@ e1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
 ublic/cm-super/sfrm1000.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb>
-Output written on Dissertation.pdf (162 pages, 23214188 bytes).
+Output written on Dissertation.pdf (162 pages, 23399076 bytes).
 PDF statistics:
- 2668 PDF objects out of 2984 (max. 8388607)
- 2269 compressed objects within 23 object streams
- 551 named destinations out of 1000 (max. 500000)
- 1167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2694 PDF objects out of 2984 (max. 8388607)
+ 2289 compressed objects within 23 object streams
+ 552 named destinations out of 1000 (max. 500000)
+ 1180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
