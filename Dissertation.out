@@ -96,10 +96,16 @@
 \BOOKMARK [2][-]{subsection.3.5.2}{Background Expectations}{section.3.5}% 96
 \BOOKMARK [2][-]{subsection.3.5.3}{Searching for WIMPs}{section.3.5}% 97
 \BOOKMARK [0][-]{chapter.4}{Measuring the Low Energy Light and Charge Yield of Nuclear Recoils in Liquid Xenon}{}% 98
-\BOOKMARK [1][-]{section.4.1}{New Section}{chapter.4}% 99
-\BOOKMARK [1][-]{section.4.2}{2}{chapter.4}% 100
-\BOOKMARK [1][-]{section.4.3}{3}{chapter.4}% 101
-\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 102
-\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 103
-\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 104
-\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 105
+\BOOKMARK [1][-]{section.4.1}{Experimental Setup}{chapter.4}% 99
+\BOOKMARK [2][-]{subsection.4.1.1}{neriX Detector}{section.4.1}% 100
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{TPC}{subsection.4.1.1}% 101
+\BOOKMARK [2][-]{subsection.4.1.2}{Neutron Generator}{section.4.1}% 102
+\BOOKMARK [2][-]{subsection.4.1.3}{Liquid Scintillators}{section.4.1}% 103
+\BOOKMARK [1][-]{section.4.2}{Characterization and Calibration of neriX}{chapter.4}% 104
+\BOOKMARK [1][-]{section.4.3}{Nuclear Recoil Data Collection}{chapter.4}% 105
+\BOOKMARK [1][-]{section.4.4}{Analysis of Nuclear Recoils in Liquid Xenon}{chapter.4}% 106
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 107
+\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 108
+\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 109
+\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 110
+\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 111

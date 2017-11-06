@@ -5622,6 +5622,87 @@
   \field{year}{2016}
 \endentry
 
+\entry{plante2011new}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Plante}{P.}%
+     {Guillaume}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Budnik}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choi}{C.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {K-L}{K.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goetzke}{G.}%
+     {LW}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lang}{L.}%
+     {RF}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {KE}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fernandez}{F.}%
+     {AJ~Melgarejo}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{PGAEBR+1}
+  \strng{fullhash}{PGAEBRCBGKLGLLRLKFAM1}
+  \field{number}{4}
+  \field{pages}{045805}
+  \field{title}{New measurement of the scintillation efficiency of low-energy
+  nuclear recoils in liquid xenon}
+  \field{volume}{84}
+  \field{journaltitle}{Physical Review C}
+  \field{year}{2011}
+\endentry
+
+\entry{goetzke2015low}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Goetzke}{G.}%
+     {Luke~Walker}{L.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Columbia University}%
+  }
+  \strng{namehash}{GLW1}
+  \strng{fullhash}{GLW1}
+  \field{title}{Low-Energy Electronic Recoils in Liquid Xenon: Search for
+  Annual Modulation with XENON100, Measurement of Charge and Light Yield with
+  neriX, and Measurement of Krypton in Xenon with ATTA}
+  \field{year}{2015}
+\endentry
+
 \lossort
 \endlossort
 

@@ -1287,11 +1287,15 @@
   publisher = {APS},
 }
 
-@Article{collaboration2017dark,
-  author  = {Collaboration, PandaX-II and Cui, Xiangyi and Abdukerim, Abdusalam and Chen, Wei and Chen, Xun and Chen, Yunhua and Dong, Binbin and Fang, Deqing and Fu, Changbo and Giboni, Karl and others},
-  title   = {Dark Matter Results From 54-Ton-Day Exposure of PandaX-II Experiment},
-  journal = {arXiv preprint arXiv:1708.06917},
-  year    = {2017},
+@Article{plante2011new,
+  author    = {Plante, Guillaume and Aprile, E and Budnik, R and Choi, B and Giboni, K-L and Goetzke, LW and Lang, RF and Lim, KE and Fernandez, AJ Melgarejo},
+  title     = {New measurement of the scintillation efficiency of low-energy nuclear recoils in liquid xenon},
+  journal   = {Physical Review C},
+  year      = {2011},
+  volume    = {84},
+  number    = {4},
+  pages     = {045805},
+  publisher = {APS},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
