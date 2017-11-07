@@ -5703,6 +5703,98 @@
   \field{year}{2015}
 \endentry
 
+\entry{giboni2011xenon}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Giboni}{G.}%
+     {KL}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choi}{C.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haruyama}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lang}{L.}%
+     {RF}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {KE}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melgarejo}{M.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plante}{P.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{GKAECB+1}
+  \strng{fullhash}{GKAECBHTLRLKMAPG1}
+  \field{number}{03}
+  \field{pages}{P03002}
+  \field{title}{Xenon recirculation-purification with a heat exchanger}
+  \field{volume}{6}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2011}
+\endentry
+
+\entry{guillaume_thesis}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Plante}{P.}%
+     {Guillaume}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Columbia University}%
+  }
+  \strng{namehash}{PG1}
+  \strng{fullhash}{PG1}
+  \field{title}{The XENON100 Dark Matter Experiment: Design, Construction,
+  Calibration and 2010 Search Results with Improved Measurement of the
+  Scintillation Response of Liquid Xenon to Low-Energy Nuclear Recoils}
+  \field{year}{2012}
+\endentry
+
+\entry{csikai1987crc}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Csikai}{C.}%
+     {GJ}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press Inc., Boca Raton, FL}%
+  }
+  \strng{namehash}{CG1}
+  \strng{fullhash}{CG1}
+  \field{title}{CRC handbook of fast neutron generators}
+  \field{year}{1987}
+\endentry
+
 \lossort
 \endlossort
 

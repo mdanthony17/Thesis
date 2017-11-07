@@ -1305,4 +1305,29 @@
   author    = {Goetzke, Luke Walker},
 }
 
+@Article{giboni2011xenon,
+  author    = {Giboni, KL and Aprile, E and Choi, B and Haruyama, T and Lang, RF and Lim, KE and Melgarejo, AJ and Plante, G},
+  title     = {Xenon recirculation-purification with a heat exchanger},
+  journal   = {Journal of Instrumentation},
+  year      = {2011},
+  volume    = {6},
+  number    = {03},
+  pages     = {P03002},
+  publisher = {IOP Publishing},
+}
+
+@Book{guillaume_thesis,
+  title     = {The XENON100 Dark Matter Experiment: Design, Construction, Calibration and 2010 Search Results with Improved Measurement of the Scintillation Response of Liquid Xenon to Low-Energy Nuclear Recoils},
+  publisher = {Columbia University},
+  year      = {2012},
+  author    = {Plante, Guillaume},
+}
+
+@Book{csikai1987crc,
+  title     = {CRC handbook of fast neutron generators},
+  publisher = {CRC Press Inc., Boca Raton, FL},
+  year      = {1987},
+  author    = {Csikai, GJ},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
