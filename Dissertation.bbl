@@ -5795,6 +5795,129 @@
   \field{year}{1987}
 \endentry
 
+\entry{np2_manual}{manual}{}
+  \list{organization}{1}{%
+    {Canberra Industries}%
+  }
+  \field{title}{Technical Manual for AN/PDR-70 (Snoopy NP-2) Neutron Survey
+  Meter}
+  \list{location}{1}{%
+    {800 Research Parkway Meriden, CT 06450}%
+  }
+  \field{year}{2003}
+\endentry
+
+\entry{kuchnir1968time}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kuchnir}{K.}%
+     {Franca~T}{F.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lynch}{L.}%
+     {Frank~J}{F.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{KFTLFJ1}
+  \strng{fullhash}{KFTLFJ1}
+  \field{number}{3}
+  \field{pages}{107\bibrangedash 113}
+  \field{title}{Time dependence of scintillations and the effect on pulse-shape
+  discrimination}
+  \field{volume}{15}
+  \field{journaltitle}{IEEE Transactions on Nuclear Science}
+  \field{year}{1968}
+\endentry
+
+\entry{ej301_manual}{manual}{}
+  \list{organization}{1}{%
+    {Eljen Technology}%
+  }
+  \field{title}{Neutron/Gamma PSD Liquid Scintillator EJ-301, EJ-309}
+  \list{location}{1}{%
+    {1300 W. Broadway, Sweetwater, TX 79556}%
+  }
+  \field{year}{2016}
+\endentry
+
+\entry{lang2017improved}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lang}{L.}%
+     {RF}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masson}{M.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pienaar}{P.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {R{\"o}ttger}{R.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{LRMDPJ+1}
+  \strng{fullhash}{LRMDPJRS1}
+  \field{pages}{26\bibrangedash 31}
+  \field{title}{Improved pulse shape discrimination in EJ-301 liquid
+  sctintillators}
+  \field{volume}{856}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2017}
+\endentry
+
+\entry{anthony2017characterization}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Anthony}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grandi}{G.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Q}{Q}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saldanha}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMAEGL+1}
+  \strng{fullhash}{AMAEGLLQSR1}
+  \field{title}{Characterization of photomultiplier tubes with a realistic
+  model through GPU-boosted simulation}
+  \field{journaltitle}{arXiv preprint arXiv:1710.00219}
+  \field{year}{2017}
+\endentry
+
 \lossort
 \endlossort
 

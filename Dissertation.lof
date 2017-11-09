@@ -168,7 +168,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.9}{\ignorespaces The electronics of the minitron neutron generator. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {guillaume_thesis}.}}{142}{figure.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces .}}{143}{figure.4.10}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces On the left, the minitron in its partially constructed case. Notice that the teflon leaves very little room between the steel and minitron to maximize the potential voltage that can be used without causing an electrical breakdown. On the right, the minitron in its final set position. While not visible, the minitron case has been filled with mineral oil at this point to reduce risk of electrical breakdowns.}}{143}{figure.4.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The expected angular distribution of neutrons as a function of emission angle for a maximum deuteron energy of 80 keV.}}{144}{figure.4.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed. Shaded regions represents 68\% credible region while dotted lines show the best fits.}}{146}{figure.4.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {pi}{2}$.}}{146}{figure.4.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Discrimination space for one of the four M510 detectors from coincidence data. Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}}{147}{figure.4.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces .}}{150}{figure.4.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces .}}{150}{figure.4.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 

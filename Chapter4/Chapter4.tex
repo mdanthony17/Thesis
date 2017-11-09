@@ -172,6 +172,8 @@ The data processing system, xerawdp, was originally developed for XENON100 \cite
 
 As mentioned in \secref{sec:nerix_expt_setup}, a small \ce{^2H}$(d, n)$\ce{^3He} generator, shown with a ruler for scale in \figref{fig:nerix_minitron_ruler},  is used to produce neutrons.  This generator is provided by the Schlumberger Princeton Technology Center and will be referred to in this work as the minitron.  The tube of the generator is vacuum sealed and deuterium is produced inside by heating up a replenisher filament.  These deuterium atoms are then ionized via electrons produced from a cathode wire that are accelerated by a grid kept at $\sim 200$ volts.  Deuterium ions are then accelerated towards a titanium-deuteride (\ce{TiD_2}) target where they will either collide with a deuterium atom or be completely stopped.  Deuterium ions that are completely stopped actually replenish the target and thus the target is considered self-regenerating\footnote{The thickness of the target is such that all deuterium ions are stopped.}.  A Heinzinger PNC 100000-3 power supply is used to supply up -100 kV of voltage to accelerate the deuterium ions and to read out the deuterium ion beam current.  A schematic of the minitron electronics is shown in \figref{fig:nerix_minitron_schematic}.
 
+Because the minitron neutron generator operates at very high voltage, a protective casing was used to prevent disharges from the high voltage connection. The casing was a stainless steel tube with a diameter of approximately 3 inches and teflon, due to its very large dielectric constant, supporting the minitron and filling in almost all excess space in the stainless steel tube.  The small amount of remaining space was filled with mineral oil, which has a higher dielectric constant than air.
+
 The neutron generator used in this work is the same as used in \citeref{plante2011new}.  For more details on the minitron, please refer to \citeref{guillaume_thesis}.
 
 
@@ -190,6 +192,14 @@ The neutron generator used in this work is the same as used in \citeref{plante20
 	\label{fig:nerix_minitron_schematic}
 \end{figure}
 
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.533\textwidth]{nerix_minitron_partial_case}
+	\includegraphics[width=0.4\textwidth]{nerix_minitron_set}
+	\caption{On the left, the minitron in its partially constructed case.  Notice that the teflon leaves very little room between the steel and minitron to maximize the potential voltage that can be used without causing an electrical breakdown.  On the right, the minitron in its final set position.  While not visible, the minitron case has been filled with mineral oil at this point to reduce risk of electrical breakdowns.}
+	\label{fig:nerix_minitron_rate}
+\end{figure}
 
 
 \subsubsection{Neutron Energy Spectrum}
@@ -246,24 +256,89 @@ With an approximate distribution for the energy loss, and therefore the deuteron
 
 While ultimately we did not include the neutron rate in our analysis of the yields, we did characterize the neutron generator to ensure that it was operating as expected.  \citeref{guillaume_thesis}, following the analysis from \citeref{csikai1987crc}, shows that the flux of neutrons generated should increase approximately exponentially with the high voltage used to accelerate the ionized deuterium atoms and molecules and linearly with the deuterium ion beam current.  We assume that these two effects are uncorrelated and therefore the neutron production rate can be written as $\frac{dN}{dt} = f(I)g(V)$ where $f(I)$ describes the rate's dependence on the beam current and $g(V)$ describes the rate's dependence on the high voltage.
 
+The neutron flux of the minitron neutron generator was measured using a Nuclear Research Corporation NP-2 portable neutron monitor \cite{np2_manual}.  The NP-2 neutron monitor uses a \ce{BF_3} target to create alpha particles which can then ionize the gas in the detector.  The target is housed inside of a polyethylene moderator with a high hydrogen content to increase the detector's efficiency.  The detector measures in units of dose rate which can be converted to flux by means of the fluence per unit dose equivalent of 2.45 MeV neutrons.  As mentioned, we approximated that the current and high voltage could be treated separately and measured the change in one while holding the other fixed to characterize the neutron flux.  For the measurement, the NP-2 detector was placed 180 cm away from the neutron generator (inside of its case) and at an angle of $\frac{\pi}{2}$.  The rate measurements were then used to fit rate as a function of beam current and voltage (shown in \figref{fig:nerix_minitron_fits}).  Using these functions, we can then predict the neutron flux of the minitron, as shown in \figref{fig:nerix_minitron_rate}.
+
 %shielding oil teflon etc
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.8\textwidth]{nerix_minitron_fits}
+	\caption{The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed.  Shaded regions represents 68\% credible region while dotted lines show the best fits.}
+	\label{fig:nerix_minitron_fits}
 
+        \vspace{\floatsep}
+
+	\centering
+	\includegraphics[width=0.8\textwidth]{nerix_minitron_rate}
+	\caption{The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac{pi}{2}$.}
+	\label{fig:nerix_minitron_rate}
+\end{figure}
 
 
 
 \subsection{Liquid Scintillators}
 
+In theory, any detector of ionizing radiation could act as the secondary detector in a nuclear recoil calibration.  In practice, however, the gamma ray background rate is large enough in a laboratory setting that detectors with high levels of discrimination are needed to differentiate neutrons from background in the secondary detector.  
 
-In theory, any detector of ionizing radiation could act as the secondary detector in a nuclear recoil calibration.  In practice, however, the gamma ray background rate is large enough in a laboratory settings that detectors with high levels of discrimination are needed to differentiate neutrons from background in the secondary detector.  
+For this measurement, the M510 detectors from Eljen Technologies were used.  The M510 detector is filled with the liquid scintillator EJ301, chosen for its excellent pulse shape discrimination properties.  The EJ301 compound has three characteristic decay times: 3.16, 32.3, and 270 ns \cite{kuchnir1968time, ej301_manual}.  The first two states are related to the excitation of electrons to the singlet and triplet state, respectively, while the slowest decay time is from the fluorescence of the triplet states \cite{lang2017improved}.  Nuclear recoils in the liquid scintillator will exhibit much longer decay times than electronic recoils caused by gamma rays.  
 
+An initial characterization of the liquid scintillators was performed to determine the optimal voltage and integration window for nuclear and electronic recoil discrimination and calibrations were performed several times over the course of the run to ensure performance was still adequate.  An example of the pulse discrimination from one the M510 detectors from coincidence data is shown in \figref{fig:nerix_ej_discrimination}.  Similar to \citeref{guillaume_thesis}, we set a threshold in the detectors' pulse size where discrimination is poor - however this was done via the hardware trigger and not a software cut to reduce data intake. 
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.75\textwidth]{nerix_coin_ej}
+	\caption{Discrimination space for one of the four M510 detectors from coincidence data.  Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}
+	\label{fig:nerix_ej_discrimination}
+\end{figure}
+
+A fifth and smaller version of the M510 detector was placed 180 cm away from the neutron generator to monitor the minitron rate at all times.
 
 
 \section{Characterization and Calibration of neriX}
 
+As mentioned in chapters two and three, the process from energy deposition to the S1 and S2 signal read out of a waveform for analysis can essentially be broken down into two subsections: the signal production and the detector physics.  If we want to measure the physics of the signal production mechanism, we must be able to decouple the detector physics as well as possible.  To do this, we must make independent measurements to characterize the detector as best as we can.  
+
+While many of the properties of the detector we are trying to characterize are the same as XENON1T, there are some differences in how we carry out the measurements simply due to the scale of XENON1T relative to neriX.
+
+
+
+\subsection{PMT Characterization}
+
+As in XENON1T, the most basic task in characterizing the TPC is the PMT calibration.  The goal of the PMT calibration is to understand the response of a PMT to incident photons.  This task is typically performed by examining the response of the PMT to a single photoelectron (single electron ejected at the photocathode by incident photon) since larger signals can be estimated via the convolution of multiple single photoelectron response functions.  Ideally, we would like to completely understand the shape of the response function of the PMT but at the same time, most experiments settle for the mean and variance of the response (since by the central limit theorem these will describe the response for large numbers of photons).  However, since we wish to understand the low energy response of nuclear recoils, which will involve very small signals ($< 10$ PE), we cannot settle for knowing only the mean and variance.
+
+As in XENON1T, the low light calibration of PMTs is performed \textit{in situ} using a blue LED pulse generated by digital pulse generator (BNC PB-5) and fed into the detector via a fiber optic cable.  The standard way of calibrating a PMT in this type of experiment is to use a low light level (such that the given PMT only sees a signal 5--10\% of the time) and either fit the data using a Gaussian model of the response or extract the mean and variance according to the statistical treatment in \citeref{saldanha2017model}.  However, neither of these was satisfactory: the former was not satisfactory as it resulted in an unphysical signal for the PMT response approximately 15\% of the time (since the Gaussian distribution is not bounded below by zero) and the latter was not satisfactory given that we are measuring few photoelectron signals and therefore the mean and variance are simply not enough.  Therefore, a new model was developed by the author, called the \textit{cascade model}, which tries to simulate the actual physics of a PMT including the underamplification of electrons and its dynode structure \cite{anthony2017characterization}.  This model is discussed in further detail in \appref{app:pmts} and uses a GPU-based analysis framework, like measurement of the light and charge yield in neriX (the focus of this chapter) and the electronic and nuclear recoil calibration of XENON1T (discussed in \secref{sec:xe1t_er_nr_calibration}), that will be discussed in \appref{app:gpus}.  Unlike the other two calibration methods, it is actually more effective to use a higher light level such that 1--2 photoelectrons are seen on average\footnote{This does not affect the assumption that the number of photoelectrons seen follows a Poisson distribution that is standard in these types of measurements}.  A sample low-light spectrum is shown in \figref{fig:nerix_pmt_best_fit} along with the best fits and 68\% credible regions of both the Gaussian and cascade models.  From this spectrum alone, it does not appear that the cascade model is an improvement but if one looks at \figref{fig:nerix_spe_response}, which shows the full-amplification SPE spectrum for both models, one can see the reason why the Gaussian model is not acceptable: it results in a negative signal a non-negligible fraction of the time.
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.8\textwidth]{nerix_pmt_best_fit}
+	\caption{.}
+	\label{fig:nerix_pmt_best_fit}
+
+        \vspace{\floatsep}
+
+	\centering
+	\includegraphics[width=0.8\textwidth]{nerix_spe_response}
+	\caption{.}
+	\label{fig:nerix_spe_response}
+\end{figure}
+
+
+Unlike \citeref{goetzke2016measurement}, no gain instability was seen during the measurement of the nuclear recoil yields.
+
+
+\subsection{Position Reconstruction and Position Dependence}
+
+Position reconstruction also plays an important role in neriX.  While position reconstruction is not used to remove background events, fiducial volumes are still set to avoid edge effects from field non-uniformity and electrons capturing on the teflon.  Additionally, we do expect a small amount of position dependence for both the S1 and S2.  
+
+To determine the transverse position of the event, we again use the S2 signal seen by the top PMTs.  
+
+
+
 
 \section{Nuclear Recoil Data Collection}
 
+% trigger info and plot
 
 \section{Analysis of Nuclear Recoils in Liquid Xenon}
 
