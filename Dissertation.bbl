@@ -4691,6 +4691,48 @@
   \field{year}{2016}
 \endentry
 
+\entry{aprile2013atom}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {Elena}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoon}{Y.}%
+     {Taehyun}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loose}{L.}%
+     {Andre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goetzke}{G.}%
+     {Luke~W}{L.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zelevinsky}{Z.}%
+     {Tanya}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {AIP}%
+  }
+  \strng{namehash}{AEYTLA+1}
+  \strng{fullhash}{AEYTLAGLWZT1}
+  \field{number}{9}
+  \field{pages}{093105}
+  \field{title}{An atom trap trace analysis system for measuring krypton
+  contamination in xenon dark matter detectors}
+  \field{volume}{84}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2013}
+\endentry
+
 \entry{aprile2017online}{article}{}
   \true{moreauthor}
   \name{author}{10}{}{%

@@ -331,7 +331,16 @@ Unlike \citeref{goetzke2016measurement}, no gain instability was seen during the
 
 Position reconstruction also plays an important role in neriX.  While position reconstruction is not used to remove background events, fiducial volumes are still set to avoid edge effects from field non-uniformity and electrons capturing on the teflon.  Additionally, we do expect a small amount of position dependence for both the S1 and S2.  
 
-To determine the transverse position of the event, we again use the S2 signal seen by the top PMTs.  
+To determine the transverse position of the event, we again use the S2 signal seen by the top PMTs.  The four PMTs in the top array actually have four individual anodes that are essentially treated as separate channels --- this means that our four multianode PMTs act as sixteen single anode PMT channels.  While obviously our position reconstruction in the transverse position will be significantly more limited due to the small size of the detector (edge effects are more prevalent) and the limited number of pixels, however we can use a neural network trained on an optical simulation of photons produced in between the anode and the gate to estimate the position.  The transverse positions of high-energy ($>40$ PE) neutron events, which should be approximately uniformly distributed in the TPC, at a field of 490 V/cm is shown in the left panel of \figref{fig:nerix_position_reconstruction}.  Small defects in the position reconstruction are likely due to discrepancies in the unmeasured collection efficiencies of the individual PMT channels.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.99\textwidth]{nerix_tpc_anode}
+	\caption{.}
+	\label{fig:nerix_position_reconstruction}
+\end{figure}
+
+To determine the depth of the interaction
 
 
 

@@ -1365,4 +1365,11 @@
   year         = {2016},
 }
 
+@Article{anthony2017characterization,
+  author  = {Anthony, M and Aprile, E and Grandi, L and Lin, Q and Saldanha, R},
+  title   = {Characterization of photomultiplier tubes with a realistic model through GPU-boosted simulation},
+  journal = {arXiv preprint arXiv:1710.00219},
+  year    = {2017},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
