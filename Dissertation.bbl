@@ -5960,6 +5960,74 @@
   \field{year}{2017}
 \endentry
 
+\entry{akerib2016improved}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Akerib}{A.}%
+     {DS}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ara{\'u}jo}{A.}%
+     {HM}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bai}{B.}%
+     {X}{X}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bailey}{B.}%
+     {AJ}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balajthy}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beltrame}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernard}{B.}%
+     {EP}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biesiadzinski}{B.}%
+     {TP}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boulton}{B.}%
+     {EM}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{ADAHBX+1}
+  \strng{fullhash}{ADAHBXBABJBPBEBABTBE+1}
+  \field{number}{16}
+  \field{pages}{161301}
+  \field{title}{Improved limits on scattering of weakly interacting massive
+  particles from reanalysis of 2013 LUX data}
+  \field{volume}{116}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2016}
+\endentry
+
 \lossort
 \endlossort
 

@@ -270,7 +270,7 @@ The neutron flux of the minitron neutron generator was measured using a Nuclear 
 
 	\centering
 	\includegraphics[width=0.8\textwidth]{nerix_minitron_rate}
-	\caption{The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac{pi}{2}$.}
+	\caption{The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac{\pi}{2}$.}
 	\label{fig:nerix_minitron_rate}
 \end{figure}
 
@@ -294,6 +294,32 @@ An initial characterization of the liquid scintillators was performed to determi
 A fifth and smaller version of the M510 detector was placed 180 cm away from the neutron generator to monitor the minitron rate at all times.
 
 
+
+\subsection{Data Acquisition System}
+\label{sec:nerix_daq_trigger}
+
+The data acquisition during this measurement is identical to the one described in \citeref{goetzke2016measurement}.  The system consisted of three 14-bit flash ADCs (model v1724 from CAEN) at 100 MS/s with 40 MHz bandwidth.  When a trigger pulse was received by the VME crate controller, this memory would be written to the disk of our data acquisition machine.  The data acquisition server used was synchronized to a storage and processing server where data could be further analyzed.
+
+All of the top signals are fed directly into a Phillips 776 10x amplifiers which are then immediately fed into digitizer channels.  The bottom PMT signal is the only channel used to form the trigger since it sees the majority of the light in the detector.  The bottom PMT's signal is fed into a CAEN voltage divider.  One of these two signals is sent directly to the digitizer unamplified (to avoid digitizer saturation in large S2 signals) while the other copy of the signal is sent to the Phillips 776 10x amplifier where two copies are made.  One of these two copies is sent directly to the digitizer while the other is sent to an updating threshold discriminator.  This updating threshold discriminator produces a NIM pulse for as long as the signal is above the set threshold (5.16 mV for this measurement) making the width in time of the NIM pulse approximately the same as the width of the true signal.  The output from the updating threshold discriminator is considered to be our S1 trigger.  
+
+The S1 trigger is used as the building block for the S2 trigger.  The S1 trigger is sent into a logic fan.  One copy from the logic fan is sent to a variable width gate generator (set at 400 ns for this measurement) while the other is sent into a 24 ns delay.  The gate generator produces a \nimbar{} pulse that is combined in a logical AND with delayed S1 trigger.  In this way, only S1 triggers wider than the gate will cause a new trigger\footnote{The delay is needed because the gate takes approximately 10 ns to create.}.  If the logical AND results in a pulse this is considered an S2 trigger (S2 pulses in general are much wider than S1 pulses).  The width of the S2 trigger pulse is set to be 29.5 $\mu$s for reasons that will be explained shortly.
+
+This S2 trigger is passed into a logical fan where three copies are made.  One is sent into a gate generator that produces a 100 $\mu$s \nimbar{} pulse.  The \nimbar{} pulse is combined with another copy of the S2 trigger in a logical AND thus limiting the maximum rate of triggers to one over the gate width (although typical data acquisition rates are < 100 Hz).
+
+Four M510 detectors were used simultaneously such that two energy spectra could be measured at a time.  Since the rate of signals in the liquid scintillators was low relative to the TPC, it was decided to use a single digitizer channel to capture all of the EJ pulses via multiplexing.  The signals from the PMTs in the M510 detectors were first sent to a Phillips 776 10x amplifier where two amplified copies were produced.  The first copy of the M510 signals was sent into a linear fan.  The second copy of each of amplified M510 signals went to a threshold discriminator.  The threshold was decided on a detector-by-detector basis such that signal sizes were eliminated where we had little discrimination power between nuclear and electronic recoils.  Two copies of the output from the threshold discriminator were created.  The first copy of each signal was sent into a delay generator that delays the logic pulse by a time unique to each detector (for example, one of the M510s' triggers was delayed by 6 $\mu$s while another was delayed by 7 $\mu$s).  The delayed triggers are then sent into the same linear fan as the original pulses.  In this way, the processor can determine which M510 detector the signal came from based on where the M510 trigger is found in the waveform.  
+
+As was mentioned, the threshold discriminator for the M510 detectors creates two copies of each trigger.  The second copy of these triggers is sent into a logical OR to produce a single logic signal.  This logic signal is then delayed 28 $\mu$s and combined in a logical AND with the 29 $\mu$s S2 gate.  The output of the logical AND forms our coincidence trigger.  The long delay and gate may seem unnecessary at first but are actually needed since the M510 signal is very close in time to the S1 and not the S2.  This means that the S2 signal can occur tens of $\mu$s after the M510 trigger is created.  Therefore, by creating a gate on the S2 and delaying the M510 trigger we ensure that we will not lose any good events due to the electron drift time in the TPC.  
+
+A schematic of each of these triggers is shown in \figref{fig:nerix_daq_trigger_setup}.
+
+
+\begin{figure}[p]
+        \centering
+	\includegraphics[width=0.99\textwidth]{nerix_daq_trigger_setup}
+	\caption{The trigger schematic for the neriX nuclear recoil measurement.  For details on the triggers please refer to the text in \secref{sec:nerix_daq_trigger}.}
+	\label{fig:nerix_daq_trigger_setup}
+\end{figure}
+
 \section{Characterization and Calibration of neriX}
 
 As mentioned in chapters two and three, the process from energy deposition to the S1 and S2 signal read out of a waveform for analysis can essentially be broken down into two subsections: the signal production and the detector physics.  If we want to measure the physics of the signal production mechanism, we must be able to decouple the detector physics as well as possible.  To do this, we must make independent measurements to characterize the detector as best as we can.  
@@ -311,36 +337,164 @@ As in XENON1T, the low light calibration of PMTs is performed \textit{in situ} u
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=0.8\textwidth]{nerix_pmt_best_fit}
-	\caption{.}
+	\includegraphics[width=0.7\textwidth]{nerix_pmt_best_fit}
+	\caption{The fit of the cascade (blue) and Gaussian (red) single photoelectron response model for the bottom PMT at 800 V.  The stats shown are for the cascade model which results in a marginally better fit as can be seen from the log likelihood difference.  The dotted lines shown are the best fits and the shaded region is the 68\% credible region.}
 	\label{fig:nerix_pmt_best_fit}
 
         \vspace{\floatsep}
 
 	\centering
-	\includegraphics[width=0.8\textwidth]{nerix_spe_response}
-	\caption{.}
+	\includegraphics[width=0.7\textwidth]{nerix_spe_response}
+	\caption{The 68\% credible region for the single photoelectron response for fully-amplified electrons for the bottom PMT at 800 V.  Notice that the Gaussian model (red) results in a non-physical response a non-negligible fraction of the time while the cascade model (blue) does not exhibit this behavior.}
 	\label{fig:nerix_spe_response}
 \end{figure}
 
 
-Unlike \citeref{goetzke2016measurement}, no gain instability was seen during the measurement of the nuclear recoil yields.
+Unlike \citeref{goetzke2016measurement}, no gain instability was seen during the measurement of the nuclear recoil yields.  
+
+To avoid issues of saturation with the PMTs, nuclear recoil data was taken with PMT gains ranging from $5-10 \cdot 10^5 \, \, e^-$ while electronic recoil data where our concern was the full absorption peak (like the anticorrelation analysis in \secref{sec:nerix_anticorrelation}) was taken with gains two orders of magnitude smaller.  Even using our GPU-based cascade model it is extremely difficult to fit such a small PMT response.  Therefore, we used what is referred to in \citeref{goetzke2015low} as the MPE method.  To use the MPE method you must first calibrate the response of the PMT at its normal operating voltage.  Following a standard calibration, you illuminate the same PMT at the same voltage with a high light level and use the gain found from before to estimate the mean number of photoelectrons.  You then reduce the PMT voltage and remeasure the response of the PMT to the high light level.  Since the mean number of photoelectrons observed should be independent of voltage, you can use the response at the lower voltage and high light level to extract the gain of the PMT at a much lower voltage.
+
+When measuring this effect, we varied the bottom PMT voltage from 800 V, our standard operating voltage, down to 500 V.  At approximately 600 V, saturation effects in the 662 keV peak were no longer present.  Ideally, one would expect the gain to decrease exponentially with voltage, however we noticed a significant deviation from this behavior.  We believe that this deviation is due in part to the decreasing collection efficiency of photoelectrons of the PMT at lower voltages, an effect described in \citeref{carter1980photomultiplier}.  While the voltage dependence of the effect is PMT dependent, we multiplied our power law by a generic second-order polynomial efficiency function in an attempt to describe it.  The best fit of both the gain and collection efficiency are shown in \figref{} and \figref{}
 
 
 \subsection{Position Reconstruction and Position Dependence}
 
 Position reconstruction also plays an important role in neriX.  While position reconstruction is not used to remove background events, fiducial volumes are still set to avoid edge effects from field non-uniformity and electrons capturing on the teflon.  Additionally, we do expect a small amount of position dependence for both the S1 and S2.  
 
-To determine the transverse position of the event, we again use the S2 signal seen by the top PMTs.  The four PMTs in the top array actually have four individual anodes that are essentially treated as separate channels --- this means that our four multianode PMTs act as sixteen single anode PMT channels.  While obviously our position reconstruction in the transverse position will be significantly more limited due to the small size of the detector (edge effects are more prevalent) and the limited number of pixels, however we can use a neural network trained on an optical simulation of photons produced in between the anode and the gate to estimate the position.  The transverse positions of high-energy ($>40$ PE) neutron events, which should be approximately uniformly distributed in the TPC, at a field of 490 V/cm is shown in the left panel of \figref{fig:nerix_position_reconstruction}.  Small defects in the position reconstruction are likely due to discrepancies in the unmeasured collection efficiencies of the individual PMT channels.
+To determine the transverse position of the event, we again use the S2 signal seen by the top PMTs.  The four PMTs in the top array actually have four individual anodes that are essentially treated as separate channels --- this means that our four multianode PMTs act as sixteen single anode PMT channels.  While obviously our position reconstruction in the transverse position will be significantly more limited due to the small size of the detector (edge effects are more prevalent) and the limited number of pixels, however we can use a neural network trained on an optical simulation of photons produced in between the anode and the gate to estimate the position.  The transverse positions of high-energy ($>40$ PE) neutron events, which should be approximately uniformly distributed in the TPC, at a field of 490 V/cm is shown in the left panel of \figref{fig:nerix_position_reconstruction}.  The small defects in the position reconstruction are likely due to discrepancies in the unmeasured collection efficiencies of the individual PMT channels.
 
 \begin{figure}[t]
         \centering
-	\includegraphics[width=0.99\textwidth]{nerix_tpc_anode}
-	\caption{.}
+	\includegraphics[width=0.99\textwidth]{nerix_position_reconstruction}
+	\caption{The spatial distributions of high-energy nuclear recoil events taken at 490 V/cm after fiducial volume and other quality cuts.}
 	\label{fig:nerix_position_reconstruction}
 \end{figure}
 
-To determine the depth of the interaction
+To determine the depth of the interaction, we look at the time between the S1 and S2, also referred to as the \textit{drift time}.  Since the electrons will drift through the liquid xenon at a fixed velocity, this time difference can be used to measure the depth.  One would naturally expect the drift velocity in the liquid xenon to change as a function of the electric field applied so this drift velocity must be measured for each field used.
+
+To measure the drift velocity, one uses the fact that the scintillation light produced from interactions in the liquid xenon can actually interact with the meshes, releasing an electron in the process.  These photoionization electrons can be seen following large S1s and S2s in waveforms.  Therefore, if one looks at small S2 signals following a large S1 or S2, one will actually see peaks in the spectra due to these photoionization electrons, as shown in \figref{fig:nerix_drift_velocity}.  By examining the time distance between the two peaks, we can determine the drift velocity since the distance between the meshes at liquid xenon temperatures is 23.4 mm.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.8\textwidth]{nerix_drift_velocity}
+	\caption{The distribution of small S2s in the time after a large S2 at a field of 1020 kV/cm.  Notice the two sharply spike peaks around 1.5 and 13 $\mu$s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh.  Since we know the distance between these two meshes we can measure the drift velocity at this field.}
+	\label{fig:nerix_drift_velocity}
+\end{figure}
+
+
+The measured drift velocities during this measurement and during the low-energy measurement of the yields of electronic recoils \cite{goetzke2016measurement} are shown in \tabref{tab:nerix_drift_velocities}.  One can see that the drift velocities of all three runs in the detector agree very well with each other (within a few percent).
+
+\begin{table}[b]
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{cccc}
+\hline
+Drift Field & 190 V/cm & 490 V/cm & 1020 V/cm \\
+\hline
+ & \multicolumn{3}{c}{$v_d$ [mm/$\mu$s]} \\
+\hline
+ER Run 1 & 1.51 & 1.72 & 1.96 \\
+ER Run 2 & 1.54 & 1.75 & 1.97 \\
+This Work & 1.56 & 1.77 & 2.00 \\
+\hline
+\end{tabular}
+\caption{The measured drift velocities at 190, 490, and 1020 V/cm in neriX for the measurement of the yields of electronic recoils \cite{goetzke2016measurement} and this work.}
+\label{tab:nerix_drift_velocities}
+\end{table}
+
+
+While due to the small size of the detector we do not observe a radial dependence on the S1 and S2 signals, we do observe effects due to the depth of the interaction in the detector.  The former effect is caused by the proximity of the interaction to the bottom PMT while the latter effect is caused by electrons drifting to the surface attaching to electronegative impurities.  For more details on each of these effects, please refer to \secref{sec:xe1t_lce_pos_correction} and \secref{sec:xe1t_depth_correction}, respectively.  While not as drastic as the effects in XENON1T, these effects are still on the order of 10--20\% for S1s and 5\% for S2s.  To perform the correction, we use events from the 662 keV peak from \cesium{} and fit the S1 and S2 size as a function of depth.  As expected, we observe the same pattern as XENON1T: events closer to the bottom PMT have large S1s than those events closer to the liquid-gas interface and events from lower in the detector are more likely to lose charge to impurities in the liquid xenon.  Both of these effects can be seen in \figref{fig:nerix_pos_correction}.  Due to a getter failure, the purification system utilized a getter much further in distance compared to the one used in \citeref{goetzke2016measurement}, leading to a non-negligible electron lifetime.  Both of these effects were monitored over the course of the run and since no discernable time dependence was seen, a run average was taken.
+
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.45\textwidth]{nerix_s1_z_correction}
+	\includegraphics[width=0.45\textwidth]{nerix_s2_dt_correction}
+	\caption{The depth correction of the S1 (left) and S2 (right) signals as a function of depth in the detector.}
+	\label{fig:nerix_pos_correction}
+\end{figure}
+
+
+
+
+\subsection{Single Electron Response}
+
+One very important quantity for TPCs that was discussed in chapters two and three is the single electron response (also known as the gas gain).  The single electron response measures how many photoelectrons we expect in our PMTs if a single electron is extracted from the liquid into the gas.  Typically the response is approximated as a Gaussian distribution with a mean, $\mu_G$, and width, $\sigma_G$.  While technically this quantity could be field-dependent to leakage from the cathode, simulations show that this effect is only on the order of $\sim2\%$ \cite{goetzke2015low}.
+
+We used a source of single electrons already discussed for this calibration: single electrons from the photoionization of the gate.  By using these, we could make a strict time cut rather than search an entire waveform which reduces the potential noise.  Even though only the bottom PMT was used for all analyses, the single electron response was fit in two dimensions for extra discrimination power between single and double electron peaks.  A sample fit is shown in \figref{fig:nerix_gas_gain}.  The response of the TPC to single electron was assumed to be normal for both the top and the bottom PMTs with no correlation.  As in \citeref{aprile2014observation} and \citeref{goetzke2016measurement}, an roll-off was applied at low S2s to represent the loss due to the S2 peak finding efficiency.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.85\textwidth]{nerix_gas_gain}
+	\caption{The single electron response as measured by the top and bottom PMTs in neriX.  Note that the response, even for a single electron, appears to follow a Gaussian distribution.  The contours show the outline of the fit and the pink line represents the edge of the fit range.}
+	\label{fig:nerix_gas_gain}
+\end{figure}
+
+As with the position correction, no clear time dependence was observed for the the single electron response so both the mean and width of the distribution were averaged over the course of the run for all fields.
+
+
+
+\subsection{Anticorrelation}
+\label{sec:nerix_anticorrelation}
+
+As discussed in \secref{sec:lxe_er_observables} and \secref{sec:xe1t_anticorrelation}, due to the lack of quenching factors in electronic recoils the energy of an interaction and the number of photons and free electrons produced are inextricably linked.  This relationship is shown in \eqnref{eqn:nerix_anticorrelation} where $N_q$ is the number of quanta, $\textrm{E}_{\textrm{ER}}$ is the energy of the electronic recoil, $W$ is the average energy required to produce an exciton or electron-ion pair ($13.7 \pm 0.2$ eV \cite{dahl_thesis}), $N_{\gamma}$ is the number of photons produced in the electronic recoil, and $N_e$ is the number of free electrons extracted from the interaction site.
+
+\begin{equation}
+        \label{eqn:nerix_anticorrelation}
+        N_q = \frac{\textrm{E}_{\textrm{ER}}}{W} = N_{\gamma} + N_{e}
+\end{equation} 
+
+In the same way as \secref{sec:xe1t_anticorrelation}, we can put this equation in terms of detector variables including our observables, S1 and S2, the average light collection efficiency, $g_1$, the extraction efficiency, $\eta$, and the mean single electron gain, $G_e$, as shown in \eqnref{eqn:nerix_anticorrelation_s1_s2}.
+
+\begin{equation}
+        \label{eqn:nerix_anticorrelation_s1_s2}
+        \frac{\textrm{E}_{\textrm{ER}}}{W} = \frac{\textrm{S1}}{g_1} + \frac{\textrm{S2}}{G_e \eta}
+\end{equation}
+
+This implies that if we have a sample of S1 and S2 signals from a known monoenergetic peak that we can extract the otherwise very difficult to measure quantities $g_1$ and $\eta$.  This type of anticorrelation measurement is typically performed using a single full absorption peak at multiple electric fields (typically done in smaller detectors where the field can be changed easily) or using multiple full absorption peaks from different sources at a single electric field (typically done in larger detectors where electric fields are more difficult to manage and change large amounts).  The latter is done in LUX \cite{akerib2016improved} and XENON1T \cite{aprile2017first}.  For neriX, we decided to vary both to make the measurement as robust as possible: two sources, \cesium{} and \sodium{}, and used to extract monoenergetic events at five different fields.  These events are fit simultaneously to \eqnref{eqn:nerix_anticorrelation_line} where $\textrm{E}_{\textrm{ER}}$ is equal to 662 keV for \cesium{} and 511 keV for \sodium{}.
+
+
+ \begin{equation}
+        \label{eqn:nerix_anticorrelation_line}
+        \frac{\textrm{S2}}{\textrm{E}_{\textrm{ER}}} = \frac{G_e \eta}{g_1} \frac{\textrm{S1}}{\textrm{E}_{\textrm{ER}}} - \frac{G_e \eta}{W}
+\end{equation}
+
+A sample fit is shown in \figref{fig:nerix_anticorrelation}.  No discernable time dependence in the parameters was found and thus a run average was used to describe $g_1$ and $\eta$.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.85\textwidth]{nerix_anticorrelation}
+	\caption{Anticorrelation analysis performed on the full absorption peaks \cesium{} and \sodium{} at five different electric fields.  One can also see the best fit of the model shown overlayed.}
+	\label{fig:nerix_anticorrelation}
+\end{figure}
+
+
+\subsection{Trigger Efficiency}
+
+
+As discussed in previous chapters the charge yield of nuclear recoils is significantly lower than an equivalent electronic recoil.  Therefore, it is crucial to estimate the efficiency of the trigger as a function of S2 size.  As discussed in \secref{sec:nerix_daq_trigger}, the S2 trigger is actually based on the width of the event however we will use the total S2 size (area) as a proxy to estimate the efficiency.
+
+The measurement of the trigger efficiency is quite simple.  Rather than using the S2 trigger to record events, as is standard for almost all other TPC calibrations, we use a random trigger and digitize the S2 trigger while irradiating the detector with a \sodium{} source.  In this way, we can check each waveform for an S2 and whether or not an S2 trigger was present.  The random trigger ensures that we in no way bias our measurement of the trigger efficiency by requiring that an S2 be present in the waveform.  While this does eliminate the bias, the measurement is very inefficient in terms of storage since many saved waveforms do not contain relevant data.  While ideally one would measure the S2 trigger efficiency regularly, collecting sufficient statistics took approximately three weeks and therefore regular calibrations were impractical.
+
+Once sufficient statistics were collected, one could use large S2 events to find the standard time difference between the S2 peak and the S2 trigger.  With our trigger system, the time difference between the two was 600--800 ns.  With this time cut in place, we could then look at smaller S2 events and determine whether or not a trigger was present.  The results of the measurement are shown in \figref{fig:nerix_trigger_efficiency}.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.85\textwidth]{nerix_trigger_efficiency}
+	\caption{The neriX trigger efficiency as measured using a random trigger.  Shown are the best fit alongside the 68\% confidence interval.}
+	\label{fig:nerix_trigger_efficiency}
+\end{figure}
+
+
+
+\subsection{Peak Finding Efficiency}
+
+
+
+
+
+
+
 
 
 

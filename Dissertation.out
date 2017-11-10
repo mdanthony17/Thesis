@@ -109,13 +109,18 @@
 \BOOKMARK [3][-]{subsubsection.4.1.2.1}{Neutron Energy Spectrum}{subsection.4.1.2}% 109
 \BOOKMARK [3][-]{subsubsection.4.1.2.2}{Neutron Yield}{subsection.4.1.2}% 110
 \BOOKMARK [2][-]{subsection.4.1.3}{Liquid Scintillators}{section.4.1}% 111
-\BOOKMARK [1][-]{section.4.2}{Characterization and Calibration of neriX}{chapter.4}% 112
-\BOOKMARK [2][-]{subsection.4.2.1}{PMT Characterization}{section.4.2}% 113
-\BOOKMARK [2][-]{subsection.4.2.2}{Position Reconstruction and Position Dependence}{section.4.2}% 114
-\BOOKMARK [1][-]{section.4.3}{Nuclear Recoil Data Collection}{chapter.4}% 115
-\BOOKMARK [1][-]{section.4.4}{Analysis of Nuclear Recoils in Liquid Xenon}{chapter.4}% 116
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 117
-\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 118
-\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 119
-\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 120
-\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 121
+\BOOKMARK [2][-]{subsection.4.1.4}{Data Acquisition System}{section.4.1}% 112
+\BOOKMARK [1][-]{section.4.2}{Characterization and Calibration of neriX}{chapter.4}% 113
+\BOOKMARK [2][-]{subsection.4.2.1}{PMT Characterization}{section.4.2}% 114
+\BOOKMARK [2][-]{subsection.4.2.2}{Position Reconstruction and Position Dependence}{section.4.2}% 115
+\BOOKMARK [2][-]{subsection.4.2.3}{Single Electron Response}{section.4.2}% 116
+\BOOKMARK [2][-]{subsection.4.2.4}{Anticorrelation}{section.4.2}% 117
+\BOOKMARK [2][-]{subsection.4.2.5}{Trigger Efficiency}{section.4.2}% 118
+\BOOKMARK [2][-]{subsection.4.2.6}{Peak Finding Efficiency}{section.4.2}% 119
+\BOOKMARK [1][-]{section.4.3}{Nuclear Recoil Data Collection}{chapter.4}% 120
+\BOOKMARK [1][-]{section.4.4}{Analysis of Nuclear Recoils in Liquid Xenon}{chapter.4}% 121
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 122
+\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 123
+\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 124
+\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 125
+\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 126

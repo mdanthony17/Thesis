@@ -174,15 +174,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.12}{\ignorespaces The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed. Shaded regions represents 68\% credible region while dotted lines show the best fits.}}{148}{figure.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {pi}{2}$.}}{148}{figure.4.13}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {\pi }{2}$.}}{148}{figure.4.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Discrimination space for one of the four M510 detectors from coincidence data. Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}}{149}{figure.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces .}}{152}{figure.4.15}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The trigger schematic for the neriX nuclear recoil measurement. For details on the triggers please refer to the text in Sec.\tmspace +\thinmuskip {.1667em}\ref {sec:nerix_daq_trigger}.}}{152}{figure.4.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces .}}{152}{figure.4.16}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The fit of the cascade (blue) and Gaussian (red) single photoelectron response model for the bottom PMT at 800 V. The stats shown are for the cascade model which results in a marginally better fit as can be seen from the log likelihood difference. The dotted lines shown are the best fits and the shaded region is the 68\% credible region.}}{155}{figure.4.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces .}}{154}{figure.4.17}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The 68\% credible region for the single photoelectron response for fully-amplified electrons for the bottom PMT at 800 V. Notice that the Gaussian model (red) results in a non-physical response a non-negligible fraction of the time while the cascade model (blue) does not exhibit this behavior.}}{155}{figure.4.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces The spatial distributions of high-energy nuclear recoil events taken at 490 V/cm after fiducial volume and other quality cuts.}}{157}{figure.4.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces The distribution of small S2s in the time after a large S2 at a field of 1020 kV/cm. Notice the two sharply spike peaks around 1.5 and 13 $\mu $s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh. Since we know the distance between these two meshes we can measure the drift velocity at this field.}}{158}{figure.4.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces The depth correction of the S1 (left) and S2 (right) signals as a function of depth in the detector.}}{159}{figure.4.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces The single electron response as measured by the top and bottom PMTs in neriX. Note that the response, even for a single electron, appears to follow a Gaussian distribution. The contours show the outline of the fit and the pink line represents the edge of the fit range.}}{160}{figure.4.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Anticorrelation analysis performed on the full absorption peaks \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 7}\noexpand C\noexpand s}{} and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2}\noexpand N\noexpand a}{} at five different electric fields. One can also see the best fit of the model shown overlayed.}}{162}{figure.4.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.23}{\ignorespaces The neriX trigger efficiency as measured using a random trigger. Shown are the best fit alongside the 68\% confidence interval.}}{163}{figure.4.23}
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 
