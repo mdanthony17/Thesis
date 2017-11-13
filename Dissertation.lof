@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.21}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 41 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{86}{figure.3.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces The electron lifetime over the course of the first science run of XENON1T. Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating. Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{86}{figure.3.22}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces The electron lifetime over the course of the first science run of XENON1T. Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating. Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials.}}{86}{figure.3.22}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.23}{\ignorespaces A fit of the single electron gain from the first science run of XENON1T. Hits are defined as excursions above threshold for individual PMTs in a time window defined by the waveform summed across all PMTs.}}{88}{figure.3.23}
 \defcounter {refsection}{0}\relax 
@@ -154,15 +154,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces A photo of the fixed-angle setup with the neriX detector. On the left is our neutron generator inside of its stainless stell case. In the center is the outer portion of the cryostat and on the right are four of the M510 liquid scintillator detectors.}}{135}{figure.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Two photos of the neriX TPC following routine detector maintenance. In both photos, one can see the plates holding the single 2'' PMTs (bottom) and the array of four 1'' PMTs (top). In the left image, one can see the high voltage feedthrough for the anode. On the right image, one can see the high voltage feedthrough for the cathode and the voltage divider for the field shaping ring. One can also see the stainless steel pipe used to extract xenon from the inner cryostat's buffer and the plastic tube used to feed re-condensed xenon into the system.}}{136}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Two photos of the neriX TPC following routine detector maintenance. In both photos, one can see the plates holding the single 2'' PMTs (bottom) and the array of four 1'' PMTs (top). In the left image, one can see the high voltage feedthrough for the anode. On the right image, one can see the high voltage feedthrough for the cathode and the voltage divider for the field shaping ring. One can also see the stainless steel pipe used to extract xenon from the inner cryostat's buffer and the plastic tube used to feed re-condensed xenon into the system.}}{137}{figure.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The neriX TPC with meshes and PMTs labelled.}}{137}{figure.4.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The neriX TPC with meshes and PMTs labelled.}}{138}{figure.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A photo of one of the meshes used in neriX.}}{137}{figure.4.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A photo of one of the meshes used in neriX.}}{138}{figure.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The neriX TPC inside of the cryostat. Note that excluding the buffer volume (left side of the image) and the space left for the high voltage feedthroughs (right side of the image), very little space is left between the cryostat and the TPC, effectively reducing the amount of inactive xenon for undetectable energy losses.}}{138}{figure.4.6}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The neriX TPC inside of the cryostat. Note that excluding the buffer volume (left side of the image) and the space left for the high voltage feedthroughs (right side of the image), very little space is left between the cryostat and the TPC, effectively reducing the amount of inactive xenon for undetectable energy losses.}}{139}{figure.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A schematic of the cryogenics and purification system for neriX. Also shown are the pressure relief system and the xenon storage system.}}{139}{figure.4.7}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A schematic of the cryogenics and purification system for neriX. Also shown are the pressure relief system and the xenon storage system.}}{140}{figure.4.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.8}{\ignorespaces The deuterium-deuterium neutron generator used to produce 2.45 MeV neutrons.}}{143}{figure.4.8}
 \defcounter {refsection}{0}\relax 
@@ -170,31 +170,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.10}{\ignorespaces On the left, the minitron in its partially constructed case. Notice that the teflon leaves very little room between the steel and minitron to maximize the potential voltage that can be used without causing an electrical breakdown. On the right, the minitron in its final set position. While not visible, the minitron case has been filled with mineral oil at this point to reduce risk of electrical breakdowns.}}{145}{figure.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The expected angular distribution of neutrons as a function of emission angle for a maximum deuteron energy of 80 keV.}}{146}{figure.4.11}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The expected angular distribution of neutrons as a function of emission angle for a maximum deuteron energy of 80 keV.}}{147}{figure.4.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.12}{\ignorespaces The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed. Shaded regions represents 68\% credible region while dotted lines show the best fits.}}{148}{figure.4.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {\pi }{2}$.}}{148}{figure.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Discrimination space for one of the four M510 detectors from coincidence data. Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}}{149}{figure.4.14}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Discrimination space for one of the four M510 detectors from coincidence data. Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}}{150}{figure.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces The trigger schematic for the neriX nuclear recoil measurement. For details on the triggers please refer to the text in Sec.\tmspace +\thinmuskip {.1667em}\ref {sec:nerix_daq_trigger}.}}{152}{figure.4.15}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The trigger schematic for the neriX nuclear recoil measurement. For details on the triggers please refer to the text in Sec.\tmspace +\thinmuskip {.1667em}\ref {sec:nerix_daq_trigger}.}}{153}{figure.4.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.16}{\ignorespaces The fit of the cascade (blue) and Gaussian (red) single photoelectron response model for the bottom PMT at 800 V. The stats shown are for the cascade model which results in a marginally better fit as can be seen from the log likelihood difference. The dotted lines shown are the best fits and the shaded region is the 68\% credible region.}}{155}{figure.4.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.17}{\ignorespaces The 68\% credible region for the single photoelectron response for fully-amplified electrons for the bottom PMT at 800 V. Notice that the Gaussian model (red) results in a non-physical response a non-negligible fraction of the time while the cascade model (blue) does not exhibit this behavior.}}{155}{figure.4.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces The spatial distributions of high-energy nuclear recoil events taken at 490 V/cm after fiducial volume and other quality cuts.}}{157}{figure.4.18}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces On the left is the neriX MPE spectrum for the bottom PMT including the collection efficiency function shown on the right.}}{157}{figure.4.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces The distribution of small S2s in the time after a large S2 at a field of 1020 kV/cm. Notice the two sharply spike peaks around 1.5 and 13 $\mu $s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh. Since we know the distance between these two meshes we can measure the drift velocity at this field.}}{158}{figure.4.19}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces The spatial distributions of high-energy nuclear recoil events taken at 490 V/cm after fiducial volume and other quality cuts.}}{158}{figure.4.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces The depth correction of the S1 (left) and S2 (right) signals as a function of depth in the detector.}}{159}{figure.4.20}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces The distribution of small S2s in the time after a large S2 at a field of 1020 kV/cm. Notice the two sharply spike peaks around 1.5 and 13 $\mu $s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh. Since we know the distance between these two meshes we can measure the drift velocity at this field.}}{159}{figure.4.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.21}{\ignorespaces The single electron response as measured by the top and bottom PMTs in neriX. Note that the response, even for a single electron, appears to follow a Gaussian distribution. The contours show the outline of the fit and the pink line represents the edge of the fit range.}}{160}{figure.4.21}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces The depth correction of the S1 (left) and S2 (right) signals as a function of depth in the detector.}}{160}{figure.4.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Anticorrelation analysis performed on the full absorption peaks \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 7}\noexpand C\noexpand s}{} and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2}\noexpand N\noexpand a}{} at five different electric fields. One can also see the best fit of the model shown overlayed.}}{162}{figure.4.22}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces The single electron response as measured by the top and bottom PMTs in neriX. Note that the response, even for a single electron, appears to follow a Gaussian distribution. The contours show the outline of the fit and the pink line represents the edge of the fit range.}}{161}{figure.4.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.23}{\ignorespaces The neriX trigger efficiency as measured using a random trigger. Shown are the best fit alongside the 68\% confidence interval.}}{163}{figure.4.23}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Anticorrelation analysis performed on the full absorption peaks \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 7}\noexpand C\noexpand s}{} and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2}\noexpand N\noexpand a}{} at five different electric fields. One can also see the best fit of the model shown overlayed.}}{163}{figure.4.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces The neriX trigger efficiency as measured using a random trigger. Shown overlaid are the best fit alongside the 68\% confidence interval.}}{164}{figure.4.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.25}{\ignorespaces The neriX peak finding efficiency from empirically based waveform simulations.}}{165}{figure.4.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Coincidence data taken with a drift field of 190 V/cm.}}{168}{figure.4.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Coincidence data taken with a drift field of 490 V/cm.}}{169}{figure.4.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Coincidence data taken with a drift field of 1020 V/cm.}}{170}{figure.4.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.29}{\ignorespaces High energy nuclear recoil band data without a coincidence trigger at the three fields measured.}}{171}{figure.4.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.30}{\ignorespaces The expected energy spectra for coincidence data (top) and nuclear recoil band data (bottom). Both of these are used as inputs for the fast Monte Carlo used to estimate the PDF given assumptions on parameters in the signal response model.}}{174}{figure.4.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 

@@ -5664,6 +5664,110 @@
   \field{year}{2016}
 \endentry
 
+\entry{aprile2005scintillation}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {KL}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Majewski}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamashita}{Y.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hasty}{H.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manzur}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKinsey}{M.}%
+     {DN}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEGKMP+1}
+  \strng{fullhash}{AEGKMPNKYMHRMAMD1}
+  \field{number}{7}
+  \field{pages}{072006}
+  \field{title}{Scintillation response of liquid xenon to low energy nuclear
+  recoils}
+  \field{volume}{72}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2005}
+\endentry
+
+\entry{manzur2010scintillation}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Manzur}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Curioni}{C.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kastens}{K.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKinsey}{M.}%
+     {DN}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wongjirad}{W.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{MACAKL+1}
+  \strng{fullhash}{MACAKLMDNKWT1}
+  \field{number}{2}
+  \field{pages}{025808}
+  \field{title}{Scintillation efficiency and ionization yield of liquid xenon
+  for monoenergetic nuclear recoils down to 4 keV}
+  \field{volume}{81}
+  \field{journaltitle}{Physical Review C}
+  \field{year}{2010}
+\endentry
+
 \entry{plante2011new}{article}{}
   \name{author}{9}{}{%
     {{}%
@@ -5960,6 +6064,21 @@
   \field{year}{2017}
 \endentry
 
+\entry{carter1980photomultiplier}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carter}{C.}%
+     {DR}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CD1}
+  \strng{fullhash}{CD1}
+  \field{title}{Photomultiplier Handbook: Theory, Design, Application}
+  \field{journaltitle}{Lancaster,(PA): Burle Industries, Inc}
+  \field{year}{1980}
+\endentry
+
 \entry{akerib2016improved}{article}{}
   \true{moreauthor}
   \name{author}{10}{}{%
@@ -6026,6 +6145,95 @@
   \field{volume}{116}
   \field{journaltitle}{Physical review letters}
   \field{year}{2016}
+\endentry
+
+\entry{aprile2009new}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choi}{C.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {KL}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manalaysay}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monzani}{M.}%
+     {ME}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plante}{P.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Santorelli}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamashita}{Y.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEBLCB+1}
+  \strng{fullhash}{AEBLCBGKLKMAMMPGSRYM1}
+  \field{number}{4}
+  \field{pages}{045807}
+  \field{title}{New measurement of the relative scintillation efficiency of
+  xenon nuclear recoils below 10 keV}
+  \field{volume}{79}
+  \field{journaltitle}{Physical Review C}
+  \field{year}{2009}
+\endentry
+
+\entry{gompertz1825nature}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gompertz}{G.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{GB1}
+  \strng{fullhash}{GB1}
+  \field{pages}{513\bibrangedash 583}
+  \field{title}{On the nature of the function expressive of the law of human
+  mortality, and on a new mode of determining the value of life contingencies}
+  \field{volume}{115}
+  \field{journaltitle}{Philosophical transactions of the Royal Society of
+  London}
+  \field{year}{1825}
 \endentry
 
 \lossort

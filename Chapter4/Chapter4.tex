@@ -14,7 +14,11 @@ As was discussed in the previous chapters, dual-phase liquid xenon TPCs lead the
 
 While larger detector sizes (in the form of larger fiducial volumes) make WIMP searches more and more sensitive, they do come with a drawback: calibrations, especially calibrations with external sources, becoming significantly more difficult.   However, understanding the signal output by a LXe TPC can essentially be broken down into two steps: the actual light and charge production and the detector physics.  While the detector physics is unique for each detector used and therefore must be measured for each one, the light and charge production mechanisms are only unique to the medium.  Therefore, if we can effectively decouple the two steps, we can measure the light and charge production mechanism in a detector optimized for calibrations and use it in other detectors.  
 
-As LXe detectors have scaled in size, several of these optimized detectors have been built for exactly this purpose: to measure the light and charge production of liquid xenon to electronic and nuclear recoils.  While each of these detectors was slightly different and designed for a specific purpose, they shared the same relatively simple operating procedure: measure the light and charge produced from an interaction of a known type (electronic or nuclear recoil) and energy.  The neriX (Nuclear and Electronic Recoils in xenon) detector at Columbia University is one of these optimized detectors and has already successfully provided the most precise measurements of the light and charge yield of liquid xenon at multiple electric fields.  In this chapter, we will discuss the measurement of the light and charge yield of low energy nuclear recoils in liquid xenon using the neriX detector at Columbia University.
+As LXe detectors have scaled in size, several of these optimized detectors have been built for exactly this purpose: to measure the light and charge production of liquid xenon to electronic and nuclear recoils.  While each of these detectors was slightly different and designed for a specific purpose, they shared the same relatively simple operating procedure: measure the light and charge produced from an interaction of a known type (electronic or nuclear recoil) and energy.  The neriX (Nuclear and Electronic Recoils in xenon) detector at Columbia University is one of these optimized detectors and has already successfully provided the most precise measurements of the light and charge yield of electronic recoils in liquid xenon at multiple electric fields.  
+
+While several measurements of the response of liquid xenon to nuclear recoils have been made, most measure only the light yield $L_y(E) = N_{\gamma}/E$ or charge yield $Q_y(E) = N_{\textrm{e}}/E$.  Two particular calibrations \cite{aprile2005scintillation, manzur2010scintillation} measure both the light and charge yield but do not capture the potential correlation of the yields.  Without examining both light and charge simultaneously, it is impossible to fully understand the fundamental processes that occur in LXe to produce these signals.  Additionally, only the two simultaneous studies \cite{aprile2005scintillation, manzur2010scintillation} have systematically measured the effect of an electric field on the light and charge yield.  Unlike in the case of electronic recoils, these measurements found that the light and charge yield of nuclear recoils in liquid xenon change very little, if at all, with an applied electric field.  However, additional measurements are necessary since it is expected that recombination is energy dependent as well as field dependent \cite{thomas1987recombination} and both measurements cannot make conclusive statements below $\sim 45$~keV.  In this chapter the results of a new measurement of both the light and charge yield of nuclear recoils from 74 keV down to 3~keV at three electric fields using the fixed-angle scattering method are presented.  Also, for the first time, a simulation of the microphysical process in liquid xenon is used for the parameter estimation, which takes into account the correlation between the light and charge signals.
+
+%In this chapter, we will discuss the measurement of the light and charge yield of low energy nuclear recoils in liquid xenon using the neriX detector at Columbia University.
 
 \section{Experimental Setup}
 \label{sec:nerix_expt_setup}
@@ -127,6 +131,7 @@ To maintain the temperature of the detector, Iwatani PDC08 cold head and SA101 H
 
 
 \subsubsection{Pressure Relief System}
+\label{sec:nerix_pressure_relief}
 
 Unlike XENON1T, there is no redundant liquid nitrogen cooling in the event of a power loss for neriX.  This means that if there is a power failure at the laboratory that cooling will be lost and the pressure of the detector will climb.  To prevent damage to the system, especially the PMTs, a pressure relief system was built for neriX.  This pressure relief system consists of a 190 liter stainless steel pressure vessel that is connected to the inner cryostat via a solenoid valve that will open in a controlled manner above a certain pressure in parallel with a rupture disk.  The tank size was chosen such that all of the approximately 2.2 kg of xenon could be stored at room temperature at a pressure below 2.5 bar.  The pressure relief vessel was evacuated on a weekly basis to maintain the chemical purity of the xenon in the case of an emergency.
 
@@ -321,6 +326,7 @@ A schematic of each of these triggers is shown in \figref{fig:nerix_daq_trigger_
 \end{figure}
 
 \section{Characterization and Calibration of neriX}
+\label{sec:nerix_cals}
 
 As mentioned in chapters two and three, the process from energy deposition to the S1 and S2 signal read out of a waveform for analysis can essentially be broken down into two subsections: the signal production and the detector physics.  If we want to measure the physics of the signal production mechanism, we must be able to decouple the detector physics as well as possible.  To do this, we must make independent measurements to characterize the detector as best as we can.  
 
@@ -354,7 +360,15 @@ Unlike \citeref{goetzke2016measurement}, no gain instability was seen during the
 
 To avoid issues of saturation with the PMTs, nuclear recoil data was taken with PMT gains ranging from $5-10 \cdot 10^5 \, \, e^-$ while electronic recoil data where our concern was the full absorption peak (like the anticorrelation analysis in \secref{sec:nerix_anticorrelation}) was taken with gains two orders of magnitude smaller.  Even using our GPU-based cascade model it is extremely difficult to fit such a small PMT response.  Therefore, we used what is referred to in \citeref{goetzke2015low} as the MPE method.  To use the MPE method you must first calibrate the response of the PMT at its normal operating voltage.  Following a standard calibration, you illuminate the same PMT at the same voltage with a high light level and use the gain found from before to estimate the mean number of photoelectrons.  You then reduce the PMT voltage and remeasure the response of the PMT to the high light level.  Since the mean number of photoelectrons observed should be independent of voltage, you can use the response at the lower voltage and high light level to extract the gain of the PMT at a much lower voltage.
 
-When measuring this effect, we varied the bottom PMT voltage from 800 V, our standard operating voltage, down to 500 V.  At approximately 600 V, saturation effects in the 662 keV peak were no longer present.  Ideally, one would expect the gain to decrease exponentially with voltage, however we noticed a significant deviation from this behavior.  We believe that this deviation is due in part to the decreasing collection efficiency of photoelectrons of the PMT at lower voltages, an effect described in \citeref{carter1980photomultiplier}.  While the voltage dependence of the effect is PMT dependent, we multiplied our power law by a generic second-order polynomial efficiency function in an attempt to describe it.  The best fit of both the gain and collection efficiency are shown in \figref{} and \figref{}
+When measuring this effect, we varied the bottom PMT voltage from 800 V, our standard operating voltage, down to 500 V.  At approximately 600 V, saturation effects in the 662 keV peak were no longer present.  Ideally, one would expect the gain to decrease exponentially with voltage, however we noticed a significant deviation from this behavior.  We believe that this deviation is due in part to the decreasing collection efficiency of photoelectrons of the PMT at lower voltages, an effect described in \citeref{carter1980photomultiplier}.  While the voltage dependence of the effect is PMT dependent, we multiplied our power law by a generic second-order polynomial efficiency function in an attempt to describe it.  The best fit of both the gain and collection efficiency are shown in \figref{fig:nerix_mpe}.
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.49\textwidth]{nerix_mpe_spectrum}
+	\includegraphics[width=0.49\textwidth]{nerix_collection_efficiency}
+	\caption{On the left is the neriX MPE spectrum for the bottom PMT including the collection efficiency function shown on the right.}
+	\label{fig:nerix_mpe}
+\end{figure}
 
 
 \subsection{Position Reconstruction and Position Dependence}
@@ -418,6 +432,7 @@ While due to the small size of the detector we do not observe a radial dependenc
 
 
 \subsection{Single Electron Response}
+\label{sec:nerix_gas_gain}
 
 One very important quantity for TPCs that was discussed in chapters two and three is the single electron response (also known as the gas gain).  The single electron response measures how many photoelectrons we expect in our PMTs if a single electron is extracted from the liquid into the gas.  Typically the response is approximated as a Gaussian distribution with a mean, $\mu_G$, and width, $\sigma_G$.  While technically this quantity could be field-dependent to leakage from the cathode, simulations show that this effect is only on the order of $\sim2\%$ \cite{goetzke2015low}.
 
@@ -470,7 +485,7 @@ A sample fit is shown in \figref{fig:nerix_anticorrelation}.  No discernable tim
 
 
 \subsection{Trigger Efficiency}
-
+\label{sec:nerix_trig_efficiency}
 
 As discussed in previous chapters the charge yield of nuclear recoils is significantly lower than an equivalent electronic recoil.  Therefore, it is crucial to estimate the efficiency of the trigger as a function of S2 size.  As discussed in \secref{sec:nerix_daq_trigger}, the S2 trigger is actually based on the width of the event however we will use the total S2 size (area) as a proxy to estimate the efficiency.
 
@@ -481,19 +496,25 @@ Once sufficient statistics were collected, one could use large S2 events to find
 \begin{figure}[t]
         \centering
 	\includegraphics[width=0.85\textwidth]{nerix_trigger_efficiency}
-	\caption{The neriX trigger efficiency as measured using a random trigger.  Shown are the best fit alongside the 68\% confidence interval.}
+	\caption{The neriX trigger efficiency as measured using a random trigger.  Shown overlaid are the best fit alongside the 68\% confidence interval.}
 	\label{fig:nerix_trigger_efficiency}
 \end{figure}
 
 
 
 \subsection{Peak Finding Efficiency}
+\label{sec:nerix_pf_efficiency}
 
+The second efficiency loss in this measurement is actually on the software side of the analysis.  Once raw data is saved, it is analyzed in a processor where important information is extracted such as the S1 and S2 size and locations in the waveform.  While the peak-finding algorithm used to identify S1s and S2s in the waveform is excellent at finding even single electrons (as shown in the single electron response calibration), there is some loss for very small S1 signals.  
 
+Unlike the trigger efficiency, the peak finder's efficiency was not measure directly.  Instead a realistic waveform simulator was developed to study this efficiency loss.  This waveform simulator included effects such as the characteristic pulse shape of the PMT, the noise level in the TPC, and the shape of the S1 signal due to the excimer decay times \cite{hitachi1983effect}.  The waveform simulator was then used to produce events with S1s of known sizes which were then fed into the data processor.  Post-processing, we could then check how many of the S1s in a given range were discovered by the peak finder.  The results of the waveform simulation are shown in \figref{fig:nerix_peak_finder_efficiency} overlaid with the best-fit and 68\% confidence interval of the efficiency model used.
 
-
-
-
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.85\textwidth]{nerix_peak_finder_efficiency}
+	\caption{The neriX peak finding efficiency from empirically based waveform simulations.}
+	\label{fig:nerix_peak_finder_efficiency}
+\end{figure}
 
 
 
@@ -501,9 +522,377 @@ Once sufficient statistics were collected, one could use large S2 events to find
 
 \section{Nuclear Recoil Data Collection}
 
-% trigger info and plot
+The data taking run of neriX lasted for approximately four and a half months.  We began collecting coincidence data on March 30, 2016 and completed taking coincidence data on July 4, 2016.  Calibrations and trigger efficiency measurements continued until August 9, 2016 when a power failure occurred overnight resulting in a pressure spike in which xenon was safely released into the pressure relief vessel via the solenoid valve discussed in \secref{sec:nerix_pressure_relief}.
+
+With a total of four M510 liquid scintillator detectors, we were able to measure two angles (energies) simultaneously.  In total, six angles were measured at three different electric fields.  Ultimately, data at the lowest and highest energy were not used: the former due to lack of statistics due the efficiency losses discussed in \secref{sec:nerix_trig_efficiency} and \secref{sec:nerix_pf_efficiency} and the latter due the poor data quality (likely due to the M510 detectors' proximity to the TPC).  On average, it took approximately two weeks to measure two energy setups at a given cathode voltage.
+
+As discussed in \secref{sec:nerix_expt_setup}, we use the positions of the M510 liquid scintillator detectors to restrict the energy spectrum such that it is peaked around a specific energy and does not follow the standard exponentially falling energy spectrum.  The positions of the detectors (and the minitron) were set using an auto-levelling laser mounted on a tripod.  Positions were measured relative to the center of the TPC and marked on the laboratory floor using tape.  The positions of the M510 detectors were chosen such that an energy resolution of 15--25\% was achieved.  \tabref{tab:nerix_ej_positions} shows the positions of the M510 detectors relative to the TPC center\footnote{The minitron was placed at (0, -43.0, 0) cm in the coordinate frame as defined in \tabref{tab:nerix_ej_positions}.}.  The estimated uncertainty in each dimension is 3 mm.
+
+
+\begin{table}[t]
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{cc|ccc|ccc}
+\hline
+$\theta$ & Energy [keV] & \multicolumn{3}{c|}{M510 1 Position [cm]} & \multicolumn{3}{c}{M510 2 Position [cm]} \\
+ & & x & y & z & x & y & z \\
+\hline
+$30^{\circ}$ & $4.95 \pm 0.83$ & 38.1 & 66.4 & -4.6 & -38.3 & 66.4 & 0 \\
+$35^{\circ}$ & $6.60 \pm 1.52$ & 24.3 & 34.2 & 0 & -23.9 & 34.2 & -4.6 \\
+$45^{\circ}$ & $10.62 \pm 1.54$ & -41.4 & 41.7 & -4.6 & 41.7 & 41.7 & 0 \\
+$53^{\circ}$ & $13.95 \pm 2.46$ & 29.5 & 22.3 & 0 & -29.5 & 22.3 & 0 \\
+\hline
+\end{tabular}
+\caption{The positions of the M510 liquid scintillator detectors during coincidence data taking.  The energies and corresponding widths shown are found via a detailed Monte Carlo produced in Geant4 which will be discussed further in \secref{sec:nerix_geant_mc}.}
+\label{tab:nerix_ej_positions}
+\end{table}
+
+In addition to coincidence data, nuclear recoil data is taken without the coincidence requirement which we refer to as \textit{band data}.  This merely involves replacing the coincidence trigger described in \secref{sec:nerix_daq_trigger} with the S2 hold-off trigger.
+
+A few basic cuts were made to clean the data taken.  The fiducial volume cut was made to ensure the electric field variations were limited to within 20\% and an asymmetry cut, which removes events based on what fraction of the S1 signal is seen by the top versus bottom PMT, is made to ensure the removal of noisy events.  For coincidence data, two additional cuts are made based off of the liquid scintillators.  The first selects neutrons in the M510s using the pulse-shape discrimination parameter of each detector.  The second is a coarse time of flight cut (using the time difference from the waveform) to ensure that the S1 signal discovered by the peak finder is within 100 ns of the liquid scintillator pulse to remove as many accidental coincidences as possible.  A finer time of flight cut could not be made with a time to amplitude converter (TAC) since our average light collection efficiency is lower than the single phase liquid xenon detectors used to measure the light yield of nuclear recoils in the past \cite{aprile2009new, manzur2010scintillation, plante2011new}\footnote{Technically,  Manzur \textit{et al.} used a dual phase detector operated in a ``single phase'' mode which drastically increased their average light collection efficiency.} and therefore we could not, with high efficiency, use the S1 signal to start the TAC.  While it would be useful to confirm that our liquid scintillator cut removed almost all of the electronic recoils from neutron activated materials, both \citeref{aprile2009new} (Fig. 4) and \citeref{plante2011new} (Fig. 8) showed that this is the case.
+
+For all data collected, no discernable differences were seen between the individual M510 detectors.  Therefore, all distributions used in the analysis used data from both of the liquid scintillators.  The resulting spectra are shown as a function of both S1 and S2 in \figref{fig:nerix_nr_data_1}, \figref{fig:nerix_nr_data_2}, \figref{fig:nerix_nr_data_3}, and \figref{fig:nerix_nr_data_4}.
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{0.345_kV_3000_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{0.345_kV_3500_deg_data_only}.png}
+
+        %\vspace{\floatsep}
+        \vspace{0.3cm}
+
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{0.345_kV_4500_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{0.345_kV_5300_deg_data_only}.png}
+	
+	\centering
+	\caption{Coincidence data taken with a drift field of 190 V/cm.}
+	\label{fig:nerix_nr_data_1}
+\end{figure}
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{1.054_kV_3000_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{1.054_kV_3500_deg_data_only}.png}
+
+        %\vspace{\floatsep}
+        \vspace{0.3cm}
+
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{1.054_kV_4500_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{1.054_kV_5300_deg_data_only}.png}
+	
+	\centering
+	\caption{Coincidence data taken with a drift field of 490 V/cm.}
+	\label{fig:nerix_nr_data_2}
+\end{figure}
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{2.356_kV_3000_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{2.356_kV_3500_deg_data_only}.png}
+
+        %\vspace{\floatsep}
+        \vspace{0.3cm}
+
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{2.356_kV_4500_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{2.356_kV_5300_deg_data_only}.png}
+	
+	\centering
+	\caption{Coincidence data taken with a drift field of 1020 V/cm.}
+	\label{fig:nerix_nr_data_3}
+\end{figure}
+
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{0.345_kV_-4_deg_data_only}.png}
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{1.054_kV_-4_deg_data_only}.png}
+
+        %\vspace{\floatsep}
+        \vspace{0.3cm}
+
+	\centering
+	\includegraphics[width=0.49\textwidth]{../nerix_data_only/{2.356_kV_-4_deg_data_only}.png}
+
+	
+	\centering
+	\caption{High energy nuclear recoil band data without a coincidence trigger at the three fields measured.}
+	\label{fig:nerix_nr_data_4}
+\end{figure}
+
+
 
 \section{Analysis of Nuclear Recoils in Liquid Xenon}
+
+% need to discuss how previous analyses were done and why light and charge yield do not tell the whole story
+
+As it was stated at the beginning of this chapter, multiple measurements of the response of liquid xenon to nuclear recoils have been made.  However, these previous measurements assumed a simple LXe physics models because they were limited to a single observable\footnote{In some cases, data for both observables was taken but the analysis used only a single observable at a time.}: for each coincidence dataset a single parameter, $\mathcal{L}_{eff}(E_{\textrm{NR}}) = L_y(E_{\textrm{NR}}) / L_y(E_{\textrm{ER}}=122 \, \textrm{keV})$ or $Q_y(E_{\textrm{NR}})$, was used to map the energy to a one-dimensional observable space and a generic resolution was applied to account for the widening of the spectrum due to statistical fluctuations in the LXe microphysical process described above.
+
+While this analysis approach has proved effective, it does have a few underlying issues.  First, this procedure fails to account for correlations between the light and charge that is expected since it only looks at a single observable at a time and therefore we cannot build an effective model for the microphysics of liquid xenon.  Second, the procedure itself is slightly inconsistent --- the same energies in different coincidence spectra have different $\mathcal{L}_{eff}$ applied to them.  Finally, since we are measuring low energies, applying a large smearing term can potentially bias the measurements of the yields at energies close to the efficiency roll-offs.  While the second and third issues can be reduced and carefully controlled, the inability to produce an effective two dimensional observables production model has impacts on the WIMP search, as we saw in \secref{sec:xe1t_wimp_results}.
+
+In this work, a completely new procedure for analyzing nuclear recoil data in xenon was developed.  This procedure was the basis for both the electronic and nuclear recoil calibration of XENON1T (\secref{sec:xe1t_er_nr_calibration}) and the basic framework can be used for all different types of analyses, including the characterization of PMTs which is discussed in \secref{app:pmts}.  This framework allowed us to test and measure microphysical models for the response of liquid xenon to nuclear recoils for the first time.   
+
+As the procedure followed in \secref{sec:xe1t_er_nr_calibration} was based off of this work, many aspects will be similar.  Therefore, special attention will be specifically devoted to the differences between the two.
+
+
+
+\subsection{Monte Carlo Simulation of Energy Spectra}
+\label{sec:nerix_geant_mc}
+
+
+As mentioned during the discussion of the XENON1T nuclear recoil calibration, the first step is to predict the energy spectra you expect to measure.  Even though the energy of the recoil is completely determined by the angle of the scatter, effects from the finite sizes of the detector, nuclear recoils in materials other than the fiducial volume, and accidental coincidences will make the spectra far from monoenergetic.  Therefore, it is necessary to build a detailed Monte Carlo to predict the rate of nuclear recoils at different energies given the experimental setup.
+
+The detailed Monte Carlo for this measurement was done in Geant4 \cite{agostinelli2003geant4}.  The Monte Carlo is built with a realistic description of the neutron generator and its casing and stand, the TPC and the cryostat, the detector support frame, the laboratory floor (for neutron reflections), as well as the measured positions of the M510 liquid scintillator detectors listed in \tabref{tab:nerix_ej_positions}.  Also included in the simulation is the neutron yield as a function of emission angle (shown in \figref{fig:nerix_yield_emission_angle}).
+
+The Geant4 simulation records the track of each particle which includes information about each of the interactions it makes, where they occur, and at what time.  For coincidence data, we are particularly interested in neutrons that elastically scatter in the liquid xenon and the M510 liquid scintillator detectors within a time window defined by our time of flight cut in the data.  For nuclear recoil band data, we only place the condition that a neutron elastically scatters in the fiducial volume with no other requirements.  We cannot require that the neutron does not interact in other materials since this type of cut can, of course, not be made in measured data.  The expected energy spectra for coincidence data and nuclear recoil data without a coincidence requirement are shown in \figref{fig:nerix_mc_energy_spectra}.
+
+There are two striking features of each of the coincidence spectra.  The first is the Gaussian-looking peak around a mean energy --- this peak is due to the exact events we are trying to measure: a single elastic scatter in the liquid xenon and a scatter in the M510 detector.  The width of the peak is almost completely due to the finite sizes of the detector.  The second feature is the near exponential roll-off in energy.  This is due to neutrons that scatter in other materials as well as in the fiducial volume of the TPC.  The energy spectrum expected from nuclear recoils without any coincidence trigger is similar to the expected distribution of events for XENON1T with one critical exception.  In XENON1T, we used an americium-beryllium (AmBe source) that radiates neutrons with energies up to 11 MeV.  The minitron neutron generator, on the other hand, produces near monoenergetic neutrons at an angle of $90^{\circ}$ to the target meaning that our TPC is irradiated with neutrons with an energy very close to 2.45 MeV (for the neutron yield as a function of angle for the minitron please refer to \figref{fig:nerix_yield_emission_angle}).  This implies that there is a maximum energy that can be transferred to a xenon nucleus from neutrons back-scattering.  This maximum energy transfer for 2.45 MeV neutrons on xenon nuclei is ranges from 72-76 keV depending on which isotope of xenon the neutron interacts with.  This roll-off can clearly be seen in the band energy spectra in \figref{fig:nerix_mc_energy_spectra} but is not present in the spectra from AmBe shown in \figref{fig:xe1t_nr_energy_spec}.
+
+
+
+\begin{figure}[t]
+        \centering
+	\includegraphics[width=0.99\textwidth]{nerix_energy_spectrum_coin}
+	\includegraphics[width=0.99\textwidth]{nerix_energy_spectrum_band}
+	\caption{The expected energy spectra for coincidence data (top) and nuclear recoil band data (bottom).  Both of these are used as inputs for the fast Monte Carlo used to estimate the PDF given assumptions on parameters in the signal response model.}
+	\label{fig:nerix_mc_energy_spectra}
+\end{figure}
+
+
+\subsection{Light and Charge Production for Nuclear Recoils}
+\label{sec:nerix_observables_production}
+
+As discussed in \secref{sec:xe_nr_observables}, recoiling nuclei also lose energy via atomic motion that cannot be detected in neriX or other dual-phase TPCs.  We model this loss using Lindhard theory, which gives the energy lost to atomic motion as a function of energy.  This is shown in \eqnref{eqn:nerix_lindhard} in terms of the dimensionless energy $\epsilon$.
+
+\begin{equation}
+        \label{eqn:nerix_lindhard}
+        \begin{gathered}
+                \epsilon = 11.5 \left( \frac{E}{\textrm{keV}} \right) Z^{\sfrac{-7}{3}}, \\
+                L(\epsilon) = \frac{k g(\epsilon)}{1 + k g(\epsilon)}, \, \, \, g(\epsilon) = 3 \epsilon^{0.15} + 0.7 \epsilon^{0.6} + \epsilon
+        \end{gathered}
+\end{equation}
+
+The Lindhard factor, $L$, is then used to approximate the number of quanta as shown in \eqnref{eqn:nerix_nr_quanta}.
+
+\begin{equation}
+        \label{eqn:nerix_nr_quanta}
+        N_q \sim P \left( \mu = \frac{E \cdot L}{W} \right)
+\end{equation}
+
+The choice of the Poisson distribution is the same approximation as used in the XENON1T analysis and is not derived from first principles.  The actual distribution is likely more complicated due to complex track structure of nuclear recoils in liquid xenon.
+
+With the total number of excitons and ions produced, $N_q$, we can use the exciton-to-ion ratio to simulate the individual numbers of excitons and ions, as shown in \eqnref{eqn:nerix_nr_exciton_ion}.
+
+\begin{equation}
+        \label{eqn:nerix_nr_exciton_ion}
+        N_{\textrm{ion}} \sim B \left( N=N_q, p = \frac{1}{1 + \frac{N_{\textrm{ex}}}{N_{\textrm{ion}}}} \right) , \, \, \, N_{\textrm{ex}} = N_q - N_{\textrm{ion}}
+\end{equation}
+
+We use the same parameterization as \citeref{lenardo2015global} for the exciton-to-ion ratio except that we do not include field dependence, as shown in \eqnref{eqn:nerix_nr_exciton_ion_parameterization}.  Therefore, three constants for the exciton-to-ion ratio are included in the fit to describe each of the three fields.  The energy dependence of the exciton-to-ion ratio, however, is assumed to be the same for all fields.
+
+\begin{equation}
+        \label{eqn:nerix_nr_exciton_ion_parameterization}
+        \frac{N_{\textrm{ex}}}{N_{\textrm{ion}}}_F = \alpha_F \left( 1 - e^{-\beta \epsilon}  \right)
+\end{equation}
+
+
+With the individual numbers of excitons and ions, we now must consider the possibility of electron-ion pairs recombining to form excitons, resulting in a single photon rather an electron extracted from the site.  Unlike the analysis performed for XENON1T which was dependent on \citeref{lenardo2015global} for the model and priors, we can actually test different parts of the light and charge production model in this analysis.  The first aspect of the model tested was the use of the Thomas-Imel model \cite{thomas1987recombination} versus a generic model of recombination.  The generic models tested were polynomials of orders one through five (bounded to a range between zero and one) and a Gompertz function \cite{gompertz1825nature} with and without a constant offset added.  The relative log-likelihoods of the best fits were used to compare the models and it was found that the Thomas-Imel model described the data the best.  Therefore, we define the recombination probability as we did previously.
+
+\begin{equation}
+        \label{eqn:xe1t_nr_exciton_ion}
+        N_{\textrm{ion}} \sim B \left( N=N_q, p = \frac{1}{1 + \frac{N_{\textrm{ex}}}{N_{\textrm{ion}}}} \right) , \, \, \, N_{\textrm{ex}} = N_q - N_{\textrm{ion}}
+\end{equation}
+
+Unlike \citeref{lenardo2015global}, though, we do not give the parameter $\sigma$ any field dependence.  Three $\sigma$ parameters are included in the fit: one used at each field.  In this way, no assumptions about the field dependence of recombination were made.  
+
+The recombination probability was used in the same way as before to simulate the number of electron-ion pairs that recombine.
+
+
+\begin{equation}
+        \label{eqn:xe1t_nr_recombination}
+        \begin{gathered}
+                N_{\textrm{rec}} \sim B(N = N_{\textrm{ion}}, p = r), \\ 
+                N_{\textrm{ion}} \leftarrow N_{\textrm{ion}} - N_{\textrm{rec}}, \, \, \,  N_{\textrm{ex}} \leftarrow N_{\textrm{ex}} + N_{\textrm{rec}}
+        \end{gathered}
+\end{equation}
+
+
+Finally, we consider biexcitonic quenching, which results from the collision of two excitons.  We estimate this quenching using Birk's saturation law, as shown in \eqnref{}, since one would expect that the density of excitons in the track is proportional to the electronic stopping power \cite{mei2008model, tretyak2010semi, bezrukov2011interplay}.
+
+
+\begin{equation}
+        \label{eqn:nerix_birks_quenching}
+        f_B = \frac{1}{1 + a \frac{dE}{dx}} = \frac{1}{1 + \eta \epsilon^{- \sfrac{1}{2}}}
+\end{equation}
+
+
+We choose to follow the treatment of \citeref{akerib2016low} and fix the energy dependence of the stopping power, as seen in \eqnref{eqn:nerix_birks_quenching}.  This is different than the treatment in the XENON1T analysis which was based off of the model in \citeref{lenardo2015global} and was chosen because track simulations see this sort of energy dependence up to a few hundred keV and to prevent the possibility of overfitting at the high-energy end of the nuclear recoil spectrum.
+
+In summary, there are eight free parameters in the liquid xenon model: $k$, a constant relating the electronic stopping power to the velocity, $\frac{N_{\textrm{ex}}}{N_{\textrm{ion}}}_F$, the exciton-to-ion ratio at each of the three fields, $\beta$, the energy dependence of the exciton-to-ion ratio, $\sigma_F$, the recombination constant at each of the three fields, and $\eta$, Birk's constant for liquid xenon.  No priors outside of physical restrictions (all parameters greater than zero) are used.
+
+
+
+\subsection{Detector Model for Signal Production}
+
+While the major steps of the detector model are the same as for XENON1T, since the TPCs operate in identical ways, several simplifications to the detector response model could be made such as the exclusion of position corrections.  
+
+
+\subsubsection{Detection of Scintillation Photons}
+
+
+To begin the detector physics model, we consider the average light collection efficiency that was measured via the anticorrelation calibration discussed in \secref{sec:nerix_anticorrelation}.  As in the XENON1T model, we also consider double photoelectron emissions \cite{faham2015measurements} since the scintillation light has a wavelength of 178 nm.  However, we do not consider effects due to the position of the interaction in the detector.  The number of photons producing at least a single photoelectron, $N_i$, is simulated by \eqnref{} in the fast Monte Carlo.
+
+
+\begin{equation}
+        \label{eqn:nerix_binomial_lce}
+        \begin{gathered}
+                N_{\textrm{i}} \sim B \left( N = N_{\gamma}, p = \frac{g_1}{1 + p_{\textrm{DPE}}} \right), \\
+                %N_{\textrm{pe}} \leftarrow N_{\textrm{pe}} + B(N=N_{\textrm{pe}}, p=p_{\textrm{DPE}})
+        \end{gathered}
+\end{equation}
+
+
+With the number of photons causing at least a single photoelectron, we can account for how many photoelectrons were produced in total again using the probability for double photoelectron emission.
+
+
+\begin{equation}
+        N_{\textrm{PE}} \sim N_{\textrm{i}} + B(N=N_{\textrm{i}}, p=p_{\textrm{DPE}})
+\end{equation}
+
+We now apply a smearing on the size of the S1 PMT signal according to the measured resolution of the bottom PMT of the TPC.  Note that we do not use the cascade model to simulate the charge distribution from the PMT due to simulation time constraints and instead approximate the response with a truncated normal distribution.
+
+\begin{equation}
+        \textrm{S1}' \sim TN \left( \mu=N_{\textrm{PE}}, \sigma^2=R^2 \cdot N_{\textrm{PE}} \right)
+\end{equation}
+
+With an approximation of the charge signal output by the PMT, we can consider processor effects.  First, a probability of processor finding the S1, $p_{\textrm{PF}}$,  is determined using the size of the signal and the efficiency curve determined via the simulation discussed in \secref{sec:nerix_pf_efficiency}.    
+
+Finally, we apply a smearing to mainly capture the non-zero resolution of the processor reconstruction but also effects due to noise, position dependence of the light collection efficiency, and time variation of detector parameters.  We assume that effects due to processor reconstruction should diminish as a function of the S1 signal size (this assumption was corroborated via the waveform simulator) and the other effects should be independent of signal size.  The functional form of the generic smearing is shown in \eqnref{eqn:nerix_s1_smearing}.
+
+
+\begin{equation}
+        \label{eqn:nerix_s1_smearing}
+        \begin{gathered}
+                \sigma_{\textrm{S1}} = a_{\textrm{S1}} + b_{\textrm{S1}} \cdot e^{\sfrac{-\textrm{S1}}{c_{\textrm{S1}}}} \\
+                \textrm{S1} \sim N \left( \mu = \textrm{S1}', \sigma^2  = \sigma_{\textrm{S1}}^2 \right)
+        \end{gathered}
+\end{equation}
+
+Since no position dependent effects are considered, the S1 from \eqnref{eqn:nerix_s1_smearing} can be matched to the corrected S1 data.
+
+
+\subsubsection{Detection of Electrons}
+
+
+We do not consider effects from the electron lifetime of the detector, since it is much larger than the maximum drift time of electrons in the TPC and since we compare to corrected data, in the fast Monte Carlo of neriX.  We assume that all electrons reach the liquid surface where they have a probability of extraction into the gas, $p_{\textrm{extracted}}$.
+
+
+\begin{equation}
+        \label{eqn:nerix_binomial_ee}
+        N_{\textrm{extracted}} \sim B \left( N= N_{\textrm{L-G Interface}}, p=p_{\textrm{extracted}} \right)
+\end{equation}
+
+
+With the number of electrons extracted from the gas, we can next account for excitation caused by these electrons in the gaseous xenon as well as the smearing due to the PMTs.  We approximate the number of photoelectrons detected in this secondary amplification as a Gaussian process as shown in \eqnref{eqn:nerix_gas_gain} where $G$ is the mean number of photoelectrons detected for a single extracted electron, $\sigma_G$ is the width of the photoelectron distribution for a single extracted electron, both of which are measured in the calibration described in \secref{sec:nerix_gas_gain}, and $N_{\textrm{PE}}$ is the number of photoelectrons digitized after smearing from the PMTs.
+
+\begin{equation}
+        \label{eqn:nerix_gas_gain}
+        N_{\textrm{PE}} \sim N(\mu=G \cdot c_{G}(x, y), \sigma^2=(\sigma_G)^2)
+\end{equation}
+
+
+With an approximation of the charge signal output by the PMT for the S2, we can consider the probability of a signal of a given size causing a trigger such that the event is digitized and saved.  To determine this probability, $p_{\textrm{Trigger}}$, we simply input the S2 signal size into the curve measured in the trigger efficiency calibration discussed in \secref{sec:nerix_trig_efficiency}.
+
+The final step in the fast Monte Carlo for the S2 of an event is to apply a smearing term in the same way as the S1 to cover effects such as processor reconstruction, electron lifetime, and the variation of detector parameters in time (such as the gas gain).  The functional form of this generic smearing, shown in \eqnref{eqn:nerix_s2_smearing}, is the same as the form used for the S1.
+
+
+\begin{equation}
+        \label{eqn:nerix_s2_smearing}
+        \begin{gathered}
+                \sigma_{\textrm{S2}} = a_{\textrm{S2}} + b_{\textrm{S2}} \cdot e^{\sfrac{-\textrm{S2}}{c_{\textrm{S2}}}} \\
+                \textrm{S2} \sim N \left( \mu = N_{\textrm{PE}}, \sigma^2  = \sigma_{\textrm{S2}}^2 \right)
+        \end{gathered}
+\end{equation}
+
+
+The peak-finding and processor efficiency are combined such that the weight of the event in the histogram that is used to compare the model with the given parameters to data is $w = p_{\textrm{PF}} \cdot p_{\textrm{Trigger}}$.
+
+
+
+\subsection{Energy Inputs for Fast Monte Carlo}
+
+
+Of course the first ingredient for the fast Monte Carlo is the energy spectra.  For nuclear recoil band data (no coincidence requirement), we simply input the expected nuclear recoil spectrum, shown in \figref{fig:nerix_mc_energy_spectra}, given our experimental setup.  For coincidence data, we of course use the expected energy spectra, also shown in \figref{fig:nerix_mc_energy_spectra}, but we must also consider the potential for accidental coincidences between nuclear recoils in the TPC and nuclear recoils in the liquid scintillator since we do not have a fine time-of-flight cut.  In this analysis, we use the nuclear recoil band energy spectrum as the accidental coincidence energy spectrum.  To estimate this background in the data, we introduce an additional parameter into the fit, $p_{\textrm{acc}}$, that defines the probability that the event simulated is from the accidental coincidence spectrum rather than the true coincidence spectrum.  This parameter is unique to each coincidence dataset since the accidental coincidence rate is dependent on the location of the M510 liquid scintillator detectors and on the minitron neutron generator rate, which was not fixed even for data collected with the M510 detectors in the same position (e.g., $35^{\circ}$ data taken at two different electric fields).
+
+
+
+\subsection{Posterior Estimation}
+
+
+The posterior estimation procedure is almost identical to the one outlined for XENON1T in \secref{sec:xe1t_mc_likelihood} and \secref{sec:xe1t_mcmc} with only a minor modification since we have fifteen spectra for fitting.  
+
+As in the XENON1T analysis, we use a binned likelihood to compare the data spectra and Monte Carlo spectra.  However, unlike all previous fixed-angle measurements, we analyze all of the datasets simultaneously to maximize the amount of information used since many parameters are shared between some or all datasets (e.g., $k$ is shared between all datasets while the recombination constant $\sigma_F$ is only shared between datasets taken with the same electric field.  While this is a more ambitious approach, it does have costs in terms of the time required to estimate the posterior since this will increase the dimension of the posterior space and the required time for parameter estimation goes quite generally as $\mathcal{O}(d^2)$.  Therefore, our likelihood is given by \eqnref{eqn:nerix_binned_likelihood} where $i$ is the index for the bins and $j$ is the index of the dataset.
+
+
+\begin{equation}
+        \label{eqn:nerix_binned_likelihood}
+        \begin{gathered}
+                \mathcal{L}_{i,j} = \frac{\hat{b}_{i,j}^{b_{i,j}} e^{-\hat{b}_{i,j}}}{b_{i,j}!} \implies \mathcal{L} = \prod_j \prod_i \mathcal{L}_{i,j} \\ 
+                ln(\mathcal{L}) = \sum_j \sum_i ln(\mathcal{L}_{i,j}) = \sum_j \sum_i ( b_{i,j} ln(\hat{b}_{i,j}) - \hat{b}_{i,j} - ln(b_{i,j}!) )
+        \end{gathered}
+\end{equation}
+
+
+In this analysis, as in the analysis performed for XENON1T, the affine-invariant implementation of a Markov Chain Monte Carlo (MCMC) was used to sample from the posterior.  For a brief summary on MCMCs, please refer to \secref{sec:xe1t_mcmc}.  The priors used were based on the independent calibrations discussed in \secref{sec:nerix_cals} and physical constraints.
+
+Due to the random nature of the fast Monte Carlo simulation used to estimate the PDF in observables space given the parameter, we expect fluctuations in the log-likelihood.  These fluctuations do not effect the outcome of the parameter estimation however they do slow down convergence.  To speed up convergence, one can artificially suppress the log-likelihood but this has the effect of widening the posterior compared to an unsuppressed version of the log-likelihood\cite{anthony2017characterization}.  In this work, we decided to suppress the log-likelihood by a factor of 10 such that fits could be done on a reasonable time-scale and so systematic studies could be performed.  This implies that the results shown could have been improved by increasing the number of fast Monte Carlo events used to estimate the PDF or by allowing the parameter estimation to run for a longer amount of time without suppression. 
+
+
+\subsection{Results}
+
+All fifteen datasets were fit simultaneously using a server optimized for this type of analysis, designed by the author.  The most important feature of the server relevant for this analysis are the six GPU cards that can be used in parallel to provide further increases in speed beyond the CPU versus GPU gap discussed in \secref{app:gpus}.  The full estimation of the posterior takes approximately 1.5 weeks of 24 run time on five of the GPUs.
+
+
+The results of parameter estimation are shown with the data in \figref{}.  For the one-dimensional plots, the data is overlaid by the best-fit result and the 68\% confidence interval of the fit.  The confidence interval is made by randomly drawing parameters from the posterior and taking the $\pm 1 \sigma$ range for each bin in the histogram.
+
+
+
+
+
+
+The marginalized results of parameter estimation are shown in \tabref{tab:nerix_physical_model} for the parameters of microphysics model and in \tabref{tab:nerix_detector_model} for the parameters of the detector model.  A flattened form of the posterior is shown in \figref{fig:nerix_physical_corner} for the parameters of the microphysical model.  
+
+
+\begin{table}[t]
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{c|cc}
+Parameter & Result & Prior \\
+\hline
+$w$ & $13.7 \pm 0.2$ eV & $13.7 \pm 0.2$ \\
+$k$ & $0.188^{+0.008}_{-0.007}$ & - \\
+\end{tabular}
+\caption{The different cathode voltages used during the nuclear recoil measurement of neriX and the corresponding electric field strength and field variance.  The simulation assumes an anode voltage of 4.5 kV, a liquid level 2.5 mm above the gate mesh, and the bottom mesh and gate mesh kept at ground.}
+\label{tab:nerix_electric_fields}
+\end{table}
+
+
+
+
+\subsubsection{Systematic Studies}
+
+
+
+
+% corner plot of physical parameters
+% maybe table with means and covariances
+
+
 
 
 \section{Discussion}

@@ -119,8 +119,17 @@
 \BOOKMARK [2][-]{subsection.4.2.6}{Peak Finding Efficiency}{section.4.2}% 119
 \BOOKMARK [1][-]{section.4.3}{Nuclear Recoil Data Collection}{chapter.4}% 120
 \BOOKMARK [1][-]{section.4.4}{Analysis of Nuclear Recoils in Liquid Xenon}{chapter.4}% 121
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 122
-\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 123
-\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 124
-\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 125
-\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 126
+\BOOKMARK [2][-]{subsection.4.4.1}{Monte Carlo Simulation of Energy Spectra}{section.4.4}% 122
+\BOOKMARK [2][-]{subsection.4.4.2}{Light and Charge Production for Nuclear Recoils}{section.4.4}% 123
+\BOOKMARK [2][-]{subsection.4.4.3}{Detector Model for Signal Production}{section.4.4}% 124
+\BOOKMARK [3][-]{subsubsection.4.4.3.1}{Detection of Scintillation Photons}{subsection.4.4.3}% 125
+\BOOKMARK [3][-]{subsubsection.4.4.3.2}{Detection of Electrons}{subsection.4.4.3}% 126
+\BOOKMARK [2][-]{subsection.4.4.4}{Energy Inputs for Fast Monte Carlo}{section.4.4}% 127
+\BOOKMARK [2][-]{subsection.4.4.5}{Posterior Estimation}{section.4.4}% 128
+\BOOKMARK [2][-]{subsection.4.4.6}{Results}{section.4.4}% 129
+\BOOKMARK [3][-]{subsubsection.4.4.6.1}{Systematic Studies}{subsection.4.4.6}% 130
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 131
+\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 132
+\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 133
+\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 134
+\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 135

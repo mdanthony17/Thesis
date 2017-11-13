@@ -454,8 +454,8 @@ Since the S2 signal size is directly proportional to the number of electrons acc
 	\label{fig:xe1t_electron_lifetime}
 	
 	\centering
-	\includegraphics[width=0.99\textwidth]{xe1t_electron_lifetime_sr0}
-	\caption{The electron lifetime over the course of the first science run of XENON1T.  Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating.  Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials.  Image Credit: \citeref{aprile2017xenon1t}.}
+	\includegraphics[width=0.99\textwidth]{xe1t_electron_lifetime_full}
+	\caption{The electron lifetime over the course of the first science run of XENON1T.  Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating.  Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials.}
 	\label{fig:xe1t_electron_lifetime_sr0}
 \end{figure}
 
@@ -568,6 +568,7 @@ Since the background in XENON1T is thoroughly understood, as outlined in \secref
 
 \figref{fig:xe1t_background_pdf} shows the PDF of the background distribution for the first science run with the cumulative density contours of a 50 $\sfrac{\textrm{GeV}}{\textrm{c}^2}$ WIMP.  These PDF and contours were made using the signal production models that were measured via the electronic and nuclear recoil calibrations.
 
+%Previously, the response of liquid xenon to electronic and nuclear recoils was measured in terms of what is deemed the light and charge yield, which are simply the average light or charge seen per unit energy.  While useful in reconstructing energy, the light and charge yield do not give information regarding regarding the expected fluctuations in 
 
 
 \subsection{Parameter Estimation via Monte Carlo}
@@ -1196,6 +1197,7 @@ Now, having a handle on both the electronic recoil and nuclear recoil models, it
 A subtle point is that changes in the model parameters from the fits will change how the different WIMP and background spectra will look in S1 and S2 signal space.  Ideally, one would produce the spectra using parameters that are randomly sampled from the posterior distributions from the electronic and nuclear recoil calibrations (or the single posterior from the combined calibration).  While accurate, the high dimensionality of the posteriors makes this approach technically impractical without using GPU-based servers (like the ones used for the electronic and nuclear recoil calibrations) since the Monte Carlo must be rerun for every new set of parameters.  Instead, for the first science run it was decided that fixed spectra would be produced for a subset of the parameters that change the scale and shape of the spectra the most.  For nuclear recoils, these parameters were $\gamma$, $\eta$, $\alpha$, and the processor efficiency.  For electronic recoils, the photon yield and the recombination had the greatest effects.  Spectra were produced for each expected type of event varying the parameters at a few fixed point (the mean, $\pm 1 \sigma$, and $\pm 2 \sigma$ from the marginalized posterior) and bin-by-bin linear interpolations were used to estimate spectra not produced.  By following this procedure, the analysis still accounted for the largest sources of uncertainty while avoiding the computationally expensive Monte Carlo\footnote{The hope is that in future runs that the Monte Carlo approach can be used to further improve on the accuracy of a limit or discovery.}.
 
 \section{Results of the First WIMP Search with XENON1T}
+\label{sec:xe1t_wimp_results}
 
 With all of the calibrations performed and armed with an understanding of the signal production model and its uncertainty in our detector, we can finally examine the data taken during the first science run.  The first science run lasted 34.2 days, beginning on November 22, 2016 and unexpectedly ending on January 18, 2017 due to interrupted detector function as a result of a local earthquake.  The drift field inside the TPC was maintained at $116.7 \pm 7.5$ V/cm and the average electron lifetime over the course of the science run was 452 $\mu$s.  A cylindrical fiducial volume with a total mass of $1,042 \pm 12$ kg was used for the first science run.
 
