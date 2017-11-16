@@ -1,275 +1,153 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Contents}{i}{section*.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{vii}{section*.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgements}{xxi}{chapter*.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgements}{xxiii}{chapter*.3}
 \contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}$\Lambda $CDM Model}{1}{section.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Evidence of Dark Matter}{3}{section.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}Dynamical Constraints from Clusters of Galaxies}{3}{subsection.1.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Dynamical Constraints from Galactic Rotation Curves}{3}{subsection.1.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Evidence from Graviational Lensing}{5}{subsection.1.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.4}Evidence from the Cosmic Microwave Background}{7}{subsection.1.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Dark Matter Candidates}{9}{section.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Axions}{10}{subsection.1.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}WIMPs}{11}{subsection.1.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Detecting WIMPs}{12}{section.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}Indirect Detection}{13}{subsection.1.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Collider Detection}{14}{subsection.1.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.3}Direct Detection}{15}{subsection.1.4.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.4}Direct Detection Experiments}{18}{subsection.1.4.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.1}Heat}{19}{subsubsection.1.4.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.2}Scintillation}{20}{subsubsection.1.4.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.3}Ionization}{21}{subsubsection.1.4.4.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.4}Heat-Scintillation}{22}{subsubsection.1.4.4.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.5}Heat-Ionization}{22}{subsubsection.1.4.4.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.4.6}Scintillation-Ionization}{22}{subsubsection.1.4.4.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}Liquid Xenon and Dual-Phase TPCs}{25}{chapter.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}General Properties}{25}{section.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Energy Deposition of Charged Particles in Liquid Xenon}{27}{section.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Electronic Recoils in Liquid Xenon}{31}{section.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Sources of Electronic Recoils}{31}{subsection.2.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.1}Beta Decays}{31}{subsubsection.2.3.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.2}Photons}{33}{subsubsection.2.3.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.3}Neutrons}{34}{subsubsection.2.3.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.4}Neutrinos}{36}{subsubsection.2.3.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Observables Production for Electronic Recoils}{37}{subsection.2.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Nuclear Recoils in Liquid Xenon}{39}{section.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Sources of Nuclear Recoils}{39}{subsection.2.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.1.1}Neutrons}{39}{subsubsection.2.4.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.1.2}Neutrinos}{40}{subsubsection.2.4.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Observables Production for Nuclear Recoils}{40}{subsection.2.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Dual-Phase Time Projection Chambers}{43}{section.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Operating Principle}{43}{subsection.2.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.1.1}Reconstructing Interaction Type}{44}{subsubsection.2.5.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.1.2}Reconstructing Energy}{46}{subsubsection.2.5.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.1.3}Reconstructing Position}{48}{subsubsection.2.5.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Detecting Observables}{50}{subsection.2.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.2.1}Detection of Scintillation Photons: S1}{50}{subsubsection.2.5.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.2.2}Detection of Ionization Electrons: S2}{52}{subsubsection.2.5.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}The First Dark Matter Search with XENON1T}{55}{chapter.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}The XENON1T Detector}{55}{section.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1} Laboratori Nazionali del Gran Sasso}{56}{subsection.3.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Muon Veto}{56}{subsection.3.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}Cryostat}{58}{subsection.3.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.4}Cryogenics System}{61}{subsection.3.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.5}Purification Systems}{62}{subsection.3.1.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.5.1}Electronegative Impurities}{62}{subsubsection.3.1.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.5.2}\mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r}}{63}{subsubsection.3.1.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.6}Recovery and Storage}{64}{subsection.3.1.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.7}Calibration Systems}{64}{subsection.3.1.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.8}Photomultiplier Tubes}{66}{subsection.3.1.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.9}XENON1T TPC}{67}{subsection.3.1.9}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.10}Data Acquisition and Processing}{68}{subsection.3.1.10}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}The Background for the XENON1T Detector}{71}{section.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Background in XENON1T from Detector Materials}{71}{subsection.3.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Electronic Recoil Background in XENON1T}{71}{subsection.3.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2.1}\mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n}}{72}{subsubsection.3.2.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2.2}\mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r}{}}{74}{subsubsection.3.2.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2.3}Solar Neutrinos}{76}{subsubsection.3.2.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2.4}\mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 6}\noexpand X\noexpand e}}{76}{subsubsection.3.2.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Nuclear Recoil Background in XENON1T}{76}{subsection.3.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3.1}Coherent Neutrino-Nucleon Scattering}{77}{subsubsection.3.2.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3.2}Nuclear Recoils from muon-induced neutrons}{78}{subsubsection.3.2.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}The Calibration and Characterization of XENON1T for the First Science Run}{78}{section.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}PMT Characterization}{78}{subsection.3.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Position Reconstruction}{79}{subsection.3.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Position Dependent Corrections}{82}{subsection.3.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.3.1}S1 Position Correction}{82}{subsubsection.3.3.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.3.2}S2 Transverse Position Correction}{84}{subsubsection.3.3.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.3.3}S2 Depth Correction Correction: Electron Lifetime}{85}{subsubsection.3.3.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.4}Single Electron Gain}{87}{subsection.3.3.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.5}Average Light Collection Efficiency and Extraction Efficiency}{88}{subsection.3.3.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.6}Cut Acceptance}{90}{subsection.3.3.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Electronic and Nuclear Recoil Characterization of XENON1T}{91}{section.3.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Significance of the Calibrations}{92}{subsection.3.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Parameter Estimation via Monte Carlo}{92}{subsection.3.4.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.1}Light and Charge Production for Electronic Recoils}{95}{subsubsection.3.4.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.2}Light and Charge Production for Nuclear Recoils}{96}{subsubsection.3.4.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.3}Detector Model for Signal Production}{101}{subsubsection.3.4.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Detection of Scintillation Photons}{101}{section*.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Detection of Electrons}{105}{section*.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.4}Comparing Data and Monte Carlo}{108}{subsubsection.3.4.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.5}Estimating the Posterior Probability Distribution Using a Markov Chain Monte Carlo}{109}{subsubsection.3.4.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.3}ER and NR Calibration Results}{111}{subsection.3.4.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3.1}Results of the Electronic Recoil Calibration}{111}{subsubsection.3.4.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3.2}Results of the Nuclear Recoil Calibration}{117}{subsubsection.3.4.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.4}Propagating Results to the WIMP Search}{122}{subsection.3.4.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Results of the First WIMP Search with XENON1T}{123}{section.3.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}First Science Run Data}{123}{subsection.3.5.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}Background Expectations}{123}{subsection.3.5.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.3}Searching for WIMPs}{126}{subsection.3.5.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Measuring the Low Energy Light and Charge Yield of Nuclear Recoils in Liquid Xenon}{131}{chapter.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Experimental Setup}{133}{section.4.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}neriX Detector}{135}{subsection.4.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.1}TPC}{135}{subsubsection.4.1.1.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.1}TPC}{136}{subsubsection.4.1.1.1}
 \contentsline {subsubsection}{\numberline {4.1.1.2}Cryostat}{137}{subsubsection.4.1.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.3}Purification and Cryogenics System}{138}{subsubsection.4.1.1.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.3}Purification and Cryogenics System}{139}{subsubsection.4.1.1.3}
 \contentsline {subsubsection}{\numberline {4.1.1.4}Pressure Relief System}{140}{subsubsection.4.1.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.1.1.5}Xenon Storage}{141}{subsubsection.4.1.1.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.1.1.6}Electric Field Strength and Uniformity}{141}{subsubsection.4.1.1.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.1.1.7}Data Acquisition System and Processing}{142}{subsubsection.4.1.1.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}Neutron Generator}{142}{subsection.4.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.1}Neutron Energy Spectrum}{143}{subsubsection.4.1.2.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.1}Neutron Energy Spectrum}{144}{subsubsection.4.1.2.1}
 \contentsline {subsubsection}{\numberline {4.1.2.2}Neutron Yield}{146}{subsubsection.4.1.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Liquid Scintillators}{147}{subsection.4.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Data Acquisition System}{149}{subsection.4.1.4}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Liquid Scintillators}{148}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Data Acquisition System}{150}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Characterization and Calibration of neriX}{152}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}PMT Characterization}{152}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Position Reconstruction and Position Dependence}{156}{subsection.4.2.2}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}PMT Characterization}{154}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Position Reconstruction and Position Dependence}{157}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Single Electron Response}{160}{subsection.4.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Anticorrelation}{161}{subsection.4.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Trigger Efficiency}{162}{subsection.4.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Peak Finding Efficiency}{164}{subsection.4.2.6}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Anticorrelation}{162}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Trigger Efficiency}{163}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Peak Finding Efficiency}{165}{subsection.4.2.6}
 \contentsline {section}{\numberline {4.3}Nuclear Recoil Data Collection}{165}{section.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analysis of Nuclear Recoils in Liquid Xenon}{167}{section.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Monte Carlo Simulation of Energy Spectra}{172}{subsection.4.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Light and Charge Production for Nuclear Recoils}{175}{subsection.4.4.2}
-\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Analysis of Nuclear Recoils in Liquid Xenon}{172}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Monte Carlo Simulation of Energy Spectra}{173}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Light and Charge Production for Nuclear Recoils}{174}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Detector Model for Signal Production}{177}{subsection.4.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.3.1}Detection of Scintillation Photons}{177}{subsubsection.4.4.3.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.3.1}Detection of Scintillation Photons}{178}{subsubsection.4.4.3.1}
 \contentsline {subsubsection}{\numberline {4.4.3.2}Detection of Electrons}{179}{subsubsection.4.4.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.4}Energy Inputs for Fast Monte Carlo}{180}{subsection.4.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Posterior Estimation}{180}{subsection.4.4.5}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.5}Posterior Estimation}{181}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}Results}{182}{subsection.4.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.6.1}Systematic Studies}{182}{subsubsection.4.4.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Discussion}{182}{section.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{183}{section*.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}GPUs and Fast Monte Carlo for Parameter Estimation}{197}{appendix.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}New Section}{197}{section.A.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Table of Contents Title}{199}{appendix.B}
+\contentsline {subsubsection}{\numberline {4.4.6.1}Remarks on the Light and Charge Production Model}{183}{subsubsection.4.4.6.1}
+\contentsline {paragraph}{Field Dependence of Exciton-to-Ion Ratio and Recombination}{183}{section*.6}
+\contentsline {paragraph}{Energy Dependence of the Exciton-to-Ion Ratio}{190}{section*.7}
+\contentsline {paragraph}{Physical Model Summary}{192}{section*.8}
+\contentsline {subsubsection}{\numberline {4.4.6.2}Remarks on the Detector Physics Model}{193}{subsubsection.4.4.6.2}
+\contentsline {subsection}{\numberline {4.4.7}Systematic Uncertainties}{194}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}Conclusions}{194}{section.4.5}
+\contentsline {chapter}{Bibliography}{197}{section*.10}
+\contentsline {appendix}{\chapternumberline {A}GPUs and Fast Monte Carlo Matching for Parameter Estimation}{211}{appendix.A}
+\contentsline {section}{\numberline {A.1}Motivation}{211}{section.A.1}
+\contentsline {section}{\numberline {A.2}Parameter Estimation through Monte Carlo}{212}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Overview}{212}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Estimating the Likelihood Using Monte Carlo}{213}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Drawbacks of Monte Carlo Likelihood Estimation}{214}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}Graphical Processing Units for Monte Carlo Matching for Parameter Estimation}{216}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Graphical Processing Units}{216}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}GPU-Based MC Matching Framework}{216}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Speed Gains for GPUs versus CPU}{218}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Parallelizing GPUs}{218}{subsection.A.3.4}
+\contentsline {section}{\numberline {A.4}Discussion}{220}{section.A.4}
+\contentsline {appendix}{\chapternumberline {B}Table of Contents Title}{221}{appendix.B}

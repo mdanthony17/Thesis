@@ -5664,63 +5664,6 @@
   \field{year}{2016}
 \endentry
 
-\entry{aprile2005scintillation}{article}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Aprile}{A.}%
-     {E}{E}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Giboni}{G.}%
-     {KL}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Majewski}{M.}%
-     {P}{P}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ni}{N.}%
-     {K}{K}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Yamashita}{Y.}%
-     {M}{M}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hasty}{H.}%
-     {R}{R}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Manzur}{M.}%
-     {A}{A}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {McKinsey}{M.}%
-     {DN}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {APS}%
-  }
-  \strng{namehash}{AEGKMP+1}
-  \strng{fullhash}{AEGKMPNKYMHRMAMD1}
-  \field{number}{7}
-  \field{pages}{072006}
-  \field{title}{Scintillation response of liquid xenon to low energy nuclear
-  recoils}
-  \field{volume}{72}
-  \field{journaltitle}{Physical Review D}
-  \field{year}{2005}
-\endentry
-
 \entry{manzur2010scintillation}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -5766,6 +5709,17 @@
   \field{volume}{81}
   \field{journaltitle}{Physical Review C}
   \field{year}{2010}
+\endentry
+
+\entry{ej301_manual}{manual}{}
+  \list{organization}{1}{%
+    {Eljen Technology}%
+  }
+  \field{title}{Neutron/Gamma PSD Liquid Scintillator EJ-301, EJ-309}
+  \list{location}{1}{%
+    {1300 W. Broadway, Sweetwater, TX 79556}%
+  }
+  \field{year}{2016}
 \endentry
 
 \entry{plante2011new}{article}{}
@@ -5978,17 +5932,6 @@
   \field{volume}{15}
   \field{journaltitle}{IEEE Transactions on Nuclear Science}
   \field{year}{1968}
-\endentry
-
-\entry{ej301_manual}{manual}{}
-  \list{organization}{1}{%
-    {Eljen Technology}%
-  }
-  \field{title}{Neutron/Gamma PSD Liquid Scintillator EJ-301, EJ-309}
-  \list{location}{1}{%
-    {1300 W. Broadway, Sweetwater, TX 79556}%
-  }
-  \field{year}{2016}
 \endentry
 
 \entry{lang2017improved}{article}{}
@@ -6234,6 +6177,232 @@
   \field{journaltitle}{Philosophical transactions of the Royal Society of
   London}
   \field{year}{1825}
+\endentry
+
+\entry{aprile2005scintillation}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giboni}{G.}%
+     {KL}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Majewski}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ni}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamashita}{Y.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hasty}{H.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manzur}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKinsey}{M.}%
+     {DN}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AEGKMP+1}
+  \strng{fullhash}{AEGKMPNKYMHRMAMD1}
+  \field{number}{7}
+  \field{pages}{072006}
+  \field{title}{Scintillation response of liquid xenon to low energy nuclear
+  recoils}
+  \field{volume}{72}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{2005}
+\endentry
+
+\entry{sorensen2009scintillation}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Sorensen}{S.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manzur}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dahl}{D.}%
+     {CE}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Angle}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aprile}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arneodo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baudis}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernstein}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bolozdynya}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coelho}{C.}%
+     {LCC}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SPMADC+1}
+  \strng{fullhash}{SPMADCAJAEAFBLBABACL+1}
+  \field{number}{3}
+  \field{pages}{339\bibrangedash 346}
+  \field{title}{The scintillation and ionization yield of liquid xenon for
+  nuclear recoils}
+  \field{volume}{601}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2009}
+\endentry
+
+\entry{horn2011nuclear}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Horn}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belov}{B.}%
+     {VA}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akimov}{A.}%
+     {D~Yu}{D.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ara{\'u}jo}{A.}%
+     {HM}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barnes}{B.}%
+     {EJ}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burenkov}{B.}%
+     {AA}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chepel}{C.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Currie}{C.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Edwards}{E.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghag}{G.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HMBVADY+1}
+  \strng{fullhash}{HMBVADYAHBEBACVCAEBGC+1}
+  \field{number}{5}
+  \field{pages}{471\bibrangedash 476}
+  \field{title}{Nuclear recoil scintillation and ionisation yields in liquid
+  xenon from ZEPLIN-III data}
+  \field{volume}{705}
+  \field{journaltitle}{Physics Letters B}
+  \field{year}{2011}
+\endentry
+
+\entry{terrell1992variable}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Terrell}{T.}%
+     {George~R}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scott}{S.}%
+     {David~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{TGRSDW1}
+  \strng{fullhash}{TGRSDW1}
+  \field{pages}{1236\bibrangedash 1265}
+  \field{title}{Variable kernel density estimation}
+  \field{journaltitle}{The Annals of Statistics}
+  \field{year}{1992}
+\endentry
+
+\entry{nvidia_gtx_manual}{manual}{}
+  \list{organization}{1}{%
+    {NVIDIA}%
+  }
+  \field{title}{NVIDIA GeForce GTX 1080}
+  \field{year}{2016}
 \endentry
 
 \lossort

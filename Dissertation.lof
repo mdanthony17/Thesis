@@ -1,215 +1,116 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces A composite image of the Coma Cluster combining X-ray data and optical data. The gas in the cluster is shown in purple. Image Credit: X-ray - NASA/CXC/MPE/J.Sanders et al, Optical - SDSS}}{3}{figure.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The rotation curve of the galaxy NGC 6503 broken down into individual components: visible matter (dashed), gas (dotted), and dark matter (dash dotted) \cite {Begeman1991}. }}{4}{figure.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.3}{\ignorespaces A cartoon showing the deflection of light due to the warping of spacetime caused by the presence of a massive galaxy cluster. Note that for very strong lensing, one expects multiple images of the source object and sometimes even an Einstein Ring around the lense. Image Credit: NASA/ESA.}}{5}{figure.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.4}{\ignorespaces In this optical image you see the massive MACS J1149.6+2223 cluster. In the zoomed portion, you can actually see the same supernova, SN Refsdal, in four smaller images around a large galaxy within the cluster. Image Credit: HST.}}{6}{figure.1.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Infrared (left) and X-ray (right) maps of the Bullet Cluster (1E0657-558). While the plasma in the clusters interacts during the collision of the two individual clusters, as is seen by the shockwave in the center, the majority of the mass passes right through \cite {clowe2006direct}.}}{7}{figure.1.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.6}{\ignorespaces The Planck 2015 measurement of the temperature anisotropy of the CMB. Note that the largest deviations from the mean are on the order of $200 \mu K$ from the 2.725 K mean (roughly 1 in $10^4$). Image Credit: IRSA, Ref.\tmspace +\thinmuskip {.1667em}\cite {Ade2015}.}}{8}{figure.1.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.7}{\ignorespaces The power spectrum of the temperature anisotropies measured by Planck along with the best fit prediction from the $\Lambda $CDM model. $\mathcal {D}_l^{TT}$ is a proxy for $C_i$ and is defined $\mathcal {D}_l^{TT} \equiv l(l+1)C_l / 2 \pi $. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {Ade2015}.}}{9}{figure.1.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.8}{\ignorespaces The projected sensitivity of the ADMX Generation 2 axion search (shaded regions). Note that strong cosmological constraints are placed on the mass range and the axion coupling is also constrained by the mass. The ADMX collaboration predicts that the searches shown will be completed by 2022 \cite {stern2016admx}.}}{11}{figure.1.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.9}{\ignorespaces The three general approaches to WIMP detection: indirect detection, collider detection, and direct detection. Image Credit: \cite {bi2013status}.}}{12}{figure.1.9}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.10}{\ignorespaces An image of a potential WIMP event in the CMS detector at CERN. If a WIMP is present in a collision, momentum would not be conserved after all jets and particles have been accounted for in the collision. Here we can see that after the three jets are reconstructed that there is still a large MET that could potentially be attributed to a WIMP. Image Credit: Matevz Tadel, UC San Diego/CMS.}}{14}{figure.1.10}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.11}{\ignorespaces On the left are the differential scattering rates for a 100 $\sfrac {\textrm {GeV}}{\textrm {c}^2}$ WIMP with a spin independent cross section of $10^{-47} \tmspace +\thinmuskip {.1667em} \textrm {cm}^2$. On the right are the differential recoil spectra for WIMPs scattering with a xenon nuclei with a spin independent cross section of $10^{-47} \tmspace +\thinmuskip {.1667em} \textrm {cm}^2$ assuming different WIMP masses.}}{18}{figure.1.11}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.12}{\ignorespaces A diagram showing the possible observables and observable combinations along with the most common detector types for each. Image courtesy: \cite {undagoitia2015dark}.}}{19}{figure.1.12}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.13}{\ignorespaces The annual modulation seen by the DAMA collaboration. The modulation is statistically significant yet is in contrast to other experiments who fail to see the same signal. Image Credit: \cite {undagoitia2015dark}.}}{21}{figure.1.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Selected spin-independent WIMP limits from selected experiments and the discovery contour from DAMA's annual modulation. The dashed line shown in brown marks the point where neutrinos will become a background source in WIMP searches. Notice that the three liquid xenon dual-phase TPC based experiments (PandaX-II, LUX, and XENON1T) set the strongest limit over a wide range of WIMP masses \cite {agnese2015improved, armengaud2016constraints, savage2009compatibility, amole2017dark, tan2016dark, akerib2017results, aprile2017first, angloher2016results, ruppin2014complementarity}.}}{23}{figure.1.14}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Spin-independent WIMP limits from selected experiments and the discovery contour from DAMA's annual modulation. The dashed line shown in brown marks the point where neutrinos will become a background source in WIMP searches. Notice that the three liquid xenon dual-phase TPC based experiments (PandaX-II, LUX, and XENON1T) set the strongest limit over a wide range of WIMP masses \cite {agnese2015improved, armengaud2016constraints, savage2009compatibility, amole2017dark, tan2016dark, akerib2017results, aprile2017first, angloher2016results, ruppin2014complementarity}.}}{23}{figure.1.14}
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The phase diagram for xenon. Dual-phase xenon TPCs typically operate in the range of 2--3 atm.}}{28}{figure.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A diagram showing the modes in which charged particles may lose energy in liquid xenon. Note that when an electric field is applied, the electron freed during ionization can be extracted such that it can be measured.}}{30}{figure.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The kinetic energy spectrum of electrons resulting from the $\beta ^-$ decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 5}\noexpand K\noexpand r} \cite {mantel1972beta}. Note that roughly 3.1\% of decays are below 15 keV (shaded red region) which puts them inside the energy region of interest of WIMP searches.}}{32}{figure.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The mass attenuation coefficient and the attenuation lengths for photons of different energies in liquid xenon \cite {berger8coll}.}}{34}{figure.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The cross-sections of the three main interaction modes of neutrons in liquid xenon. Note that elastic scattering is the dominant process for almost all energies in the range shown. The data for each isotope of xenon is from Ref.\tmspace +\thinmuskip {.1667em}\cite {chadwick2011endf} and the figure shows the cross-sections weighted by abundance of each isotope in natural xenon.}}{35}{figure.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Solar neutrino fluxes from different processes assuming the BS05(OP) standard solar model. Image Credit: \cite {franarin2016reducing}.}}{37}{figure.2.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces An example of an interaction in a dual-phase liquid xenon time projection chamber. The interaction produces both scintillation light and free electrons. The light is promptly detected by the PMT arrays at the top and bottom of the detector while the free electrons are drifted to the liquid-gas interface where they are extracted and accelerated through the gaseous xenon. This acceleration through the gaseous xenon causes secondary excitations that result in more scintillation light that is detected by the PMT arrays. The time difference between these interactions can be used to extract the depth of the interaction while the PMT hit patterns for the secondary signal can be used to find the interactions position in the transverse plane.}}{45}{figure.2.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Low energy electronic and nuclear recoils in liquid xenon. Note that for a given S1 that the S2 for electronic recoils are usually significantly higher than the corresponding S2 for nuclear recoils. The nuclear recoils are from an americium-beryllium (AmBe) source while the electronic recoils are from the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n} decay chain that results in a $\beta ^-$ emission with a maximum energy of 1.02 MeV.}}{46}{figure.2.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces The field dependence of scintillation and ionization yield in liquid xenon for 122 keV electronic recoils and 56.5 keV nuclear recoils. In blue are the light yields of interactions at a given field relative to the light yield with no applied electric field. In red are the charge yields of interactions relative to the charge yield assuming no recombination. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2006simultaneous}}}{47}{figure.2.9}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces The positions of all events during the first science run of XENON1T. Notice that the overwhelming majority of events occur at the very edge of the detector and can be removed using a fiducial volume.}}{48}{figure.2.10}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces The waveform of the first event seen by XENON1T.}}{50}{figure.2.11}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.12}{\ignorespaces The Hamamatsu R11410 PMT and a schematic illustration of its various components. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2015lowering}.}}{51}{figure.2.12}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 41 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{53}{figure.2.13}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces An example of a gas gain analysis from XENON100. This fit was performed using electrons from photoionization of metal inside of the detector. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2014observation}.}}{54}{figure.2.14}
-\defcounter {refsection}{0}\relax 
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The neutron flux due to cosmogenic muons versus kilometers water equivalent depth for various underground laboratories. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {mei2006muon}.}}{56}{figure.3.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces A cartoon of the muon veto with the TPC centered inside the water tank.}}{57}{figure.3.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces A photo of the inside of the muon veto water tank. The 8'' PMTs can be seen along the edges of the tank and the TPC can be seen in the center of the tank (left side of the photo).}}{58}{figure.3.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces A photo from inside the watertank with the inner cryostat installed. Note the mylar foil around the vessel for insulation against radiative heat transfer.}}{59}{figure.3.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.5}{\ignorespaces A diagram of the cryostat, the TPC, and the subsystems of each. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017material}.}}{60}{figure.3.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces A diagram of the cryostat, the cryogenics system, and the purification systems. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017material}.}}{61}{figure.3.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.7}{\ignorespaces A photograph of RESToX prior to instillation at LNGS.}}{65}{figure.3.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.8}{\ignorespaces A diagram showing the external calibration systems. The ``U-Belt'', which allows for placement of external sources below the TPC, is shown in red while the ``I-Belt'', which allows for the placement of external sources at different heights along the side of the TPC, is shown in blue. Shown in green is the neutron generator which can be raised and lowered along the side of the detector.}}{66}{figure.3.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The quantum efficiencies of the PMTs installed in the XENON1T PMT arrays. Note that, with a few exceptions due to higher radioactivity levels, the highest quantum efficiency PMTs are placed towards the center to maximize light collection. Also note that in general the PMTs used in the bottom array have a higher quantum efficiency than those in the top array since the much smaller S1 signal is mainly seen by the bottom array. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{67}{figure.3.9}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The field simulations for the TPC during the first science run of XENON1T. During this run, a cathode voltage of $-12$ kV was used and an anode voltage of $+4$ kV was used. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{69}{figure.3.10}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.11}{\ignorespaces The PAX output for the first waveform in XENON1T. Shown in blue is the S1 and shown in green is the S2. The grey highlighted areas represent unidentified peaks that are likely due to the high noise rate at this point in the detector operation. Also shown are the timestamps of each signal, used to extract the depth of the interaction, and the PMT hit patterns of the top and bottom PMT arrays, which are used for position reconstruction.}}{70}{figure.3.11}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.12}{\ignorespaces The electronic recoil energy spectrum expected from major background sources. While radiation from materials and the double beta decay of \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 6}\noexpand X\noexpand e} dominate at high energies, \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n} dominates at the lowest energies as can be seen here and in Fig.\tmspace +\thinmuskip {.1667em}\ref {fig:xe1t_er_bkg_low}. This low energy region is of the most concern for dark matter searches. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{73}{figure.3.12}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.13}{\ignorespaces The electronic recoil energy spectrum from background at low energies. Note that under 15 keV, the upper threshold for electronic recoils relevant to the dark matter search, \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 2}\noexpand R\noexpand n}{} is the dominant source of electronic recoils. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{73}{figure.3.13}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.14}{\ignorespaces The \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 8}\noexpand U}{} (left) and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 2}\noexpand T\noexpand h}{} (right) decay chains. The \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 8}\noexpand U}{} chain ultimately produces an intrinsic and the largest background source of electronic recoils in XENON1T while the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 3\noexpand 2}\noexpand T\noexpand h}{} chain results in a very useful electronic recoil calibration source. Image Credit: Berkely Nuclear Forensics Group.}}{75}{figure.3.14}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.15}{\ignorespaces The energy spectra of the different sources of nuclear recoil background. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2016physics}.}}{77}{figure.3.15}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.16}{\ignorespaces A fit of the low light response of one of the XENON1T PMTs in order to characterize the single photoelectron response. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {barrow2017qualification}.}}{80}{figure.3.16}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.17}{\ignorespaces A plot of the width of an S2 versus the drift time for 32 keV events from \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r}. Note that at a certain drift time, no more events are seen. This cut-off in events represents the location of the cathode since interactions below it will not produce an S2.}}{81}{figure.3.17}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.18}{\ignorespaces The distribution of positions of 32 keV events from \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} during the first science run of XENON1T.}}{82}{figure.3.18}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.19}{\ignorespaces The S1 correction map of XENON1T. This correction map shows the relative light yield of events at specific positions relative to the average light yield of the detector for monoenergetic events. One can see the clear trend that events closer to the bottom PMT array have higher light yields than those closer to the liquid-gas interface.}}{83}{figure.3.19}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.20}{\ignorespaces The S2 transverse position correction map of XENON1T. This correction map shows the relative charge yield of events at specific positions relative to the average charge yield of the detector. One can see the trend for the bottom PMT array that events closer to the center of the detector have higher charge yields than events closer to the edges.}}{84}{figure.3.20}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.21}{\ignorespaces An example of an electron lifetime analysis from XENON1T. In this analysis, the 41 keV \mhchem@ce@xiii {\noexpand ^{\noexpand 8\noexpand 3\noexpand m}\noexpand K\noexpand r} electronic recoil is used and the decay's S2 signal size is plotted versus drift time (a proxy for depth). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017xenon1t}.}}{86}{figure.3.21}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.22}{\ignorespaces The electron lifetime over the course of the first science run of XENON1T. Notice the two drops in the electron lifetime corresponding to periods when the purification system was not operating. Shown in red is a prediction of the electron lifetime given the detector operating parameters and outgassing estimates from materials.}}{86}{figure.3.22}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.23}{\ignorespaces A fit of the single electron gain from the first science run of XENON1T. Hits are defined as excursions above threshold for individual PMTs in a time window defined by the waveform summed across all PMTs.}}{88}{figure.3.23}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.24}{\ignorespaces The Doke plot for XENON1T along with the best fit. Note that only the bottom PMT array is used for the S2 signal and that we use the position corrected values of S1 and S2. While the de-excitation from neutron captures in water is shown (\mhchem@ce@xiii {\noexpand ^\noexpand 2\noexpand H} with an de-excitation energy of 2.225 MeV), it is not used for the fit.}}{90}{figure.3.24}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.25}{\ignorespaces The estimated cut acceptances in S1 and S2 for the first science run of XENON1T.}}{91}{figure.3.25}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.26}{\ignorespaces The probability distribution function for the first science run of XENON1T plotted with the cumulative density contours of a 50 $\sfrac {\textrm {GeV}}{\textrm {c}^2}$ WIMP. The combined signal and background PDF is used to either set a limit on the WIMP mass and cross section or claim a discovery.}}{93}{figure.3.26}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.27}{\ignorespaces A flowchart summarizing how a fast Monte Carlo is used to estimate the parameters in the signal production model. Orange steps are done in each iteration of the parameter estimation where as black arrows represent steps that are only done a single time.}}{94}{figure.3.27}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.28}{\ignorespaces The energy spectrum of single scatter and unresolvable multiple scatter nuclear recoils from the americium-beryllium (AmBe) source located in the water tank as predicted by Geant4.}}{98}{figure.3.28}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.29}{\ignorespaces The location of single scatter and unresolvable multiple scatter nuclear recoils from the americium-beryllium (AmBe) source located in the water tank as predicted by Geant4.}}{99}{figure.3.29}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.30}{\ignorespaces The estimated processor efficiency for identifying S1 signals in XENON1T. These efficiencies were found via simulation and the shaded region represents the equally probable values for the efficiency at a given photon level.}}{103}{figure.3.30}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.31}{\ignorespaces The estimated bias and smearing of S1 signals due to the processing of the waveform for scintillation signals.}}{104}{figure.3.31}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.32}{\ignorespaces The estimated bias and smearing of S2 signals due to the processing of the waveform for scintillation signals.}}{107}{figure.3.32}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.33}{\ignorespaces The PDF of accidental coincidence background events in $\textrm {log} \left ( \frac {\textrm {cS2}_{\textrm {b}}}{\textrm {cS1}} \right )$ versus cS1 space for the first dark matter run.}}{114}{figure.3.33}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.34}{\ignorespaces The best-fit PDF for electronic recoils during the \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 0}\noexpand R\noexpand n} electronic recoil calibration. Outside of the two outliers, the agreement between the model and data is extremely good.}}{115}{figure.3.34}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Comparison of the band median and width during the electronic recoil calibration. One can see that the fit provides excellent agreement in the region of interest.}}{115}{figure.3.35}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Comparison of the electronic recoil band in S1 signal space and S2 signal space in different S1 regions. Again, the band parameterization used describes the shape of the data very well.}}{116}{figure.3.36}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.37}{\ignorespaces The best-fit PDF for nuclear recoils during the AmBe nuclear recoil calibration. Both the electronic and nuclear recoil band can clearly be seen.}}{118}{figure.3.37}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.38}{\ignorespaces Shown on top is the nuclear recoil data in S1 space overlaid with the 68\% credible region. In the middle panel is the nuclear recoil data in S1 and S2 signal space and in the bottom panel is the best-fit nuclear recoil Monte Carlo output in S1 and S2 signal space. Overlaid in both of these are the medians of each distribution.}}{119}{figure.3.38}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.39}{\ignorespaces The nuclear recoil data in S2 signal space for various cuts in S1 signal space overlaid with the 68\% credible region.}}{120}{figure.3.39}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.40}{\ignorespaces Observed data in cS2$_\textrm {b}$ vs. cS1 for (a) \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2\noexpand 0}\noexpand R\noexpand n} electronic recoil calibration, (b) AmBe nuclear recoil calibration, and (c) the 34.2 day dark matter search. The lines shown represent the median (solid) and the $\pm 2 \sigma $ (dashed) quantiles of the electronic and nuclear recoils band as measured in the relevant calibration. In panel (c), the purple distribution shows the estimated probability distribution function of a 50 GeV/$\textrm {c}^2$ WIMP. Only data above 3 PE is used in all analyses (unused data shown in gray box). Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017first}.}}{124}{figure.3.40}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.41}{\ignorespaces The expected backgrounds and their rates during the first science run of XENON1T. The electronic recoil and nuclear recoil backgrounds were found by inputting their respective energy spectra into the signal models found via the calibrations discussed earlier. The remaining background spectra were determined empirically.}}{127}{figure.3.41}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.42}{\ignorespaces The spin-independent WIMP-nucleon cross section limits as a function of WIMP mass at 90\% confidence level (black) for this run of XENON1T. In green and yellow are the 1$\sigma $ and 2$\sigma $ sensitivity bands. Shown for reference are the final XENON100 results \cite {aprile2016xenon100} and the most recent results from LUX \cite {akerib2017results} and Panda-X II \cite {collaboration2017dark}. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {aprile2017first}.}}{129}{figure.3.42}
-\defcounter {refsection}{0}\relax 
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A schematic for the experimental setup used in this measurement of the light and charge yields for nuclear recoils. 2.45 MeV neutrons are produced at an angle of $\frac {\pi }{2}$ in the neutron generator. Some of these neutrons scatter a single time in the liquid xenon and then deposit some of their energy in the EJ301 liquid scintillator for discrimination versus background. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {plante2011new}.}}{134}{figure.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A photo of the fixed-angle setup with the neriX detector. On the left is our neutron generator inside of its stainless stell case. In the center is the outer portion of the cryostat and on the right are four of the M510 liquid scintillator detectors.}}{135}{figure.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Two photos of the neriX TPC following routine detector maintenance. In both photos, one can see the plates holding the single 2'' PMTs (bottom) and the array of four 1'' PMTs (top). In the left image, one can see the high voltage feedthrough for the anode. On the right image, one can see the high voltage feedthrough for the cathode and the voltage divider for the field shaping ring. One can also see the stainless steel pipe used to extract xenon from the inner cryostat's buffer and the plastic tube used to feed re-condensed xenon into the system.}}{137}{figure.4.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A schematic for the experimental setup used in this measurement of the light and charge yields for nuclear recoils. 2.45 MeV neutrons are produced at an angle of $\frac {\pi }{2}$ in the neutron generator. Some of these neutrons scatter a single time in the liquid xenon and then deposit some of their energy in the M510 detectors, filled with EJ301 liquid scintillator, for discrimination versus background. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {plante2011new}.}}{134}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A photo of the fixed-angle scattering setup with the neriX detector. On the left is our neutron generator inside of its stainless steel case. In the center is the outer portion of the cryostat and on the right are four of the M510 liquid scintillator detectors.}}{135}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Two photos of the neriX TPC following routine detector maintenance. In both photos, one can see the plates holding the single 2'' PMTs (bottom) and the array of four 1'' PMTs (top). In the left image, one can see the high voltage feedthrough for the anode. In the right image, one can see the high voltage feedthrough for the cathode and the voltage divider for the field shaping ring. One can also see the stainless steel pipe used to extract xenon from the inner cryostat's buffer and the plastic tube used to feed re-condensed xenon into the system.}}{137}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The neriX TPC with meshes and PMTs labelled.}}{138}{figure.4.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces A photo of one of the meshes used in neriX.}}{138}{figure.4.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The neriX TPC inside of the cryostat. Note that excluding the buffer volume (left side of the image) and the space left for the high voltage feedthroughs (right side of the image), very little space is left between the cryostat and the TPC, effectively reducing the amount of inactive xenon for undetectable energy losses.}}{139}{figure.4.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.7}{\ignorespaces A schematic of the cryogenics and purification system for neriX. Also shown are the pressure relief system and the xenon storage system.}}{140}{figure.4.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.8}{\ignorespaces The deuterium-deuterium neutron generator used to produce 2.45 MeV neutrons.}}{143}{figure.4.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.9}{\ignorespaces The electronics of the minitron neutron generator. Image Credit: Ref.\tmspace +\thinmuskip {.1667em}\cite {guillaume_thesis}.}}{144}{figure.4.9}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.10}{\ignorespaces On the left, the minitron in its partially constructed case. Notice that the teflon leaves very little room between the steel and minitron to maximize the potential voltage that can be used without causing an electrical breakdown. On the right, the minitron in its final set position. While not visible, the minitron case has been filled with mineral oil at this point to reduce risk of electrical breakdowns.}}{145}{figure.4.10}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.11}{\ignorespaces The expected angular distribution of neutrons as a function of emission angle for a maximum deuteron energy of 80 keV.}}{147}{figure.4.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed. Shaded regions represents 68\% credible region while dotted lines show the best fits.}}{148}{figure.4.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {\pi }{2}$.}}{148}{figure.4.13}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The NP-2 neutron detector signal rate as a function of beam current, holding the high voltage fixed, and high voltage, holding the beam current fixed. Shaded regions represents 68\% credible region while dotted lines show the best fits.}}{149}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The expected neutron flux from the minitron neutron generator at a distance of 180 cm at an angle of $\frac {\pi }{2}$.}}{149}{figure.4.13}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Discrimination space for one of the four M510 detectors from coincidence data. Notice that a hardware cut is made via a threshold discriminator at approximately 500 mV in order to remove events with poor pulse shape discrimination.}}{150}{figure.4.14}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.15}{\ignorespaces The trigger schematic for the neriX nuclear recoil measurement. For details on the triggers please refer to the text in Sec.\tmspace +\thinmuskip {.1667em}\ref {sec:nerix_daq_trigger}.}}{153}{figure.4.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The fit of the cascade (blue) and Gaussian (red) single photoelectron response model for the bottom PMT at 800 V. The stats shown are for the cascade model which results in a marginally better fit as can be seen from the log likelihood difference. The dotted lines shown are the best fits and the shaded region is the 68\% credible region.}}{155}{figure.4.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces The 68\% credible region for the single photoelectron response for fully-amplified electrons for the bottom PMT at 800 V. Notice that the Gaussian model (red) results in a non-physical response a non-negligible fraction of the time while the cascade model (blue) does not exhibit this behavior.}}{155}{figure.4.17}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The fit of the cascade (blue) and Gaussian (red) single photoelectron response model for the bottom PMT at 800 V. The statistics shown are for the cascade model which results in a marginally better fit as can be seen from the log likelihood difference. The dotted lines shown are the best fits and the shaded region is the 68\% credible region.}}{156}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The 68\% credible region for the single photoelectron response for fully-amplified electrons for the bottom PMT at 800 V. Notice that the Gaussian model (red) results in a non-physical response a non-negligible fraction of the time while the cascade model (blue) does not exhibit this behavior.}}{156}{figure.4.17}
 \contentsline {figure}{\numberline {4.18}{\ignorespaces On the left is the neriX MPE spectrum for the bottom PMT including the collection efficiency function shown on the right.}}{157}{figure.4.18}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.19}{\ignorespaces The spatial distributions of high-energy nuclear recoil events taken at 490 V/cm after fiducial volume and other quality cuts.}}{158}{figure.4.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces The distribution of small S2s in the time after a large S2 at a field of 1020 kV/cm. Notice the two sharply spike peaks around 1.5 and 13 $\mu $s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh. Since we know the distance between these two meshes we can measure the drift velocity at this field.}}{159}{figure.4.20}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces The distribution of small S2s in time after a large S2 at a field of 1020 kV/cm. Notice the two sharply spike peaks around 1.5 and 13 $\mu $s --- these peaks are due to electrons from the photoionization of the gate and cathode mesh, repectively. Since we know the distance between these two meshes we can measure the drift velocity at this field.}}{159}{figure.4.20}
 \contentsline {figure}{\numberline {4.21}{\ignorespaces The depth correction of the S1 (left) and S2 (right) signals as a function of depth in the detector.}}{160}{figure.4.21}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.22}{\ignorespaces The single electron response as measured by the top and bottom PMTs in neriX. Note that the response, even for a single electron, appears to follow a Gaussian distribution. The contours show the outline of the fit and the pink line represents the edge of the fit range.}}{161}{figure.4.22}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Anticorrelation analysis performed on the full absorption peaks \mhchem@ce@xiii {\noexpand ^{\noexpand 1\noexpand 3\noexpand 7}\noexpand C\noexpand s}{} and \mhchem@ce@xiii {\noexpand ^{\noexpand 2\noexpand 2}\noexpand N\noexpand a}{} at five different electric fields. One can also see the best fit of the model shown overlayed.}}{163}{figure.4.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.24}{\ignorespaces The neriX trigger efficiency as measured using a random trigger. Shown overlaid are the best fit alongside the 68\% confidence interval.}}{164}{figure.4.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.25}{\ignorespaces The neriX peak finding efficiency from empirically based waveform simulations.}}{165}{figure.4.25}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces The neriX trigger efficiency as measured using a random trigger. Shown overlaid are the best fit alongside the 68\% credible region.}}{164}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces The neriX peak finding efficiency from empirically based waveform simulations.}}{166}{figure.4.25}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Coincidence data taken with a drift field of 190 V/cm.}}{168}{figure.4.26}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Coincidence data taken with a drift field of 490 V/cm.}}{169}{figure.4.27}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Coincidence data taken with a drift field of 1020 V/cm.}}{170}{figure.4.28}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.29}{\ignorespaces High energy nuclear recoil band data without a coincidence trigger at the three fields measured.}}{171}{figure.4.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.30}{\ignorespaces The expected energy spectra for coincidence data (top) and nuclear recoil band data (bottom). Both of these are used as inputs for the fast Monte Carlo used to estimate the PDF given assumptions on parameters in the signal response model.}}{174}{figure.4.30}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.30}{\ignorespaces The expected energy spectra for coincidence data (top) and nuclear recoil band data (bottom). Both of these are used as inputs for the fast Monte Carlo used to estimate the PDF given assumptions on parameters in the signal response model.}}{175}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Coincidence data taken with a drift field of 190 V/cm compared to Monte Carlo generated spectra. From top to bottom: data in two-dimensions, the best-fit results in two dimensions, data projected into S1 space overlaid with the best-fit model and 68\% credible region, and data projected into S2 space in different S1 regions overlaid with the best-fit model and 68\% credible region.}}{184}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Coincidence data taken with a drift field of 490 V/cm compared to Monte Carlo generated spectra. From top to bottom: data in two-dimensions, the best-fit results in two dimensions, data projected into S1 space overlaid with the best-fit model and 68\% credible region, and data projected into S2 space in different S1 regions overlaid with the best-fit model and 68\% credible region.}}{185}{figure.4.32}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Coincidence data taken with a drift field of 1020 V/cm compared to Monte Carlo generated spectra. From top to bottom: data in two-dimensions, the best-fit results in two dimensions, data projected into S1 space overlaid with the best-fit model and 68\% credible region, and data projected into S2 space in different S1 regions overlaid with the best-fit model and 68\% credible region.}}{186}{figure.4.33}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces The high-energy nuclear recoil band data at all three fields compared to Monte Carlo generated spectra. From top to bottom: data in two-dimensions, the best-fit results in two dimensions, data projected into S1 space overlaid with the best-fit model and 68\% credible region, and data projected into S2 space in different S1 regions overlaid with the best-fit model and 68\% credible region.}}{187}{figure.4.34}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Our estimate of the posterior for the light and charge production model from the MCMC.}}{190}{figure.4.35}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Measured light and charge yields in this work (red, green, and blue band) compared with previous measurements \cite {aprile2005scintillation,aprile2006simultaneous,sorensen2009scintillation,aprile2009new,manzur2010scintillation,horn2011nuclear,plante2011new, aprile2013response,akerib2016low}. The red, green, and blue bands are the results from using the physical observables model while the points come from the matching technique used in previous fixed-angle scattering measurements. The reference line is the best-fit global result from Ref.\tmspace +\thinmuskip {.1667em}\cite {lenardo2015global} at 490 V/cm. An energy cutoff of 3 keV is chosen as this represents an approximately 10\% detection efficiency assuming a light yield of 5.5 photons/keV and charge yield of 7.5 electrons/keV (shown in gray). Note that all measurements of light yield with the exception of this work and of Ref.\tmspace +\thinmuskip {.1667em}\cite {akerib2016low} are extrapolations from $\mathcal {L}_{eff}$ using a light yield of 63 photons/keV for 122 keV electronic recoils..}}{191}{figure.4.36}
 \addvspace {10pt}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The memory flow in the Monte Carlo Matching Framework. The black arrows represent memory transfers that are performed a single time while orange arrows represent memory transfers that are performed in each log-likelihood calculation.}}{218}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The GPU-based server used for the analyses in this work. The actual GPU cards can be seen towards the back of the server (three on the left and right sides).}}{219}{figure.A.2}
 \addvspace {10pt}

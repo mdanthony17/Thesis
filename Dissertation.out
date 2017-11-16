@@ -127,9 +127,21 @@
 \BOOKMARK [2][-]{subsection.4.4.4}{Energy Inputs for Fast Monte Carlo}{section.4.4}% 127
 \BOOKMARK [2][-]{subsection.4.4.5}{Posterior Estimation}{section.4.4}% 128
 \BOOKMARK [2][-]{subsection.4.4.6}{Results}{section.4.4}% 129
-\BOOKMARK [3][-]{subsubsection.4.4.6.1}{Systematic Studies}{subsection.4.4.6}% 130
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 131
-\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 132
-\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo for Parameter Estimation}{}% 133
-\BOOKMARK [1][-]{section.A.1}{New Section}{appendix.A}% 134
-\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 135
+\BOOKMARK [3][-]{subsubsection.4.4.6.1}{Remarks on the Light and Charge Production Model}{subsection.4.4.6}% 130
+\BOOKMARK [3][-]{subsubsection.4.4.6.2}{Remarks on the Detector Physics Model}{subsection.4.4.6}% 131
+\BOOKMARK [2][-]{subsection.4.4.7}{Systematic Uncertainties}{section.4.4}% 132
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 133
+\BOOKMARK [0][-]{section*.10}{Bibliography}{}% 134
+\BOOKMARK [0][-]{appendix.A}{GPUs and Fast Monte Carlo Matching for Parameter Estimation}{}% 135
+\BOOKMARK [1][-]{section.A.1}{Motivation}{appendix.A}% 136
+\BOOKMARK [1][-]{section.A.2}{Parameter Estimation through Monte Carlo}{appendix.A}% 137
+\BOOKMARK [2][-]{subsection.A.2.1}{Overview}{section.A.2}% 138
+\BOOKMARK [2][-]{subsection.A.2.2}{Estimating the Likelihood Using Monte Carlo}{section.A.2}% 139
+\BOOKMARK [2][-]{subsection.A.2.3}{Drawbacks of Monte Carlo Likelihood Estimation}{section.A.2}% 140
+\BOOKMARK [1][-]{section.A.3}{Graphical Processing Units for Monte Carlo Matching for Parameter Estimation}{appendix.A}% 141
+\BOOKMARK [2][-]{subsection.A.3.1}{Graphical Processing Units}{section.A.3}% 142
+\BOOKMARK [2][-]{subsection.A.3.2}{GPU-Based MC Matching Framework}{section.A.3}% 143
+\BOOKMARK [2][-]{subsection.A.3.3}{Speed Gains for GPUs versus CPU}{section.A.3}% 144
+\BOOKMARK [2][-]{subsection.A.3.4}{Parallelizing GPUs}{section.A.3}% 145
+\BOOKMARK [1][-]{section.A.4}{Discussion}{appendix.A}% 146
+\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 147
