@@ -144,4 +144,12 @@
 \BOOKMARK [2][-]{subsection.A.3.3}{Speed Gains for GPUs versus CPU}{section.A.3}% 144
 \BOOKMARK [2][-]{subsection.A.3.4}{Parallelizing GPUs}{section.A.3}% 145
 \BOOKMARK [1][-]{section.A.4}{Discussion}{appendix.A}% 146
-\BOOKMARK [0][-]{appendix.B}{Table of Contents Title}{}% 147
+\BOOKMARK [0][-]{appendix.B}{Characterization of Photomultiplier Tubes with the Cascade Model}{}% 147
+\BOOKMARK [1][-]{section.B.1}{Motivation}{appendix.B}% 148
+\BOOKMARK [1][-]{section.B.2}{The Cascade Single Photoelectron Charge Response Model}{appendix.B}% 149
+\BOOKMARK [1][-]{section.B.3}{Data Collection}{appendix.B}% 150
+\BOOKMARK [1][-]{section.B.4}{Results}{appendix.B}% 151
+\BOOKMARK [2][-]{subsection.B.4.1}{Response Characterizations}{section.B.4}% 152
+\BOOKMARK [2][-]{subsection.B.4.2}{Hamamatsu R11410 Analysis}{section.B.4}% 153
+\BOOKMARK [2][-]{subsection.B.4.3}{Hamamatsu R6041-406 Analysis}{section.B.4}% 154
+\BOOKMARK [1][-]{section.B.5}{Conclusions}{appendix.B}% 155

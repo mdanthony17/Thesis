@@ -6398,11 +6398,206 @@
 \endentry
 
 \entry{nvidia_gtx_manual}{manual}{}
-  \list{organization}{1}{%
-    {NVIDIA}%
-  }
   \field{title}{NVIDIA GeForce GTX 1080}
   \field{year}{2016}
+\endentry
+
+\entry{bellamy1994absolute}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Bellamy}{B.}%
+     {EH}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bellettini}{B.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Budagov}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cervelli}{C.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chirikov-Zorin}{C.-Z.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Incagli}{I.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lucchesi}{L.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pagliarone}{P.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tokar}{T.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zetti}{Z.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{BEBGBJ+1}
+  \strng{fullhash}{BEBGBJCFCZIIMLDPCTSZF1}
+  \field{number}{3}
+  \field{pages}{468\bibrangedash 476}
+  \field{title}{Absolute calibration and monitoring of a spectrometric channel
+  using a photomultiplier}
+  \field{volume}{339}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{1994}
+\endentry
+
+\entry{dossi2000methods}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Dossi}{D.}%
+     {Roberto}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ianni}{I.}%
+     {Aldo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ranucci}{R.}%
+     {Gioacchino}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smirnov}{S.}%
+     {O~Ju}{O.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{DRIARG+1}
+  \strng{fullhash}{DRIARGSOJ1}
+  \field{number}{3}
+  \field{pages}{623\bibrangedash 637}
+  \field{title}{Methods for precise photoelectron counting with
+  photomultipliers}
+  \field{volume}{451}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2000}
+\endentry
+
+\entry{de2010methods}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {De~Haas}{D.~H.}%
+     {JTM}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dorenbos}{D.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{DHJDP1}
+  \strng{fullhash}{DHJDP1}
+  \field{booktitle}{Nuclear Science Symposium Conference Record (NSS/MIC), 2010
+  IEEE}
+  \field{pages}{205\bibrangedash 210}
+  \field{title}{Methods for accurate measurement of the response of
+  photomultiplier tubes and intensity of light pulses}
+  \field{year}{2010}
+\endentry
+
+\entry{tan1982statistical}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tan}{T.}%
+     {Harry~H}{H.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {International Foundation for Telemetering}%
+  }
+  \strng{namehash}{THH1}
+  \strng{fullhash}{THH1}
+  \field{booktitle}{International Telemetering Conference Proceedings}
+  \field{title}{A statistical model of the photomultiplier gain process with
+  applications to optical pulse detection}
+  \field{year}{1982}
+\endentry
+
+\entry{dwarakanath2014sampling}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dwarakanath}{D.}%
+     {Nagarjun~C}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Galbraith}{G.}%
+     {Steven~D}{S.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{DNCGSD1}
+  \strng{fullhash}{DNCGSD1}
+  \field{number}{3}
+  \field{pages}{159\bibrangedash 180}
+  \field{title}{Sampling from discrete Gaussians for lattice-based cryptography
+  on a constrained device}
+  \field{volume}{25}
+  \field{journaltitle}{Applicable Algebra in Engineering, Communication and
+  Computing}
+  \field{year}{2014}
+\endentry
+
+\entry{mayani_thesis}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mayani}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MD1}
+  \strng{fullhash}{MD1}
+  \field{title}{Photomultiplier Tubes for the XENON1T Dark Matter Experiment
+  and Studies on the XENON100 Electromagnetic Background}
+  \list{institution}{1}{%
+    {University of Zurich}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2017}
 \endentry
 
 \lossort

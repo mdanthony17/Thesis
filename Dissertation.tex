@@ -37,6 +37,10 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[ocgcolorlinks, linktocpage]{hyperref}
+\hypersetup{
+    linkcolor =[RGB]{0,130,200},
+    citecolor =[RGB]{60,180,75}
+}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subfig}
@@ -45,7 +49,8 @@
 %\usepackage{subcaption}
 \usepackage{siunitx}
 %\usepackage[sort&compress,numbers]{natbib}
-
+\usepackage{multirow}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 \usepackage{cleveref}
 \crefformat{footnote}{#2\footnotemark[#1]#3}

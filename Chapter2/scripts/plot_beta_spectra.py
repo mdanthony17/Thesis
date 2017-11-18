@@ -76,6 +76,8 @@ ax_beta.text(470, 0.9*max(a_y), s_plot, size='medium', color='k')
 ax_beta.set_xlim(1, 687)
 #ax_beta.set_xscale('log')
 ax_beta.set_ylim(0, 1.1*max(a_y))
+#ax_beta.get_yaxis().set_visible(False)
+ax_beta.set_ylabel(r'$p(E)$')
 
 ax_beta.set_xlabel('$\mathrm{e}^-$ Kinetic Energy [keV]')
 #ax_beta.set_ylabel('PDF')
