@@ -1533,13 +1533,6 @@
   organization = {IEEE},
 }
 
-@Misc{carter1980photomultiplier,
-  author    = {Carter, D},
-  title     = {Photomultiplier handbook: Theory, design, application, Lancaster,(PA): Burle Industries},
-  year      = {1980},
-  publisher = {Inc},
-}
-
 @InProceedings{tan1982statistical,
   author       = {Tan, Harry H},
   title        = {A statistical model of the photomultiplier gain process with applications to optical pulse detection},

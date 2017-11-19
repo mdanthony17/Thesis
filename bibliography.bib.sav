@@ -1559,4 +1559,14 @@
   year   = {2017},
 }
 
+@Article{guggenheim1937theoretical,
+  author    = {Guggenheim, EA},
+  title     = {The theoretical basis of Raoult's law},
+  journal   = {Transactions of the Faraday Society},
+  year      = {1937},
+  volume    = {33},
+  pages     = {151--156},
+  publisher = {Royal Society of Chemistry},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
