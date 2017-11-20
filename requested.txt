@@ -1,0 +1,6 @@
+py27-cairo
+py27-ipython
+py27-pyqwt
+py27-statsmodels
+python27
+R

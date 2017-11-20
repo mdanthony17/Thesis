@@ -52,7 +52,7 @@
 
 @Article{fixsen1996cosmic,
   author    = {Fixsen, DJ and Cheng, ES and Gales, JM and Mather, John C and Shafer, RA and Wright, EL},
-  title     = {The Cosmic Microwave Background Spectrum from the Full COBE* FIRAS Data Set},
+  title     = {The Cosmic Microwave Background Spectrum from the Full {COBE FIRAS} Data Set},
   journal   = {The Astrophysical Journal},
   year      = {1996},
   volume    = {473},
@@ -63,7 +63,7 @@
 
 @Article{axion_1977,
   author    = {Peccei, Roberto D and Quinn, Helen R},
-  title     = {CP conservation in the presence of pseudoparticles},
+  title     = {{CP} conservation in the presence of pseudoparticles},
   journal   = {Physical Review Letters},
   year      = {1977},
   volume    = {38},
@@ -140,7 +140,7 @@
 
 @Article{stern2016admx,
   author  = {Stern, Ian},
-  title   = {ADMX status},
+  title   = {{ADMX} status},
   journal = {arXiv preprint arXiv:1612.08296},
   year    = {2016},
 }
@@ -154,7 +154,7 @@
 
 @Article{Ade2015,
   author        = {Ade, Peter AR and Salvatelli, V and Stolyarov, V and Desert, FX and Knoche, J and Giard, M and Dupac, X and Liguori, M and Matarrese, S and Huang, Z and others},
-  title         = {Planck 2015 results. XIII. Cosmological parameters},
+  title         = {Planck 2015 results. {XIII} Cosmological parameters},
   journal       = {Astron. Astrophys.},
   year          = {2015},
   volume        = {594},
@@ -190,7 +190,7 @@
 
 @Article{bennett1996four,
   author    = {Bennett, Charles L and Banday, Anthony J and G{\'o}rski, Krzysztof M and Hinshaw, G and Jackson, P and Keegstra, P and Kogut, A and Smoot, George F and Wilkinson, David T and Wright, Edward L},
-  title     = {Four-year COBE* DMR cosmic microwave background observations: maps and basic results},
+  title     = {Four-year {COBE DMR} cosmic microwave background observations: maps and basic results},
   journal   = {The Astrophysical Journal Letters},
   year      = {1996},
   volume    = {464},
@@ -201,7 +201,7 @@
 
 @Article{komatsu2011seven,
   author    = {Komatsu, Eiichiro and Smith, KM and Dunkley, J and Bennett, CL and Gold, B and Hinshaw, G and Jarosik, N and Larson, D and Nolta, MR and Page, L and others},
-  title     = {Seven-year wilkinson microwave anisotropy probe (WMAP*) observations: cosmological interpretation},
+  title     = {Seven-year {Wilkinson Microwave Anisotropy Probe (WMAP)} observations: cosmological interpretation},
   journal   = {The Astrophysical Journal Supplement Series},
   year      = {2011},
   volume    = {192},
@@ -252,7 +252,7 @@
 
 @Article{stadel2009quantifying,
   author    = {Stadel, Joachim and Potter, Doug and Moore, Ben and Diemand, J{\"u}rg and Madau, Piero and Zemp, Marcel and Kuhlen, Michael and Quilis, Vicent},
-  title     = {Quantifying the heart of darkness with GHALO--a multibillion particle simulation of a galactic halo},
+  title     = {Quantifying the heart of darkness with {GHALO}--a multibillion particle simulation of a galactic halo},
   journal   = {Monthly Notices of the Royal Astronomical Society: Letters},
   year      = {2009},
   volume    = {398},
@@ -307,14 +307,14 @@
 
 @Article{zitzer2015search,
   author  = {Zitzer, Benjamin and others},
-  title   = {Search for dark matter from dwarf galaxies using VERITAS},
+  title   = {Search for dark matter from dwarf galaxies using {VERITAS}},
   journal = {arXiv preprint arXiv:1509.01105},
   year    = {2015},
 }
 
 @Article{conrad2014indirect,
   author  = {Conrad, Jan},
-  title   = {Indirect Detection of WIMP Dark Matter: a compact review},
+  title   = {Indirect Detection of {WIMP} Dark Matter: a compact review},
   journal = {arXiv preprint arXiv:1411.1925},
   year    = {2014},
 }
@@ -350,7 +350,7 @@
 
 @Article{kopp2009dama,
   author    = {Kopp, Joachim and Niro, Viviana and Schwetz, Thomas and Zupan, Jure},
-  title     = {DAMA/LIBRA data and leptonically interacting dark matter},
+  title     = {{DAMA/LIBRA} data and leptonically interacting dark matter},
   journal   = {Physical Review D},
   year      = {2009},
   volume    = {80},
@@ -361,7 +361,7 @@
 
 @Article{piffl2014rave,
   author    = {Piffl, Tilmann and Scannapieco, Cecilia and Binney, James and Steinmetz, Matthias and Scholz, R-D and Williams, Mary EK and De Jong, Roelof S and Kordopatis, Georges and Matijevi{\v{c}}, Gal and Bienayme, Olivier and others},
-  title     = {The RAVE survey: the Galactic escape speed and the mass of the Milky Way},
+  title     = {The {RAVE} survey: the Galactic escape speed and the mass of the {Milky Way}},
   journal   = {Astronomy \& Astrophysics},
   year      = {2014},
   volume    = {562},
@@ -393,7 +393,7 @@
 
 @Article{strauss2016exploring,
   author    = {Strauss, R and Angloher, G and Bento, A and Bucci, C and Canonica, L and Defay, X and Erb, A and Feilitzsch, F v and Iachellini, N Ferreiro and Gorla, P and others},
-  title     = {Exploring low-mass dark matter with CRESST},
+  title     = {Exploring low-mass dark matter with {CRESST}},
   journal   = {Journal of Low Temperature Physics},
   year      = {2016},
   volume    = {184},
@@ -404,7 +404,7 @@
 
 @Article{amole2017dark,
   author    = {Amole, C and Ardid, M and Arnquist, Isaac J and Asner, David M and Baxter, D and Behnke, E and Bhattacharjee, P and Borsodi, H and Bou-Cabo, M and Campion, P and others},
-  title     = {Dark Matter Search Results from the PICO- 60 C 3 F 8 Bubble Chamber},
+  title     = {Dark Matter Search Results from the {PICO-60} {$\textrm{C}_3 \textrm{F}_8$} Bubble Chamber},
   journal   = {Physical review letters},
   year      = {2017},
   volume    = {118},
@@ -415,7 +415,7 @@
 
 @InProceedings{bernabei2010particle,
   author       = {Bernabei, R and Belli, P and Cappella, F and Cerulli, R and Dai, CJ and d’Angelo, A and He, HL and Incicchitti, A and Ma, XH and Montecchia, F and others},
-  title        = {Particle dark matter and DAMA/LIBRA},
+  title        = {Particle dark matter and {DAMA/LIBRA}},
   booktitle    = {AIP Conference Proceedings},
   year         = {2010},
   volume       = {1223},
@@ -426,7 +426,7 @@
 
 @Article{aprile2017search,
   author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {Search for Electronic Recoil Event Rate Modulation with 4 Years of XENON100 Data},
+  title     = {Search for Electronic Recoil Event Rate Modulation with 4 Years of {XENON100} Data},
   journal   = {Physical Review Letters},
   year      = {2017},
   volume    = {118},
@@ -436,8 +436,8 @@
 }
 
 @Article{xmass2016direct,
-  author    = {XMASS collaboration and others},
-  title     = {Direct dark matter search by annual modulation in XMASS-I},
+  author    = {{XMASS Collaboration}},
+  title     = {Direct dark matter search by annual modulation in {XMASS-I}},
   journal   = {Physics Letters B},
   year      = {2016},
   volume    = {759},
@@ -458,28 +458,28 @@
 
 @Article{amaudruz2017first,
   author  = {Amaudruz, P-A and Baldwin, M and Batygov, M and Beltran, B and Bina, CE and Bishop, D and Bonatt, J and Boorman, G and Boulay, MG and Broerman, B and others},
-  title   = {First results from the DEAP-3600 dark matter search with argon at SNOLAB},
+  title   = {First results from the {DEAP-3600} dark matter search with argon at {SNOLAB}},
   journal = {arXiv preprint arXiv:1707.08042},
   year    = {2017},
 }
 
 @Article{aalseth2014maximum,
   author  = {Aalseth, CE and Barbeau, PS and Leon, J Diaz and Fast, JE and Hossbach, TW and Knecht, A and Kos, MS and Marino, MG and Miley, HS and Miller, ML and others},
-  title   = {Maximum likelihood signal extraction method applied to 3.4 years of CoGeNT data},
+  title   = {Maximum likelihood signal extraction method applied to 3.4 years of {CoGeNT} data},
   journal = {arXiv preprint arXiv:1401.6234},
   year    = {2014},
 }
 
 @Article{aalseth2014search,
   author  = {Aalseth, CE and Barbeau, PS and Colaresi, J and Collar, JI and Leon, J Diaz and Fast, JE and Fields, NE and Hossbach, TW and Knecht, A and Kos, MS and others},
-  title   = {Search for an annual modulation in three years of CoGeNT dark matter detector data},
+  title   = {Search for an annual modulation in three years of {CoGeNT} dark matter detector data},
   journal = {arXiv preprint arXiv:1401.3295},
   year    = {2014},
 }
 
 @Article{armengaud2016constraints,
   author    = {Armengaud, E and Arnaud, Q and Augier, C and Benoit, A and Berg{\'e}, L and Bergmann, T and Billard, J and Bl{\"u}mer, J and De Boissi{\`e}re, T and Bres, G and others},
-  title     = {Constraints on low-mass WIMPs from the EDELWEISS-III dark matter search},
+  title     = {Constraints on low-mass {WIMPs} from the {EDELWEISS-III} dark matter search},
   journal   = {Journal of Cosmology and Astroparticle Physics},
   year      = {2016},
   volume    = {2016},
@@ -490,21 +490,21 @@
 
 @Article{aprile2017first,
   author  = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, B and others},
-  title   = {First Dark Matter Search Results from the XENON1T Experiment},
+  title   = {First Dark Matter Search Results from the {XENON1T} Experiment},
   journal = {arXiv preprint arXiv:1705.06655},
   year    = {2017},
 }
 
 @Article{collaboration2017dark,
   author  = {Collaboration, PandaX-II and Cui, Xiangyi and Abdukerim, Abdusalam and Chen, Wei and Chen, Xun and Chen, Yunhua and Dong, Binbin and Fang, Deqing and Fu, Changbo and Giboni, Karl and others},
-  title   = {Dark Matter Results From 54-Ton-Day Exposure of PandaX-II Experiment},
+  title   = {Dark Matter Results From 54-Ton-Day Exposure of {PandaX-II} Experiment},
   journal = {arXiv preprint arXiv:1708.06917},
   year    = {2017},
 }
 
 @Article{agnese2015improved,
   author    = {Agnese, R and Anderson, AJ and Asai, M and Balakishiyeva, D and Barker, D and Thakur, R Basu and Bauer, DA and Billard, J and Borgland, A and Bowles, MA and others},
-  title     = {Improved WIMP-search reach of the CDMS II germanium data},
+  title     = {Improved {WIMP}-search reach of the {CDMS II} germanium data},
   journal   = {Physical Review D},
   year      = {2015},
   volume    = {92},
@@ -515,7 +515,7 @@
 
 @Article{savage2009compatibility,
   author    = {Savage, Christopher and Gelmini, Graciela and Gondolo, Paolo and Freese, Katherine},
-  title     = {Compatibility of DAMA/LIBRA dark matter detection with other searches},
+  title     = {Compatibility of {DAMA/LIBRA} dark matter detection with other searches},
   journal   = {Journal of Cosmology and Astroparticle Physics},
   year      = {2009},
   volume    = {2009},
@@ -526,7 +526,7 @@
 
 @Article{tan2016dark,
   author    = {Tan, Andi and Xiao, Mengjiao and Cui, Xiangyi and Chen, Xun and Chen, Yunhua and Fang, Deqing and Fu, Changbo and Giboni, Karl and Giuliani, Franco and Gong, Haowei and others},
-  title     = {Dark matter results from first 98.7 days of data from the PandaX-II experiment},
+  title     = {Dark matter results from first 98.7 days of data from the {PandaX-II} experiment},
   journal   = {Physical review letters},
   year      = {2016},
   volume    = {117},
@@ -537,7 +537,7 @@
 
 @Article{akerib2017results,
   author    = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
-  title     = {Results from a search for dark matter in the complete LUX exposure},
+  title     = {Results from a search for dark matter in the complete {LUX} exposure},
   journal   = {Physical Review Letters},
   year      = {2017},
   volume    = {118},
@@ -548,7 +548,7 @@
 
 @Article{angloher2016results,
   author    = {Angloher, G and Bento, A and Bucci, C and Canonica, L and Defay, X and Erb, A and von Feilitzsch, F and Iachellini, N Ferreiro and Gorla, P and G{\"u}tlein, A and others},
-  title     = {Results on light dark matter particles with a low-threshold CRESST-II detector},
+  title     = {Results on light dark matter particles with a low-threshold {CRESST-II} detector},
   journal   = {The European Physical Journal C},
   year      = {2016},
   volume    = {76},
@@ -570,7 +570,7 @@
 
 @Article{albert2014improved,
   author    = {Albert, JB and Auger, M and Auty, DJ and Barbeau, PS and Beauchamp, E and Beck, D and Belov, V and Benitez-Medina, C and Bonatt, J and Breidenbach, M and others},
-  title     = {Improved measurement of the 2 {$\nu \beta \beta$} half-life of 136 Xe with the EXO-200 detector},
+  title     = {Improved measurement of the {$2 \nu \beta \beta$} half-life of {Xe-136} with the {EXO-200} detector},
   journal   = {Physical Review C},
   year      = {2014},
   volume    = {89},
@@ -614,7 +614,7 @@
 
 @Misc{rankin2009crc,
   author    = {Rankin, David WH},
-  title     = {CRC handbook of chemistry and physics, edited by David R. Lide},
+  title     = {{CRC} handbook of chemistry and physics},
   year      = {2009},
   publisher = {Taylor \& Francis},
 }
@@ -637,17 +637,6 @@
   publisher = {Elsevier},
 }
 
-@Article{aprile2017radon,
-  author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {Results from a calibration of XENON100 using a source of dissolved radon-220},
-  journal   = {Physical Review D},
-  year      = {2017},
-  volume    = {95},
-  number    = {7},
-  pages     = {072008},
-  publisher = {APS},
-}
-
 @Article{akerib2016tritium,
   author    = {Akerib, DS and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and Boulton, EM and others},
   title     = {Tritium calibration of the LUX dark matter experiment},
@@ -661,7 +650,7 @@
 
 @Article{aprile2017tritium,
   author  = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, B and others},
-  title   = {Signal Yields of keV Electronic Recoils and Their Discrimination from Nuclear Recoils in Liquid Xenon},
+  title   = {Signal Yields of {keV} Electronic Recoils and Their Discrimination from Nuclear Recoils in Liquid Xenon},
   journal = {arXiv preprint arXiv:1709.10149},
   year    = {2017},
 }
@@ -675,7 +664,7 @@
 
 @Article{berger8coll,
   author  = {Berger, MJ},
-  title   = {XCOM: Photon Cross Sections Database},
+  title   = {{XCOM}: Photon Cross Sections Database},
   journal = {NIST Standard Reference Database 8 (XGAM)},
   year    = {2013},
 }
@@ -736,7 +725,7 @@
 
 @PhdThesis{dahl_thesis,
   author = {Eric Dahl},
-  title  = {The physics of background discrimination in liquid xenon, and first results from Xenon10 in the hunt for WIMP dark matter.},
+  title  = {The physics of background discrimination in liquid xenon, and first results from {Xenon10} in the hunt for {WIMP} dark matter.},
   school = {Princeton University},
   year   = {2009},
 }
@@ -754,7 +743,7 @@
 
 @Article{aprile2007observation,
   author    = {Aprile, E and Giboni, KL and Majewski, P and Ni, K and Yamashita, M},
-  title     = {Observation of anticorrelation between scintillation and ionization for MeV gamma rays in liquid xenon},
+  title     = {Observation of anticorrelation between scintillation and ionization for {MeV} gamma rays in liquid xenon},
   journal   = {Physical Review B},
   year      = {2007},
   volume    = {76},
@@ -784,7 +773,7 @@
 
 @Article{chadwick2011endf,
   author    = {Chadwick, MB and Herman, M and Oblo{\v{z}}insk{\`y}, P and Dunn, Michael E and Danon, Y and Kahler, AC and Smith, Donald L and Pritychenko, B and Arbanas, Goran and Arcilla, R and others},
-  title     = {ENDF/B-VII. 1 nuclear data for science and technology: cross sections, covariances, fission product yields and decay data},
+  title     = {{ENDF/B-VII.} 1 nuclear data for science and technology: cross sections, covariances, fission product yields and decay data},
   journal   = {Nuclear Data Sheets},
   year      = {2011},
   volume    = {112},
@@ -795,7 +784,7 @@
 
 @Article{timar2014nuclear,
   author    = {Timar, Janos and Elekes, Zoltan and Singh, Balraj},
-  title     = {Nuclear Data Sheets for A= 129},
+  title     = {Nuclear Data Sheets for {A=129}},
   journal   = {Nuclear Data Sheets},
   year      = {2014},
   volume    = {121},
@@ -805,7 +794,7 @@
 
 @Article{khazov2006nuclear,
   author    = {Khazov, Yu and Mitropolsky, I and Rodionov, A},
-  title     = {Nuclear data sheets for A= 131},
+  title     = {Nuclear data sheets for {A=131}},
   journal   = {Nuclear Data Sheets},
   year      = {2006},
   volume    = {107},
@@ -827,7 +816,7 @@
 
 @Article{aprile2016physics,
   author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arazi, L and Arneodo, F and Balan, C and Barrow, P and others},
-  title     = {Physics reach of the XENON1T dark matter experiment.},
+  title     = {Physics reach of the {XENON1T} dark matter experiment.},
   journal   = {Journal of Cosmology and Astroparticle Physics},
   year      = {2016},
   volume    = {2016},
@@ -838,7 +827,7 @@
 
 @Article{barros2014double,
   author    = {Barros, N and Thurn, J and Zuber, K},
-  title     = {Double beta decay searches of 134Xe, 126Xe and 124Xe with large scale Xe detectors},
+  title     = {Double beta decay searches of {Xe-134}, {Xe-126}, and {Xe-124} with large scale xenon detectors},
   journal   = {Journal of Physics G: Nuclear and Particle Physics},
   year      = {2014},
   volume    = {41},
@@ -860,7 +849,7 @@
 
 @Article{angle2011search,
   author    = {Angle, J and Aprile, E and Arneodo, F and Baudis, L and Bernstein, A and Bolozdynya, AI and Coelho, LCC and Dahl, CE and DeViveiros, L and Ferella, AD and others},
-  title     = {Search for light dark matter in XENON10 data},
+  title     = {Search for light dark matter in {XENON10} data},
   journal   = {Physical Review Letters},
   year      = {2011},
   volume    = {107},
@@ -942,7 +931,7 @@
 
 @Article{silva2009reflectance,
   author  = {Silva, C and Pinto da Cunha, J and Chepel, V and Solovov, V and Neves, F and Pereira, A and Lopes, MI},
-  title   = {Reflectance of polytetrafluoroethylene (PTFE) for xenon scintillation light},
+  title   = {Reflectance of polytetrafluoroethylene ({PTFE}) for xenon scintillation light},
   journal = {J. Appl. Phys.},
   year    = {2009},
   volume  = {107},
@@ -952,7 +941,7 @@
 
 @Article{neves2017measurement,
   author    = {Neves, F and Lindote, A and Morozov, A and Solovov, V and Silva, C and Bras, P and Rodrigues, JP and Lopes, MI},
-  title     = {Measurement of the absolute reflectance of polytetrafluoroethylene (PTFE) immersed in liquid xenon},
+  title     = {Measurement of the absolute reflectance of polytetrafluoroethylene ({PTFE}) immersed in liquid xenon},
   journal   = {Journal of Instrumentation},
   year      = {2017},
   volume    = {12},
@@ -973,7 +962,7 @@
 
 @Article{aprile2015lowering,
   author    = {Aprile, E and Agostini, F and Alfonsi, M and Arazi, L and Arisaka, K and Arneodo, F and Auger, M and Balan, C and Barrow, P and Baudis, L and others},
-  title     = {Lowering the radioactivity of the photomultiplier tubes for the XENON1T dark matter experiment},
+  title     = {Lowering the radioactivity of the photomultiplier tubes for the {XENON1T} dark matter experiment},
   journal   = {The European Physical Journal C},
   year      = {2015},
   volume    = {75},
@@ -993,14 +982,14 @@
 
 @Article{aprile2017xenon1t,
   author  = {Aprile, Elena and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Antunes, B and Arneodo, F and Balata, M and Barrow, P and others},
-  title   = {The XENON1T Dark Matter Experiment},
+  title   = {The {XENON1T} Dark Matter Experiment},
   journal = {arXiv preprint arXiv:1708.07051},
   year    = {2017},
 }
 
 @Article{aprile2014observation,
   author    = {Aprile, E and Alfonsi, M and Arisaka, K and Arneodo, F and Balan, C and Baudis, L and Bauermeister, B and Behrens, A and Beltrame, Philippe and Bokeloh, K and others},
-  title     = {Observation and applications of single-electron charge signals in the XENON100 experiment},
+  title     = {Observation and applications of single-electron charge signals in the {XENON100} experiment},
   journal   = {Journal of Physics G: Nuclear and Particle Physics},
   year      = {2014},
   volume    = {41},
@@ -1029,7 +1018,7 @@
 
 @Article{aprile2014conceptual,
   author    = {Aprile, E and Agostini, F and Alfonsi, M and Arisaka, K and Arneodo, F and Auger, M and Balan, C and Barrow, P and Baudis, L and Bauermeister, B and others},
-  title     = {Conceptual design and simulation of a water Cherenkov muon veto for the XENON1T experiment},
+  title     = {Conceptual design and simulation of a water Cherenkov muon veto for the {XENON1T} experiment},
   journal   = {Journal of instrumentation},
   year      = {2014},
   volume    = {9},
@@ -1051,7 +1040,7 @@
 
 @Article{aprile2017material,
   author  = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, B and others},
-  title   = {Material radioassay and selection for the XENON1T dark matter experiment},
+  title   = {Material radioassay and selection for the {XENON1T} dark matter experiment},
   journal = {arXiv preprint arXiv:1705.01828},
   year    = {2017},
 }
@@ -1069,7 +1058,7 @@
 
 @InProceedings{fieguth2016distillation,
   author    = {Fieguth, Alexander},
-  title     = {Distillation column for the XENON1T experiment},
+  title     = {Distillation column for the {XENON1T} experiment},
   booktitle = {J. Phys. Conf. Ser.},
   year      = {2016},
   volume    = {718},
@@ -1078,7 +1067,7 @@
 
 @Article{aprile2017online,
   author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {Online Rn222 removal by cryogenic distillation in the XENON100 experiment},
+  title     = {Online {Rn222} removal by cryogenic distillation in the {XENON100} experiment},
   journal   = {The European Physical Journal C},
   year      = {2017},
   volume    = {77},
@@ -1089,7 +1078,7 @@
 
 @Article{barrow2017qualification,
   author    = {Barrow, P and Baudis, L and Cichon, Dominick and Danisch, Meike and Franco, Davide and Kaether, Florian and Kish, A and Lindner, Manfred and Undagoitia, T Marrod{\'a}n and Mayani, D and others},
-  title     = {Qualification tests of the R11410-21 photomultiplier tubes for the XENON1T detector},
+  title     = {Qualification tests of the {R11410-21} photomultiplier tubes for the {XENON1T} detector},
   journal   = {Journal of Instrumentation},
   year      = {2017},
   volume    = {12},
@@ -1100,7 +1089,7 @@
 
 @Article{kirby1956thermal,
   author    = {Kirby, Richard K},
-  title     = {Thermal expansion of polytetrafluoroethylene (Teflon) from- 190° to+ 300° C},
+  title     = {Thermal expansion of polytetrafluoroethylene (Teflon) from $-190^{\circ}$-$+300^{\circ}${C}},
   journal   = {Journal of Research of the National Bureau of Standards},
   year      = {1956},
   volume    = {57},
@@ -1117,7 +1106,7 @@
 }
 
 @Manual{caen2017v1724,
-  title        = {User Manual UM3248: V1724/VX1724},
+  title        = {User Manual {UM3248: V1724/VX1724}},
   organization = {CAEN},
   address      = {Via Vetraia, 11 55049 Viareggio (LU), Italy},
   edition      = {Rev. 32},
@@ -1127,7 +1116,7 @@
 
 @Article{aprile2017results,
   author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {Results from a calibration of XENON100 using a source of dissolved radon-220},
+  title     = {Results from a calibration of {XENON100} using a source of dissolved {Rn-220}},
   journal   = {Physical Review D},
   year      = {2017},
   volume    = {95},
@@ -1138,7 +1127,7 @@
 
 @Article{du2004atom,
   author    = {Du, X and Bailey, K and Lu, Z-T and Mueller, P and O’Connor, TP and Young, L},
-  title     = {An atom trap system for practical 81 Kr dating},
+  title     = {An atom trap system for practical Kr-81 dating},
   journal   = {Review of Scientific Instruments},
   year      = {2004},
   volume    = {75},
@@ -1149,7 +1138,7 @@
 
 @Article{ponkratenko2000event,
   author    = {Ponkratenko, OA and Tretyak, VI and Zdesenko, Yu G},
-  title     = {Event generator DECAY4 for simulating double-beta processes and decays of radioactive nuclei},
+  title     = {Event generator {DECAY4} for simulating double-beta processes and decays of radioactive nuclei},
   journal   = {Physics of Atomic Nuclei},
   year      = {2000},
   volume    = {63},
@@ -1168,7 +1157,7 @@
 
 @Article{doke1976estimation,
   author    = {Doke, Tadayoshi and Hitachi, Akira and Kubota, Shinzou and Nakamoto, A and Takahashi, Tan},
-  title     = {Estimation of Fano factors in liquid argon, krypton, xenon and xenon-doped liquid argon},
+  title     = {Estimation of {Fano} factors in liquid argon, krypton, xenon and xenon-doped liquid argon},
   journal   = {Nuclear Instruments and Methods},
   year      = {1976},
   volume    = {134},
@@ -1179,7 +1168,7 @@
 
 @Article{aprile2013response,
   author    = {Aprile, E and Alfonsi, M and Arisaka, K and Arneodo, F and Balan, C and Baudis, L and Bauermeister, B and Behrens, A and Beltrame, Philippe and Bokeloh, K and others},
-  title     = {Response of the XENON100 dark matter detector to nuclear recoils},
+  title     = {Response of the {XENON100} dark matter detector to nuclear recoils},
   journal   = {Physical Review D},
   year      = {2013},
   volume    = {88},
@@ -1227,7 +1216,7 @@
 
 @Article{foreman2013emcee,
   author    = {Foreman-Mackey, Daniel and Hogg, David W and Lang, Dustin and Goodman, Jonathan},
-  title     = {emcee: the MCMC hammer},
+  title     = {{emcee}: the {MCMC} hammer},
   journal   = {Publications of the Astronomical Society of the Pacific},
   year      = {2013},
   volume    = {125},
@@ -1238,8 +1227,8 @@
 
 @Article{chib1995understanding,
   author    = {Chib, Siddhartha and Greenberg, Edward},
-  title     = {Understanding the metropolis-hastings algorithm},
-  journal   = {The american statistician},
+  title     = {Understanding the {Metropolis-Hastings} algorithm},
+  journal   = {The American Statistician},
   year      = {1995},
   volume    = {49},
   number    = {4},
@@ -1249,7 +1238,7 @@
 
 @Article{szydagis2011nest,
   author    = {Szydagis, M and Barry, N and Kazkaz, K and Mock, J and Stolp, D and Sweany, M and Tripathi, M and Uvarov, S and Walsh, N and Woods, M},
-  title     = {NEST: a comprehensive model for scintillation yield in liquid xenon},
+  title     = {{NEST}: a comprehensive model for scintillation yield in liquid xenon},
   journal   = {Journal of Instrumentation},
   year      = {2011},
   volume    = {6},
@@ -1260,7 +1249,7 @@
 
 @Article{szydagis2013enhancement,
   author    = {Szydagis, Matthew and Fyhrie, Adalyn and Thorngren, Daniel and Tripathi, Mani},
-  title     = {Enhancement of NEST capabilities for simulating low-energy recoils in liquid xenon},
+  title     = {Enhancement of {NEST} capabilities for simulating low-energy recoils in liquid xenon},
   journal   = {Journal of Instrumentation},
   year      = {2013},
   volume    = {8},
@@ -1271,14 +1260,14 @@
 
 @Article{akerib2016low,
   author  = {Akerib, DS and Alsum, S and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and others},
-  title   = {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark matter experiment using DD neutron scattering kinematics},
+  title   = {Low-energy (0.7-74 {keV}) nuclear recoil calibration of the {LUX} dark matter experiment using {DD} neutron scattering kinematics},
   journal = {arXiv preprint arXiv:1608.05381},
   year    = {2016},
 }
 
 @Article{aprile2016xenon100,
   author    = {Aprile, E and Aalbers, J and Agostini, F and Alfonsi, M and Amaro, FD and Anthony, M and Arneodo, F and Barrow, P and Baudis, L and Bauermeister, Boris and others},
-  title     = {XENON100 dark matter results from a combination of 477 live days},
+  title     = {{XENON100} dark matter results from a combination of 477 live days},
   journal   = {Physical Review D},
   year      = {2016},
   volume    = {94},
@@ -1324,14 +1313,14 @@
 }
 
 @Book{csikai1987crc,
-  title     = {CRC handbook of fast neutron generators},
+  title     = {{CRC} handbook of fast neutron generators},
   publisher = {CRC Press Inc., Boca Raton, FL},
   year      = {1987},
   author    = {Csikai, GJ},
 }
 
 @Manual{np2_manual,
-  title        = {Technical Manual for AN/PDR-70 (Snoopy NP-2) Neutron Survey Meter},
+  title        = {Technical Manual for {AN/PDR-70} ({Snoopy NP-2}) Neutron Survey Meter},
   organization = {Canberra Industries},
   address      = {800 Research Parkway Meriden, CT 06450},
   year         = {2003},
@@ -1339,7 +1328,7 @@
 
 @Article{lang2017improved,
   author    = {Lang, RF and Masson, D and Pienaar, J and R{\"o}ttger, S},
-  title     = {Improved pulse shape discrimination in EJ-301 liquid sctintillators},
+  title     = {Improved pulse shape discrimination in {EJ-301} liquid sctintillators},
   journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
   year      = {2017},
   volume    = {856},
@@ -1359,7 +1348,7 @@
 }
 
 @Manual{ej301_manual,
-  title        = {Neutron/Gamma PSD Liquid Scintillator EJ-301, EJ-309},
+  title        = {Neutron/Gamma PSD Liquid Scintillator {EJ-301, EJ-309}},
   organization = {Eljen Technology},
   address      = {1300 W. Broadway, Sweetwater, TX 79556},
   year         = {2016},
@@ -1367,7 +1356,7 @@
 
 @Article{anthony2017characterization,
   author  = {Anthony, M and Aprile, E and Grandi, L and Lin, Q and Saldanha, R},
-  title   = {Characterization of photomultiplier tubes with a realistic model through GPU-boosted simulation},
+  title   = {Characterization of photomultiplier tubes with a realistic model through {GPU}-boosted simulation},
   journal = {arXiv preprint arXiv:1710.00219},
   year    = {2017},
 }
@@ -1385,7 +1374,7 @@
 
 @Article{akerib2016improved,
   author    = {Akerib, DS and Ara{\'u}jo, HM and Bai, X and Bailey, AJ and Balajthy, J and Beltrame, P and Bernard, EP and Bernstein, A and Biesiadzinski, TP and Boulton, EM and others},
-  title     = {Improved limits on scattering of weakly interacting massive particles from reanalysis of 2013 LUX data},
+  title     = {Improved limits on scattering of weakly interacting massive particles from reanalysis of 2013 {LUX} data},
   journal   = {Physical review letters},
   year      = {2016},
   volume    = {116},
@@ -1403,7 +1392,7 @@
 
 @Article{manzur2010scintillation,
   author    = {Manzur, A and Curioni, A and Kastens, L and McKinsey, DN and Ni, K and Wongjirad, T},
-  title     = {Scintillation efficiency and ionization yield of liquid xenon for monoenergetic nuclear recoils down to 4 keV},
+  title     = {Scintillation efficiency and ionization yield of liquid xenon for monoenergetic nuclear recoils down to 4 {keV}},
   journal   = {Physical Review C},
   year      = {2010},
   volume    = {81},
@@ -1414,7 +1403,7 @@
 
 @Article{aprile2009new,
   author    = {Aprile, E and Baudis, L and Choi, B and Giboni, KL and Lim, K and Manalaysay, A and Monzani, ME and Plante, G and Santorelli, R and Yamashita, M},
-  title     = {New measurement of the relative scintillation efficiency of xenon nuclear recoils below 10 keV},
+  title     = {New measurement of the relative scintillation efficiency of xenon nuclear recoils below 10 {keV}},
   journal   = {Physical Review C},
   year      = {2009},
   volume    = {79},
@@ -1479,7 +1468,7 @@
 
 @Article{horn2011nuclear,
   author    = {Horn, M and Belov, VA and Akimov, D Yu and Ara{\'u}jo, HM and Barnes, EJ and Burenkov, AA and Chepel, V and Currie, A and Edwards, B and Ghag, C and others},
-  title     = {Nuclear recoil scintillation and ionisation yields in liquid xenon from ZEPLIN-III data},
+  title     = {Nuclear recoil scintillation and ionisation yields in liquid xenon from {ZEPLIN-III} data},
   journal   = {Physics Letters B},
   year      = {2011},
   volume    = {705},
@@ -1557,6 +1546,16 @@
   title  = {Photomultiplier Tubes for the XENON1T Dark Matter Experiment and Studies on the XENON100 Electromagnetic Background},
   school = {University of Zurich},
   year   = {2017},
+}
+
+@Article{guggenheim1937theoretical,
+  author    = {Guggenheim, EA},
+  title     = {The theoretical basis of {Raoult's} law},
+  journal   = {Transactions of the Faraday Society},
+  year      = {1937},
+  volume    = {33},
+  pages     = {151--156},
+  publisher = {Royal Society of Chemistry},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

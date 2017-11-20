@@ -48,7 +48,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelyear</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelyearspec</bcf:key>
@@ -63,7 +63,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>999</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -79,11 +79,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -103,11 +103,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useauthor</bcf:key>
@@ -262,30 +262,7 @@
   <bcf:sorting>
     <bcf:presort>mm</bcf:presort>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   <!-- CITATION DATA -->
@@ -294,6 +271,396 @@
     <bcf:datasource type="file" datatype="bibtex">./bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey>carroll1997lecture</bcf:citekey>
     <bcf:citekey>Zwicky1933</bcf:citekey>
+    <bcf:citekey>Begeman1991</bcf:citekey>
+    <bcf:citekey>Begeman1991</bcf:citekey>
+    <bcf:citekey>rubin1970rotation</bcf:citekey>
+    <bcf:citekey>Begeman1991</bcf:citekey>
+    <bcf:citekey>Begeman1991</bcf:citekey>
+    <bcf:citekey>clowe2006direct</bcf:citekey>
+    <bcf:citekey>clowe2006direct</bcf:citekey>
+    <bcf:citekey>clowe2006direct</bcf:citekey>
+    <bcf:citekey>penzias1965measurement</bcf:citekey>
+    <bcf:citekey>fixsen1996cosmic</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>bennett1996four</bcf:citekey>
+    <bcf:citekey>komatsu2011seven</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>Ade2015</bcf:citekey>
+    <bcf:citekey>navarro1996structure</bcf:citekey>
+    <bcf:citekey>springel2006large</bcf:citekey>
+    <bcf:citekey>vogelsberger2014introducing</bcf:citekey>
+    <bcf:citekey>axion_1977</bcf:citekey>
+    <bcf:citekey>alavi1999observation</bcf:citekey>
+    <bcf:citekey>fanti1999new</bcf:citekey>
+    <bcf:citekey>aubert2001measurement</bcf:citekey>
+    <bcf:citekey>abe2001observation</bcf:citekey>
+    <bcf:citekey>aaij2013first</bcf:citekey>
+    <bcf:citekey>graham2015experimental</bcf:citekey>
+    <bcf:citekey>stern2016admx</bcf:citekey>
+    <bcf:citekey>garcon2017searching</bcf:citekey>
+    <bcf:citekey>stern2016admx</bcf:citekey>
+    <bcf:citekey>stern2016admx</bcf:citekey>
+    <bcf:citekey>jungman1996supersymmetric</bcf:citekey>
+    <bcf:citekey>bertone2010particle</bcf:citekey>
+    <bcf:citekey>bi2013status</bcf:citekey>
+    <bcf:citekey>bi2013status</bcf:citekey>
+    <bcf:citekey>stadel2009quantifying</bcf:citekey>
+    <bcf:citekey>maccio2007concentration</bcf:citekey>
+    <bcf:citekey>read2014local</bcf:citekey>
+    <bcf:citekey>bi2013status</bcf:citekey>
+    <bcf:citekey>zitzer2015search</bcf:citekey>
+    <bcf:citekey>conrad2014indirect</bcf:citekey>
+    <bcf:citekey>bi2013status</bcf:citekey>
+    <bcf:citekey>queiroz2016dark</bcf:citekey>
+    <bcf:citekey>kopp2009dama</bcf:citekey>
+    <bcf:citekey>jungman1996supersymmetric</bcf:citekey>
+    <bcf:citekey>lewin1996review</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>read2014local</bcf:citekey>
+    <bcf:citekey>piffl2014rave</bcf:citekey>
+    <bcf:citekey>kuhlen2010dark</bcf:citekey>
+    <bcf:citekey>engel1991nuclear</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>strauss2016exploring</bcf:citekey>
+    <bcf:citekey>amole2017dark</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>bernabei2010particle</bcf:citekey>
+    <bcf:citekey>aalseth2014maximum</bcf:citekey>
+    <bcf:citekey>xmass2016direct</bcf:citekey>
+    <bcf:citekey>aprile2017search</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>undagoitia2015dark</bcf:citekey>
+    <bcf:citekey>xmass2016direct</bcf:citekey>
+    <bcf:citekey>heindl2011table</bcf:citekey>
+    <bcf:citekey>amaudruz2017first</bcf:citekey>
+    <bcf:citekey>aalseth2014search</bcf:citekey>
+    <bcf:citekey>aalseth2014maximum</bcf:citekey>
+    <bcf:citekey>strauss2016exploring</bcf:citekey>
+    <bcf:citekey>armengaud2016constraints</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>collaboration2017dark</bcf:citekey>
+    <bcf:citekey>agnese2015improved</bcf:citekey>
+    <bcf:citekey>armengaud2016constraints</bcf:citekey>
+    <bcf:citekey>savage2009compatibility</bcf:citekey>
+    <bcf:citekey>amole2017dark</bcf:citekey>
+    <bcf:citekey>tan2016dark</bcf:citekey>
+    <bcf:citekey>akerib2017results</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>angloher2016results</bcf:citekey>
+    <bcf:citekey>ruppin2014complementarity</bcf:citekey>
+    <bcf:citekey>agnese2015improved</bcf:citekey>
+    <bcf:citekey>armengaud2016constraints</bcf:citekey>
+    <bcf:citekey>savage2009compatibility</bcf:citekey>
+    <bcf:citekey>amole2017dark</bcf:citekey>
+    <bcf:citekey>tan2016dark</bcf:citekey>
+    <bcf:citekey>akerib2017results</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>angloher2016results</bcf:citekey>
+    <bcf:citekey>ruppin2014complementarity</bcf:citekey>
+    <bcf:citekey>albert2014improved</bcf:citekey>
+    <bcf:citekey>ni2007preparation</bcf:citekey>
+    <bcf:citekey>abe2009distillation</bcf:citekey>
+    <bcf:citekey>aprile2017removing</bcf:citekey>
+    <bcf:citekey>barros2014double</bcf:citekey>
+    <bcf:citekey>barros2014double</bcf:citekey>
+    <bcf:citekey>rankin2009crc</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>heindl2011table</bcf:citekey>
+    <bcf:citekey>hitachi1983effect</bcf:citekey>
+    <bcf:citekey>doke2002absolute</bcf:citekey>
+    <bcf:citekey>doke2002absolute</bcf:citekey>
+    <bcf:citekey>lindhard1963integral</bcf:citekey>
+    <bcf:citekey>hitachi2005properties</bcf:citekey>
+    <bcf:citekey>cottingham1987introduction</bcf:citekey>
+    <bcf:citekey>mantel1972beta</bcf:citekey>
+    <bcf:citekey>mantel1972beta</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2017radon</bcf:citekey>
+    <bcf:citekey>akerib2016tritium</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>knoll2010radiation</bcf:citekey>
+    <bcf:citekey>berger8coll</bcf:citekey>
+    <bcf:citekey>berger8coll</bcf:citekey>
+    <bcf:citekey>chadwick2011endf</bcf:citekey>
+    <bcf:citekey>chadwick2011endf</bcf:citekey>
+    <bcf:citekey>timar2014nuclear</bcf:citekey>
+    <bcf:citekey>khazov2006nuclear</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>franarin2016reducing</bcf:citekey>
+    <bcf:citekey>franarin2016reducing</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>dahl_thesis</bcf:citekey>
+    <bcf:citekey>takahashi1975average</bcf:citekey>
+    <bcf:citekey>doke2002absolute</bcf:citekey>
+    <bcf:citekey>aprile2007observation</bcf:citekey>
+    <bcf:citekey>birks2013theory</bcf:citekey>
+    <bcf:citekey>thomas1987recombination</bcf:citekey>
+    <bcf:citekey>akerib2016tritium</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>lindhard1963integral</bcf:citekey>
+    <bcf:citekey>angle2011search</bcf:citekey>
+    <bcf:citekey>sorensen2011nuclear</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>dahl_thesis</bcf:citekey>
+    <bcf:citekey>thomas1987recombination</bcf:citekey>
+    <bcf:citekey>jaffe1913theory</bcf:citekey>
+    <bcf:citekey>mei2008model</bcf:citekey>
+    <bcf:citekey>tretyak2010semi</bcf:citekey>
+    <bcf:citekey>bezrukov2011interplay</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>silva2009reflectance</bcf:citekey>
+    <bcf:citekey>haefner2017reflectance</bcf:citekey>
+    <bcf:citekey>neves2017measurement</bcf:citekey>
+    <bcf:citekey>aprile2015lowering</bcf:citekey>
+    <bcf:citekey>aprile2015lowering</bcf:citekey>
+    <bcf:citekey>atrazhev2005electron</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2014observation</bcf:citekey>
+    <bcf:citekey>aprile2014observation</bcf:citekey>
+    <bcf:citekey>aprile2014observation</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>mei2006muon</bcf:citekey>
+    <bcf:citekey>mei2006muon</bcf:citekey>
+    <bcf:citekey>mei2006muon</bcf:citekey>
+    <bcf:citekey>aprile2014conceptual</bcf:citekey>
+    <bcf:citekey>agostinelli2003geant4</bcf:citekey>
+    <bcf:citekey>aprile2014conceptual</bcf:citekey>
+    <bcf:citekey>agostinelli2003geant4</bcf:citekey>
+    <bcf:citekey>mei2006muon</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2017material</bcf:citekey>
+    <bcf:citekey>aprile2017material</bcf:citekey>
+    <bcf:citekey>aprile2017material</bcf:citekey>
+    <bcf:citekey>aprile2017material</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>guggenheim1937theoretical</bcf:citekey>
+    <bcf:citekey>fieguth2016distillation</bcf:citekey>
+    <bcf:citekey>aprile2017removing</bcf:citekey>
+    <bcf:citekey>aprile2013atom</bcf:citekey>
+    <bcf:citekey>aprile2017online</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>barrow2017qualification</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>neves2017measurement</bcf:citekey>
+    <bcf:citekey>kirby1956thermal</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>caen2017v1724</bcf:citekey>
+    <bcf:citekey>aprile2017material</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2017results</bcf:citekey>
+    <bcf:citekey>akerib2016tritium</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>du2004atom</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>barros2014double</bcf:citekey>
+    <bcf:citekey>ponkratenko2000event</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>barrow2017qualification</bcf:citekey>
+    <bcf:citekey>barrow2017qualification</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>aprile2017xenon1t</bcf:citekey>
+    <bcf:citekey>dahl_thesis</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>doke1976estimation</bcf:citekey>
+    <bcf:citekey>akerib2016tritium</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>takahashi1975average</bcf:citekey>
+    <bcf:citekey>aprile2007observation</bcf:citekey>
+    <bcf:citekey>thomas1987recombination</bcf:citekey>
+    <bcf:citekey>mei2008model</bcf:citekey>
+    <bcf:citekey>tretyak2010semi</bcf:citekey>
+    <bcf:citekey>bezrukov2011interplay</bcf:citekey>
+    <bcf:citekey>agostinelli2003geant4</bcf:citekey>
+    <bcf:citekey>aprile2013response</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>faham2015measurements</bcf:citekey>
+    <bcf:citekey>bayes1763essay</bcf:citekey>
+    <bcf:citekey>foreman2013emcee</bcf:citekey>
+    <bcf:citekey>chib1995understanding</bcf:citekey>
+    <bcf:citekey>brooks1998general</bcf:citekey>
+    <bcf:citekey>gelman1992inference</bcf:citekey>
+    <bcf:citekey>szydagis2013enhancement</bcf:citekey>
+    <bcf:citekey>szydagis2011nest</bcf:citekey>
+    <bcf:citekey>faham2015measurements</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2016xenon100</bcf:citekey>
+    <bcf:citekey>engel1991nuclear</bcf:citekey>
+    <bcf:citekey>lewin1996review</bcf:citekey>
+    <bcf:citekey>aprile2016xenon100</bcf:citekey>
+    <bcf:citekey>akerib2017results</bcf:citekey>
+    <bcf:citekey>collaboration2017dark</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2016xenon100</bcf:citekey>
+    <bcf:citekey>akerib2017results</bcf:citekey>
+    <bcf:citekey>collaboration2017dark</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>thomas1987recombination</bcf:citekey>
+    <bcf:citekey>aprile2013response</bcf:citekey>
+    <bcf:citekey>akerib2016tritium</bcf:citekey>
+    <bcf:citekey>aprile2017tritium</bcf:citekey>
+    <bcf:citekey>knoll2010radiation</bcf:citekey>
+    <bcf:citekey>ej301_manual</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>goetzke2015low</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>giboni2011xenon</bcf:citekey>
+    <bcf:citekey>goetzke2015low</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>csikai1987crc</bcf:citekey>
+    <bcf:citekey>chadwick2011endf</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>csikai1987crc</bcf:citekey>
+    <bcf:citekey>np2_manual</bcf:citekey>
+    <bcf:citekey>kuchnir1968time</bcf:citekey>
+    <bcf:citekey>ej301_manual</bcf:citekey>
+    <bcf:citekey>lang2017improved</bcf:citekey>
+    <bcf:citekey>guillaume_thesis</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>anthony2017characterization</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>goetzke2015low</bcf:citekey>
+    <bcf:citekey>carter1980photomultiplier</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>goetzke2015low</bcf:citekey>
+    <bcf:citekey>aprile2014observation</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>dahl_thesis</bcf:citekey>
+    <bcf:citekey>akerib2016improved</bcf:citekey>
+    <bcf:citekey>aprile2017first</bcf:citekey>
+    <bcf:citekey>hitachi1983effect</bcf:citekey>
+    <bcf:citekey>aprile2009new</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>agostinelli2003geant4</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>thomas1987recombination</bcf:citekey>
+    <bcf:citekey>gompertz1825nature</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>mei2008model</bcf:citekey>
+    <bcf:citekey>tretyak2010semi</bcf:citekey>
+    <bcf:citekey>bezrukov2011interplay</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>faham2015measurements</bcf:citekey>
+    <bcf:citekey>anthony2017characterization</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>aprile2005scintillation</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>sorensen2009scintillation</bcf:citekey>
+    <bcf:citekey>aprile2009new</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>horn2011nuclear</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>aprile2013response</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>aprile2005scintillation</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>sorensen2009scintillation</bcf:citekey>
+    <bcf:citekey>aprile2009new</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>horn2011nuclear</bcf:citekey>
+    <bcf:citekey>plante2011new</bcf:citekey>
+    <bcf:citekey>aprile2013response</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>aprile2006simultaneous</bcf:citekey>
+    <bcf:citekey>manzur2010scintillation</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>sorensen2011nuclear</bcf:citekey>
+    <bcf:citekey>sorensen2011nuclear</bcf:citekey>
+    <bcf:citekey>hitachi2005properties</bcf:citekey>
+    <bcf:citekey>sorensen2011nuclear</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>akerib2016low</bcf:citekey>
+    <bcf:citekey>lenardo2015global</bcf:citekey>
+    <bcf:citekey>terrell1992variable</bcf:citekey>
+    <bcf:citekey>nvidia_gtx_manual</bcf:citekey>
+    <bcf:citekey>foreman2013emcee</bcf:citekey>
+    <bcf:citekey>bellamy1994absolute</bcf:citekey>
+    <bcf:citekey>dossi2000methods</bcf:citekey>
+    <bcf:citekey>de2010methods</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>carter1980photomultiplier</bcf:citekey>
+    <bcf:citekey>faham2015measurements</bcf:citekey>
+    <bcf:citekey>tan1982statistical</bcf:citekey>
+    <bcf:citekey>tan1982statistical</bcf:citekey>
+    <bcf:citekey>dwarakanath2014sampling</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>aprile2016physics</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>faham2015measurements</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>mayani_thesis</bcf:citekey>
+    <bcf:citekey>bellamy1994absolute</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
+    <bcf:citekey>goetzke2016measurement</bcf:citekey>
+    <bcf:citekey>saldanha2017model</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

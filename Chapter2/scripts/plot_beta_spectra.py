@@ -18,7 +18,7 @@ import pandas as pd
 from scipy.interpolate import UnivariateSpline
 from scipy.special import gamma
 
-figure_size = (9, 5)
+#figure_size = (9, 5)
 
 df_beta = pd.read_table('./kr85_beta_spec.txt')
 df_beta['x'] *= 1000
@@ -78,9 +78,12 @@ ax_beta.set_xlim(1, 687)
 ax_beta.set_ylim(0, 1.1*max(a_y))
 #ax_beta.get_yaxis().set_visible(False)
 ax_beta.set_ylabel(r'$p(E)$')
+ax_beta.set_yticks([])
 
 ax_beta.set_xlabel('$\mathrm{e}^-$ Kinetic Energy [keV]')
 #ax_beta.set_ylabel('PDF')
+
+fig.tight_layout()
 
 fig.savefig('../images/kr85_beta_rates.png')
 
