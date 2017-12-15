@@ -16,7 +16,7 @@ Photomultiplier tubes (PMTs) are widely used to detect low levels of light in ma
 
 Several alternatives have been proposed to improve upon existing methods for determining the single photoelectron response.  An empirical approach is presented in \citeref{de2010methods} but is only relevant when the height of the PMT output is needed and not the integral of the pulse.  Another widely used model independent approach is presented in \citeref{saldanha2017model}.  The model independent approach provides a simple way to accurately determine the mean and variance of the single photoelectron response function.  In many cases, the mean and variance of the SPE response are  enough since at moderate numbers of photoelectrons the response function converges to a Gaussian described by these parameters.  However, at small numbers of photoelectrons, it is important to account completely for the SPE response shape.  Additionally, the results of the model independent method become more susceptible to bias when the background distribution width is large and the PMT gain is low and it requires a consistent and dedicated background measurement, which is not always possible as was the case for neriX.  Background, in this work, is used to describe all signals that are not induced by the laser or diode, such as noise from the electronics, dark counts, or photoelectrons from light sources other than the laser or diode.
 
-In this appendix, we discuss a more realistic model, henceforth referred to as the \textit{cascade model}, which aims at capturing the actual behavior and mechanics of the PMT.  As with the other major analyses presented in this work(see \secref{sec:xe1t_er_nr_calibration} and \secref{sec:nerix_analysis} for more details on these analyses), the model does not have an analytical form that can be used for parameter estimation but rather relies on running a Monte Carlo (MC) simulation with each set of parameters under test to find the posterior and the best-fit parameters given the data.  These MC simulations also are performed using the GPU framework discussed in \appref{app:gpus}.
+In this appendix, we discuss a more realistic model, henceforth referred to as the \textit{cascade model}, which aims at capturing the actual behavior and mechanics of the PMT.  As with the other major analyses presented in this work (see \secref{sec:xe1t_er_nr_calibration} and \secref{sec:nerix_analysis} for more details on these analyses), the model does not have an analytical form that can be used for parameter estimation but rather relies on running a Monte Carlo (MC) simulation with each set of parameters under test to find the posterior and the best-fit parameters given the data.  These MC simulations also are performed using the GPU framework discussed in \appref{app:gpus}.
 
 
 \section{The Cascade Single Photoelectron Charge Response Model}
@@ -58,7 +58,7 @@ To approximate these three physical processes in the SPE response, eight paramet
 The photoelectron of the SPE response in the cascade model has two potential points of origin: (1) the photocathode or (2) the first dynode.  This implies that the origination is described by a binomial process with a single trial.
 
 \begin{equation}
-        n_{pc} \sim B\left(n=1; p=\frac{p_{pc}}{p_{pc}+p_{fd}}\right), \qquad
+        n_{pc} \sim B\left(n=1, p=\frac{p_{pc}}{p_{pc}+p_{fd}}\right), \qquad
         n_{fd} = 1 - n_{pc}.
 \end{equation}
 
@@ -102,7 +102,7 @@ While there is not an analytical function to describe the SPE response in the ca
 \section{Data Collection}
 
 
-Low light level data was used from two independent experiments using two different methods of data collection and PMTs.  The first set of data was provided by the experiment described in \citeref{saldanha2017model}.  This data is from a Hamamatsu R11410, a 3 inch PMT, the low-background version of which was used in the XENON1T experiment \cite{aprile2016physics}. The PMT was operated in a dark box with a 405 nm pulsed laser behind a filter with an attenuation factor $\eta$.  By changing $\eta$, one can change the mean number of incident photons.  Background measurements were also taken for this data in the exact same operating conditions except with the laser light blocked.
+Low light level data was used from two independent experiments using two different methods of data collection and PMTs.  The first set of data was provided by the experiment described in \citeref{saldanha2017model}.  This data is from a Hamamatsu R11410, a 3'' PMT, the low-background version of which was used in the XENON1T experiment \cite{aprile2016physics}. The PMT was operated in a dark box with a 405 nm pulsed laser behind a filter with an attenuation factor $\eta$.  By changing $\eta$, one can change the mean number of incident photons.  Background measurements were also taken for this data in the exact same operating conditions except with the laser light blocked.
 
 The second set of data is from the neriX detector discussed in chapter four.  This data is from a Hamamatsu R6041-406 SEL 2'' PMT in LXe illuminated by a blue pulsed LED located inside the detector.  The PMT used to collect this data operates at a significantly lower gain than the PMT used in \citeref{saldanha2017model} and has worse noise conditions.  Also, identical conditions during background measurements could not be guaranteed and therefore the model independent approach could not be used to characterize this PMT.
 
@@ -147,7 +147,7 @@ The third method used to characterize the PMTs was the Gaussian approximation wi
         g_n(x) = f_0(x) \circledast \overbrace{s_1(x) \circledast s_1(x) \circledast \ldots \circledast s_1(x)}^{\text{n times}}.
 \end{equation}
 
-Finally, to produce the PDF for parameter estimation, one defines a mean number of photoelectrons per pulse and sums each peaks individual contributions weighted by a Poisson distribution (\eqnref{eqn:gaussian_pdf}).  This is done in the same way as the cascade model.
+Finally, to produce the PDF for parameter estimation, one defines a mean number of photoelectrons per pulse and sums each peaks' individual contributions weighted by a Poisson distribution (\eqnref{eqn:gaussian_pdf}).  This is done in the same way as the cascade model.
 
 \begin{equation}
         \label{eqn:gaussian_pdf}
@@ -242,7 +242,7 @@ Another very important feature of the table is the last row, which compares the 
 \figref{fig:uc_best_fits} shows the best-fits for both the cascade model (blue) and the Gaussian model (red) compared to laser calibration charge data along with the 95\% credible regions of each fit.  Notice that as the gain increases, the Gaussian model is unable to explain the behavior in the valley while the cascade model predicts this behavior well in all five spectra.
 
 % removed from previous paragraph
-% The two-sigma credible region is created by making random draws from the posterior of the fit and determining the 95\% confidence interval for a given bin.  
+% The two-sigma credible region is created by making random draws from the posterior of the fit and determining the 95\% credible region for a given bin.  
 
 %\begin{figure}[t]
 %\centering
@@ -262,7 +262,7 @@ Another very important feature of the table is the last row, which compares the 
 
 
 
-In \figref{fig:fig-2} one can see the predicted SPE charge response for the R11410 PMT at 1500 V without background convolution.  The region shown is again the 95\% confidence interval.  One can see the three major features going from left to right: the underamplified peak from photons striking the first dynode, the underamplified peak from a non-ideal trajectory, and the fully-amplified peak.  Note that the signal can naturally never be less than zero unlike most analytical models that are either truncated or allowed to extend into a non-physical region.  The fully-amplified signal (right-most peak) is fairly symmetric - this is because this PMT operates at high gain and has good resolution.  This, however, will not be the case when looking at the fully-amplified peak for the R6041-406 PMT in \secref{sec:pmt_nerix_analysis}.
+In \figref{fig:fig-2} one can see the predicted SPE charge response for the R11410 PMT at 1500 V without background convolution.  The region shown is again the 95\% credible region.  One can see the three major features going from left to right: the underamplified peak from photons striking the first dynode, the underamplified peak from a non-ideal trajectory, and the fully-amplified peak.  Note that the signal can naturally never be less than zero unlike most analytical models that are either truncated or allowed to extend into a non-physical region.  The fully-amplified signal (right-most peak) is fairly symmetric - this is because this PMT operates at high gain and has good resolution.  This, however, will not be the case when looking at the fully-amplified peak for the R6041-406 PMT in \secref{sec:pmt_nerix_analysis}.
 
 
 
@@ -280,7 +280,7 @@ Voltage {[}V{]} & $\eta$ & Reduced $\chi^2$ & $p_{\chi^2}$ & $p_{KS}$  \\ \hline
 1700 & 1E5 & 0.98 & 0.539 & 0.279 \\ \hline
 
 \end{tabular}
-\caption{Goodness of Fit Tests For R11410 with Cascade Model.}
+\caption{Goodness of fit tests for the R11410 PMT with the cascade model.}
 \label{tab-gof}
 
 \end{table}
@@ -293,6 +293,13 @@ Shown in \tabref{tab-gof} are the results of the goodness of fit tests for the b
 
 \subsection{Hamamatsu R6041-406 Analysis}
 \label{sec:pmt_nerix_analysis}
+
+
+
+
+
+In addition to the analysis performed with a PMT capable of large gains, the cascade model was also used to calibrate a PMT that must operate at significantly lower gains and with worse noise conditions.  While a background measurement was taken, since the calibration is done \textit{in situ} with an LED and pulser it is impossible to confirm that noise conditions were the same between the dedicated background measurement (pulser off) and the measurements with the pulser on.  For this reason and given that the width of the background peak is on the order of the SPE response, the model independent approach cannot be used.  
+
 
 \begin{table*}[t]
 %\fontsize{4.9}{8}
@@ -340,17 +347,10 @@ Voltage {[}V{]} & Light Level & Reduced $\chi^2$ & $p_{\chi^2}$ & $p_{KS}$  \\ \
 800 & II & 1.50 & 0.002 & 0.353 \\ \hline
 
 \end{tabular}
-\caption{Goodness of Fit Tests For R6041-406 with Cascade Model.}
+\caption{Goodness of fit tests for the R6041-406 PMT with the cascade model.}
 \label{tab-gof_nerix}
 
 \end{table}
-
-
-
-
-In addition to the analysis performed with a PMT capable of large gains, the cascade model was also used to calibrate a PMT that must operate at significantly lower gains and with worse noise conditions.  While a background measurement was taken, since the calibration is done in situ with an LED and pulser it is impossible to confirm that noise conditions were the same between the dedicated background measurement (pulser off) and the measurements with the pulser on.  For this reason and given that the width of the background peak is on the order of the SPE response, the model independent approach cannot be used.  
-
-
 
 
 

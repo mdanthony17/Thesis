@@ -518,7 +518,7 @@
   \strng{namehash}{VMGSSV+1}
   \strng{fullhash}{VMGSSVTPSDXDSGNDHL1}
   \field{pages}{1518\bibrangedash 1547}
-  \field{title}{Introducing the Illustris Project: simulating the coevolution
+  \field{title}{Introducing the {Illustris Project}: simulating the coevolution
   of dark and visible matter in the Universe}
   \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
   \field{year}{2014}
@@ -4963,7 +4963,7 @@
   \strng{fullhash}{DXBKLZTMPOTYL1}
   \field{number}{10}
   \field{pages}{3224\bibrangedash 3232}
-  \field{title}{An atom trap system for practical Kr-81 dating}
+  \field{title}{An atom trap system for practical {Kr-81} dating}
   \field{volume}{75}
   \field{journaltitle}{Review of Scientific Instruments}
   \field{year}{2004}
@@ -5187,7 +5187,7 @@
   \field{number}{09}
   \field{pages}{P09010}
   \field{title}{Measurements of wavelength-dependent double photoelectron
-  emission from single photons in VUV-sensitive photomultiplier tubes}
+  emission from single photons in {VUV}-sensitive photomultiplier tubes}
   \field{volume}{10}
   \field{journaltitle}{Journal of Instrumentation}
   \field{year}{2015}
@@ -5605,7 +5605,7 @@
   \list{organization}{1}{%
     {Eljen Technology}%
   }
-  \field{title}{Neutron/Gamma PSD Liquid Scintillator {EJ-301, EJ-309}}
+  \field{title}{Neutron/Gamma {PSD} Liquid Scintillator {EJ-301, EJ-309}}
   \list{location}{1}{%
     {1300 W. Broadway, Sweetwater, TX 79556}%
   }
@@ -6288,7 +6288,7 @@
 \endentry
 
 \entry{nvidia_gtx_manual}{manual}{}
-  \field{title}{NVIDIA GeForce GTX 1080}
+  \field{title}{{NVIDIA} {GeForce} {GTX} 1080}
   \field{year}{2016}
 \endentry
 

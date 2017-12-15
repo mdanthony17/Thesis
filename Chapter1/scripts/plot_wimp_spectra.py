@@ -3,6 +3,9 @@ import wimp_functions
 import numpy as np
 import matplotlib
 matplotlib.use('QT4Agg')
+import matplotlib.style
+matplotlib.style.use('classic')
+
 
 matplotlib.rcParams['mathtext.fontset'] = 'stix'
 matplotlib.rcParams['font.family'] = 'STIXGeneral'
@@ -40,6 +43,8 @@ l_handles_masses = []
 
 
 fig, (ax_materials, ax_masses) = plt.subplots(1, 2, figsize=figure_size)
+fig_mat_only, ax_mat_only = plt.subplots()
+fig_mass_only, ax_mass_only = plt.subplots()
 
 for mat in d_materials:
     a_rates = np.zeros(len(a_energies))
@@ -48,7 +53,7 @@ for mat in d_materials:
     d_materials[mat]['a_rates'] = a_rates
 
     d_materials[mat]['handle'], = ax_materials.plot(a_energies, d_materials[mat]['a_rates'], color=d_materials[mat]['color'], linestyle='-', label=mat)
-
+    d_materials[mat]['handle_mat'], = ax_mat_only.plot(a_energies, d_materials[mat]['a_rates'], color=d_materials[mat]['color'], linestyle='-', label=mat)
 
 
 #handle_xe = ax_materials.plot(a_energies, d_materials[mat]['a_rates'], color='blue', linestyle='-')
@@ -59,9 +64,19 @@ ax_materials.set_ylabel(r'$\frac{dR}{dE} \, \, [\mathrm{events} \, \, \mathrm{kg
 ax_materials.set_xlabel(r'$E \, \, [\mathrm{keV}]$')
 ax_materials.legend(handles=[d_materials['Xe']['handle'], d_materials['Ge']['handle'], d_materials['Ar']['handle']], loc='best', frameon=False, prop={'size': 11})
 
+ax_mat_only.set_xlim(0, 80)
+ax_mat_only.set_ylim(1e-9, 1e-6)
+ax_mat_only.set_yscale('log')
+ax_mat_only.set_ylabel(r'$\frac{dR}{dE} \, \, [\mathrm{events} \, \, \mathrm{kg}^{-1} \, \, \mathrm{keV}^{-1} \, \, \mathrm{day}^{-1}]$')
+ax_mat_only.set_xlabel(r'$E \, \, [\mathrm{keV}]$')
+ax_mat_only.legend(handles=[d_materials['Xe']['handle_mat'], d_materials['Ge']['handle_mat'], d_materials['Ar']['handle_mat']], loc='best', frameon=False, prop={'size': 11})
+ax_mat_only.annotate(r'100 GeV/$\mathrm{c}^2$', xy=(0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+ax_mat_only.annotate(r'$\sigma = 10^{-47} \mathrm{cm}^2$', xy=(0.5, 0.82), xycoords='axes fraction', ha='center', va='center')
+
 
 l_wimp_masses = [10, 30, 50, 100, 500, 1000]
 l_colors = plt.get_cmap('jet')(np.linspace(0, 1.0, len(l_wimp_masses)))
+l_handles_masses_only = []
 
 for current_color, wimp_mass in zip(l_colors, l_wimp_masses):
     a_rates = np.zeros(len(a_energies))
@@ -71,6 +86,9 @@ for current_color, wimp_mass in zip(l_colors, l_wimp_masses):
     current_handle, = ax_masses.plot(a_energies, a_rates, color=current_color, linestyle='-', label=r'$%d \, \, \frac{\mathrm{GeV}}{\mathrm{c}^2}$' % (wimp_mass))
     l_handles_masses.append(current_handle)
 
+    current_handle, = ax_mass_only.plot(a_energies, a_rates, color=current_color, linestyle='-', label=r'$%d \, \, \frac{\mathrm{GeV}}{\mathrm{c}^2}$' % (wimp_mass))
+    l_handles_masses_only.append(current_handle)
+
 
 ax_masses.set_ylim(1e-11, 1e-5)
 ax_masses.set_yscale('log')
@@ -78,9 +96,21 @@ ax_masses.legend(ncol=2, handles=l_handles_masses, loc='best', frameon=False, pr
 ax_masses.set_ylabel(r'$\frac{dR}{dE} \, \, [\mathrm{events} \, \, \mathrm{kg}^{-1} \, \, \mathrm{keV}^{-1} \, \, \mathrm{day}^{-1}]$')
 ax_masses.set_xlabel(r'$E \, \, [\mathrm{keV}]$')
 
-fig.tight_layout()
-fig.savefig('../images/wimp_recoil_rates.png')
 
+ax_mass_only.annotate(r'$\sigma = 10^{-47} \mathrm{cm}^2$', xy=(0.5, 0.85), xycoords='axes fraction', ha='center', va='center')
+
+ax_mass_only.set_ylim(1e-11, 1e-5)
+ax_mass_only.set_yscale('log')
+ax_mass_only.legend(ncol=2, handles=l_handles_masses_only, loc='best', frameon=False, prop={'size': 11})
+ax_mass_only.set_ylabel(r'$\frac{dR}{dE} \, \, [\mathrm{events} \, \, \mathrm{kg}^{-1} \, \, \mathrm{keV}^{-1} \, \, \mathrm{day}^{-1}]$')
+ax_mass_only.set_xlabel(r'$E \, \, [\mathrm{keV}]$')
+
+
+fig.tight_layout()
+fig_mat_only.tight_layout()
+fig.savefig('../images/wimp_recoil_rates.png')
+fig_mat_only.savefig('../images/wimp_recoil_rates_mat_only.png')
+fig_mass_only.savefig('../images/wimp_recoil_rates_mass_only.png')
 
 plt.show()
 
