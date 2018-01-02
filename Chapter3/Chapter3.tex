@@ -7,7 +7,7 @@
 
 \chapter[The First Dark Matter Search with XENON1T][The First Dark Matter Search with XENON1T]{The First Dark Matter Search with XENON1T}
 
-XENON1T is the third generation detector of the XENON Dark Matter Collaboration.  With a fiducial mass of over 1,000 kg, it is the most sensitive detector to WIMPs in the world.  This chapter will focus on the XENON1T Dark Matter Experiment and the results from its first WIMP search.  The first section will focus on the design of the detector and its subsystems while the second section will focus on background considerations and estimation for the detector.  The following section will focus on the general calibration of the detector followed by a section on the calibration of the detector to electronic and nuclear recoils.  Finally, we will discuss the results of the first dark matter search and its implications.
+XENON1T is the third generation detector of the XENON Dark Matter Collaboration.  With a fiducial mass of over 1,000 kg, it is the most sensitive detector to WIMPs in the world.  This chapter will focus on the XENON1T Dark Matter Experiment and the results from its first WIMP search.  The first section will focus on the design of the detector and its subsystems while the second section will focus on background considerations and signal estimation.  The following section will focus on the general calibration of the detector followed by a section on the calibration of the detector to electronic and nuclear recoils.  Finally, we will discuss the results of the first dark matter search and its implications.
 
 
 \section{The XENON1T Detector}
@@ -42,7 +42,7 @@ In this section we will focus on the XENON1T detector and its individual subsyst
 	\label{fig:cartoon_water_tank}
 \end{figure}
  
- In addition to screening cosmogenic neutrons, the muon veto also acts as a shield to external gamma ray and neutron sources.  The neutrons mainly come from the spontaneous fission of \ce{^{238}Ur} and the \ce{^{232}Th} $(\alpha, \, n)$ reactions, both of which are found in small quantities in the surrounding rock and concrete.  Detailed Geant4 simulations \cite{agostinelli2003geant4} show that the external gamma ray background is reduced by approximately 7 orders of magnitude across 4 meters of water and the external neutron background is reduced by approximately 6 orders of magnitude per meter of water.  
+ In addition to screening cosmogenic neutrons, the muon veto also acts as a shield to external gamma ray and neutron sources.  The neutrons mainly come from the spontaneous fission of \ce{^{238}U} and the \ce{^{232}Th} $(\alpha, \, n)$ reactions, both of which are found in small quantities in the surrounding rock and concrete.  Detailed Geant4 simulations \cite{agostinelli2003geant4} show that the external gamma ray background is reduced by approximately 7 orders of magnitude across 4 meters of water and the external neutron background is reduced by approximately 6 orders of magnitude per meter of water.  
  
  Given the expected fluxes for cosmogenic neutrons and radiogenic neutrons from the rock and concrete, $8.1 \cdot 10^{-10}$ $\frac{n}{\textrm{cm}^2 \textrm{s}}$ above 1 MeV \cite{mei2006muon} and $8.7 \cdot 10^{-7}$ $\frac{n}{\textrm{cm}^2 \textrm{s}}$ above 1 keV, respectively, combined with the expected attenuation and cut efficiency result in a negligible external neutron background $< 0.01 \frac{\textrm{events}}{\textrm{y}}$ \cite{aprile2016physics}.
  
@@ -76,7 +76,21 @@ In between the TPC itself and the water of the water tank is the cryostat.  The 
 	\label{fig:xe1t_cryostat_tpc}
 \end{figure}
 
-The cryostat is connected to external systems such as the purification and cryogenic systems via a double-walled vacuum insulated pipe.  This pipe not only carries liquid xenon and gaseous xenon to and from the different systems but also houses the various cables that need to go into the detector (mainly signal and high voltage cables).  These cables are stored inside of a smaller pipe so that radon emanations lead away from the TPC.  One of the gaseous xenon lines is used to pressurize the xenon diving bell, which is used to set the liquid level in the detector.
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.90\textwidth]{xe1t_full_detector_assembly}
+	\caption{The XENON1T detector and its subsystems located in LNGS Hall B.}
+	\label{fig:xe1t_full_detector_assembly}
+
+        \vspace{\floatsep}
+
+	\centering
+	\includegraphics[width=0.90\textwidth]{xe1t_cryogenics_system}
+	\caption{The XENON1T cryogenics system located on the third floor of the XENON1T building.}
+	\label{fig:xe1t_cryogenics_system.png}
+\end{figure}
+
+The cryostat is connected to external systems such as the purification and cryogenic systems via a double-walled vacuum insulated pipe.  This pipe not only carries liquid xenon and gaseous xenon to and from the different systems but also houses the various cables that need to go into the detector (mainly signal and high voltage cables).  These cables are stored inside of a smaller pipe so that radon emanations are far from the TPC.  One of the gaseous xenon lines is used to pressurize the xenon diving bell, which is used to set the liquid level in the detector.
 
 The weight of the cryostat and TPC are supported by three stainless steel rods.  These rods are connected to several motion feedthroughs such that the level of the xenon in the TPC is approximately 100 $\mu$m.  These systems are also designed for XENON1T and XENONnT.
 
@@ -137,7 +151,7 @@ Materials are cleaned before being installed in the detector.  However these ele
  \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{xe1t_restox}
-	\caption{A photograph of RESToX prior to instillation at LNGS.}
+	\caption{A photograph of RESToX installed in the lower floor of the XENON1T building in LNGS Hall B.}
 	\label{fig:xe1t_restox}
 \end{figure}
 
