@@ -77,14 +77,14 @@
 \contentsline {subsubsection}{\numberline {3.3.3.1}S1 Position Correction}{85}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}S2 Transverse Position Correction}{86}{subsubsection.3.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3.3}S2 Depth Correction Correction: Electron Lifetime}{88}{subsubsection.3.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Single Electron Gain}{90}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Single Electron Gain}{89}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Average Light Collection Efficiency and Extraction Efficiency}{91}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6}Cut Acceptance}{93}{subsection.3.3.6}
 \contentsline {section}{\numberline {3.4}Electronic and Nuclear Recoil Characterization of XENON1T}{94}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Significance of the Calibrations}{95}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Parameter Estimation via Monte Carlo}{96}{subsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.2.1}Light and Charge Production for Electronic Recoils}{98}{subsubsection.3.4.2.1}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Light and Charge Production for Nuclear Recoils}{99}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Light and Charge Production for Nuclear Recoils}{100}{subsubsection.3.4.2.2}
 \contentsline {subsubsection}{\numberline {3.4.2.3}Detector Model for Signal Production}{104}{subsubsection.3.4.2.3}
 \contentsline {paragraph}{Detection of Scintillation Photons}{105}{section*.4}
 \contentsline {paragraph}{Detection of Electrons}{108}{section*.5}
@@ -97,7 +97,7 @@
 \contentsline {section}{\numberline {3.5}Results of the First WIMP Search with XENON1T}{124}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}First Science Run Data}{124}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Background Expectations}{126}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Searching for WIMPs}{129}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Searching for WIMPs}{128}{subsection.3.5.3}
 \contentsline {chapter}{\chapternumberline {4}Measuring the Low Energy Light and Charge Yield of Nuclear Recoils in Liquid Xenon}{131}{chapter.4}
 \contentsline {section}{\numberline {4.1}Experimental Setup}{133}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}neriX Detector}{135}{subsection.4.1.1}

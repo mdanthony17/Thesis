@@ -399,14 +399,17 @@ Finding the location of electron extraction (a good proxy for the position given
 
 While using multiple algorithms for position reconstruction is useful for consistency checks, ultimately only one algorithm can be used.  In the first science run of XENON1T, this algorithm used the simulated light collection efficiency maps for each PMT as part of likelihood function to find the position in the highest agreement with the measured pattern.  This method resulted in a less than 2 cm mean reconstruction error for simulated data with a signal size above the trigger threshold.  This error continuously decreases as the size of the S2 signal increases.  The more important test, though, is how the algorithm reconstructed the position of real events in the detector.  While we cannot compare positions event-by-event, we can look at the overall distribution of positions for a given source and compare that to our expectations.  
 
-\figref{fig:xe1t_pos_rec_kr} shows the distribution of  positions in all dimensions from \ce{^{83m}Kr} decays.  \ce{^{83m}Kr} is a metastable state of \ce{^{83}Kr} that can be introduced into the detector via \ce{^{83}Rb} pellets.  It decays via a 32 keV gamma ray with a half-life of 1.8 hours followed by a second 9.4 keV gamma ray with a half-life of 154 ns.  The short half-life of the second decay implies that we can resolve the S1 signals in their shared waveform but we cannot resolve the separate S2s.
+\figref{fig:xe1t_pos_rec_kr} shows the distribution of  positions from \ce{^{83m}Kr} decays.  \ce{^{83m}Kr} is a metastable state of \ce{^{83}Kr} that can be introduced into the detector via \ce{^{83}Rb} pellets.  It decays via a 32 keV gamma ray with a half-life of 1.8 hours followed by a second 9.4 keV gamma ray with a half-life of 154 ns.  The short half-life of the second decay implies that we can resolve the S1 signals in their shared waveform but we cannot resolve the separate S2s.
 
 
 \begin{figure}[t]
 	\centering
-	\subfloat{\includegraphics[width=0.555\textwidth]{xe1t_pos_rec_xy_kr}} \hfill
-	\subfloat{\includegraphics[width=0.445\textwidth]{xe1t_pos_rec_zr2_kr}}
-	\caption{The distribution of positions of 32 keV events from \ce{^{83m}Kr} during the first science run of XENON1T.}
+	% asked for replacement by Elena
+	%\subfloat{\includegraphics[width=0.555\textwidth]{xe1t_pos_rec_xy_kr}} \hfill
+	%\subfloat{\includegraphics[width=0.445\textwidth]{xe1t_pos_rec_zr2_kr}}
+	
+	\includegraphics[width=0.75\textwidth]{xe1t_pos_rec_zr2_kr_replacement}
+	\caption{The distribution of positions of 32 keV events from \ce{^{83m}Kr} during the first science run of XENON1T.  The dashed lines represent every 10th percentile.}
 	\label{fig:xe1t_pos_rec_kr}
 \end{figure}
 
@@ -1235,9 +1238,9 @@ We have discussed the first three sources of background in detail in \secref{sec
 
 The accidental coincidence background was discussed briefly with regards to the electronic recoil calibration.  It is the result of uncorrelated S1 and S2 signals occurring within a time window that would put the depth of the event inside of the fiducial volume.    Using the rates from lone S1 signals and lone S2 signals, it is estimated that during the span of the first science run 0.22 $\pm$ 0.01 events of accidental coincidence background are expected.  The spectra, made using a Kernel Density Estimator (KDE) based on lone S1 and S2 signal sizes, is shown in \figref{fig:xe1t_bkg_spectra}.
 
-The fifth source of background is also determined empirically and is the result of events occurring near the wall (outside of the fiducial volume) being reconstructed inside of the fiducial volume.  These events are referred to as wall leakage events.  This type of background is expected to have an abnormally small S2 signal due to charge loss on the teflon.  The rate of wall leakage events is extrapolated from analyzing the number of these events in areas outside of the fiducial volume below the nuclear recoil band and a kernel density estimator (KDE) is used to approximate the probability distribution function of these types of events in S1 and S2 space.  The expected distribution and rate of wall leakage events is shown in \figref{fig:xe1t_bkg_spectra}.
+The fifth source of background is also determined empirically and is the result of events occurring near the wall (outside of the fiducial volume) being reconstructed inside of the fiducial volume.  These events are referred to as wall leakage events.  This type of background is expected to have an abnormally small S2 signal due to charge loss on the teflon.  The rate of wall leakage events is extrapolated from analyzing the number of these events in areas outside of the fiducial volume below the nuclear recoil band and a kernel density estimator (KDE) is used to approximate the probability distribution function of these types of events in S1 and S2 space.  %The expected distribution and rate of wall leakage events is shown in \figref{fig:xe1t_bkg_spectra}.
 
-The six and final source of background considered in the WIMP search of the first science run is a flat background in (cS1, $\textrm{log}_{10}(\textrm{cS2}_\textrm{b})$) space referred to as the anomalous leakage background.  While this background source is not well understood, it has been observed both in XENON100 \cite{aprile2016xenon100} and during the \ce{^{220}Rn} calibration and dark matter data taking of first science run of XENON1T.  Since the rate of this anomalous leakage does not scale with exposure, it is assumed that the rate of this background is linked to the electronic recoil rate.  The rate of this flat background is shown in \figref{fig:xe1t_bkg_spectra}.
+The six and final source of background considered in the WIMP search of the first science run is a flat background in (cS1, $\textrm{log}_{10}(\textrm{cS2}_\textrm{b})$) space referred to as the anomalous leakage background.  While this background source is not well understood, it has been observed both in XENON100 \cite{aprile2016xenon100} and during the \ce{^{220}Rn} calibration and dark matter data taking of first science run of XENON1T.  Since the rate of this anomalous leakage does not scale with exposure, it is assumed that the rate of this background is linked to the electronic recoil rate.  %The rate of this flat background is shown in \figref{fig:xe1t_bkg_spectra}.
 
 \begin{table}[b]
 \centering
@@ -1260,7 +1263,7 @@ Total Background & $63 \pm 8$ & $0.36^{+0.11}_{-0.07}$ \\
 \end{table}
 
 
-\begin{figure}[p]
+\begin{figure}[t]
         \centering
         
         \subfloat{\includegraphics[width=0.5\textwidth]{xe1t_er_bkg_s1s2}} \hfill
@@ -1271,12 +1274,12 @@ Total Background & $63 \pm 8$ & $0.36^{+0.11}_{-0.07}$ \\
 	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_cnns_bkg_s1s2}} \hfill
 	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_ac_bkg_s1s2}}
 	
-	\vspace{0.1cm}
+	%\vspace{0.1cm}
 	
-	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_wall_bkg_s1s2}} \hfill
-	\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_flat_bkg_s1s2}}
+	%\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_wall_bkg_s1s2}} \hfill
+	%\subfloat{\includegraphics[width=0.5\textwidth]{xe1t_flat_bkg_s1s2}}
 
-        \caption{The expected backgrounds and their rates during the first science run of XENON1T.  The electronic recoil and nuclear recoil backgrounds were found by inputting their respective energy spectra into the signal models found via the calibrations discussed earlier.  The remaining background spectra were determined empirically.}
+        \caption{The expected backgrounds distributions from electronic recoils, nuclear recoils, and accidental coincidences and their rates during the first science run of XENON1T.  The electronic recoil and nuclear recoil backgrounds were found by inputting their respective energy spectra into the signal models found via the calibrations discussed earlier.  The remaining background spectra were determined empirically.}
         \label{fig:xe1t_bkg_spectra}
 
 \end{figure}
@@ -1292,7 +1295,7 @@ Ultimately, it was found that the data is consistent with the background-only hy
 
 Even though the first science run of XENON1T was cut short unexpectedly by an earthquake, it still placed the most stringent limits on WIMP dark matter for masses in the range of approximately 10 -- 100 GeV/\csquared{} as of this writing.  The second science run of XENON1T has already collected over 150 livedays of dark matter search data and will be sensitive to a large unexplored fraction of the WIMP parameter space.
 
-\begin{figure}[p]
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.99\textwidth]{xe1t_sr0_limit}
 	\caption{ The spin-independent WIMP-nucleon cross section limits as a function of WIMP mass at a 90\% confidence level (black) for this run of XENON1T. In green and yellow are the 1$\sigma$ and 2$\sigma$ sensitivity bands.  Shown for reference are the final XENON100 results \cite{aprile2016xenon100} and the most recent results from LUX \cite{akerib2017results} and Panda-X II \cite{collaboration2017dark}.  Image Credit: \citeref{aprile2017first}.}
