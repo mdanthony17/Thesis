@@ -1,7 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {chapter}{Contents}{i}{section*.1}
-\contentsline {chapter}{List of Figures}{vii}{section*.2}
-\contentsline {chapter}{Acknowledgements}{xxiii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{vii}{section*.1}
+\contentsline {chapter}{Acknowledgements}{xxiii}{chapter*.2}
 \contentsline {chapter}{\chapternumberline {1}Dark Matter}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}$\Lambda $CDM Model}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Evidence of Dark Matter}{3}{section.1.2}
@@ -86,8 +85,8 @@
 \contentsline {subsubsection}{\numberline {3.4.2.1}Light and Charge Production for Electronic Recoils}{98}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Light and Charge Production for Nuclear Recoils}{100}{subsubsection.3.4.2.2}
 \contentsline {subsubsection}{\numberline {3.4.2.3}Detector Model for Signal Production}{104}{subsubsection.3.4.2.3}
-\contentsline {paragraph}{Detection of Scintillation Photons}{105}{section*.4}
-\contentsline {paragraph}{Detection of Electrons}{108}{section*.5}
+\contentsline {paragraph}{Detection of Scintillation Photons}{105}{section*.3}
+\contentsline {paragraph}{Detection of Electrons}{108}{section*.4}
 \contentsline {subsubsection}{\numberline {3.4.2.4}Comparing Data and Monte Carlo}{111}{subsubsection.3.4.2.4}
 \contentsline {subsubsection}{\numberline {3.4.2.5}Estimating the Posterior Probability Distribution Using a Markov Chain Monte Carlo}{113}{subsubsection.3.4.2.5}
 \contentsline {subsection}{\numberline {3.4.3}ER and NR Calibration Results}{114}{subsection.3.4.3}
@@ -131,13 +130,13 @@
 \contentsline {subsection}{\numberline {4.4.5}Posterior Estimation}{181}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}Results}{182}{subsection.4.4.6}
 \contentsline {subsubsection}{\numberline {4.4.6.1}Remarks on the Light and Charge Production Model}{189}{subsubsection.4.4.6.1}
-\contentsline {paragraph}{Field Dependence of Exciton-to-Ion Ratio and Recombination}{189}{section*.6}
-\contentsline {paragraph}{Energy Dependence of the Exciton-to-Ion Ratio}{192}{section*.7}
-\contentsline {paragraph}{Physical Model Summary}{192}{section*.8}
+\contentsline {paragraph}{Field Dependence of Exciton-to-Ion Ratio and Recombination}{189}{section*.5}
+\contentsline {paragraph}{Energy Dependence of the Exciton-to-Ion Ratio}{192}{section*.6}
+\contentsline {paragraph}{Physical Model Summary}{192}{section*.7}
 \contentsline {subsubsection}{\numberline {4.4.6.2}Remarks on the Detector Physics Model}{194}{subsubsection.4.4.6.2}
 \contentsline {subsection}{\numberline {4.4.7}Systematic Uncertainties}{194}{subsection.4.4.7}
 \contentsline {section}{\numberline {4.5}Conclusions}{195}{section.4.5}
-\contentsline {chapter}{Bibliography}{197}{section*.10}
+\contentsline {chapter}{Bibliography}{197}{section*.9}
 \contentsline {appendix}{\chapternumberline {A}GPUs and Fast Monte Carlo Matching for Parameter Estimation}{213}{appendix.A}
 \contentsline {section}{\numberline {A.1}Motivation}{213}{section.A.1}
 \contentsline {section}{\numberline {A.2}Parameter Estimation through Monte Carlo}{214}{section.A.2}

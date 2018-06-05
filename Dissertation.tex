@@ -86,6 +86,25 @@
 \newcommand{\nimbar}{$\overline{\textrm{NIM}}$}
 
 
+% add note to blank pages
+\makeatletter \def\clearforchapter{\clearpage\if@twoside \ifodd\c@page\else \hbox{}\vfill\begin{center}This page intentionally left blank.\end{center}\vfill \thispagestyle{cleared}%
+\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}\makeatother
+
+
+
+\newcommand*{\blankpage}{%
+\vspace*{\fill}
+{\centering This page intentionally left blank.\par}
+\vspace{\fill}}
+\makeatletter
+\renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+\blankpage
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+
+
 %Here is some stuff on the bibliography. You want to keep your bibliography file in the same directory as this file.
 
 
@@ -130,9 +149,10 @@
 
 \makepagestyle{cu}
 \copypagestyle{cu}{ruled}
+        \makeevenhead{cu}{}{\leftmark}{}
+	\makeoddhead{cu}{}{\rightmark}{}
 	\makeevenfoot{cu}{}{\thepage}{}
 	\makeoddfoot{cu}{}{\thepage}{}
-
 
 
 %% Here's the Title Page
@@ -147,31 +167,37 @@
 \maxtocdepth{subsubsection}
 
 \frontmatter
-\tableofcontents % You need to put your ToC after frontmatter so that it will get lowercase Roman numerals.
-\cleardoublepage
+\begin{KeepFromToc}
+        \pagestyle{plain}\tableofcontents{\protect\thispagestyle{plain}} % You need to put your ToC after frontmatter so that it will get lowercase Roman numerals.
+\end{KeepFromToc}
+\clearpage
 
 %A list of graphs and illustrations should go here if you use any.
-\listoffigures
+%\begin{KeepFromToc}
+        \pagestyle{plain}\listoffigures{\protect\thispagestyle{plain}}
+%\end{KeepFromToc}
 \cleardoublepage
 
 % Acknowledgements
-\include{./FrontMatter/Acknowledgments}
+%\begin{KeepFromToc}
+        \pagestyle{plain}\include{./FrontMatter/Acknowledgments}
+%\end{KeepFromToc}
 
-% Dedication
-\include{./FrontMatter/Dedication}
-
+%\begin{KeepFromToc}
+        % Dedication
+        \include{./FrontMatter/Dedication}
+%\end{KeepFromToc}
 % Preface if you have one
 
 
-
-
 %What follows is the main text of your dissertation. You can comment out lines if you want to exclude them from your document for drafts. Everything after \mainmatter will get Arabic numbers centered on the bottom of the page.
-
+%\cleartooddpage[\vspace*{\fill}\centering BLANK PAGE \vspace*{\fill}]
 \mainmatter
 
 %I use subdirectories for each part of my dissertation just to keep the files tidy. LaTeX generates a lot of different files for output, and using subdirectories allows you to find your .tex files more easily.
 
 \include{./Chapter1/Chapter1}
+%\cleartooddpage[\vspace*{\fill}\centering BLANK PAGE \vspace*{\fill}]
 \include{./Chapter2/Chapter2}
 \include{./Chapter3/Chapter3}
 \include{./Chapter4/Chapter4}
